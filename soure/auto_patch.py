@@ -47,25 +47,60 @@ def check_dll_sql(excel_file, file_path):
                     sql_set |= set(sql_tmp)
             row_flag += 1
 
+    # 整理程序、脚本集
+    sql_name_set = set()
+    dll_name_set = set()
+    for t in sql_set:
+        str_tmp = str(t).replace("\\\\","/")
+        str_tmp = str_tmp.replace('\\','/')
+        if str_tmp[-4:] != '.sql':
+            str_tmp += '.sql'
+        sql_name_set.add(str_tmp.split('/')[-1])
+    for t in dll_set:
+        str_tmp = str(t).replace("\\\\","/")
+        str_tmp = str_tmp.replace('\\','/')
+        if str_tmp[-4:] != '.dll':
+            str_tmp += '.dll'
+        dll_name_set.add(str_tmp.split('/')[-1])
+
+    # 把文档名称转成列表，方便统计找不到的数据
+    dll_list = list(dll_name_set)
+    sql_list = list(sql_name_set)
+
     # 遍历版本目录
     file_list = set()
     for fpathe, dirs, fs in os.walk(file_path):
         file_list = file_list | set(fs)
 
     for i in file_list:
-        file_name = i.replace('.dll','')
-        file_name = file_name.replace('.sql','')
-        file_name = file_name.lower()
-        if file_name in dll_set:
-            print(file_name)
-        elif file_name in sql_set:
-            print(file_name)
-        else:
-            # print("no in:",file_name)
-            pass
+        file_name = i.lower()
+        if file_name[-4:] != '.dll' and file_name[-4:] != '.sql':
+            continue
+        # file_name = i.replace('.dll','')
+        # file_name = file_name.replace('.sql','')
+        # 读取到的文件与文档中的文件做遍历比对
+        for dll_tmp in dll_name_set:
+            if file_name.lower() in dll_tmp.lower():
+                # print("local_dll %s in dll_set" % file_name)
+                dll_list.pop(dll_list.index(dll_tmp.lower()))
+            else:
+                # print("%s no in %s" % (file_name, dll_tmp))
+                pass
+        for sql_tmp in sql_name_set:
+            if file_name.lower() in sql_tmp.lower():
+                print("local_sql %s in sql_set" % file_name)
+                print(sql_list)
+                sql_list.pop(sql_list.index(sql_tmp.lower()))
+            else:
+                # print("%s no in %s" % (file_name, sql_tmp))
+                pass
+    if dll_list:
+        print('can not find this %s', dll_list)
+    if sql_list:
+        print('can not find this %s', sql_list)
     # print(file_list)
-    print(dll_set)
-    # print(sql_set)
+    # print(dll_name_set)
+    # print(sql_name_set)
 
 def read_excel(excel_file):
     # 新建一个文件，用来存放输出结果
