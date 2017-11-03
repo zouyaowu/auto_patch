@@ -1,6 +1,6 @@
 #-------------------------------------------------------------------------------
 # Name:        自动整理补丁
-# Purpose:
+# Purpose:     支持 2007及以后的 xecel 版本
 #
 # Author:      zou.yw
 #
@@ -12,6 +12,47 @@
 from openpyxl import Workbook, load_workbook
 import os
 import re
+
+
+def read_excel(data=None, read_type='row'):
+    """
+    参数：data=excel文件路径，read_type=row/column按行读还是按列读
+    遍历excel文件，返回数据列表（默认按行）
+    返回：包含元组的字典
+    """
+
+    try:
+        # 打开文件
+        workbook = load_workbook(data)
+        # 获取所有sheet，返回列表，格式：[u'sheet1', u'sheet2']
+        workbook_sheets_list = workbook.get_sheet_names()
+        wb_sheets = {}
+        for sheet_name in workbook_sheets_list:
+            sheet = workbook.get_sheet_by_name(sheet_name)
+            # 统计空行的数量，如果连续空一定数量行，则认为表格后面都是空的，跳过
+            null_cnt = 0
+            sheet_all_rows = []
+            if read_type =='row':
+                sheet_item = sheet.rows
+            else:
+                sheet_item = sheet.columns
+            # 遍历工作簿所有单元格
+            for rows in sheet_item:
+                if rows[0].value:
+                    # print(rows)
+                    sheet_all_rows.append(rows)
+                    # for cell in rows:
+                    null_cnt = 0
+                # 累计10行空
+                elif null_cnt > 10:
+                    break
+                else:
+                    null_cnt +=1
+            wb_sheets[sheet] = (sheet_all_rows)
+    except Exception as err:
+        return err
+    return wb_sheets
+
 
 def check_dll_sql(excel_file, file_path):
     # 在文件中提取 dll、脚本名称，通过集合去重
@@ -50,18 +91,24 @@ def check_dll_sql(excel_file, file_path):
     # 整理程序、脚本集
     sql_name_set = set()
     dll_name_set = set()
-    for t in sql_set:
-        str_tmp = str(t).replace("\\\\","/")
-        str_tmp = str_tmp.replace('\\','/')
-        if str_tmp[-4:] != '.sql':
-            str_tmp += '.sql'
-        sql_name_set.add(str_tmp.split('/')[-1])
     for t in dll_set:
+        if not t:
+            continue
         str_tmp = str(t).replace("\\\\","/")
         str_tmp = str_tmp.replace('\\','/')
-        if str_tmp[-4:] != '.dll':
+        str_tmp = str_tmp.strip()
+        if str_tmp[-4:-3] != '.':
             str_tmp += '.dll'
         dll_name_set.add(str_tmp.split('/')[-1])
+    for t in sql_set:
+        if not t:
+            continue
+        str_tmp = str(t).replace("\\\\","/")
+        str_tmp = str_tmp.replace('\\','/')
+        str_tmp = str_tmp.strip()
+        if str_tmp[-4:-3] != '.' and str_tmp[-4:] not in ('.sql', '.rps', '.xml'):
+            str_tmp += '.sql'
+        sql_name_set.add(str_tmp.split('/')[-1])
 
     # 把文档名称转成列表，方便统计找不到的数据
     dll_list = list(dll_name_set)
@@ -76,33 +123,24 @@ def check_dll_sql(excel_file, file_path):
         file_name = i.lower()
         if file_name[-4:] != '.dll' and file_name[-4:] != '.sql':
             continue
-        # file_name = i.replace('.dll','')
-        # file_name = file_name.replace('.sql','')
+
         # 读取到的文件与文档中的文件做遍历比对
         for dll_tmp in dll_name_set:
-            if file_name.lower() in dll_tmp.lower():
-                # print("local_dll %s in dll_set" % file_name)
+            if file_name.lower() == dll_tmp.lower():
                 dll_list.pop(dll_list.index(dll_tmp.lower()))
             else:
-                # print("%s no in %s" % (file_name, dll_tmp))
                 pass
         for sql_tmp in sql_name_set:
-            if file_name.lower() in sql_tmp.lower():
-                print("local_sql %s in sql_set" % file_name)
-                print(sql_list)
+            if file_name.lower() == sql_tmp.lower():
                 sql_list.pop(sql_list.index(sql_tmp.lower()))
             else:
-                # print("%s no in %s" % (file_name, sql_tmp))
                 pass
     if dll_list:
-        print('can not find this %s', dll_list)
+        print('dll miss ---> %s', dll_list)
     if sql_list:
-        print('can not find this %s', sql_list)
-    # print(file_list)
-    # print(dll_name_set)
-    # print(sql_name_set)
+        print('sql miss ===> %s', sql_list)
 
-def read_excel(excel_file):
+def read_excel_for_patch(excel_file):
     # 新建一个文件，用来存放输出结果
     wb_new = Workbook()
     # 新建一张表
@@ -146,12 +184,11 @@ def read_excel(excel_file):
             wb_new.save("new.xlsx")
         except err:
             print('无法保存文件，文件可能正在被编辑')
-
     return
 
 if __name__ == '__main__':
-    # excel_file = r'./V1.27.12.001(2017-10-25)补丁说明文档.xlsx'
-    # read_excel(excel_file)
-    file = r'D:\jobs\外发版本\通用\V1.25\V1.25.18.001(2017-6-14)\V1.25.18.001(2017-6-14)补丁说明文档.xlsx'
-    path = r'D:\jobs\外发版本\通用\V1.25\V1.25.18.001(2017-6-14)'
-    check_dll_sql(file,path)
+    excel_file = r'D:\jobs\外发版本\通用\V1.27\V1.27.13.001(2017-11-1)/V1.27.13.001(2017-11-1)补丁说明文档.xlsx'
+    print(read_excel(excel_file))
+    # file = r'D:\jobs\外发版本\通用\V1.25\V1.25.18.001(2017-6-14)\V1.25.18.001(2017-6-14)补丁说明文档.xlsx'
+    # path = r'D:\jobs\外发版本\通用\V1.25\V1.25.18.001(2017-6-14)'
+    # check_dll_sql(file,path)
