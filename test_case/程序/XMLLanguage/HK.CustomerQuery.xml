@@ -1,0 +1,1517 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Language Name="HK.CustomerQuery" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IDs>
+    <ID FieldName="AddProjectClassDefine">
+      <CNFieldTitle>项目大类资料</CNFieldTitle>
+      <TWFieldTitle>項目大類資料</TWFieldTitle>
+      <ENFieldTitle>Add Project Class Define</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="AddProjectDefine">
+      <CNFieldTitle>项目资料</CNFieldTitle>
+      <TWFieldTitle>項目資料</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Address">
+      <CNFieldTitle>联系地址</CNFieldTitle>
+      <TWFieldTitle>聯絡地址</TWFieldTitle>
+      <ENFieldTitle>Contact Address</ENFieldTitle>
+      <JPFieldTitle>联系地址</JPFieldTitle>
+      <KRFieldTitle>địa chỉ liên hệ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="AgeTypeCustomer0">
+      <CNFieldTitle>成年人(14岁或以上)</CNFieldTitle>
+      <TWFieldTitle>成年人(14歲或以上)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="AgeTypeCustomer1">
+      <CNFieldTitle>小童（4至13岁)</CNFieldTitle>
+      <TWFieldTitle>小童（4至13歲)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="AgeTypeCustomer2">
+      <CNFieldTitle>婴童（0至3岁)</CNFieldTitle>
+      <TWFieldTitle>嬰童（0至3歲)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="AgeTypeName">
+      <CNFieldTitle>年龄类型</CNFieldTitle>
+      <TWFieldTitle>年齡類型</TWFieldTitle>
+      <ENFieldTitle>Age Type</ENFieldTitle>
+      <JPFieldTitle>年龄类型</JPFieldTitle>
+      <KRFieldTitle>loại hình tuổi</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="AllowUse">
+      <CNFieldTitle>允许使用</CNFieldTitle>
+      <TWFieldTitle>允許使用</TWFieldTitle>
+      <ENFieldTitle>AllowUse</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="AlreadyExist">
+      <CNFieldTitle>已存在，请重新输入</CNFieldTitle>
+      <TWFieldTitle>已存在，請重新輸入</TWFieldTitle>
+      <ENFieldTitle>already exist, please retype</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ArchesFoot">
+      <CNFieldTitle>足弓</CNFieldTitle>
+      <TWFieldTitle>足弓</TWFieldTitle>
+      <ENFieldTitle>Foot Arch</ENFieldTitle>
+      <JPFieldTitle>足弓</JPFieldTitle>
+      <KRFieldTitle>足弓</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Area">
+      <CNFieldTitle>地区</CNFieldTitle>
+      <TWFieldTitle>地區</TWFieldTitle>
+      <ENFieldTitle>Area</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="back">
+      <CNFieldTitle>返回</CNFieldTitle>
+      <TWFieldTitle>返回</TWFieldTitle>
+      <ENFieldTitle>Back</ENFieldTitle>
+      <JPFieldTitle>返回</JPFieldTitle>
+      <KRFieldTitle>quay lại</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BankAccount">
+      <CNFieldTitle>银行账号</CNFieldTitle>
+      <TWFieldTitle>銀行帳號</TWFieldTitle>
+      <ENFieldTitle>Bank Account</ENFieldTitle>
+      <JPFieldTitle>银行账号</JPFieldTitle>
+      <KRFieldTitle>tài khoản ngân hàng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BillNo">
+      <CNFieldTitle>POS单号</CNFieldTitle>
+      <TWFieldTitle>POS單號</TWFieldTitle>
+      <ENFieldTitle>POS No</ENFieldTitle>
+      <JPFieldTitle>POS单号</JPFieldTitle>
+      <KRFieldTitle>số đơn POS</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BrithDay">
+      <CNFieldTitle>出生日期</CNFieldTitle>
+      <TWFieldTitle>出生日期</TWFieldTitle>
+      <ENFieldTitle>Birth Date</ENFieldTitle>
+      <JPFieldTitle>出生日期</JPFieldTitle>
+      <KRFieldTitle>ngày sinh</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BrithdayWrong2">
+      <CNFieldTitle>出生日期不得大于当前时间</CNFieldTitle>
+      <TWFieldTitle>出生日期不得大於當前時間</TWFieldTitle>
+      <ENFieldTitle>Birth Date cannot be later than Current Date.</ENFieldTitle>
+      <JPFieldTitle>出生日期不得大于当前时间</JPFieldTitle>
+      <KRFieldTitle>ngày sinh không lớn hơn thời gian hiện tại</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CardCanNotEdit">
+      <CNFieldTitle>该卡不能进行业务操作</CNFieldTitle>
+      <TWFieldTitle>該卡不能進行業務操作</TWFieldTitle>
+      <ENFieldTitle>該Card 不能進行業務操作</ENFieldTitle>
+      <JPFieldTitle>该卡不能进行业务操作</JPFieldTitle>
+      <KRFieldTitle>thẻ này không thể thao tác nghiệp vụ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CardCode">
+      <CNFieldTitle>会员卡号</CNFieldTitle>
+      <TWFieldTitle>會員卡號</TWFieldTitle>
+      <ENFieldTitle>Member Card No</ENFieldTitle>
+      <JPFieldTitle>会员卡号</JPFieldTitle>
+      <KRFieldTitle>số thẻ hội viên</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CardCodeCanNotNull">
+      <CNFieldTitle>会员卡卡号不能为空</CNFieldTitle>
+      <TWFieldTitle>會員卡卡號不能為空</TWFieldTitle>
+      <ENFieldTitle>Member Card No cannot be blank</ENFieldTitle>
+      <JPFieldTitle>会员卡卡号不能为空</JPFieldTitle>
+      <KRFieldTitle>số của số thẻ hội viên không thể để trống</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CardCodeCanNotUse">
+      <CNFieldTitle>卡号不能使用</CNFieldTitle>
+      <TWFieldTitle>卡號不能使用</TWFieldTitle>
+      <ENFieldTitle>Card No不能使用</ENFieldTitle>
+      <JPFieldTitle>卡号不能使用</JPFieldTitle>
+      <KRFieldTitle>số thẻ không thể sự dụng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CardCodeHadReceive">
+      <CNFieldTitle>会员卡卡号已经引用</CNFieldTitle>
+      <TWFieldTitle>會員卡卡號已經引用</TWFieldTitle>
+      <ENFieldTitle>Member CardCard No已經引用</ENFieldTitle>
+      <JPFieldTitle>会员卡卡号已经引用</JPFieldTitle>
+      <KRFieldTitle>số của số thẻ hội viên đã trích dẫn</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CardCodeHadSale">
+      <CNFieldTitle>卡号已经发放</CNFieldTitle>
+      <TWFieldTitle>卡號已經發放</TWFieldTitle>
+      <ENFieldTitle>The Card No has been issued.</ENFieldTitle>
+      <JPFieldTitle>卡号已经发放</JPFieldTitle>
+      <KRFieldTitle>số thẻ đã pháp</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CardCodeNotAccord">
+      <CNFieldTitle>当前卡号不符合规则</CNFieldTitle>
+      <TWFieldTitle>當前卡號不符合規則</TWFieldTitle>
+      <ENFieldTitle>Current Card No不符合Rule</ENFieldTitle>
+      <JPFieldTitle>当前卡号不符合规则</JPFieldTitle>
+      <KRFieldTitle>số thẻ hiện tại không phù hợp với quy tắc</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CardType">
+      <CNFieldTitle>卡类别</CNFieldTitle>
+      <TWFieldTitle>卡類別</TWFieldTitle>
+      <ENFieldTitle>Card Type</ENFieldTitle>
+      <JPFieldTitle>卡类别</JPFieldTitle>
+      <KRFieldTitle>loại thẻ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CardTypeCanNotUse">
+      <CNFieldTitle>卡类别不允许使用</CNFieldTitle>
+      <TWFieldTitle>卡類別不允許使用</TWFieldTitle>
+      <ENFieldTitle>The Card Type is inactive.</ENFieldTitle>
+      <JPFieldTitle>卡类别不允许使用</JPFieldTitle>
+      <KRFieldTitle>loại thẻ không chấp nhận sự dụng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CardTypeIDNotNull">
+      <CNFieldTitle>会员卡类型不能为空</CNFieldTitle>
+      <TWFieldTitle>會員卡類型不能為空</TWFieldTitle>
+      <ENFieldTitle>Member Card Type cannot be blank</ENFieldTitle>
+      <JPFieldTitle>会员卡类型不能为空</JPFieldTitle>
+      <KRFieldTitle>loại hình thẻ hội viên không thể để trống</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CheckCompany">
+      <CNFieldTitle>请选择公司</CNFieldTitle>
+      <TWFieldTitle>請選擇公司</TWFieldTitle>
+      <ENFieldTitle>Please select Company</ENFieldTitle>
+      <JPFieldTitle>请选择公司</JPFieldTitle>
+      <KRFieldTitle>vui lòng chọn công ty</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CheckData">
+      <CNFieldTitle>验脚日期</CNFieldTitle>
+      <TWFieldTitle>驗腳日期</TWFieldTitle>
+      <ENFieldTitle>驗腳Date</ENFieldTitle>
+      <JPFieldTitle>验脚日期</JPFieldTitle>
+      <KRFieldTitle>驗腳日期</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CheckDataNotRight">
+      <CNFieldTitle>验脚日期不正确</CNFieldTitle>
+      <TWFieldTitle>驗腳日期不正確</TWFieldTitle>
+      <ENFieldTitle>驗腳Date不正確</ENFieldTitle>
+      <JPFieldTitle>验脚日期不正确</JPFieldTitle>
+      <KRFieldTitle>驗腳日期不正確</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CheckFootInfo">
+      <CNFieldTitle>验脚信息</CNFieldTitle>
+      <TWFieldTitle>驗腳訊息</TWFieldTitle>
+      <ENFieldTitle>驗腳訊息</ENFieldTitle>
+      <JPFieldTitle>验脚信息</JPFieldTitle>
+      <KRFieldTitle>驗腳訊息</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="checkFootInfoAdd">
+      <CNFieldTitle>验脚新增</CNFieldTitle>
+      <TWFieldTitle>驗腳新增</TWFieldTitle>
+      <ENFieldTitle>驗腳新增</ENFieldTitle>
+      <JPFieldTitle>验脚新增</JPFieldTitle>
+      <KRFieldTitle>驗腳新增</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CheckFootShop">
+      <CNFieldTitle>验脚店铺</CNFieldTitle>
+      <TWFieldTitle>驗腳店鋪</TWFieldTitle>
+      <ENFieldTitle>CheckFootShop</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CNIdcardNumberMustBe15or18">
+      <CNFieldTitle>大陆身份证号码必须是15或者18位</CNFieldTitle>
+      <TWFieldTitle>大陸身份證號必須是15或者18位</TWFieldTitle>
+      <ENFieldTitle>China ID must be 15 or 18 digits.</ENFieldTitle>
+      <JPFieldTitle>大陆身份证号码必须是15或者18位</JPFieldTitle>
+      <KRFieldTitle>dân chứng minh Đại lục nhất định phải từ 15 howc 18 số</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CNIdcardNumbeWasWrong">
+      <CNFieldTitle>身份证号码输入错误</CNFieldTitle>
+      <TWFieldTitle>身份證號輸入錯誤</TWFieldTitle>
+      <ENFieldTitle>Enter ID No error</ENFieldTitle>
+      <JPFieldTitle>身份证号码输入错误</JPFieldTitle>
+      <KRFieldTitle>身份证号码输入错误</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ColorName">
+      <CNFieldTitle>颜色</CNFieldTitle>
+      <TWFieldTitle>顏色</TWFieldTitle>
+      <ENFieldTitle>Color</ENFieldTitle>
+      <JPFieldTitle>颜色</JPFieldTitle>
+      <KRFieldTitle>顏色</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Company">
+      <CNFieldTitle>公司</CNFieldTitle>
+      <TWFieldTitle>公司</TWFieldTitle>
+      <ENFieldTitle>Company</ENFieldTitle>
+      <JPFieldTitle>公司</JPFieldTitle>
+      <KRFieldTitle>công ty</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CompanyCode">
+      <CNFieldTitle>企业代码</CNFieldTitle>
+      <TWFieldTitle>企業代碼</TWFieldTitle>
+      <ENFieldTitle>Company Code</ENFieldTitle>
+      <JPFieldTitle>企业代码</JPFieldTitle>
+      <KRFieldTitle>mã doanh nghiệp</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CompanyName">
+      <CNFieldTitle>企业名称</CNFieldTitle>
+      <TWFieldTitle>企業名稱</TWFieldTitle>
+      <ENFieldTitle>Company Name</ENFieldTitle>
+      <JPFieldTitle>企业名称</JPFieldTitle>
+      <KRFieldTitle>tên doanh nghiệp</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CompanyTel">
+      <CNFieldTitle>企业电话</CNFieldTitle>
+      <TWFieldTitle>企業電話</TWFieldTitle>
+      <ENFieldTitle>Company Phone</ENFieldTitle>
+      <JPFieldTitle>企业电话</JPFieldTitle>
+      <KRFieldTitle>điện thoại doanh nghiệp</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ConsumptionInfo">
+      <CNFieldTitle>消费记录</CNFieldTitle>
+      <TWFieldTitle>消費記錄</TWFieldTitle>
+      <ENFieldTitle>消費記錄</ENFieldTitle>
+      <JPFieldTitle>消费记录</JPFieldTitle>
+      <KRFieldTitle>消費記錄</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ContentCode">
+      <CNFieldTitle>内容代码</CNFieldTitle>
+      <TWFieldTitle>內容代碼</TWFieldTitle>
+      <ENFieldTitle>Content Code</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ContentName">
+      <CNFieldTitle>内容名称</CNFieldTitle>
+      <TWFieldTitle>內容名稱</TWFieldTitle>
+      <ENFieldTitle>Content Name</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CustomerAdd">
+      <CNFieldTitle>会员新增</CNFieldTitle>
+      <TWFieldTitle>會員新增</TWFieldTitle>
+      <ENFieldTitle>Add Member</ENFieldTitle>
+      <JPFieldTitle>会员新增</JPFieldTitle>
+      <KRFieldTitle>thêm mới hội viên</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CustomerConsumptionInfo">
+      <CNFieldTitle>会员消费记录</CNFieldTitle>
+      <TWFieldTitle>會員消費記錄</TWFieldTitle>
+      <ENFieldTitle>Member消費記錄</ENFieldTitle>
+      <JPFieldTitle>会员消费记录</JPFieldTitle>
+      <KRFieldTitle>chi phí ghi nhận hội viên</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CustomerFoot">
+      <CNFieldTitle>客户验脚</CNFieldTitle>
+      <TWFieldTitle>客戶驗腳</TWFieldTitle>
+      <ENFieldTitle>CustomerFoot</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CustomerInfo">
+      <CNFieldTitle>会员信息</CNFieldTitle>
+      <TWFieldTitle>會員訊息</TWFieldTitle>
+      <ENFieldTitle>Member Info</ENFieldTitle>
+      <JPFieldTitle>会员信息</JPFieldTitle>
+      <KRFieldTitle>tin nhắn hội viên</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CustomerInfoQuery">
+      <CNFieldTitle>会员资料查询</CNFieldTitle>
+      <TWFieldTitle>會員資料查詢</TWFieldTitle>
+      <ENFieldTitle>Members Search</ENFieldTitle>
+      <JPFieldTitle>会员资料查询</JPFieldTitle>
+      <KRFieldTitle>tìm kiếm dự liệu hội viên</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CustomerName">
+      <CNFieldTitle>姓名</CNFieldTitle>
+      <TWFieldTitle>姓名</TWFieldTitle>
+      <ENFieldTitle>Name</ENFieldTitle>
+      <JPFieldTitle>姓名</JPFieldTitle>
+      <KRFieldTitle>họ tên</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CustomerNameCanNotNull">
+      <CNFieldTitle>会员姓名不能为空</CNFieldTitle>
+      <TWFieldTitle>會員姓名不能為空</TWFieldTitle>
+      <ENFieldTitle>Member Name cannot be blank</ENFieldTitle>
+      <JPFieldTitle>会员姓名不能为空</JPFieldTitle>
+      <KRFieldTitle>họ tên hội viên không thể để trống</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CustomerQuery">
+      <CNFieldTitle>会员查询</CNFieldTitle>
+      <TWFieldTitle>會員查詢</TWFieldTitle>
+      <ENFieldTitle>MemberSearch</ENFieldTitle>
+      <JPFieldTitle>会员查询</JPFieldTitle>
+      <KRFieldTitle>tìm kiếm hội viên</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CustomerViewInfo">
+      <CNFieldTitle>会员资料明细</CNFieldTitle>
+      <TWFieldTitle>會員資料明細</TWFieldTitle>
+      <ENFieldTitle>Members 明細</ENFieldTitle>
+      <JPFieldTitle>会员资料明细</JPFieldTitle>
+      <KRFieldTitle>chi tiết dự liệu hội viên</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="dateTime">
+      <CNFieldTitle>日期</CNFieldTitle>
+      <TWFieldTitle>日期</TWFieldTitle>
+      <ENFieldTitle>Date</ENFieldTitle>
+      <JPFieldTitle>日期</JPFieldTitle>
+      <KRFieldTitle>ngày</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Day">
+      <CNFieldTitle>日</CNFieldTitle>
+      <TWFieldTitle>日</TWFieldTitle>
+      <ENFieldTitle>Day</ENFieldTitle>
+      <JPFieldTitle>日</JPFieldTitle>
+      <KRFieldTitle>ngày</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DefalutChose">
+      <CNFieldTitle>请选择</CNFieldTitle>
+      <TWFieldTitle>請選擇</TWFieldTitle>
+      <ENFieldTitle>Please select</ENFieldTitle>
+      <JPFieldTitle>请选择</JPFieldTitle>
+      <KRFieldTitle>vui lòng chọn</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Delete">
+      <CNFieldTitle>删除</CNFieldTitle>
+      <TWFieldTitle>刪除</TWFieldTitle>
+      <ENFieldTitle>Delete</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DeleteSuccess">
+      <CNFieldTitle>删除成功</CNFieldTitle>
+      <TWFieldTitle>刪除成功！</TWFieldTitle>
+      <ENFieldTitle>Delete successfully!</ENFieldTitle>
+      <JPFieldTitle>删除成功</JPFieldTitle>
+      <KRFieldTitle>xóa thành công !</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Detail">
+      <CNFieldTitle>明细</CNFieldTitle>
+      <TWFieldTitle>明細</TWFieldTitle>
+      <ENFieldTitle>Detail</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DownPage">
+      <CNFieldTitle>下一页</CNFieldTitle>
+      <TWFieldTitle>下一頁</TWFieldTitle>
+      <ENFieldTitle>Next</ENFieldTitle>
+      <JPFieldTitle>下一页</JPFieldTitle>
+      <KRFieldTitle>Trang keá</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Edit">
+      <CNFieldTitle>编辑</CNFieldTitle>
+      <TWFieldTitle>編輯</TWFieldTitle>
+      <ENFieldTitle>Edit</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Enclosure">
+      <CNFieldTitle>附件</CNFieldTitle>
+      <TWFieldTitle>附件</TWFieldTitle>
+      <ENFieldTitle>Enclosure</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="endDate">
+      <CNFieldTitle>结束日期</CNFieldTitle>
+      <TWFieldTitle>結束日期</TWFieldTitle>
+      <ENFieldTitle>End Date</ENFieldTitle>
+      <JPFieldTitle>结束日期</JPFieldTitle>
+      <KRFieldTitle>ngày kết thúc</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="endDateNotBeforeStartDate">
+      <CNFieldTitle>结束日期不能小于开始日期</CNFieldTitle>
+      <TWFieldTitle>結束日期不能小於開始日期</TWFieldTitle>
+      <ENFieldTitle>End Date cannot be earlier than Start Date.</ENFieldTitle>
+      <JPFieldTitle>结束日期不能小于开始日期</JPFieldTitle>
+      <KRFieldTitle>thời gian kết thúc không thể nhỏ hơn ngày bắt đầu</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="endDateNotRight">
+      <CNFieldTitle>结束日期输入不正确</CNFieldTitle>
+      <TWFieldTitle>結束日期輸入不正確</TWFieldTitle>
+      <ENFieldTitle>End Date you typed has been incorrectly</ENFieldTitle>
+      <JPFieldTitle>结束日期输入不正确</JPFieldTitle>
+      <KRFieldTitle>truyền nhập ngày kết thúc không chĩnh xác</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Entry">
+      <CNFieldTitle>可录入</CNFieldTitle>
+      <TWFieldTitle>可錄入</TWFieldTitle>
+      <ENFieldTitle>Entry</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Fax">
+      <CNFieldTitle>传真</CNFieldTitle>
+      <TWFieldTitle>傳真</TWFieldTitle>
+      <ENFieldTitle>Fax</ENFieldTitle>
+      <JPFieldTitle>传真</JPFieldTitle>
+      <KRFieldTitle>fax</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="female">
+      <CNFieldTitle>女</CNFieldTitle>
+      <TWFieldTitle>女</TWFieldTitle>
+      <ENFieldTitle>female</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Folk">
+      <CNFieldTitle>民族</CNFieldTitle>
+      <TWFieldTitle>民族</TWFieldTitle>
+      <ENFieldTitle>Race</ENFieldTitle>
+      <JPFieldTitle>民族</JPFieldTitle>
+      <KRFieldTitle>dân tộc</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FootDoctor">
+      <CNFieldTitle>足部矫形师</CNFieldTitle>
+      <TWFieldTitle>足部矯形師</TWFieldTitle>
+      <ENFieldTitle>FootDoctor</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FootJX">
+      <CNFieldTitle>茧/鸡眼</CNFieldTitle>
+      <TWFieldTitle>繭/雞眼</TWFieldTitle>
+      <ENFieldTitle>繭/雞眼</ENFieldTitle>
+      <JPFieldTitle>茧/鸡眼</JPFieldTitle>
+      <KRFieldTitle>ké / mắt gà</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Footpain">
+      <CNFieldTitle>足底痛症</CNFieldTitle>
+      <TWFieldTitle>足底痛癥</TWFieldTitle>
+      <ENFieldTitle>Sole Pain</ENFieldTitle>
+      <JPFieldTitle>足底痛症</JPFieldTitle>
+      <KRFieldTitle>足底痛癥</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="HasNoPowerToAdd">
+      <CNFieldTitle>没有新增权限</CNFieldTitle>
+      <TWFieldTitle>沒有新增權限</TWFieldTitle>
+      <ENFieldTitle>You don't have the permission to Add.</ENFieldTitle>
+      <JPFieldTitle>没有新增权限</JPFieldTitle>
+      <KRFieldTitle>không có thêm mới quyền hạn</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="HasNoPowerToEdit">
+      <CNFieldTitle>没有修改权限</CNFieldTitle>
+      <TWFieldTitle>沒有修改權限</TWFieldTitle>
+      <ENFieldTitle>You don't have the permission to Modify.</ENFieldTitle>
+      <JPFieldTitle>没有修改权限</JPFieldTitle>
+      <KRFieldTitle>không có quyền hạn chỉnh sửa</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="heel">
+      <CNFieldTitle>后跟</CNFieldTitle>
+      <TWFieldTitle>後跟</TWFieldTitle>
+      <ENFieldTitle>Heel</ENFieldTitle>
+      <JPFieldTitle>后跟</JPFieldTitle>
+      <KRFieldTitle>theo sau</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="IdCard">
+      <CNFieldTitle>身份证号码</CNFieldTitle>
+      <TWFieldTitle>身份證號</TWFieldTitle>
+      <ENFieldTitle>ID No</ENFieldTitle>
+      <JPFieldTitle>身份证号码</JPFieldTitle>
+      <KRFieldTitle>身份证号码</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="IDCardCanNotNull">
+      <CNFieldTitle>身份证号码不能为空</CNFieldTitle>
+      <TWFieldTitle>身份證號不能為空</TWFieldTitle>
+      <ENFieldTitle>ID No cannot be blank</ENFieldTitle>
+      <JPFieldTitle>身份证号码不能为空</JPFieldTitle>
+      <KRFieldTitle>身份证号码不能为空</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="IDCardCanNotRepeat">
+      <CNFieldTitle>身份证号码不能重复</CNFieldTitle>
+      <TWFieldTitle>身份證號不能重複</TWFieldTitle>
+      <ENFieldTitle>Duplicate Member Card has been forbidden</ENFieldTitle>
+      <JPFieldTitle>身份证号码不能重复</JPFieldTitle>
+      <KRFieldTitle>身份证号码不能重复</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Insert">
+      <CNFieldTitle>新增</CNFieldTitle>
+      <TWFieldTitle>新增</TWFieldTitle>
+      <ENFieldTitle>Add</ENFieldTitle>
+      <JPFieldTitle>新增</JPFieldTitle>
+      <KRFieldTitle>thêm mới</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="InsertFailed">
+      <CNFieldTitle>新增失败</CNFieldTitle>
+      <TWFieldTitle>新增失敗</TWFieldTitle>
+      <ENFieldTitle>Add failed</ENFieldTitle>
+      <JPFieldTitle>新增失败</JPFieldTitle>
+      <KRFieldTitle>新增失敗</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="InsertSuccess">
+      <CNFieldTitle>新增成功</CNFieldTitle>
+      <TWFieldTitle>新增成功</TWFieldTitle>
+      <ENFieldTitle>Add successfully</ENFieldTitle>
+      <JPFieldTitle>新增成功</JPFieldTitle>
+      <KRFieldTitle>新增成功</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ISDelSelectRecord">
+      <CNFieldTitle>是否删除当前所选记录？</CNFieldTitle>
+      <TWFieldTitle>是否刪除當前所選記錄？</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="IsNotTheShopCardCanNotSendCard">
+      <CNFieldTitle>{0}不是该店铺的引用卡，不能发放</CNFieldTitle>
+      <TWFieldTitle>{0}不是該店櫃的引用卡，不能發放</TWFieldTitle>
+      <ENFieldTitle>{0}不Yes該Store的引用Card ,不能Issue</ENFieldTitle>
+      <JPFieldTitle>{0}不是该店铺的引用卡，不能发放</JPFieldTitle>
+      <KRFieldTitle>{0} không phải là thẻ trích dẫn của cửa hàng, không thể ban hành</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="kneeJoint">
+      <CNFieldTitle>膝关节</CNFieldTitle>
+      <TWFieldTitle>膝關節</TWFieldTitle>
+      <ENFieldTitle>Knee Joint</ENFieldTitle>
+      <JPFieldTitle>膝关节</JPFieldTitle>
+      <KRFieldTitle>膝關節</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="LANGUAGE">
+      <CNFieldTitle>语言</CNFieldTitle>
+      <TWFieldTitle>語言</TWFieldTitle>
+      <ENFieldTitle>Language</ENFieldTitle>
+      <JPFieldTitle>语言</JPFieldTitle>
+      <KRFieldTitle>Ngôn ngữ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="LeftFoot">
+      <CNFieldTitle>左足</CNFieldTitle>
+      <TWFieldTitle>左腳</TWFieldTitle>
+      <ENFieldTitle>Left Foot</ENFieldTitle>
+      <JPFieldTitle>左足</JPFieldTitle>
+      <KRFieldTitle>chân trái</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="LoadDataFaild">
+      <CNFieldTitle>获取数据失败!</CNFieldTitle>
+      <TWFieldTitle>取得資料失敗！</TWFieldTitle>
+      <ENFieldTitle>取得Data Fail!</ENFieldTitle>
+      <JPFieldTitle>获取数据失败!</JPFieldTitle>
+      <KRFieldTitle>dự liệu lấy lại thất bại !</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Loding">
+      <CNFieldTitle>正在处理，请稍等...</CNFieldTitle>
+      <TWFieldTitle>正在處理，請稍等...</TWFieldTitle>
+      <ENFieldTitle>Processing, please wait...</ENFieldTitle>
+      <JPFieldTitle>正在处理，请稍等...</JPFieldTitle>
+      <KRFieldTitle>正在處理，請稍等...</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Login">
+      <CNFieldTitle>登录</CNFieldTitle>
+      <TWFieldTitle>登入</TWFieldTitle>
+      <ENFieldTitle>Login</ENFieldTitle>
+      <JPFieldTitle>登录</JPFieldTitle>
+      <KRFieldTitle>đăng nhập</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="LoginFalse">
+      <CNFieldTitle>登录失败</CNFieldTitle>
+      <TWFieldTitle>登入失敗</TWFieldTitle>
+      <ENFieldTitle>Login failed</ENFieldTitle>
+      <JPFieldTitle>登录失败</JPFieldTitle>
+      <KRFieldTitle>đăng nhập thất bại</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="LoginFalseWithoutAllow">
+      <CNFieldTitle>您输入的用户没有登录权限</CNFieldTitle>
+      <TWFieldTitle>您輸入的用戶沒有登入權限</TWFieldTitle>
+      <ENFieldTitle>The user you typed have no permission to login.</ENFieldTitle>
+      <JPFieldTitle>您输入的用户没有登录权限</JPFieldTitle>
+      <KRFieldTitle>mã người dùng bạn truyền nhập không có quyền hạng đăng nhập</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="LoginSuccess">
+      <CNFieldTitle>登录成功</CNFieldTitle>
+      <TWFieldTitle>登入成功</TWFieldTitle>
+      <ENFieldTitle>Login successfully</ENFieldTitle>
+      <JPFieldTitle>登录成功</JPFieldTitle>
+      <KRFieldTitle>đăng nhập thành công</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="LoginWrong">
+      <CNFieldTitle>登录发生异常，请重试！</CNFieldTitle>
+      <TWFieldTitle>登入發生異常，請重試！</TWFieldTitle>
+      <ENFieldTitle>Login error, please retry!</ENFieldTitle>
+      <JPFieldTitle>登录发生异常，请重试！</JPFieldTitle>
+      <KRFieldTitle>đăng nhập phát sinh dị thường , vui lòng thử lại !</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="LogOff">
+      <CNFieldTitle>退出</CNFieldTitle>
+      <TWFieldTitle>退出</TWFieldTitle>
+      <ENFieldTitle>Exit</ENFieldTitle>
+      <JPFieldTitle>退出</JPFieldTitle>
+      <KRFieldTitle>thoát ra</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="LogOn">
+      <CNFieldTitle>登入</CNFieldTitle>
+      <TWFieldTitle>登入</TWFieldTitle>
+      <ENFieldTitle>Login</ENFieldTitle>
+      <JPFieldTitle>登入</JPFieldTitle>
+      <KRFieldTitle>đăng nhập</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="male">
+      <CNFieldTitle>男</CNFieldTitle>
+      <TWFieldTitle>男</TWFieldTitle>
+      <ENFieldTitle>male</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Marry">
+      <CNFieldTitle>婚姻状况</CNFieldTitle>
+      <TWFieldTitle>婚姻狀況</TWFieldTitle>
+      <ENFieldTitle>Marital Status</ENFieldTitle>
+      <JPFieldTitle>婚姻状况</JPFieldTitle>
+      <KRFieldTitle>tình trạng hôn nhân</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MaterialCode">
+      <CNFieldTitle>货号</CNFieldTitle>
+      <TWFieldTitle>貨號</TWFieldTitle>
+      <ENFieldTitle>Item</ENFieldTitle>
+      <JPFieldTitle>货号</JPFieldTitle>
+      <KRFieldTitle>số sản phẩm</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MaterialShortName">
+      <CNFieldTitle>货品简称</CNFieldTitle>
+      <TWFieldTitle>貨品簡稱</TWFieldTitle>
+      <ENFieldTitle>Item Abbr.</ENFieldTitle>
+      <JPFieldTitle>货品简称</JPFieldTitle>
+      <KRFieldTitle>tên viết tắt sản phẩm</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MobileTel">
+      <CNFieldTitle>手机号码</CNFieldTitle>
+      <TWFieldTitle>手機號碼</TWFieldTitle>
+      <ENFieldTitle>Mobile Phone No</ENFieldTitle>
+      <JPFieldTitle>手机号码</JPFieldTitle>
+      <KRFieldTitle>số điện thoại di động</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MobileTelCanNotNull">
+      <CNFieldTitle>手机号码不能为空</CNFieldTitle>
+      <TWFieldTitle>手機號碼不能為空</TWFieldTitle>
+      <ENFieldTitle>Mobile Phone No cannot be blank</ENFieldTitle>
+      <JPFieldTitle>手机号码不能为空</JPFieldTitle>
+      <KRFieldTitle>số điện thoại di động không thể để trống</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Modify">
+      <CNFieldTitle>修改</CNFieldTitle>
+      <TWFieldTitle>修改</TWFieldTitle>
+      <ENFieldTitle>Modify</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ModifyDTM">
+      <CNFieldTitle>修改时间</CNFieldTitle>
+      <TWFieldTitle>修改時間</TWFieldTitle>
+      <ENFieldTitle>ModifyDTM</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Month">
+      <CNFieldTitle>月</CNFieldTitle>
+      <TWFieldTitle>月</TWFieldTitle>
+      <ENFieldTitle>Month</ENFieldTitle>
+      <JPFieldTitle>月</JPFieldTitle>
+      <KRFieldTitle>月</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MoreImage">
+      <CNFieldTitle>更多图像</CNFieldTitle>
+      <TWFieldTitle>更多圖片</TWFieldTitle>
+      <ENFieldTitle>更多圖像</ENFieldTitle>
+      <JPFieldTitle>更多图像</JPFieldTitle>
+      <KRFieldTitle>更多图像</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Multiselect">
+      <CNFieldTitle>多选</CNFieldTitle>
+      <TWFieldTitle>復選</TWFieldTitle>
+      <ENFieldTitle>Multiselect</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Name">
+      <CNFieldTitle>姓名</CNFieldTitle>
+      <TWFieldTitle>姓名</TWFieldTitle>
+      <ENFieldTitle>Name</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="NativePlace">
+      <CNFieldTitle>籍贯</CNFieldTitle>
+      <TWFieldTitle>籍貫</TWFieldTitle>
+      <ENFieldTitle>Native Place</ENFieldTitle>
+      <JPFieldTitle>籍贯</JPFieldTitle>
+      <KRFieldTitle>nguyên quán</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="NewCustomerCheckFoot">
+      <CNFieldTitle>新客户验脚</CNFieldTitle>
+      <TWFieldTitle>新會員驗腳</TWFieldTitle>
+      <ENFieldTitle>新會員驗腳</ENFieldTitle>
+      <JPFieldTitle>新客户验脚</JPFieldTitle>
+      <KRFieldTitle>新會員驗腳</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="NextFootCheckDate">
+      <CNFieldTitle>下次验脚日期</CNFieldTitle>
+      <TWFieldTitle>下次驗腳日期</TWFieldTitle>
+      <ENFieldTitle>Next FootCheck Date</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="NickName">
+      <CNFieldTitle>姓名</CNFieldTitle>
+      <TWFieldTitle>姓名</TWFieldTitle>
+      <ENFieldTitle>Name</ENFieldTitle>
+      <JPFieldTitle>姓名</JPFieldTitle>
+      <KRFieldTitle>họ tên</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="no">
+      <CNFieldTitle>否</CNFieldTitle>
+      <TWFieldTitle>否</TWFieldTitle>
+      <ENFieldTitle>no</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="NoRecord">
+      <CNFieldTitle>没有记录，请重新输入查询条件</CNFieldTitle>
+      <TWFieldTitle>沒有記錄，請重新輸入查詢條件</TWFieldTitle>
+      <ENFieldTitle>沒有記錄, please reenterSearch Options</ENFieldTitle>
+      <JPFieldTitle>没有记录，请重新输入查询条件</JPFieldTitle>
+      <KRFieldTitle>không có ghi nhận , vui lòng truyền nhập lại điều kiện tìm kiếm</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="NotAllowNull">
+      <CNFieldTitle>不能为空</CNFieldTitle>
+      <TWFieldTitle>不能為空</TWFieldTitle>
+      <ENFieldTitle>Not to be blank</ENFieldTitle>
+      <JPFieldTitle>不能为空</JPFieldTitle>
+      <KRFieldTitle>không được để trống</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="NotAllowRepeat">
+      <CNFieldTitle>不能重复</CNFieldTitle>
+      <TWFieldTitle>不能重復</TWFieldTitle>
+      <ENFieldTitle>NotAllowRepeat</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="nothing">
+      <CNFieldTitle>无</CNFieldTitle>
+      <TWFieldTitle>無</TWFieldTitle>
+      <ENFieldTitle>無</ENFieldTitle>
+      <JPFieldTitle>无</JPFieldTitle>
+      <KRFieldTitle>無</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="notnull">
+      <CNFieldTitle>必填</CNFieldTitle>
+      <TWFieldTitle>必填</TWFieldTitle>
+      <ENFieldTitle>not null</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="NotUseGroupCard">
+      <CNFieldTitle>不是可用的集团卡</CNFieldTitle>
+      <TWFieldTitle>不是可用的集團卡</TWFieldTitle>
+      <ENFieldTitle>不Yes可用的GroupCard</ENFieldTitle>
+      <JPFieldTitle>不是可用的集团卡</JPFieldTitle>
+      <KRFieldTitle>không phảo thẻ khả dụng của tập đoàn</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="number">
+      <CNFieldTitle>序号</CNFieldTitle>
+      <TWFieldTitle>序號</TWFieldTitle>
+      <ENFieldTitle>number</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="OfficeTel">
+      <CNFieldTitle>办公电话</CNFieldTitle>
+      <TWFieldTitle>辦公電話</TWFieldTitle>
+      <ENFieldTitle>Office Phone</ENFieldTitle>
+      <JPFieldTitle>办公电话</JPFieldTitle>
+      <KRFieldTitle>điện thoại văn phòng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="OnlyWeChat">
+      <CNFieldTitle>微信端可见</CNFieldTitle>
+      <TWFieldTitle>微信端可見</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Operation">
+      <CNFieldTitle>操作</CNFieldTitle>
+      <TWFieldTitle>操作</TWFieldTitle>
+      <ENFieldTitle>Operation</ENFieldTitle>
+      <JPFieldTitle>操作</JPFieldTitle>
+      <KRFieldTitle>thao tác</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Other">
+      <CNFieldTitle>其它</CNFieldTitle>
+      <TWFieldTitle>其他</TWFieldTitle>
+      <ENFieldTitle>Other</ENFieldTitle>
+      <JPFieldTitle>其它</JPFieldTitle>
+      <KRFieldTitle>khác</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PageIndex">
+      <CNFieldTitle>首页</CNFieldTitle>
+      <TWFieldTitle>首頁</TWFieldTitle>
+      <ENFieldTitle>First Page</ENFieldTitle>
+      <JPFieldTitle>首页</JPFieldTitle>
+      <KRFieldTitle>trang đầu</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Password">
+      <CNFieldTitle>密码</CNFieldTitle>
+      <TWFieldTitle>密碼</TWFieldTitle>
+      <ENFieldTitle>Password</ENFieldTitle>
+      <JPFieldTitle>密码</JPFieldTitle>
+      <KRFieldTitle>mật khẩu</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PayAmount">
+      <CNFieldTitle>消费金额</CNFieldTitle>
+      <TWFieldTitle>消費金額</TWFieldTitle>
+      <ENFieldTitle>PayAmount</ENFieldTitle>
+      <JPFieldTitle>消费金额</JPFieldTitle>
+      <KRFieldTitle>消費金額</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Phone">
+      <CNFieldTitle>电话</CNFieldTitle>
+      <TWFieldTitle>電話</TWFieldTitle>
+      <ENFieldTitle>Phone</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PleaseSelectAgeType">
+      <CNFieldTitle>请选择年龄类型</CNFieldTitle>
+      <TWFieldTitle>請選擇年齡類型</TWFieldTitle>
+      <ENFieldTitle>Please select Age Type</ENFieldTitle>
+      <JPFieldTitle>请选择年龄类型</JPFieldTitle>
+      <KRFieldTitle>vui lòng chọn loại hình tuổi</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PleaseSelectDate">
+      <CNFieldTitle>请选择验脚日期</CNFieldTitle>
+      <TWFieldTitle>請選擇驗腳日期</TWFieldTitle>
+      <ENFieldTitle>PleaseSelectDate</ENFieldTitle>
+      <JPFieldTitle>请选择验脚日期</JPFieldTitle>
+      <KRFieldTitle>vui lòng chọn ngày bàn chân</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PleaseSelectOperation">
+      <CNFieldTitle>请选择操作（新增或编辑）</CNFieldTitle>
+      <TWFieldTitle>請選擇操作(新增或編輯)</TWFieldTitle>
+      <ENFieldTitle>Please select操作(AddOrEdit)</ENFieldTitle>
+      <JPFieldTitle>请选择操作（新增或编辑）</JPFieldTitle>
+      <KRFieldTitle>vui lòng chọn thao tác ( thêm hoặc biên soạn )</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PleaseSelectShop">
+      <CNFieldTitle>请选择店铺</CNFieldTitle>
+      <TWFieldTitle>請選擇店櫃</TWFieldTitle>
+      <ENFieldTitle>Please select Store</ENFieldTitle>
+      <JPFieldTitle>请选择店铺</JPFieldTitle>
+      <KRFieldTitle>vui lòng chọn cửa hàng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Project">
+      <CNFieldTitle>项目</CNFieldTitle>
+      <TWFieldTitle>項目</TWFieldTitle>
+      <ENFieldTitle>Project</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ProjectClass">
+      <CNFieldTitle>项目大类</CNFieldTitle>
+      <TWFieldTitle>項目大類</TWFieldTitle>
+      <ENFieldTitle>Project Class</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ProjectClassCode">
+      <CNFieldTitle>项目大类代码</CNFieldTitle>
+      <TWFieldTitle>項目大類代碼</TWFieldTitle>
+      <ENFieldTitle>Project Class Code</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ProjectClassDefine">
+      <CNFieldTitle>项目大类定义</CNFieldTitle>
+      <TWFieldTitle>項目大類定義</TWFieldTitle>
+      <ENFieldTitle>Project Class Define</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ProjectClassName">
+      <CNFieldTitle>项目大类名称</CNFieldTitle>
+      <TWFieldTitle>項目大類名稱</TWFieldTitle>
+      <ENFieldTitle>Project Class Name</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ProjectCode">
+      <CNFieldTitle>项目代码</CNFieldTitle>
+      <TWFieldTitle>項目代碼</TWFieldTitle>
+      <ENFieldTitle>Project Code</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ProjectDefine">
+      <CNFieldTitle>项目定义</CNFieldTitle>
+      <TWFieldTitle>項目定義</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ProjectName">
+      <CNFieldTitle>项目名称</CNFieldTitle>
+      <TWFieldTitle>項目名稱</TWFieldTitle>
+      <ENFieldTitle>Project Name</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ProjectType">
+      <CNFieldTitle>控件类型</CNFieldTitle>
+      <TWFieldTitle>控件類型</TWFieldTitle>
+      <ENFieldTitle>Project Type</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Qty">
+      <CNFieldTitle>数量</CNFieldTitle>
+      <TWFieldTitle>數量</TWFieldTitle>
+      <ENFieldTitle>Qty</ENFieldTitle>
+      <JPFieldTitle>数量</JPFieldTitle>
+      <KRFieldTitle>số lượng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Query">
+      <CNFieldTitle>查 询</CNFieldTitle>
+      <TWFieldTitle>查詢</TWFieldTitle>
+      <ENFieldTitle>Search</ENFieldTitle>
+      <JPFieldTitle>查 询</JPFieldTitle>
+      <KRFieldTitle>tìm kiếm</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Radio">
+      <CNFieldTitle>单选</CNFieldTitle>
+      <TWFieldTitle>單選</TWFieldTitle>
+      <ENFieldTitle>Radio</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ReallyWantToDelete">
+      <CNFieldTitle>确定要删除吗</CNFieldTitle>
+      <TWFieldTitle>確定要刪除嗎？</TWFieldTitle>
+      <ENFieldTitle>Are you sure to delete?</ENFieldTitle>
+      <JPFieldTitle>确定要删除吗</JPFieldTitle>
+      <KRFieldTitle>xác nhận cần xóa không ?</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="RegisterBank">
+      <CNFieldTitle>开户银行</CNFieldTitle>
+      <TWFieldTitle>銀行</TWFieldTitle>
+      <ENFieldTitle>Bank</ENFieldTitle>
+      <JPFieldTitle>开户银行</JPFieldTitle>
+      <KRFieldTitle>銀行</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Remark">
+      <CNFieldTitle>备注</CNFieldTitle>
+      <TWFieldTitle>備註</TWFieldTitle>
+      <ENFieldTitle>Remark</ENFieldTitle>
+      <JPFieldTitle>备注</JPFieldTitle>
+      <KRFieldTitle>ghi chú</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="RightFoot">
+      <CNFieldTitle>右足</CNFieldTitle>
+      <TWFieldTitle>右腳</TWFieldTitle>
+      <ENFieldTitle>Right Foot</ENFieldTitle>
+      <JPFieldTitle>右足</JPFieldTitle>
+      <KRFieldTitle>右腳</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SaleCardShop">
+      <CNFieldTitle>发卡店铺</CNFieldTitle>
+      <TWFieldTitle>發卡店櫃</TWFieldTitle>
+      <ENFieldTitle>SaleCardShop</ENFieldTitle>
+      <JPFieldTitle>发卡店铺</JPFieldTitle>
+      <KRFieldTitle>cửa hàng phát thẻ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SaleDate">
+      <CNFieldTitle>发售日期</CNFieldTitle>
+      <TWFieldTitle>發售日期</TWFieldTitle>
+      <ENFieldTitle>Issue Date</ENFieldTitle>
+      <JPFieldTitle>发售日期</JPFieldTitle>
+      <KRFieldTitle>ngày phát mãi</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Save">
+      <CNFieldTitle>保存</CNFieldTitle>
+      <TWFieldTitle>保存</TWFieldTitle>
+      <ENFieldTitle>Save</ENFieldTitle>
+      <JPFieldTitle>保存</JPFieldTitle>
+      <KRFieldTitle>lưu trữ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SaveAndAdd">
+      <CNFieldTitle>提交并新增</CNFieldTitle>
+      <TWFieldTitle>提交并新增</TWFieldTitle>
+      <ENFieldTitle>Save And Add</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SaveFailed">
+      <CNFieldTitle>保存失败</CNFieldTitle>
+      <TWFieldTitle>保存失敗</TWFieldTitle>
+      <ENFieldTitle>Save failed</ENFieldTitle>
+      <JPFieldTitle>保存失败</JPFieldTitle>
+      <KRFieldTitle>lưu trữ thất bại</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SaveSuccess">
+      <CNFieldTitle>保存成功</CNFieldTitle>
+      <TWFieldTitle>保存成功</TWFieldTitle>
+      <ENFieldTitle>Save successfully</ENFieldTitle>
+      <JPFieldTitle>保存成功</JPFieldTitle>
+      <KRFieldTitle>lưu trữ thành công</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SeeClearly">
+      <CNFieldTitle>看不清楚？</CNFieldTitle>
+      <TWFieldTitle>看不清楚？</TWFieldTitle>
+      <ENFieldTitle>看不清楚?</ENFieldTitle>
+      <JPFieldTitle>看不清楚？</JPFieldTitle>
+      <KRFieldTitle>xem không rõ ?</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SendCard">
+      <CNFieldTitle>发卡</CNFieldTitle>
+      <TWFieldTitle>發卡</TWFieldTitle>
+      <ENFieldTitle>issue</ENFieldTitle>
+      <JPFieldTitle>发卡</JPFieldTitle>
+      <KRFieldTitle>phat thẻ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Sex">
+      <CNFieldTitle>性别</CNFieldTitle>
+      <TWFieldTitle>性別</TWFieldTitle>
+      <ENFieldTitle>Gender</ENFieldTitle>
+      <JPFieldTitle>性别</JPFieldTitle>
+      <KRFieldTitle>性別</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ShopName">
+      <CNFieldTitle>店铺</CNFieldTitle>
+      <TWFieldTitle>店櫃</TWFieldTitle>
+      <ENFieldTitle>Store</ENFieldTitle>
+      <JPFieldTitle>店铺</JPFieldTitle>
+      <KRFieldTitle>cửa hàng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="shxd">
+      <CNFieldTitle>适合鞋垫</CNFieldTitle>
+      <TWFieldTitle>適合鞋墊</TWFieldTitle>
+      <ENFieldTitle>shxd</ENFieldTitle>
+      <JPFieldTitle>适合鞋垫</JPFieldTitle>
+      <KRFieldTitle>đế dày hợp dùng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SizeName">
+      <CNFieldTitle>尺码</CNFieldTitle>
+      <TWFieldTitle>尺碼</TWFieldTitle>
+      <ENFieldTitle>Size</ENFieldTitle>
+      <JPFieldTitle>尺码</JPFieldTitle>
+      <KRFieldTitle>kích thước</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SouvenirDay">
+      <CNFieldTitle>纪念日</CNFieldTitle>
+      <TWFieldTitle>紀念日</TWFieldTitle>
+      <ENFieldTitle>Memorial Day</ENFieldTitle>
+      <JPFieldTitle>纪念日</JPFieldTitle>
+      <KRFieldTitle>ngày kỉ niệm</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SouvenirDayMemo">
+      <CNFieldTitle>纪念日说明</CNFieldTitle>
+      <TWFieldTitle>紀念日說明</TWFieldTitle>
+      <ENFieldTitle>Memorial Day Description</ENFieldTitle>
+      <JPFieldTitle>纪念日说明</JPFieldTitle>
+      <KRFieldTitle>thuyết minh ngày kỉ niệm</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SouvenirDayMustBeDatetime">
+      <CNFieldTitle>纪念日日期必须是时间格式</CNFieldTitle>
+      <TWFieldTitle>紀念日日期必須是時間格式</TWFieldTitle>
+      <ENFieldTitle>紀念日Date必須是時間格式</ENFieldTitle>
+      <JPFieldTitle>纪念日日期必须是时间格式</JPFieldTitle>
+      <KRFieldTitle>ngày lễ kỉ niệm vượt nhất định phải là định dạng thời gian</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="startDate">
+      <CNFieldTitle>开始日期</CNFieldTitle>
+      <TWFieldTitle>開始日期</TWFieldTitle>
+      <ENFieldTitle>Start Date</ENFieldTitle>
+      <JPFieldTitle>开始日期</JPFieldTitle>
+      <KRFieldTitle>ngày bắt đầu</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="startDateNotRight">
+      <CNFieldTitle>开始日期输入不正确</CNFieldTitle>
+      <TWFieldTitle>開始日期輸入不正確</TWFieldTitle>
+      <ENFieldTitle>Start Date you typed has been incorrectly</ENFieldTitle>
+      <JPFieldTitle>开始日期输入不正确</JPFieldTitle>
+      <KRFieldTitle>ngày bắt đầu truyền nhập không chính xác</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Submit">
+      <CNFieldTitle>提交</CNFieldTitle>
+      <TWFieldTitle>提交</TWFieldTitle>
+      <ENFieldTitle>Submit</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Tel">
+      <CNFieldTitle>联系电话</CNFieldTitle>
+      <TWFieldTitle>聯絡電話</TWFieldTitle>
+      <ENFieldTitle>Contact Phone</ENFieldTitle>
+      <JPFieldTitle>联系电话</JPFieldTitle>
+      <KRFieldTitle>điện thoại liên hệ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="text">
+      <CNFieldTitle>文本</CNFieldTitle>
+      <TWFieldTitle>文本</TWFieldTitle>
+      <ENFieldTitle>text</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="TheFirstTWIdcardNumberMustLetter">
+      <CNFieldTitle>台湾身份证号码第一位必须为字母</CNFieldTitle>
+      <TWFieldTitle>臺灣身份證號第一位必須為字母</TWFieldTitle>
+      <ENFieldTitle>The first digit of Taiwan ID No must be letter.</ENFieldTitle>
+      <JPFieldTitle>台湾身份证号码第一位必须为字母</JPFieldTitle>
+      <KRFieldTitle>台湾身份证号码第一位必须为字母</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Toe">
+      <CNFieldTitle>足趾</CNFieldTitle>
+      <TWFieldTitle>腳趾</TWFieldTitle>
+      <ENFieldTitle>Toe</ENFieldTitle>
+      <JPFieldTitle>足趾</JPFieldTitle>
+      <KRFieldTitle>ngón chân</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Track">
+      <CNFieldTitle>步态</CNFieldTitle>
+      <TWFieldTitle>步態</TWFieldTitle>
+      <ENFieldTitle>Gait</ENFieldTitle>
+      <JPFieldTitle>步态</JPFieldTitle>
+      <KRFieldTitle>trạng thái tiếp theo</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UpPage">
+      <CNFieldTitle>上一页</CNFieldTitle>
+      <TWFieldTitle>上一頁</TWFieldTitle>
+      <ENFieldTitle>Previous</ENFieldTitle>
+      <JPFieldTitle>上一页</JPFieldTitle>
+      <KRFieldTitle>trang trước</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UserCode">
+      <CNFieldTitle>用户代码</CNFieldTitle>
+      <TWFieldTitle>用戶代碼</TWFieldTitle>
+      <ENFieldTitle>User Code</ENFieldTitle>
+      <JPFieldTitle>用户代码</JPFieldTitle>
+      <KRFieldTitle>Mã số người dùng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UserCodeNotAllowUsed">
+      <CNFieldTitle>您输入的用户代码不允许使用</CNFieldTitle>
+      <TWFieldTitle>您輸入的用戶代碼不允許使用</TWFieldTitle>
+      <ENFieldTitle>The User Code tou entered is error.</ENFieldTitle>
+      <JPFieldTitle>您输入的用户代码不允许使用</JPFieldTitle>
+      <KRFieldTitle>mã người dùng bạn truyền nhập không chấp nhận sử dụng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UserCodeNotFoundAndWriteAgain">
+      <CNFieldTitle>您输入的用户代码不存在，请重新输入!</CNFieldTitle>
+      <TWFieldTitle>您輸入的用戶代碼不存在，請重新輸入！</TWFieldTitle>
+      <ENFieldTitle>The user code you typed doesn't exist, please reenter!</ENFieldTitle>
+      <JPFieldTitle>您输入的用户代码不存在，请重新输入!</JPFieldTitle>
+      <KRFieldTitle>mã người dùng bạn truyền nhập không tồn tại , vui lòng nhập mới lại !</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UserCodeNotNull">
+      <CNFieldTitle>用户账户不能为空</CNFieldTitle>
+      <TWFieldTitle>用戶帳戶不能為空</TWFieldTitle>
+      <ENFieldTitle>UserAccount cannot be blank</ENFieldTitle>
+      <JPFieldTitle>用户账户不能为空</JPFieldTitle>
+      <KRFieldTitle>用戶帳戶不能為空</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UserCodeNotNullAndWriteAgain">
+      <CNFieldTitle>用户代码不能为空，请重新输入!</CNFieldTitle>
+      <TWFieldTitle>用戶代碼不能為空，請重新輸入！</TWFieldTitle>
+      <ENFieldTitle>User Code cannot be blank, please reenter!</ENFieldTitle>
+      <JPFieldTitle>用户代码不能为空，请重新输入!</JPFieldTitle>
+      <KRFieldTitle>用戶代碼不能為空，請重新輸入！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UserLogin">
+      <CNFieldTitle>会员登录</CNFieldTitle>
+      <TWFieldTitle>會員登入</TWFieldTitle>
+      <ENFieldTitle>MemberLogin</ENFieldTitle>
+      <JPFieldTitle>会员登录</JPFieldTitle>
+      <KRFieldTitle>hc đăng nhập</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UserPasswordWrongAndWriteAgain">
+      <CNFieldTitle>您输入的用户密码错误，请重新输入</CNFieldTitle>
+      <TWFieldTitle>您輸入的用戶密碼錯誤，請重新輸入</TWFieldTitle>
+      <ENFieldTitle>您Enter的User Password Error, please reenter</ENFieldTitle>
+      <JPFieldTitle>您输入的用户密码错误，请重新输入</JPFieldTitle>
+      <KRFieldTitle>mã người dùng bạn truyền nhập sai , vui lòng nhập mới lại</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UserpwdNotNull">
+      <CNFieldTitle>用户密码不能为空</CNFieldTitle>
+      <TWFieldTitle>用戶密碼不能為空</TWFieldTitle>
+      <ENFieldTitle>User Password cannot be blank.</ENFieldTitle>
+      <JPFieldTitle>用户密码不能为空</JPFieldTitle>
+      <KRFieldTitle>用戶密碼不能為空</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ValidateCode">
+      <CNFieldTitle>验证码</CNFieldTitle>
+      <TWFieldTitle>驗證碼</TWFieldTitle>
+      <ENFieldTitle>PIN</ENFieldTitle>
+      <JPFieldTitle>验证码</JPFieldTitle>
+      <KRFieldTitle>驗證碼</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ValidateCodeAgain">
+      <CNFieldTitle>验证码过期,请重新刷新！</CNFieldTitle>
+      <TWFieldTitle>驗證碼過期，請重新更新！</TWFieldTitle>
+      <ENFieldTitle>PIN過期, please重新Refresh!</ENFieldTitle>
+      <JPFieldTitle>验证码过期,请重新刷新！</JPFieldTitle>
+      <KRFieldTitle>驗證碼過期，請重新更新！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ValidateCodeFalse">
+      <CNFieldTitle>验证码输入错误！</CNFieldTitle>
+      <TWFieldTitle>驗證碼輸入錯誤！</TWFieldTitle>
+      <ENFieldTitle>Enter PIN Error!</ENFieldTitle>
+      <JPFieldTitle>验证码输入错误！</JPFieldTitle>
+      <KRFieldTitle>驗證碼輸入錯誤！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ValidateCodeNotNull">
+      <CNFieldTitle>验证码不能为空</CNFieldTitle>
+      <TWFieldTitle>驗證碼不能為空</TWFieldTitle>
+      <ENFieldTitle>PINcannot be blank</ENFieldTitle>
+      <JPFieldTitle>验证码不能为空</JPFieldTitle>
+      <KRFieldTitle>驗證碼不能為空</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="View">
+      <CNFieldTitle>查看</CNFieldTitle>
+      <TWFieldTitle>查看</TWFieldTitle>
+      <ENFieldTitle>View</ENFieldTitle>
+      <JPFieldTitle>查看</JPFieldTitle>
+      <KRFieldTitle>tìm xem</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="WearDZXD">
+      <CNFieldTitle>穿着定造鞋垫</CNFieldTitle>
+      <TWFieldTitle>穿著訂製鞋墊</TWFieldTitle>
+      <ENFieldTitle>穿著訂製鞋墊</ENFieldTitle>
+      <JPFieldTitle>穿着定造鞋垫</JPFieldTitle>
+      <KRFieldTitle>mang giày dép đặt chế</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Welcome">
+      <CNFieldTitle>欢迎</CNFieldTitle>
+      <TWFieldTitle>歡迎</TWFieldTitle>
+      <ENFieldTitle>Welcome</ENFieldTitle>
+      <JPFieldTitle>欢迎</JPFieldTitle>
+      <KRFieldTitle>hoan ghênh</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Year">
+      <CNFieldTitle>年</CNFieldTitle>
+      <TWFieldTitle>年</TWFieldTitle>
+      <ENFieldTitle>Year</ENFieldTitle>
+      <JPFieldTitle>年</JPFieldTitle>
+      <KRFieldTitle>năm</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="yes">
+      <CNFieldTitle>是</CNFieldTitle>
+      <TWFieldTitle>是</TWFieldTitle>
+      <ENFieldTitle>yes</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="zgtc">
+      <CNFieldTitle>舟骨突出</CNFieldTitle>
+      <TWFieldTitle>舟骨突出</TWFieldTitle>
+      <ENFieldTitle>zgtc</ENFieldTitle>
+      <JPFieldTitle>舟骨突出</JPFieldTitle>
+      <KRFieldTitle>khớp xương lòi ra</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Zip">
+      <CNFieldTitle>邮编</CNFieldTitle>
+      <TWFieldTitle>郵遞區號</TWFieldTitle>
+      <ENFieldTitle>Postal Code</ENFieldTitle>
+      <JPFieldTitle>邮编</JPFieldTitle>
+      <KRFieldTitle>郵遞區號</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ZipAddress">
+      <CNFieldTitle>邮寄地址</CNFieldTitle>
+      <TWFieldTitle>郵寄地址</TWFieldTitle>
+      <ENFieldTitle>Mailing Address</ENFieldTitle>
+      <JPFieldTitle>邮寄地址</JPFieldTitle>
+      <KRFieldTitle>郵寄地址</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.8349173+08:00</ModifyDTM>
+    </ID>
+  </IDs>
+</Language>

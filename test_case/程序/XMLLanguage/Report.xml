@@ -1,0 +1,3973 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Language Name="Report" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IDs>
+    <ID FieldName="NothingInput">
+      <CNFieldTitle>您没有做任何修改</CNFieldTitle>
+      <TWFieldTitle>您没有做任何修改</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>您没有做任何修改</JPFieldTitle>
+      <KRFieldTitle>您没有做任何修改</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ExplorerFormText">
+      <CNFieldTitle>[浏览]</CNFieldTitle>
+      <TWFieldTitle>[瀏覽]</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>[浏览]</JPFieldTitle>
+      <KRFieldTitle>[浏览]</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ReportExceptionDescription">
+      <CNFieldTitle>报表处理期间出错。</CNFieldTitle>
+      <TWFieldTitle>報表處理期間出錯。</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>报表处理期间出错。</JPFieldTitle>
+      <KRFieldTitle>报表处理期间出错。</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DesignerFormText">
+      <CNFieldTitle>[设计]</CNFieldTitle>
+      <TWFieldTitle>[設計]</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>[设计]</JPFieldTitle>
+      <KRFieldTitle>[设计]</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_FilterClauseBetweenAnd">
+      <CNFieldTitle>和</CNFieldTitle>
+      <TWFieldTitle>和</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>和</JPFieldTitle>
+      <KRFieldTitle>và</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_FilterClauseDoesNotContain">
+      <CNFieldTitle>不包含</CNFieldTitle>
+      <TWFieldTitle>不包含</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>不包含</JPFieldTitle>
+      <KRFieldTitle>không bao gồm</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_FilterClauseEndsWith">
+      <CNFieldTitle>末尾匹配</CNFieldTitle>
+      <TWFieldTitle>末尾比對</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>末尾匹配</JPFieldTitle>
+      <KRFieldTitle>末尾匹配</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_FilterClauseEquals">
+      <CNFieldTitle>等于</CNFieldTitle>
+      <TWFieldTitle>等於</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>等于</JPFieldTitle>
+      <KRFieldTitle>bằng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_FilterClauseAnyOf">
+      <CNFieldTitle>包含任何</CNFieldTitle>
+      <TWFieldTitle>包含任何</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>包含任何</JPFieldTitle>
+      <KRFieldTitle>bao gồm tất cả</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_FilterClauseBetween">
+      <CNFieldTitle>存在于两者之间</CNFieldTitle>
+      <TWFieldTitle>存在於兩者之間</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>存在于两者之间</JPFieldTitle>
+      <KRFieldTitle>tồn tại ở giữa hai người</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GroupRowExpressionInvalid">
+      <CNFieldTitle>{0} 分组行的分组表达式无效。</CNFieldTitle>
+      <TWFieldTitle>{0}分組列的分組表達式無效。</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>{0} 分组行的分组表达式无效。</JPFieldTitle>
+      <KRFieldTitle>{0} 分组行的分组表达式无效。</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_FilterClauseBeginsWith">
+      <CNFieldTitle>开头匹配</CNFieldTitle>
+      <TWFieldTitle>開頭比對</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>开头匹配</JPFieldTitle>
+      <KRFieldTitle>开头匹配</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_FilterClauseDoesNotEqual">
+      <CNFieldTitle>不等于</CNFieldTitle>
+      <TWFieldTitle>不等於</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>不等于</JPFieldTitle>
+      <KRFieldTitle>không bằng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_FilterClauseLess">
+      <CNFieldTitle>小于</CNFieldTitle>
+      <TWFieldTitle>小於</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>小于</JPFieldTitle>
+      <KRFieldTitle>nhỏ hơn</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MatrixHasColumn">
+      <CNFieldTitle>多维表格中已存在您所添加的数据字段，请重新选择。</CNFieldTitle>
+      <TWFieldTitle>多維表格中已存在您所增加的資料欄位，請重新選擇。</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>多维表格中已存在您所添加的数据字段，请重新选择。</JPFieldTitle>
+      <KRFieldTitle>多维表格中已存在您所添加的数据字段，请重新选择。</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_FilterClauseIsNotNull">
+      <CNFieldTitle>包含非空</CNFieldTitle>
+      <TWFieldTitle>包含非空</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>包含非空</JPFieldTitle>
+      <KRFieldTitle>bao gồm không trống</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_FilterClauseContains">
+      <CNFieldTitle>包含</CNFieldTitle>
+      <TWFieldTitle>包含</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>包含</JPFieldTitle>
+      <KRFieldTitle>bao gồm</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_FilterClauseGreaterOrEqual">
+      <CNFieldTitle>大于等于</CNFieldTitle>
+      <TWFieldTitle>大於等於</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>大于等于</JPFieldTitle>
+      <KRFieldTitle>lớn hơn hoặc bằng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_FilterClauseLessOrEqual">
+      <CNFieldTitle>小于等于</CNFieldTitle>
+      <TWFieldTitle>小於等於</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>小于等于</JPFieldTitle>
+      <KRFieldTitle>nhỏ hơn hoặc bằng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_FilterClauseLike">
+      <CNFieldTitle>模糊匹配于</CNFieldTitle>
+      <TWFieldTitle>模糊比對於</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>模糊匹配于</JPFieldTitle>
+      <KRFieldTitle>模糊匹配于</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_FilterClauseNoneOf">
+      <CNFieldTitle>不包含</CNFieldTitle>
+      <TWFieldTitle>不包含</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>不包含</JPFieldTitle>
+      <KRFieldTitle>không bao gồm</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_FilterClauseNotLike">
+      <CNFieldTitle>模糊不匹配于</CNFieldTitle>
+      <TWFieldTitle>模糊不比對於</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>模糊不匹配于</JPFieldTitle>
+      <KRFieldTitle>模糊不匹配于</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_FilterClauseNotBetween">
+      <CNFieldTitle>不存在于两者之间</CNFieldTitle>
+      <TWFieldTitle>不存在於兩者之間</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>不存在于两者之间</JPFieldTitle>
+      <KRFieldTitle>khoảng cách hai người không tồn tại</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_FilterGroupNotAnd">
+      <CNFieldTitle>并且不是</CNFieldTitle>
+      <TWFieldTitle>並且不是</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>并且不是</JPFieldTitle>
+      <KRFieldTitle>và không phải</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_FilterGroupNotOr">
+      <CNFieldTitle>或者不是</CNFieldTitle>
+      <TWFieldTitle>或者不是</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>或者不是</JPFieldTitle>
+      <KRFieldTitle>hoặc là không phải</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_FilterMenuConditionAdd">
+      <CNFieldTitle>添加筛选条件</CNFieldTitle>
+      <TWFieldTitle>增加篩選條件</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>添加筛选条件</JPFieldTitle>
+      <KRFieldTitle>添加筛选条件</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_FilterToolTipNodeAdd">
+      <CNFieldTitle>在分组中添加筛选条件</CNFieldTitle>
+      <TWFieldTitle>在分組中增加篩選條件</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>在分组中添加筛选条件</JPFieldTitle>
+      <KRFieldTitle>在分组中添加筛选条件</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_FilterGroupAnd">
+      <CNFieldTitle>并且</CNFieldTitle>
+      <TWFieldTitle>並且</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>并且</JPFieldTitle>
+      <KRFieldTitle>và</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_FilterGroupOr">
+      <CNFieldTitle>或者</CNFieldTitle>
+      <TWFieldTitle>或者</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>或者</JPFieldTitle>
+      <KRFieldTitle>hoặc là</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_FilterMenuRowRemove">
+      <CNFieldTitle>删除分组</CNFieldTitle>
+      <TWFieldTitle>删除分組</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>删除分组</JPFieldTitle>
+      <KRFieldTitle>xóa phân tổ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_FilterToolTipElementAdd">
+      <CNFieldTitle>添加新可输入项到列表中</CNFieldTitle>
+      <TWFieldTitle>增加新可輸入項到清單中</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>添加新可输入项到列表中</JPFieldTitle>
+      <KRFieldTitle>添加新可输入项到列表中</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_FilterToolTipKeysAdd">
+      <CNFieldTitle>（键入Insert键或点击Add按钮）</CNFieldTitle>
+      <TWFieldTitle>(鍵入Insert鍵或點選Add按鈕)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>（键入Insert键或点击Add按钮）</JPFieldTitle>
+      <KRFieldTitle>( chọn phím insert  hoặc chọn phím add )</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_FilterToolTipKeysRemove">
+      <CNFieldTitle>（键入Delete键或点击Remove按钮）</CNFieldTitle>
+      <TWFieldTitle>(鍵入Delete鍵或點選Remove按鈕)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>（键入Delete键或点击Remove按钮）</JPFieldTitle>
+      <KRFieldTitle>( chọn phím Delete hoặc chọn phím Remove )</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_FilterClauseGreater">
+      <CNFieldTitle>大于</CNFieldTitle>
+      <TWFieldTitle>大於</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>大于</JPFieldTitle>
+      <KRFieldTitle>lớn hơn</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_FilterClauseIsNull">
+      <CNFieldTitle>包含空值</CNFieldTitle>
+      <TWFieldTitle>包含空值</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>包含空值</JPFieldTitle>
+      <KRFieldTitle>bao gồm giá trị trống</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_FilterMenuClearAll">
+      <CNFieldTitle>清除所有</CNFieldTitle>
+      <TWFieldTitle>清除所有</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>清除所有</JPFieldTitle>
+      <KRFieldTitle>làm sạch tất cả</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_FilterMenuGroupAdd">
+      <CNFieldTitle>添加分组</CNFieldTitle>
+      <TWFieldTitle>增加分組</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>添加分组</JPFieldTitle>
+      <KRFieldTitle>添加分组</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_FilterToolTipValueType">
+      <CNFieldTitle>输入模式或选择模式</CNFieldTitle>
+      <TWFieldTitle>輸入模式或選擇模式</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>输入模式或选择模式</JPFieldTitle>
+      <KRFieldTitle>mầu hình nhập hoặc mẫu hình lựa chọn</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_FilterEmptyEnter">
+      <CNFieldTitle>&lt;输入一个值&gt;</CNFieldTitle>
+      <TWFieldTitle>&lt;輸入一個值&gt;</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>&lt;输入一个值&gt;</JPFieldTitle>
+      <KRFieldTitle>&lt; nhập vào 1 giá trị &gt;</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_FilterToolTipNodeAction">
+      <CNFieldTitle>操作</CNFieldTitle>
+      <TWFieldTitle>操作</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>操作</JPFieldTitle>
+      <KRFieldTitle>thao tác</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_FilterToolTipNodeRemove">
+      <CNFieldTitle>在分组中删除此筛选条件</CNFieldTitle>
+      <TWFieldTitle>在分組中刪除此篩選條件</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>在分组中删除此筛选条件</JPFieldTitle>
+      <KRFieldTitle>在分組中刪除此篩選條件</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BestFitColumnsMenu_Caption">
+      <CNFieldTitle>自动调整列宽</CNFieldTitle>
+      <TWFieldTitle>自動調整欄寬</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>自动调整列宽</JPFieldTitle>
+      <KRFieldTitle>tự động điều chỉnh độ rộng cột</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CopyDyanmicMenu_Caption">
+      <CNFieldTitle>复制当前动态列</CNFieldTitle>
+      <TWFieldTitle>複製當前動態欄位</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>复制当前动态列</JPFieldTitle>
+      <KRFieldTitle>sao chép động thái côt vị hiện tại</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DeleteColumnMenu_Caption">
+      <CNFieldTitle>删除选择列</CNFieldTitle>
+      <TWFieldTitle>刪除選擇欄位</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>删除选择列</JPFieldTitle>
+      <KRFieldTitle>xóa cột lựa chọn</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ExcelFile_Filter">
+      <CNFieldTitle>Microsoft Office Excel 工作簿 (*.xlsx)|*.xlsx</CNFieldTitle>
+      <TWFieldTitle>Microsoft Office Excel 工作簿 (*.xlsx)|*.xlsx</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>Microsoft Office Excel 工作簿 (*.xlsx)|*.xlsx</JPFieldTitle>
+      <KRFieldTitle>Microsoft Office Excel sổ công việc  (* .xlsx) | * .xlsx</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="HtmlFile_Filter">
+      <CNFieldTitle>HTML 文件 (*.htm)|*.htm</CNFieldTitle>
+      <TWFieldTitle>HTML 檔 (*.htm)|*.htm</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>HTML 文件 (*.htm)|*.htm</JPFieldTitle>
+      <KRFieldTitle>HTML tập tin (*.htm)|*.htm</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="AddColumnMenu_Caption">
+      <CNFieldTitle>添加列</CNFieldTitle>
+      <TWFieldTitle>增加欄位</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>添加列</JPFieldTitle>
+      <KRFieldTitle>添加列</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CancelFixedColumnMenu_Caption">
+      <CNFieldTitle>取消冻结</CNFieldTitle>
+      <TWFieldTitle>取消凍結</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>取消冻结</JPFieldTitle>
+      <KRFieldTitle>hủy bỏ đông kết</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="AddRowMenu_Caption">
+      <CNFieldTitle>添加行</CNFieldTitle>
+      <TWFieldTitle>增加列</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>添加行</JPFieldTitle>
+      <KRFieldTitle>添加行</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="AddSubTotalCellMenu_Caption">
+      <CNFieldTitle>小计</CNFieldTitle>
+      <TWFieldTitle>小計</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>小计</JPFieldTitle>
+      <KRFieldTitle>小計</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DeleteImageCellMenu_Caption">
+      <CNFieldTitle>删除图片</CNFieldTitle>
+      <TWFieldTitle>删除圖片</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>删除图片</JPFieldTitle>
+      <KRFieldTitle>xóa bản vẽ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FixedColumnMenu_Caption">
+      <CNFieldTitle>冻结表格</CNFieldTitle>
+      <TWFieldTitle>凍結表格</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>冻结表格</JPFieldTitle>
+      <KRFieldTitle>đông kết biểu mẫu</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ImageFile_Filter">
+      <CNFieldTitle>Image文件 (*.BMP;*.JPG;*.GIF;*.PNG)|*.BMP;*.JPG;*.GIF;*.PNG|所有格式 (*.*)|*.*</CNFieldTitle>
+      <TWFieldTitle>Image檔案 (*.BMP;*.JPG;*.GIF;*.PNG)|*.BMP;*.JPG;*.GIF;*.PNG|所有格式 (*.*)|*.*</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>Image文件 (*.BMP;*.JPG;*.GIF;*.PNG)|*.BMP;*.JPG;*.GIF;*.PNG|所有格式 (*.*)|*.*</JPFieldTitle>
+      <KRFieldTitle>Tập tin hình ảnh (*.BMP;*.JPG;*.GIF;*.PNG)|*.BMP;*.JPG;*.GIF;*.PNG|tất cả các định dạng (*.*)|*.*</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="InsertGroupRowMenu_Caption">
+      <CNFieldTitle>插入分组</CNFieldTitle>
+      <TWFieldTitle>插入分組</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>插入分组</JPFieldTitle>
+      <KRFieldTitle>chèn vào phân tổ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="InsertImageGruopMenu_Caption">
+      <CNFieldTitle>插入图片</CNFieldTitle>
+      <TWFieldTitle>插入圖片</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>插入图片</JPFieldTitle>
+      <KRFieldTitle>chèn bản vẽ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="InsertRowMenu_Caption">
+      <CNFieldTitle>插入行</CNFieldTitle>
+      <TWFieldTitle>插入欄</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>插入行</JPFieldTitle>
+      <KRFieldTitle>dòng chèn vào</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text10">
+      <CNFieldTitle>请输入或选择数据库</CNFieldTitle>
+      <TWFieldTitle>請輸入或選擇資料庫</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>请输入或选择数据库</JPFieldTitle>
+      <KRFieldTitle>vui lòng nhập hoặc chọn dự liệu kho</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text1">
+      <CNFieldTitle>没有找到报表应用的数据集或样式</CNFieldTitle>
+      <TWFieldTitle>沒有找到報表應用的資料集或樣式</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>没有找到报表应用的数据集或样式</JPFieldTitle>
+      <KRFieldTitle>không có dự liệu hoặc mẫu của mẫu biểu ứng dụng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text2">
+      <CNFieldTitle>报表运行错误，报表缺少参数：{0}</CNFieldTitle>
+      <TWFieldTitle>報表運行錯誤，報表缺少參數：{0}</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>报表运行错误，报表缺少参数：{0}</JPFieldTitle>
+      <KRFieldTitle>báo biểu vận hành đã sai , báo biểu thiếu tham số : {0}</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text4">
+      <CNFieldTitle>{0} 不能为空值。</CNFieldTitle>
+      <TWFieldTitle>{0} 不能為空值。</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>{0} 不能为空值。</JPFieldTitle>
+      <KRFieldTitle>{0} không thể có giá trị trống .</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text5">
+      <CNFieldTitle>{0} 不能为空白值</CNFieldTitle>
+      <TWFieldTitle>{0} 不能為空白值</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>{0} 不能为空白值</JPFieldTitle>
+      <KRFieldTitle>{0} không thể có giá trị trống</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CopyColumnMenu_Caption">
+      <CNFieldTitle>复制当前列</CNFieldTitle>
+      <TWFieldTitle>複製當前欄位</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>复制当前列</JPFieldTitle>
+      <KRFieldTitle>sao chép cột vị hiện tại</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_CustomizationFormText">
+      <CNFieldTitle>拖拽字段到此窗体</CNFieldTitle>
+      <TWFieldTitle>拖拽欄位到此表單</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>拖拽字段到此窗体</JPFieldTitle>
+      <KRFieldTitle>拖拽欄位到此表單</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text8">
+      <CNFieldTitle>报表文件中已存在选择的图象，是否覆盖报表文件中的嵌入图象？</CNFieldTitle>
+      <TWFieldTitle>報表檔中已存在選擇的圖片，是否覆蓋報表檔中的嵌入圖片？</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>报表文件中已存在选择的图象，是否覆盖报表文件中的嵌入图象？</JPFieldTitle>
+      <KRFieldTitle>trong tập tin báo biểu đã tồn tại hình vẽ đã chọn lựa , có phải ghi đè lên hình vẽ trong báo biểu đo</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text6">
+      <CNFieldTitle>是否确认删除数据集 {0}？ 此操作将删除所有的该数据集中的字段引用。</CNFieldTitle>
+      <TWFieldTitle>是否確認刪除資料集 {0}？ 此操作將刪除所有的該資料集中的欄位引用。</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>是否确认删除数据集 {0}？ 此操作将删除所有的该数据集中的字段引用。</JPFieldTitle>
+      <KRFieldTitle>có phải xác định xóa tập tin dự liệu {0} ? Thao tác này sẽ xóa tất cả cột vị trích dẫn của tập tin dự liệu này .</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text7">
+      <CNFieldTitle>无效的字体大小</CNFieldTitle>
+      <TWFieldTitle>無效的字體大小</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>无效的字体大小</JPFieldTitle>
+      <KRFieldTitle>無效的字體大小</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text9">
+      <CNFieldTitle>报表需要一个主布局样式</CNFieldTitle>
+      <TWFieldTitle>報表需要一個主佈局樣式</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>报表需要一个主布局样式</JPFieldTitle>
+      <KRFieldTitle>báo biểu cần một mẫu hình bố cục chính</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="AddDynamicMenu_Caption">
+      <CNFieldTitle>添加动态列</CNFieldTitle>
+      <TWFieldTitle>增加動態欄位</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>添加动态列</JPFieldTitle>
+      <KRFieldTitle>添加动态列</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DeleteRowMenu_Caption">
+      <CNFieldTitle>删除选择行</CNFieldTitle>
+      <TWFieldTitle>刪除選擇列</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>删除选择行</JPFieldTitle>
+      <KRFieldTitle>删除选择行</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="EmbeddedImageMenu_Caption">
+      <CNFieldTitle>嵌入图片资源</CNFieldTitle>
+      <TWFieldTitle>嵌入圖片資源</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>嵌入图片资源</JPFieldTitle>
+      <KRFieldTitle>cắm vào nguồn bản vẽ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="InsertImageCellMenu_Caption">
+      <CNFieldTitle>来自文件</CNFieldTitle>
+      <TWFieldTitle>來自檔案</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>来自文件</JPFieldTitle>
+      <KRFieldTitle>đến từ văn kiện</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Caption1">
+      <CNFieldTitle>系统警告</CNFieldTitle>
+      <TWFieldTitle>系統警告</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>系统警告</JPFieldTitle>
+      <KRFieldTitle>系統警告</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Caption2">
+      <CNFieldTitle>系统错误</CNFieldTitle>
+      <TWFieldTitle>系統錯誤</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>系统错误</JPFieldTitle>
+      <KRFieldTitle>系統錯誤</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Caption3">
+      <CNFieldTitle>系统提示</CNFieldTitle>
+      <TWFieldTitle>系統提示</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>系统提示</JPFieldTitle>
+      <KRFieldTitle>系統提示</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text3">
+      <CNFieldTitle>[{0}] 为必填项</CNFieldTitle>
+      <TWFieldTitle>[{0}] 為必填項</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>[{0}] 为必填项</JPFieldTitle>
+      <KRFieldTitle>[{0}] là bắt buộc phải điền</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_ColumnArea">
+      <CNFieldTitle>字段区域</CNFieldTitle>
+      <TWFieldTitle>欄位區域</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>字段区域</JPFieldTitle>
+      <KRFieldTitle>cột vị khu vực</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PdfFile_Filter">
+      <CNFieldTitle>PDF 文件 (*.pdf)|*.pdf</CNFieldTitle>
+      <TWFieldTitle>PDF 檔 (*.pdf)|*.pdf</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>PDF 文件 (*.pdf)|*.pdf</JPFieldTitle>
+      <KRFieldTitle>PDF tập tin (*.pdf)|*.pdf</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_CustomizationFormAddTo">
+      <CNFieldTitle>添加到</CNFieldTitle>
+      <TWFieldTitle>增加到</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>添加到</JPFieldTitle>
+      <KRFieldTitle>添加到</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_FilterArea">
+      <CNFieldTitle>待选字段区域</CNFieldTitle>
+      <TWFieldTitle>待選欄位區域</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>待选字段区域</JPFieldTitle>
+      <KRFieldTitle>khu vực vị trí cột chờ chọn</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ProgressText1">
+      <CNFieldTitle>系统正在生成 Excel 文件</CNFieldTitle>
+      <TWFieldTitle>系統正在生成 Excel 檔</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>系统正在生成 Excel 文件</JPFieldTitle>
+      <KRFieldTitle>系統正在生成 Excel 檔</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ProgressText10">
+      <CNFieldTitle>系统正在保存打印样式</CNFieldTitle>
+      <TWFieldTitle>系統正在保存列印樣式</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>系统正在保存打印样式</JPFieldTitle>
+      <KRFieldTitle>系統正在保存列印樣式</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ProgressText12">
+      <CNFieldTitle>系统正在打开设计器</CNFieldTitle>
+      <TWFieldTitle>系統正在打開設計器</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>系统正在打开设计器</JPFieldTitle>
+      <KRFieldTitle>系統正在打開設計器</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ProgressText13">
+      <CNFieldTitle>系统正在导入打印样式</CNFieldTitle>
+      <TWFieldTitle>系統正在匯入列印樣式</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>系统正在导入打印样式</JPFieldTitle>
+      <KRFieldTitle>系統正在匯入列印樣式</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_RowArea">
+      <CNFieldTitle>行区域</CNFieldTitle>
+      <TWFieldTitle>列區域</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>行区域</JPFieldTitle>
+      <KRFieldTitle>行区域</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ProgressText11">
+      <CNFieldTitle>系统正在读取打印样式</CNFieldTitle>
+      <TWFieldTitle>系統正在讀取列印樣式</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>系统正在读取打印样式</JPFieldTitle>
+      <KRFieldTitle>系統正在讀取列印樣式</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_DataArea">
+      <CNFieldTitle>数据区域</CNFieldTitle>
+      <TWFieldTitle>資料區域</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>数据区域</JPFieldTitle>
+      <KRFieldTitle>資料區域</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_TotalFormat">
+      <CNFieldTitle>{0} 合计</CNFieldTitle>
+      <TWFieldTitle>{0} 合計</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>{0} 合计</JPFieldTitle>
+      <KRFieldTitle>{0} Tổng số</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ProgressText14">
+      <CNFieldTitle>系统正在翻译报表内容</CNFieldTitle>
+      <TWFieldTitle>系統正在翻譯報表内容</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>系统正在翻译报表内容</JPFieldTitle>
+      <KRFieldTitle>系统正在翻译报表内容</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ProgressText16">
+      <CNFieldTitle>系统正在生成 Excel 文件</CNFieldTitle>
+      <TWFieldTitle>系統正在生成 Excel 檔案</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>系统正在生成 Excel 文件</JPFieldTitle>
+      <KRFieldTitle>系统正在生成 Excel 文件</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ProgressText15">
+      <CNFieldTitle>系统正在取消报表生成过程</CNFieldTitle>
+      <TWFieldTitle>系統正在取消報表生成過程</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>系统正在取消报表生成过程</JPFieldTitle>
+      <KRFieldTitle>系統正在取消報表生成過程</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ProgressText2">
+      <CNFieldTitle>系统正在生成文本文件</CNFieldTitle>
+      <TWFieldTitle>系統正在生成文字檔</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>系统正在生成文本文件</JPFieldTitle>
+      <KRFieldTitle>系統正在生成文字檔</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ProgressText17">
+      <CNFieldTitle>系统正在生成 Excel 文件</CNFieldTitle>
+      <TWFieldTitle>系統正在生成 Excel 檔案</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>系统正在生成 Excel 文件</JPFieldTitle>
+      <KRFieldTitle>系统正在生成 Excel 文件</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ProgressText19">
+      <CNFieldTitle>系统正在生成 Excel 文件</CNFieldTitle>
+      <TWFieldTitle>系統正在生成 Excel 檔案</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>系统正在生成 Excel 文件</JPFieldTitle>
+      <KRFieldTitle>系统正在生成 Excel 文件</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ProgressText18">
+      <CNFieldTitle>系统正在生成 Excel 文件</CNFieldTitle>
+      <TWFieldTitle>系統正在生成 Excel 檔案</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>系统正在生成 Excel 文件</JPFieldTitle>
+      <KRFieldTitle>系统正在生成 Excel 文件</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ProgressText3">
+      <CNFieldTitle>系统正在生成 PDF 文件</CNFieldTitle>
+      <TWFieldTitle>系統正在生成 PDF 檔</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>系统正在生成 PDF 文件</JPFieldTitle>
+      <KRFieldTitle>系統正在生成 PDF 檔</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ProgressText20">
+      <CNFieldTitle>系统正在生成 Excel 文件</CNFieldTitle>
+      <TWFieldTitle>系統正在生成 Excel 檔案</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>系统正在生成 Excel 文件</JPFieldTitle>
+      <KRFieldTitle>系统正在生成 Excel 文件</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ProgressText5">
+      <CNFieldTitle>系统正在生成 RTF 文件</CNFieldTitle>
+      <TWFieldTitle>系統正在生成 RTF 檔</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>系统正在生成 RTF 文件</JPFieldTitle>
+      <KRFieldTitle>系統正在生成 RTF 檔</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ProgressText7">
+      <CNFieldTitle>系统正在生成查询参数</CNFieldTitle>
+      <TWFieldTitle>系統正在生成查詢參數</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>系统正在生成查询参数</JPFieldTitle>
+      <KRFieldTitle>系統正在生成查詢參數</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ProgressText9">
+      <CNFieldTitle>系统正在打开报表样式设计器</CNFieldTitle>
+      <TWFieldTitle>系統正在打開報表樣式設計器</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>系统正在打开报表样式设计器</JPFieldTitle>
+      <KRFieldTitle>系統正在打開報表樣式設計器</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ReportStyleFile_Filter">
+      <CNFieldTitle>打印样式文件 (*.repx)|*.repx</CNFieldTitle>
+      <TWFieldTitle>列印樣式檔 (*.repx)|*.repx</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>打印样式文件 (*.repx)|*.repx</JPFieldTitle>
+      <KRFieldTitle>tập tin mẫu in ấn (*.repx)|*.repx</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ReportTab_Title2">
+      <CNFieldTitle>{0} [主布局]</CNFieldTitle>
+      <TWFieldTitle>{0} [主佈局]</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>{0} [主布局]</JPFieldTitle>
+      <KRFieldTitle>{0} [bố cục chính]</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="RowPropertyMenu_Caption">
+      <CNFieldTitle>分组属性</CNFieldTitle>
+      <TWFieldTitle>分組屬性</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>分组属性</JPFieldTitle>
+      <KRFieldTitle>thuộc tính phân tổ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SettingProject_Text1">
+      <CNFieldTitle>当前查询参数</CNFieldTitle>
+      <TWFieldTitle>當前查詢參數</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>当前查询参数</JPFieldTitle>
+      <KRFieldTitle>tìm kiếm thông số hiện tại</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SettingProject_Text2">
+      <CNFieldTitle>报表原默认参数</CNFieldTitle>
+      <TWFieldTitle>報表原預設參數</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>报表原默认参数</JPFieldTitle>
+      <KRFieldTitle>tham số nguyên của báo biểu</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ShowCellPropertyMenu_Caption">
+      <CNFieldTitle>属性</CNFieldTitle>
+      <TWFieldTitle>屬性</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>属性</JPFieldTitle>
+      <KRFieldTitle>thuộc tính</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="TextFile_Filter">
+      <CNFieldTitle>文本文件 (*.txt)|*.txt</CNFieldTitle>
+      <TWFieldTitle>文字檔 (*.txt)|*.txt</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>文本文件 (*.txt)|*.txt</JPFieldTitle>
+      <KRFieldTitle>文字檔 (*.txt)|*.txt</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ProgressText8">
+      <CNFieldTitle>系统正在生成报表</CNFieldTitle>
+      <TWFieldTitle>系統正在生成報表</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>系统正在生成报表</JPFieldTitle>
+      <KRFieldTitle>系統正在生成報表</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label5">
+      <CNFieldTitle>&lt;表达式...&gt;</CNFieldTitle>
+      <TWFieldTitle>&lt;運算式...&gt;</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>&lt;表达式...&gt;</JPFieldTitle>
+      <KRFieldTitle>&lt; đang tính toán … &gt;</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ProgressText6">
+      <CNFieldTitle>系统正在生成报表打印样式</CNFieldTitle>
+      <TWFieldTitle>系統正在生成報表列印樣式</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>系统正在生成报表打印样式</JPFieldTitle>
+      <KRFieldTitle>系統正在生成報表列印樣式</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ReportTab_Title1">
+      <CNFieldTitle>报表数据</CNFieldTitle>
+      <TWFieldTitle>報表資料</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>报表数据</JPFieldTitle>
+      <KRFieldTitle>dự liệu báo biểu</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="RtfFile_Filter">
+      <CNFieldTitle>RTF 文件 (*.rtf)|*.rtf</CNFieldTitle>
+      <TWFieldTitle>RTF 檔 (*.rtf)|*.rtf</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>RTF 文件 (*.rtf)|*.rtf</JPFieldTitle>
+      <KRFieldTitle>RTF tập tin (*.rtf)|*.rtf</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label6">
+      <CNFieldTitle>This report application is very easy to use.\r\n这个报表程序非常易于使用。\r\n1\t1.00\t1,000,000\t100%\t$100</CNFieldTitle>
+      <TWFieldTitle>This report application is very easy to use.\r\n這個報表程式非常易於使用。\r\n1\t1.00\t1,000,000\t100%\t$100</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>This report application is very easy to use.\r\n这个报表程序非常易于使用。\r\n1\t1.00\t1,000,000\t100%\t$100</JPFieldTitle>
+      <KRFieldTitle>This report application is very easy to use.\r\n              báo biêu này rất dễ sự dụng 。\r\n1\t1.\t1,,\t1%\t$1</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DelAreaMenu_Caption">
+      <CNFieldTitle>删除字段区</CNFieldTitle>
+      <TWFieldTitle>刪除欄位區</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>删除字段区</JPFieldTitle>
+      <KRFieldTitle>xóa khu cột vị</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text20">
+      <CNFieldTitle>请执行当前的SQL语句以检测语句的正确性</CNFieldTitle>
+      <TWFieldTitle>請執行當前的SQL語句以檢測語句的正確性</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>请执行当前的SQL语句以检测语句的正确性</JPFieldTitle>
+      <KRFieldTitle>vui lòng chấp hành ngữ pháp SQL hiện tại để kiểm nghiệm tính xác thật của câu từ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label7">
+      <CNFieldTitle>设置方案</CNFieldTitle>
+      <TWFieldTitle>設定方案</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>设置方案</JPFieldTitle>
+      <KRFieldTitle>phương án cài đặt</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label8">
+      <CNFieldTitle>数据源配置：数据集需要一个指定的数据源才能检索数据以提供所有报表。\r\n步骤如下：\r\n1)．更新数据源提供程序。（推荐默认选项）\r\n2)．指定一个包括目标数据库的服务器。\r\n2)．输入登录到服务器的信息。\r\n3)．选择目标数据库。</CNFieldTitle>
+      <TWFieldTitle>資料來源配置：資料集需要一個指定的資料來源才能檢索資料以提供所有報表。\r\n步驟如下：\r\n1)．更新資料來源提供程式。（推薦預設選項）\r\n2)．指定一個包括目標資料庫的伺服器。\r\n2)．輸入登錄到伺服器的資訊。\r\n3)．選擇目標資料庫。</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>数据源配置：数据集需要一个指定的数据源才能检索数据以提供所有报表。\r\n步骤如下：\r\n1)．更新数据源提供程序。（推荐默认选项）\r\n2)．指定一个包括目标数据库的服务器。\r\n2)．输入登录到服务器的信息。\r\n3)．选择目标数据库。</JPFieldTitle>
+      <KRFieldTitle>資料來源配置：資料集需要一個指定的資料來源才能檢索資料以提供所有報表。\r\n步驟如下：\r\n1)．更新資料來源提供程式。（推薦預設選項）\r\n2)．指定一個包括目標資料庫的伺服器。\r\n2)．輸入登錄到伺服器的資訊。\r\n3)．選擇目標資料庫。</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label1">
+      <CNFieldTitle>类型</CNFieldTitle>
+      <TWFieldTitle>類型</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>类型</JPFieldTitle>
+      <KRFieldTitle>loại hình</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label2">
+      <CNFieldTitle>显示值点</CNFieldTitle>
+      <TWFieldTitle>顯示值點</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>显示值点</JPFieldTitle>
+      <KRFieldTitle>顯示值點</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label9">
+      <CNFieldTitle>系统字体</CNFieldTitle>
+      <TWFieldTitle>系統字體</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>系统字体</JPFieldTitle>
+      <KRFieldTitle>系統字體</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="EditAreaMenu_Caption">
+      <CNFieldTitle>修改字段区</CNFieldTitle>
+      <TWFieldTitle>修改欄位區</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>修改字段区</JPFieldTitle>
+      <KRFieldTitle>修改欄位區</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text11">
+      <CNFieldTitle>连接成功</CNFieldTitle>
+      <TWFieldTitle>連線成功</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>连接成功</JPFieldTitle>
+      <KRFieldTitle>连接成功</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text13">
+      <CNFieldTitle>没有搜索到服务器中的数据库</CNFieldTitle>
+      <TWFieldTitle>沒有搜索到伺服器中的資料庫</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>没有搜索到服务器中的数据库</JPFieldTitle>
+      <KRFieldTitle>không có tìm kiếm đến kho dự liệu của máy chủ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text14">
+      <CNFieldTitle>执行SQL语句未能获取到匹配的字段和参数。\n是否重新手动设置参数后执行？</CNFieldTitle>
+      <TWFieldTitle>執行SQL語句未能獲取到比對的欄位和參數。\n是否重新手動設定參數後執行？</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>执行SQL语句未能获取到匹配的字段和参数。\n是否重新手动设置参数后执行？</JPFieldTitle>
+      <KRFieldTitle>执行SQL语句未能获取到匹配的字段和参数。\n是否重新手动设置参数后执行？</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text17">
+      <CNFieldTitle>SQL语句执行失败，原因：{0}\n是否重新手动设置参数后执行？</CNFieldTitle>
+      <TWFieldTitle>SQL語句執行失敗，原因：{0}\n是否重新手動設定參數後執行？</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>SQL语句执行失败，原因：{0}\n是否重新手动设置参数后执行？</JPFieldTitle>
+      <KRFieldTitle>SQL câu từ chấp hành thành công . Nguyên nhân : {0}\n  có cần phải cài đăt thủ công thông số rồi mới chấp hành không ?</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text18">
+      <CNFieldTitle>SQL语句执行失败。</CNFieldTitle>
+      <TWFieldTitle>SQL語句執行失敗。</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>SQL语句执行失败。</JPFieldTitle>
+      <KRFieldTitle>SQL câu từ chấp hành thành công .</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text19">
+      <CNFieldTitle>外部数据对象执行错误。</CNFieldTitle>
+      <TWFieldTitle>外部資料物件執行錯誤。</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>外部数据对象执行错误。</JPFieldTitle>
+      <KRFieldTitle>外部資料物件執行錯誤。</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text12">
+      <CNFieldTitle>没有搜索到局域网中任何数据库服务器</CNFieldTitle>
+      <TWFieldTitle>沒有搜索到局域網中任何資料庫伺服器</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>没有搜索到局域网中任何数据库服务器</JPFieldTitle>
+      <KRFieldTitle>không có tìm kiếm đến kho dự liệu máy chủ trong khu vực mạng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text15">
+      <CNFieldTitle>执行SQL语句未能获取到匹配的字段和参数，请重新检查SQL语句或自行配置。</CNFieldTitle>
+      <TWFieldTitle>執行SQL語句未能獲取到比對的欄位和參數，請重新檢查SQL語句或自行配置。</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>执行SQL语句未能获取到匹配的字段和参数，请重新检查SQL语句或自行配置。</JPFieldTitle>
+      <KRFieldTitle>执行SQL语句未能获取到匹配的字段和参数，请重新检查SQL语句或自行配置。</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ProgressText4">
+      <CNFieldTitle>系统正在生成 HTML 文件</CNFieldTitle>
+      <TWFieldTitle>系統正在生成 HTML 檔</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>系统正在生成 HTML 文件</JPFieldTitle>
+      <KRFieldTitle>系統正在生成 HTML 檔</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ReportSourceFile_Filter">
+      <CNFieldTitle>报表文件 (*.rps)|*.rps</CNFieldTitle>
+      <TWFieldTitle>報表檔 (*.rps)|*.rps</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>报表文件 (*.rps)|*.rps</JPFieldTitle>
+      <KRFieldTitle>Tập tin báo biểu (* .rps) | * .rps</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ShowExpressionMenu_Catpion">
+      <CNFieldTitle>表达式</CNFieldTitle>
+      <TWFieldTitle>運算式</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>表达式</JPFieldTitle>
+      <KRFieldTitle>運算式</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label10">
+      <CNFieldTitle>字体大小</CNFieldTitle>
+      <TWFieldTitle>字體大小</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>字体大小</JPFieldTitle>
+      <KRFieldTitle>字體大小</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label3">
+      <CNFieldTitle>水平</CNFieldTitle>
+      <TWFieldTitle>水準</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>水平</JPFieldTitle>
+      <KRFieldTitle>tiêu chuẩn</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label4">
+      <CNFieldTitle>隐藏字段列表</CNFieldTitle>
+      <TWFieldTitle>隱藏欄位清單</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>隐藏字段列表</JPFieldTitle>
+      <KRFieldTitle>隱藏欄位清單</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text21">
+      <CNFieldTitle>数据集没有任何字段，请输入字段信息</CNFieldTitle>
+      <TWFieldTitle>資料集沒有任何欄位，請輸入欄位資訊</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>数据集没有任何字段，请输入字段信息</JPFieldTitle>
+      <KRFieldTitle>資料集沒有任何欄位，請輸入欄位資訊</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text22">
+      <CNFieldTitle>搜索参数失败，请检查存储过程的正确性。</CNFieldTitle>
+      <TWFieldTitle>搜索參數失敗，請檢查存儲過程的正確性。</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>搜索参数失败，请检查存储过程的正确性。</JPFieldTitle>
+      <KRFieldTitle>搜索參數失敗，請檢查存儲過程的正確性。</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text16">
+      <CNFieldTitle>SQL语句执行成功。</CNFieldTitle>
+      <TWFieldTitle>SQL語句執行成功。</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>SQL语句执行成功。</JPFieldTitle>
+      <KRFieldTitle>SQL câu từ chấp hành thành công .</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text31">
+      <CNFieldTitle>数据库执行错误，原因：{0}</CNFieldTitle>
+      <TWFieldTitle>資料庫執行錯誤，原因：</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>数据库执行错误，原因：{0}</JPFieldTitle>
+      <KRFieldTitle>資料庫執行錯誤，原因：</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text33">
+      <CNFieldTitle>报表导出失败，原因：{0}</CNFieldTitle>
+      <TWFieldTitle>報表匯出失敗，原因：{0}</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>报表导出失败，原因：{0}</JPFieldTitle>
+      <KRFieldTitle>báo biểu truyền xuất thất bại , nguyên nhân ; {0}</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text34">
+      <CNFieldTitle>已进行更新，是否保存当前更新？</CNFieldTitle>
+      <TWFieldTitle>該報表已進行更新，是否保存當前更新？</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>已进行更新，是否保存当前更新？</JPFieldTitle>
+      <KRFieldTitle>báo biểu này đã tiến hành nâng cấp , có phải bạn muốn lưu nâng cấp hiện tại ?</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text23">
+      <CNFieldTitle>获取查询元数据不成功，请手动设置参数后执行</CNFieldTitle>
+      <TWFieldTitle>獲取查詢中繼資料不成功，請手動設定參數後執行</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>获取查询元数据不成功，请手动设置参数后执行</JPFieldTitle>
+      <KRFieldTitle>获取查询元数据不成功，请手动设置参数后执行</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text25">
+      <CNFieldTitle>SQL语句执行失败，原因：{0}\n请检查您所选择的数据对象或使用自定义SQL进行配置</CNFieldTitle>
+      <TWFieldTitle>SQL語句執行失敗，原因：{0}\n請檢查您所選擇的資料物件或使用自訂SQL進行配置</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>SQL语句执行失败，原因：{0}\n请检查您所选择的数据对象或使用自定义SQL进行配置</JPFieldTitle>
+      <KRFieldTitle>SQL câu từ chấp hành thành công . Nguyên nhân : {0}\n  vui lòng kiểm tra lại dự liệu đã lựa chọn hoặc sự dụng SQL tự đặt để tiến hành bố trí .</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text32">
+      <CNFieldTitle>报表导出成功</CNFieldTitle>
+      <TWFieldTitle>報表匯出成功</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>报表导出成功</JPFieldTitle>
+      <KRFieldTitle>báo biểu truyền xuất thành công</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text35">
+      <CNFieldTitle>此表格布局样式需要一个数据集</CNFieldTitle>
+      <TWFieldTitle>此表格佈局樣式需要一個資料集</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>此表格布局样式需要一个数据集</JPFieldTitle>
+      <KRFieldTitle>mẫu bố cục của mẫu biểu này cần 1 tập dữ liệu</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text26">
+      <CNFieldTitle>请输入报表的名称</CNFieldTitle>
+      <TWFieldTitle>請輸入報表的名稱</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>请输入报表的名称</JPFieldTitle>
+      <KRFieldTitle>vui lòng nhập tên của báo biểu</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text27">
+      <CNFieldTitle>参数：{0}错误，原因：{1}</CNFieldTitle>
+      <TWFieldTitle>參數：{0}錯誤，原因：{1}</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>参数：{0}错误，原因：{1}</JPFieldTitle>
+      <KRFieldTitle>tham số ; {0} sai , nguyên nhân : {1}</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text37">
+      <CNFieldTitle>数据集的数据连接超时时间不能小于零</CNFieldTitle>
+      <TWFieldTitle>資料集的資料連線逾時時間不能小於零</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>数据集的数据连接超时时间不能小于零</JPFieldTitle>
+      <KRFieldTitle>数据集的数据连接超时时间不能小于零</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text38">
+      <CNFieldTitle>请选择一个数据集</CNFieldTitle>
+      <TWFieldTitle>請選擇一個資料集</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>请选择一个数据集</JPFieldTitle>
+      <KRFieldTitle>vui lòng chọn 1 tập tin dự liệu</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text39">
+      <CNFieldTitle>该报表已进行更新，是否放弃保存当前更新？</CNFieldTitle>
+      <TWFieldTitle>該報表已進行更新，是否放棄保存當前更新？</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>该报表已进行更新，是否放弃保存当前更新？</JPFieldTitle>
+      <KRFieldTitle>báo biểu này đã tiến hành nâng cấp , có phải bạn muốn  từ bỏ nâng cấp hiện tại ?</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text40">
+      <CNFieldTitle>连接失败</CNFieldTitle>
+      <TWFieldTitle>連線失敗</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>连接失败</JPFieldTitle>
+      <KRFieldTitle>连接失败</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text41">
+      <CNFieldTitle>删除此控件将删除相关参数的其他控件，且将参数的 Visible 属性置为 false。{0}是否确认删除？</CNFieldTitle>
+      <TWFieldTitle>刪除此控制項將刪除相關參數的其他控制項，且將參數的 Visible 屬性置為 false。{0}是否確認刪除？</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>删除此控件将删除相关参数的其他控件，且将参数的 Visible 属性置为 false。{0}是否确认删除？</JPFieldTitle>
+      <KRFieldTitle>xóa hạng mục kiểm soát này sẽ xóa mục kiểm soát khác của tham số liên quan , sẽ cài đặt tham số của Visible là False . {0} là xóa xác nhận không ?</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text24">
+      <CNFieldTitle>请选择您需要加入到数据集中的字段</CNFieldTitle>
+      <TWFieldTitle>請選擇您需要加入到資料集中的欄位</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>请选择您需要加入到数据集中的字段</JPFieldTitle>
+      <KRFieldTitle>vui lòng chọn cột vị cần tham</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text28">
+      <CNFieldTitle>报表参数配置成功</CNFieldTitle>
+      <TWFieldTitle>報表參數配置成功</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>报表参数配置成功</JPFieldTitle>
+      <KRFieldTitle>tham số báo biểu bố trí thành công</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text29">
+      <CNFieldTitle>报表参数配置失败，原因：{0}</CNFieldTitle>
+      <TWFieldTitle>報表參數配置失敗，原因：{0}</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>报表参数配置失败，原因：{0}</JPFieldTitle>
+      <KRFieldTitle>tham số báo biểu bố trí thất bại , nguyên nhân : {0}</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text30">
+      <CNFieldTitle>报表参数列表中已存在相同数据源切换控件的参数</CNFieldTitle>
+      <TWFieldTitle>報表參數清單中已存在相同資料來源切換控制項的參數</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>报表参数列表中已存在相同数据源切换控件的参数</JPFieldTitle>
+      <KRFieldTitle>danh sách tham số báo biểu đã tồn tại cùng 1 dự liệu đã được thay đổi để kiểm soát thông số</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text36">
+      <CNFieldTitle>请输入数据集名称</CNFieldTitle>
+      <TWFieldTitle>請輸入資料集名稱</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>请输入数据集名称</JPFieldTitle>
+      <KRFieldTitle>vui lòng truyền nhập tên dự liệu</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text43">
+      <CNFieldTitle>在参数布局设计界面中，已存在相同的参数控件</CNFieldTitle>
+      <TWFieldTitle>在參數佈局設計介面中，已存在相同的參數控制項</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>在参数布局设计界面中，已存在相同的参数控件</JPFieldTitle>
+      <KRFieldTitle>在參數佈局設計介面中，已存在相同的參數控制項</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text44">
+      <CNFieldTitle>参数：{0} 没有找到匹配的绑定字段：{1}！</CNFieldTitle>
+      <TWFieldTitle>參數：{0} 沒有找到比對的綁定欄位：{1}！</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>参数：{0} 没有找到匹配的绑定字段：{1}！</JPFieldTitle>
+      <KRFieldTitle>tham số : {0} không tìm thấy cột ràng buộc phù hợp : {1} !</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text42">
+      <CNFieldTitle>操作错误，原因：{0}</CNFieldTitle>
+      <TWFieldTitle>操作錯誤，原因：{0}</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>操作错误，原因：{0}</JPFieldTitle>
+      <KRFieldTitle>thao tác sai , nguyên nhân : {0}</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text45">
+      <CNFieldTitle>已存在“{0}”名称及“{1}”区域语言的资源！</CNFieldTitle>
+      <TWFieldTitle>已存在“{0}”名稱及“{1}”區域語言的資源！</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>已存在“{0}”名称及“{1}”区域语言的资源！</JPFieldTitle>
+      <KRFieldTitle>已存在“{0}”名稱及“{1}”區域語言的資源！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label11">
+      <CNFieldTitle>斜体</CNFieldTitle>
+      <TWFieldTitle>斜體</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>斜体</JPFieldTitle>
+      <KRFieldTitle>斜體</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label12">
+      <CNFieldTitle>下划线</CNFieldTitle>
+      <TWFieldTitle>底線</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>下划线</JPFieldTitle>
+      <KRFieldTitle>chỉ dưới</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label14">
+      <CNFieldTitle>居中对齐</CNFieldTitle>
+      <TWFieldTitle>居中對齊</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>居中对齐</JPFieldTitle>
+      <KRFieldTitle>đối chiều đủ khu giữa</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label15">
+      <CNFieldTitle>右对齐</CNFieldTitle>
+      <TWFieldTitle>右對齊</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>右对齐</JPFieldTitle>
+      <KRFieldTitle>右對齊</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label13">
+      <CNFieldTitle>左对齐</CNFieldTitle>
+      <TWFieldTitle>左對齊</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>左对齐</JPFieldTitle>
+      <KRFieldTitle>左對齊</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label18">
+      <CNFieldTitle>超时：</CNFieldTitle>
+      <TWFieldTitle>超時：</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>超时：</JPFieldTitle>
+      <KRFieldTitle>vượt thời gian :</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label21">
+      <CNFieldTitle>明细信息：</CNFieldTitle>
+      <TWFieldTitle>明細資訊：</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>明细信息：</JPFieldTitle>
+      <KRFieldTitle>明细信息：</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label22">
+      <CNFieldTitle>分组 - 明细下方：</CNFieldTitle>
+      <TWFieldTitle>分組 - 明細下方：</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>分组 - 明细下方：</JPFieldTitle>
+      <KRFieldTitle>phân tổ - hướng dưới chi tiết :</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label24">
+      <CNFieldTitle>行区域：</CNFieldTitle>
+      <TWFieldTitle>行區域：</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>行区域：</JPFieldTitle>
+      <KRFieldTitle>dòng khu vực :</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label25">
+      <CNFieldTitle>数据区域：</CNFieldTitle>
+      <TWFieldTitle>資料區域：</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>数据区域：</JPFieldTitle>
+      <KRFieldTitle>資料區域：</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label16">
+      <CNFieldTitle>数据源：</CNFieldTitle>
+      <TWFieldTitle>資料來源：</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>数据源：</JPFieldTitle>
+      <KRFieldTitle>資料來源：</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label17">
+      <CNFieldTitle>数据集：</CNFieldTitle>
+      <TWFieldTitle>資料集：</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>数据集：</JPFieldTitle>
+      <KRFieldTitle>資料集：</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label23">
+      <CNFieldTitle>查询：</CNFieldTitle>
+      <TWFieldTitle>查詢：</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>查询：</JPFieldTitle>
+      <KRFieldTitle>tìm kiếm :</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label28">
+      <CNFieldTitle>打印</CNFieldTitle>
+      <TWFieldTitle>列印</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>打印</JPFieldTitle>
+      <KRFieldTitle>in ấn</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label31">
+      <CNFieldTitle>固定表格样式</CNFieldTitle>
+      <TWFieldTitle>固定表格樣式</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>固定表格样式</JPFieldTitle>
+      <KRFieldTitle>kiểu mẫu biểu cố định</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label32">
+      <CNFieldTitle>活动表格样式</CNFieldTitle>
+      <TWFieldTitle>活動表格樣式</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>活动表格样式</JPFieldTitle>
+      <KRFieldTitle>mẫu mẫu biểu hoạt động</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label34">
+      <CNFieldTitle>附加数据库文件(&amp;H)</CNFieldTitle>
+      <TWFieldTitle>附加資料庫檔(&amp;H)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>附加数据库文件(&amp;H)</JPFieldTitle>
+      <KRFieldTitle>tập tin kho dự liệu kèm theo ( &amp;H)</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label35">
+      <CNFieldTitle>使用 Windows 身份认证(&amp;W)</CNFieldTitle>
+      <TWFieldTitle>使用 Windows 身份認證(&amp;W)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>使用 Windows 身份认证(&amp;W)</JPFieldTitle>
+      <KRFieldTitle>sự dụng giấy chứng minh Windows ( &amp; W )</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label26">
+      <CNFieldTitle>列区域：</CNFieldTitle>
+      <TWFieldTitle>欄區域：</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>列区域：</JPFieldTitle>
+      <KRFieldTitle>cột vị khu vực</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label27">
+      <CNFieldTitle>设计</CNFieldTitle>
+      <TWFieldTitle>設計</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>设计</JPFieldTitle>
+      <KRFieldTitle>tiết kế</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label30">
+      <CNFieldTitle>参数</CNFieldTitle>
+      <TWFieldTitle>參數</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>参数</JPFieldTitle>
+      <KRFieldTitle>tham số</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_XtraMessageBoxOkButtonText">
+      <CNFieldTitle>确定</CNFieldTitle>
+      <TWFieldTitle>確定</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>确定</JPFieldTitle>
+      <KRFieldTitle>xác nhận</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DesingerCenterHorizontallyMenu_Caption">
+      <CNFieldTitle>水平居中(&amp;H)</CNFieldTitle>
+      <TWFieldTitle>水準居中(&amp;H)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>水平居中(&amp;H)</JPFieldTitle>
+      <KRFieldTitle>tiêu chuẩn trong khu (&amp;H)</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_XtraMessageBoxCancelButtonText">
+      <CNFieldTitle>取消</CNFieldTitle>
+      <TWFieldTitle>取消</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>取消</JPFieldTitle>
+      <KRFieldTitle>hủy</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_XtraMessageBoxNoButtonText">
+      <CNFieldTitle>否</CNFieldTitle>
+      <TWFieldTitle>否</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>否</JPFieldTitle>
+      <KRFieldTitle>không</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label33">
+      <CNFieldTitle>选择或输入数据库名称(&amp;I)</CNFieldTitle>
+      <TWFieldTitle>選擇或輸入資料庫名稱(&amp;I)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>选择或输入数据库名称(&amp;I)</JPFieldTitle>
+      <KRFieldTitle>選擇或輸入資料庫名稱(&amp;I)</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_XtraMessageBoxYesButtonText">
+      <CNFieldTitle>是</CNFieldTitle>
+      <TWFieldTitle>是</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>是</JPFieldTitle>
+      <KRFieldTitle>đúng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DesingerAlignBottomMenu_Caption">
+      <CNFieldTitle>底部对齐(&amp;B)</CNFieldTitle>
+      <TWFieldTitle>底部對齊(&amp;B)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>底部对齐(&amp;B)</JPFieldTitle>
+      <KRFieldTitle>đối chiếu đủ phần dưới ( &amp;B )</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DesingerAlignLeftMenu_Caption">
+      <CNFieldTitle>左对齐(&amp;L)</CNFieldTitle>
+      <TWFieldTitle>左對齊(&amp;L)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>左对齐(&amp;L)</JPFieldTitle>
+      <KRFieldTitle>左對齊(&amp;L)</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DesingerAlignToGridMenu_Caption">
+      <CNFieldTitle>对齐到网格(&amp;G)</CNFieldTitle>
+      <TWFieldTitle>對齊到欄位(&amp;G)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>对齐到网格(&amp;G)</JPFieldTitle>
+      <KRFieldTitle>đối chiếu đến mạng ( &amp;G )</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DesingerAlignTopMenu_Caption">
+      <CNFieldTitle>顶端对齐(&amp;S)</CNFieldTitle>
+      <TWFieldTitle>頂端對齊(&amp;S)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>顶端对齐(&amp;S)</JPFieldTitle>
+      <KRFieldTitle>đối chiếu đầy đủ đoạn đầu ( &amp; s )</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DesingerAlignVerticalCentersMenu_Caption">
+      <CNFieldTitle>居中对齐(&amp;C)</CNFieldTitle>
+      <TWFieldTitle>居中對齊(&amp;C)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>居中对齐(&amp;C)</JPFieldTitle>
+      <KRFieldTitle>đối chiều đủ khu giữa ( &amp; C )</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DesingerBringToFrontMenu_Caption">
+      <CNFieldTitle>置于顶层(&amp;B)</CNFieldTitle>
+      <TWFieldTitle>置於頂層(&amp;B)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>置于顶层(&amp;B)</JPFieldTitle>
+      <KRFieldTitle>置於頂層(&amp;B)</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DesingerCenterVerticallyMenu_Caption">
+      <CNFieldTitle>垂直居中(&amp;V)</CNFieldTitle>
+      <TWFieldTitle>垂直居中(&amp;V)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>垂直居中(&amp;V)</JPFieldTitle>
+      <KRFieldTitle>dọc ở giữa ( @ v )</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label19">
+      <CNFieldTitle>显示样式：</CNFieldTitle>
+      <TWFieldTitle>顯示樣式：</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>显示样式：</JPFieldTitle>
+      <KRFieldTitle>顯示樣式：</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label20">
+      <CNFieldTitle>分组 - 明细上方：</CNFieldTitle>
+      <TWFieldTitle>分組 - 明細上方：</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>分组 - 明细上方：</JPFieldTitle>
+      <KRFieldTitle>phân tổ - hướng trên chi tiết :</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label29">
+      <CNFieldTitle>字段</CNFieldTitle>
+      <TWFieldTitle>欄位</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>字段</JPFieldTitle>
+      <KRFieldTitle>cột vị</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label36">
+      <CNFieldTitle>使用 SQL Server 身份认证(&amp;Q)</CNFieldTitle>
+      <TWFieldTitle>使用 SQL Server 身份認證(&amp;Q)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>使用 SQL Server 身份认证(&amp;Q)</JPFieldTitle>
+      <KRFieldTitle>sự dụng giấy chứng minh SQL Server ( &amp; Q )</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DesingerAlignHorizontalCentersMenu_Caption">
+      <CNFieldTitle>中间对齐(&amp;M)</CNFieldTitle>
+      <TWFieldTitle>中間對齊(&amp;M)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>中间对齐(&amp;M)</JPFieldTitle>
+      <KRFieldTitle>中間對齊(&amp;M)</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DesingerAlignMenu_Caption">
+      <CNFieldTitle>对齐(&amp;A)</CNFieldTitle>
+      <TWFieldTitle>對齊(&amp;A)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>对齐(&amp;A)</JPFieldTitle>
+      <KRFieldTitle>đối chiếu đầy đủ ( &amp;A )</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DesingerAlignRightMenu_Caption">
+      <CNFieldTitle>右对齐(&amp;R)</CNFieldTitle>
+      <TWFieldTitle>右對齊(&amp;R)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>右对齐(&amp;R)</JPFieldTitle>
+      <KRFieldTitle>右對齊(&amp;R)</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DesingerDeleteMenu_Caption">
+      <CNFieldTitle>删除(&amp;D)</CNFieldTitle>
+      <TWFieldTitle>删除(&amp;D)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>删除(&amp;D)</JPFieldTitle>
+      <KRFieldTitle>xóa ( &amp; D )</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DesingerRedoMenu_Caption">
+      <CNFieldTitle>重做(&amp;R)</CNFieldTitle>
+      <TWFieldTitle>重做(&amp;R)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>重做(&amp;R)</JPFieldTitle>
+      <KRFieldTitle>重做(&amp;R)</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DesingerCenterMenu_Caption">
+      <CNFieldTitle>在窗体中居中(&amp;C)</CNFieldTitle>
+      <TWFieldTitle>在表單中居中(&amp;C)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>在窗体中居中(&amp;C)</JPFieldTitle>
+      <KRFieldTitle>在表單中居中(&amp;C)</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DesingerReplaceMenu_Caption">
+      <CNFieldTitle>映射参数(&amp;M)</CNFieldTitle>
+      <TWFieldTitle>映射參數(&amp;M)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>映射参数(&amp;M)</JPFieldTitle>
+      <KRFieldTitle>映射參數(&amp;M)</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DesingerSendToBackMenu_Caption">
+      <CNFieldTitle>置于底层(&amp;S)</CNFieldTitle>
+      <TWFieldTitle>置於底層(&amp;S)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>置于底层(&amp;S)</JPFieldTitle>
+      <KRFieldTitle>置於底層(&amp;S)</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DesingerSizeToControlMenu_Caption">
+      <CNFieldTitle>两者(&amp;B)</CNFieldTitle>
+      <TWFieldTitle>兩者(&amp;B)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>两者(&amp;B)</JPFieldTitle>
+      <KRFieldTitle>hai người ( &amp; B )</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DesingerSizeMenu_Caption">
+      <CNFieldTitle>使大小相同(&amp;M)</CNFieldTitle>
+      <TWFieldTitle>使大小相同(&amp;M)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>使大小相同(&amp;M)</JPFieldTitle>
+      <KRFieldTitle>làm cho lơn nhỏ tương đồng ( &amp; M )</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DesingerSizeToControlWidthMenu_Caption">
+      <CNFieldTitle>宽度(&amp;W)</CNFieldTitle>
+      <TWFieldTitle>寬度(&amp;W)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>宽度(&amp;W)</JPFieldTitle>
+      <KRFieldTitle>độ rộng ( &amp; w )</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DesingerBringMenu_Caption">
+      <CNFieldTitle>顺序(&amp;O)</CNFieldTitle>
+      <TWFieldTitle>順序(&amp;O)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>顺序(&amp;O)</JPFieldTitle>
+      <KRFieldTitle>thứ tự ( &amp;O )</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DesingerSizeToControlHeightMenu_Caption">
+      <CNFieldTitle>高度(&amp;H)</CNFieldTitle>
+      <TWFieldTitle>高度(&amp;H)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>高度(&amp;H)</JPFieldTitle>
+      <KRFieldTitle>độ cao ( &amp;h )</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DesingerSpaceConcatenateMenu_Caption">
+      <CNFieldTitle>移除(&amp;R)</CNFieldTitle>
+      <TWFieldTitle>移除(&amp;R)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>移除(&amp;R)</JPFieldTitle>
+      <KRFieldTitle>Hủy bỏ(&amp;R)</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DesingerSpaceIncreaseMenu_Caption">
+      <CNFieldTitle>递增(&amp;I)</CNFieldTitle>
+      <TWFieldTitle>遞增(&amp;I)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>递增(&amp;I)</JPFieldTitle>
+      <KRFieldTitle>thêm ( &amp;I )</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DesingerSpaceMakeEqualMenu_Caption">
+      <CNFieldTitle>相同间隔(&amp;E)</CNFieldTitle>
+      <TWFieldTitle>相同間隔(&amp;E)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>相同间隔(&amp;E)</JPFieldTitle>
+      <KRFieldTitle>相同間隔(&amp;E)</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DesingerUndoMenu_Caption">
+      <CNFieldTitle>撤消(&amp;U)</CNFieldTitle>
+      <TWFieldTitle>取消(&amp;U)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>撤消(&amp;U)</JPFieldTitle>
+      <KRFieldTitle>hủy bỏ ( &amp; u )</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label38">
+      <CNFieldTitle>描述</CNFieldTitle>
+      <TWFieldTitle>描述</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>描述</JPFieldTitle>
+      <KRFieldTitle>miêu tả</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DesingerHorizMenu_Caption">
+      <CNFieldTitle>水平间隔(&amp;H)</CNFieldTitle>
+      <TWFieldTitle>水準間隔(&amp;H)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>水平间隔(&amp;H)</JPFieldTitle>
+      <KRFieldTitle>tiêu chuẩn ngăn (&amp;H)</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DesingerSizeToGridMenu_Caption">
+      <CNFieldTitle>按网格调整大小(&amp;D)</CNFieldTitle>
+      <TWFieldTitle>按欄位調整大小(&amp;D)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>按网格调整大小(&amp;D)</JPFieldTitle>
+      <KRFieldTitle>theo quy cách mạng điều chỉnh lớn nhỏ (&amp;D)</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DesingerVertMenu_Caption">
+      <CNFieldTitle>垂直间隔(&amp;V)</CNFieldTitle>
+      <TWFieldTitle>垂直間隔(&amp;V)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>垂直间隔(&amp;V)</JPFieldTitle>
+      <KRFieldTitle>ngăn cách chiều dọc ( @v )</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label37">
+      <CNFieldTitle>&lt;请选择{0}&gt;</CNFieldTitle>
+      <TWFieldTitle>&lt;請選擇{0}&gt;</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>&lt;请选择{0}&gt;</JPFieldTitle>
+      <KRFieldTitle>vui lòng chọn</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DesingerSpaceDecreaseMenu_Caption">
+      <CNFieldTitle>递减(&amp;D)</CNFieldTitle>
+      <TWFieldTitle>遞減(&amp;D)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>递减(&amp;D)</JPFieldTitle>
+      <KRFieldTitle>giảm  ( &amp;d)</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label43">
+      <CNFieldTitle>无法显示</CNFieldTitle>
+      <TWFieldTitle>無法顯示</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>无法显示</JPFieldTitle>
+      <KRFieldTitle>無法顯示</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text50">
+      <CNFieldTitle>设计容器只能为Form类型！</CNFieldTitle>
+      <TWFieldTitle>設計容器只能為Form類型！</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>设计容器只能为Form类型！</JPFieldTitle>
+      <KRFieldTitle>dụng cụ thiết kế chỉ có thể là loại hình Form !</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label46">
+      <CNFieldTitle>空记录</CNFieldTitle>
+      <TWFieldTitle>空記錄</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>空记录</JPFieldTitle>
+      <KRFieldTitle>ghi nhận trống</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label39">
+      <CNFieldTitle>系统载入数据中，请等待......</CNFieldTitle>
+      <TWFieldTitle>系統載入資料中，請稍後......</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>系统载入数据中，请等待......</JPFieldTitle>
+      <KRFieldTitle>系统载入数据中，请等待......</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label41">
+      <CNFieldTitle>自定数据</CNFieldTitle>
+      <TWFieldTitle>自定資料</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>自定数据</JPFieldTitle>
+      <KRFieldTitle>自定資料</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label42">
+      <CNFieldTitle>数据集</CNFieldTitle>
+      <TWFieldTitle>資料集</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>数据集</JPFieldTitle>
+      <KRFieldTitle>資料集</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text46">
+      <CNFieldTitle>报表生成错误，原因：{0}</CNFieldTitle>
+      <TWFieldTitle>報表生成錯誤，原因：{0}</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>报表生成错误，原因：{0}</JPFieldTitle>
+      <KRFieldTitle>báo biểu hoàn thành sai lệch , nguyên nhân : {0}</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text51">
+      <CNFieldTitle>打印样式文件 {0} 读取失败，请检查！</CNFieldTitle>
+      <TWFieldTitle>列印範本檔案{0}讀取失敗，請檢查！</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>打印样式文件 {0} 读取失败，请检查！</JPFieldTitle>
+      <KRFieldTitle>打印样式文件 {0} 读取失败，请检查！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text52">
+      <CNFieldTitle>是否重新手动设置参数后执行？</CNFieldTitle>
+      <TWFieldTitle>是否重新手動設定參數後執行？</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>是否重新手动设置参数后执行？</JPFieldTitle>
+      <KRFieldTitle>是否重新手动设置参数后执行？</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text53">
+      <CNFieldTitle>获取查询元数据不成功。</CNFieldTitle>
+      <TWFieldTitle>獲取查詢中繼資料不成功。</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>获取查询元数据不成功。</JPFieldTitle>
+      <KRFieldTitle>lấy dự liệu giữa tìm kiếm không thành công .</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text54">
+      <CNFieldTitle>未能获取到匹配的字段和参数，请重新检查SQL语句或自行配置。</CNFieldTitle>
+      <TWFieldTitle>未能獲取到比對的欄位和參數，請重新檢查SQL語句或自行配置。</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>未能获取到匹配的字段和参数，请重新检查SQL语句或自行配置。</JPFieldTitle>
+      <KRFieldTitle>未能获取到匹配的字段和参数，请重新检查SQL语句或自行配置。</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="AddIterativeMenu_Caption">
+      <CNFieldTitle>添加迭代列</CNFieldTitle>
+      <TWFieldTitle>增加反覆運算列</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>添加迭代列</JPFieldTitle>
+      <KRFieldTitle>添加迭代列</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CopyIterativeMenu_Caption">
+      <CNFieldTitle>复制当前迭代列</CNFieldTitle>
+      <TWFieldTitle>複製當前反覆運算列</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>复制当前迭代列</JPFieldTitle>
+      <KRFieldTitle>sao chép cột vận toán hiện tại lặp di lặp lại</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label44">
+      <CNFieldTitle>待选区域：</CNFieldTitle>
+      <TWFieldTitle>待選區域：</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>待选区域：</JPFieldTitle>
+      <KRFieldTitle>khu vực chờ chonj :</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DesingerTabOrderMenu_Caption">
+      <CNFieldTitle>Tab 键顺序(&amp;T)</CNFieldTitle>
+      <TWFieldTitle>Tab 鍵順序(&amp;T)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>Tab 键顺序(&amp;T)</JPFieldTitle>
+      <KRFieldTitle>Tab phím thứ tự ( &amp; T )</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label47">
+      <CNFieldTitle>报表打印样式设计</CNFieldTitle>
+      <TWFieldTitle>報表列印樣式設計</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>报表打印样式设计</JPFieldTitle>
+      <KRFieldTitle>thiết kế mẫu danh mục báo cáo</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text56">
+      <CNFieldTitle>数据集执行错误，缺少参数：</CNFieldTitle>
+      <TWFieldTitle>資料集執行錯誤，缺少參數：</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>数据集执行错误，缺少参数：</JPFieldTitle>
+      <KRFieldTitle>資料集執行錯誤，缺少參數：</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text57">
+      <CNFieldTitle>已取消生成报表。</CNFieldTitle>
+      <TWFieldTitle>已取消生成報表。</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>已取消生成报表。</JPFieldTitle>
+      <KRFieldTitle>已取消生成報表。</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="LoadLayoutMenu_Caption">
+      <CNFieldTitle>从文件加载数据</CNFieldTitle>
+      <TWFieldTitle>從檔載入資料</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>从文件加载数据</JPFieldTitle>
+      <KRFieldTitle>從檔載入資料</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label45">
+      <CNFieldTitle>隐藏字段列表</CNFieldTitle>
+      <TWFieldTitle>隱藏欄位清單</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>隐藏字段列表</JPFieldTitle>
+      <KRFieldTitle>隱藏欄位清單</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SaveLayoutMenu_Caption">
+      <CNFieldTitle>保存到文件</CNFieldTitle>
+      <TWFieldTitle>保存到檔</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>保存到文件</JPFieldTitle>
+      <KRFieldTitle>lưu trữ đến tập tin</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text58">
+      <CNFieldTitle>报表数据文件导入错误，原因：{0}</CNFieldTitle>
+      <TWFieldTitle>報表資料檔案匯入錯誤，原因：{0}</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>报表数据文件导入错误，原因：{0}</JPFieldTitle>
+      <KRFieldTitle>tập tin dự liệu báo biểu truyền nhập sai lệch , nguyên nhân : {0}</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ReportDataFile_Filter">
+      <CNFieldTitle>报表数据文件 (*.rpd)|*.rpd</CNFieldTitle>
+      <TWFieldTitle>報表資料檔案 (*.rpd)|*.rpd</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>报表数据文件 (*.rpd)|*.rpd</JPFieldTitle>
+      <KRFieldTitle>Tập tin dữ liệu báo biểu (* .rpd) | * .rpd</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label40">
+      <CNFieldTitle>默认</CNFieldTitle>
+      <TWFieldTitle>預設</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>默认</JPFieldTitle>
+      <KRFieldTitle>默认</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text47">
+      <CNFieldTitle>SQL查询脚本执行错误，原因：{0}</CNFieldTitle>
+      <TWFieldTitle>SQL查詢腳本執行錯誤，原因：{0}</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>SQL查询脚本执行错误，原因：{0}</JPFieldTitle>
+      <KRFieldTitle>SQL tìm kiếm chấp hành bị sai , nguyên nhân : {0}</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text48">
+      <CNFieldTitle>外部数据获取错误，原因：{0}</CNFieldTitle>
+      <TWFieldTitle>外部資料獲取錯誤，原因：{0}</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>外部数据获取错误，原因：{0}</JPFieldTitle>
+      <KRFieldTitle>外部資料獲取錯誤，原因：{0}</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text49">
+      <CNFieldTitle>设计时错误：{0}</CNFieldTitle>
+      <TWFieldTitle>設計時錯誤：{0}</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>设计时错误：{0}</JPFieldTitle>
+      <KRFieldTitle>thiết kế sai thời gian : {0}</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text55">
+      <CNFieldTitle>原因：{0}</CNFieldTitle>
+      <TWFieldTitle>原因：{0}</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>原因：{0}</JPFieldTitle>
+      <KRFieldTitle>原因：{0}</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_Total">
+      <CNFieldTitle>合计</CNFieldTitle>
+      <TWFieldTitle>合計</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>合计</JPFieldTitle>
+      <KRFieldTitle>tổng số</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_FilterShowAll">
+      <CNFieldTitle>显示全部</CNFieldTitle>
+      <TWFieldTitle>顯示全部</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>显示全部</JPFieldTitle>
+      <KRFieldTitle>顯示全部</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text60">
+      <CNFieldTitle>报表正在生成暂时不能退出，请耐心等待。</CNFieldTitle>
+      <TWFieldTitle>報表正在生成暂時不能退出，請耐心等待。</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>报表正在生成暂时不能退出，请耐心等待。</JPFieldTitle>
+      <KRFieldTitle>báo biểu đang hình thành , tạm thời không thể thoát ra , vui lòng chờ đợi trong giay lát</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text62">
+      <CNFieldTitle>报表成功导出到 Excel 文件，是否打开该文件？</CNFieldTitle>
+      <TWFieldTitle>報表成功匯出到 Excel 檔，是否打開該檔？</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>报表成功导出到 Excel 文件，是否打开该文件？</JPFieldTitle>
+      <KRFieldTitle>báo biểu thành công , chuyển sang tập tin Excel , có muốn mở tập tin ra không ?</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text59">
+      <CNFieldTitle>如需要空值请选择“空值”复选框。</CNFieldTitle>
+      <TWFieldTitle>如需要空值請選擇“空值”核取方塊。</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>如需要空值请选择“空值”复选框。</JPFieldTitle>
+      <KRFieldTitle>nếu muốn cần làm trống giá trị cần chọn '' giá trị trống '' tích hợp modum</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text61">
+      <CNFieldTitle>报表导出 Excel 文件错误，原因{0}</CNFieldTitle>
+      <TWFieldTitle>報表匯出 Excel 檔錯誤，原因{0}</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>报表导出 Excel 文件错误，原因{0}</JPFieldTitle>
+      <KRFieldTitle>báo biểu chuyền xuất tập tin Exlel đã sai , nguyên nhân {0}</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label51">
+      <CNFieldTitle>格式</CNFieldTitle>
+      <TWFieldTitle>格式</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>格式</JPFieldTitle>
+      <KRFieldTitle>Định dạng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label52">
+      <CNFieldTitle>历史参数...</CNFieldTitle>
+      <TWFieldTitle>歷史參數...</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>历史参数...</JPFieldTitle>
+      <KRFieldTitle>lịch sử tham số ...</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label48">
+      <CNFieldTitle>小数位数</CNFieldTitle>
+      <TWFieldTitle>小數位數</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>小数位数</JPFieldTitle>
+      <KRFieldTitle>小數位數</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label50">
+      <CNFieldTitle>布局</CNFieldTitle>
+      <TWFieldTitle>佈局</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>布局</JPFieldTitle>
+      <KRFieldTitle>bố cục</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_GrandTotal">
+      <CNFieldTitle>总计</CNFieldTitle>
+      <TWFieldTitle>總計</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>总计</JPFieldTitle>
+      <KRFieldTitle>總計</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label49">
+      <CNFieldTitle>自定义</CNFieldTitle>
+      <TWFieldTitle>自訂</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>自定义</JPFieldTitle>
+      <KRFieldTitle>tự định nghĩa</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label53">
+      <CNFieldTitle>历史布局...</CNFieldTitle>
+      <TWFieldTitle>歷史佈局...</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>历史布局...</JPFieldTitle>
+      <KRFieldTitle>lịch sử bố cục ....</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label54">
+      <CNFieldTitle>历史格式...</CNFieldTitle>
+      <TWFieldTitle>歷史格式...</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>历史格式...</JPFieldTitle>
+      <KRFieldTitle>lịch sử định dạng ....</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MyLocalizer_FilterShowBlanks">
+      <CNFieldTitle>显示空白项</CNFieldTitle>
+      <TWFieldTitle>顯示空白項</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>显示空白项</JPFieldTitle>
+      <KRFieldTitle>顯示空白項</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ExportMenu_Caption">
+      <CNFieldTitle>导出 Excel (简洁样式导出)</CNFieldTitle>
+      <TWFieldTitle>匯出Excel(簡潔樣式匯出，速度較快)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>导出 Excel 文件</JPFieldTitle>
+      <KRFieldTitle>导出Excel文件</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label56">
+      <CNFieldTitle>样式</CNFieldTitle>
+      <TWFieldTitle>樣式</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>样式</JPFieldTitle>
+      <KRFieldTitle>樣式</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PrintMenu_Caption">
+      <CNFieldTitle>打印预览</CNFieldTitle>
+      <TWFieldTitle>預覽列印</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>打印预览</JPFieldTitle>
+      <KRFieldTitle>預覽列印</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DoSettingMenu_Caption">
+      <CNFieldTitle>设置</CNFieldTitle>
+      <TWFieldTitle>設定</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>设置</JPFieldTitle>
+      <KRFieldTitle>cài đặt</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UserSettingMenu_Caption">
+      <CNFieldTitle>自定义设置方案</CNFieldTitle>
+      <TWFieldTitle>自訂設定方案</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>自定义设置方案</JPFieldTitle>
+      <KRFieldTitle>自定义设置方案</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DoRestoreSettingMenu_Caption">
+      <CNFieldTitle>还原</CNFieldTitle>
+      <TWFieldTitle>還原</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>还原</JPFieldTitle>
+      <KRFieldTitle>khôi phục</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MessageBox_Text63">
+      <CNFieldTitle>还原操作将删除原有的设置，是否进行还原？</CNFieldTitle>
+      <TWFieldTitle>還原操作將刪除原有的設定，是否進行還原？</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>还原操作将删除原有的设置，是否进行还原？</JPFieldTitle>
+      <KRFieldTitle>还原操作将删除原有的设置，是否进行还原？</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ShowPropertiesMenu_Caption">
+      <CNFieldTitle>属性(&amp;P)</CNFieldTitle>
+      <TWFieldTitle>屬性(&amp;P)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>属性(&amp;P)</JPFieldTitle>
+      <KRFieldTitle>thuộc tính ( &amp; P )</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="NotCloseMe">
+      <CNFieldTitle>除此以外全部关闭</CNFieldTitle>
+      <TWFieldTitle>除此以外全部關閉</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>除此以外全部关闭</JPFieldTitle>
+      <KRFieldTitle>ngoại trừ cái này , toàn bộ điều đóng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="RelationReports">
+      <CNFieldTitle>{0}报表</CNFieldTitle>
+      <TWFieldTitle>{0}報表</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>{0}报表</JPFieldTitle>
+      <KRFieldTitle>{0} báo biểu</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Relation">
+      <CNFieldTitle>穿透</CNFieldTitle>
+      <TWFieldTitle>穿透</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>穿透</JPFieldTitle>
+      <KRFieldTitle>xuyên qua</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Exists">
+      <CNFieldTitle>已存在</CNFieldTitle>
+      <TWFieldTitle>已存在</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>已存在</JPFieldTitle>
+      <KRFieldTitle>Exist</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FieldName">
+      <CNFieldTitle>列名称</CNFieldTitle>
+      <TWFieldTitle>欄名稱</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>列名称</JPFieldTitle>
+      <KRFieldTitle>tên dồng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="StyleSettingMenu_Caption">
+      <CNFieldTitle>数据项标记</CNFieldTitle>
+      <TWFieldTitle>資料項標記</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>数据项标记</JPFieldTitle>
+      <KRFieldTitle>数据项标记</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="TotalSettingMenu_Caption">
+      <CNFieldTitle>数据小计项</CNFieldTitle>
+      <TWFieldTitle>資料小計項</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>数据小计项</JPFieldTitle>
+      <KRFieldTitle>数据小计项</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SelectInstead">
+      <CNFieldTitle>反选</CNFieldTitle>
+      <TWFieldTitle>反選</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>反选</JPFieldTitle>
+      <KRFieldTitle>chọn lại</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SelectNone">
+      <CNFieldTitle>全不选</CNFieldTitle>
+      <TWFieldTitle>全不選</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>全不选</JPFieldTitle>
+      <KRFieldTitle>toàn bộ không chọn</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FormatSettingMenu_Caption">
+      <CNFieldTitle>数据项小数位</CNFieldTitle>
+      <TWFieldTitle>資料項目小數位</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>数据项小数位</JPFieldTitle>
+      <KRFieldTitle>資料項目小數位</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SelectAll">
+      <CNFieldTitle>全选</CNFieldTitle>
+      <TWFieldTitle>全選</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>全选</JPFieldTitle>
+      <KRFieldTitle>chọn toàn bộ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="IsTotalsVisibility">
+      <CNFieldTitle>标记小计</CNFieldTitle>
+      <TWFieldTitle>標記小計</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>标记小计</JPFieldTitle>
+      <KRFieldTitle>dánh dấu tinh toán lẻ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="IsSaveToDB">
+      <CNFieldTitle>是否保存到数据库?</CNFieldTitle>
+      <TWFieldTitle>是否保存到資料庫?</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>是否保存到数据库?</JPFieldTitle>
+      <KRFieldTitle>có phải bảo lưu đến kho dự liệu ?</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="NotDBFieldName">
+      <CNFieldTitle>非数据字段</CNFieldTitle>
+      <TWFieldTitle>非資料欄位</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>非数据字段</JPFieldTitle>
+      <KRFieldTitle>非数据字段</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Excel2003File_Filter">
+      <CNFieldTitle>Microsoft Office Excel 工作簿 (*.xls)|*.xls</CNFieldTitle>
+      <TWFieldTitle>Microsoft Office Excel 工作簿 (*.xls)|*.xls</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>Microsoft Office Excel 工作簿 (*.xls)|*.xls</JPFieldTitle>
+      <KRFieldTitle>Microsoft Office Excel sổ công việc (* .xls) | * .xls</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CloseMe">
+      <CNFieldTitle>关闭</CNFieldTitle>
+      <TWFieldTitle>關閉</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>关闭</JPFieldTitle>
+      <KRFieldTitle>đóng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="LayoutName">
+      <CNFieldTitle>布局名称</CNFieldTitle>
+      <TWFieldTitle>佈局名稱</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>布局名称</JPFieldTitle>
+      <KRFieldTitle>tên bố cục</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UI_Label55">
+      <CNFieldTitle>历史样式...</CNFieldTitle>
+      <TWFieldTitle>歷史樣式...</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>历史样式...</JPFieldTitle>
+      <KRFieldTitle>dạng llịch sử</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ProgressText21">
+      <CNFieldTitle>系统正在应用设置方案</CNFieldTitle>
+      <TWFieldTitle>系統正在應用設定方案</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>系统正在应用设置方案</JPFieldTitle>
+      <KRFieldTitle>系统正在应用设置方案</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CloseAll">
+      <CNFieldTitle>全部关闭</CNFieldTitle>
+      <TWFieldTitle>全部關閉</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>全部关闭</JPFieldTitle>
+      <KRFieldTitle>đóng toàn bộ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="TreeListRootText">
+      <CNFieldTitle>全部</CNFieldTitle>
+      <TWFieldTitle>全部</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>全部</JPFieldTitle>
+      <KRFieldTitle>toàn bộ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="RTF_ExportSuccess">
+      <CNFieldTitle>RTF文件导出成功</CNFieldTitle>
+      <TWFieldTitle>RTF檔案匯出成功</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>RTF文件导出成功</JPFieldTitle>
+      <KRFieldTitle>RTF truyền ra thành công</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="HandNull">
+      <CNFieldTitle>传空值</CNFieldTitle>
+      <TWFieldTitle>值空值</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>传空值</JPFieldTitle>
+      <KRFieldTitle>值空值</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="HandSpecialNoData">
+      <CNFieldTitle>传特殊字符&lt;@NoData@&gt;</CNFieldTitle>
+      <TWFieldTitle>傳特殊字元&lt;@NoData@&gt;</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>传特殊字符&lt;@NoData@&gt;</JPFieldTitle>
+      <KRFieldTitle>truyền dấu đặt biệt &lt;@ NoData @&gt;</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="NoSet">
+      <CNFieldTitle>未设置</CNFieldTitle>
+      <TWFieldTitle>未設定</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>未设置</JPFieldTitle>
+      <KRFieldTitle>未设置</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Vertical">
+      <CNFieldTitle>垂直</CNFieldTitle>
+      <TWFieldTitle>垂直</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>垂直</JPFieldTitle>
+      <KRFieldTitle>dọc</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="IsSaveEmptyData">
+      <CNFieldTitle>内容为空，是否确认上传?</CNFieldTitle>
+      <TWFieldTitle>內容為空，是否確認上傳?</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>内容为空，是否确认上传?</JPFieldTitle>
+      <KRFieldTitle>nội dung là trống , có xác định muốn truyền lên không ?</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Direction">
+      <CNFieldTitle>方向</CNFieldTitle>
+      <TWFieldTitle>方向</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>方向</JPFieldTitle>
+      <KRFieldTitle>phương hướng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="HandAll">
+      <CNFieldTitle>传所有</CNFieldTitle>
+      <TWFieldTitle>傳所有</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>传所有</JPFieldTitle>
+      <KRFieldTitle>truyền tất cả</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="HandEmpty">
+      <CNFieldTitle>传空字符串</CNFieldTitle>
+      <TWFieldTitle>傳空字元串</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>传空字符串</JPFieldTitle>
+      <KRFieldTitle>chuyển chuổi dấu</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="HandSpecialNoSelected">
+      <CNFieldTitle>传特殊字符&lt;@NoSelectData@&gt;</CNFieldTitle>
+      <TWFieldTitle>傳特殊字元&lt;@NoSelectData@&gt;</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>传特殊字符&lt;@NoSelectData@&gt;</JPFieldTitle>
+      <KRFieldTitle>truyền dấu đặt biệt &lt;@ NoSelectData @&gt;</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="NullValue">
+      <CNFieldTitle>空值</CNFieldTitle>
+      <TWFieldTitle>空值</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>空值</JPFieldTitle>
+      <KRFieldTitle>bảng trống</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="LinearGraph">
+      <CNFieldTitle>线性图</CNFieldTitle>
+      <TWFieldTitle>折線圖</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>线性图</JPFieldTitle>
+      <KRFieldTitle>折線圖</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="IsMaterialCodeField">
+      <CNFieldTitle>是否货号列</CNFieldTitle>
+      <TWFieldTitle>是否貨號欄</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>是否货号列</JPFieldTitle>
+      <KRFieldTitle>是否货号列</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="OpenMaterialProperty">
+      <CNFieldTitle>查看货品属性</CNFieldTitle>
+      <TWFieldTitle>查看貨品屬性</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>查看货品属性</JPFieldTitle>
+      <KRFieldTitle>tìm xem thuộc tính sản phẩm</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="JXCSpecialSetCategory">
+      <CNFieldTitle>进销存特殊设置</CNFieldTitle>
+      <TWFieldTitle>進銷存特殊設定</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>进销存特殊设置</JPFieldTitle>
+      <KRFieldTitle>进销存特殊设置</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MaterialCode_FieldName">
+      <CNFieldTitle>货号列名</CNFieldTitle>
+      <TWFieldTitle>貨號欄名</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>货号列名</JPFieldTitle>
+      <KRFieldTitle>货号列名</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="AnalysisChart">
+      <CNFieldTitle>分析图表</CNFieldTitle>
+      <TWFieldTitle>分析圖表</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>分析图表</JPFieldTitle>
+      <KRFieldTitle>biểu đồ phân tích</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ExportToExcel">
+      <CNFieldTitle>导出 Excel (原有样式导出)</CNFieldTitle>
+      <TWFieldTitle>匯出Excel(較穩定，但速度可能較慢)</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>导出到Excel（较稳定，但速度可能较慢）</JPFieldTitle>
+      <KRFieldTitle>导出Excel(较稳定，但速度可能较慢)</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="LoadingReportPrintStyle">
+      <CNFieldTitle>正在加载自定义打印样式</CNFieldTitle>
+      <TWFieldTitle>正在載入自訂列印樣式</TWFieldTitle>
+      <ENFieldTitle>正在加载自定义打印样式</ENFieldTitle>
+      <JPFieldTitle>正在加载自定义打印样式</JPFieldTitle>
+      <KRFieldTitle>正在加载自定义打印样式</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="IsExportMaterialJPG">
+      <CNFieldTitle>是否导出货品图片</CNFieldTitle>
+      <TWFieldTitle>是否匯出貨品圖片</TWFieldTitle>
+      <ENFieldTitle>是否导出货品图片</ENFieldTitle>
+      <JPFieldTitle>是否导出货品图片</JPFieldTitle>
+      <KRFieldTitle>是否导出货品图片</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ExportXlsxWithMaterialJPG">
+      <CNFieldTitle>导出Excel(带货品图片)</CNFieldTitle>
+      <TWFieldTitle>匯出Excel(帶貨品圖片)</TWFieldTitle>
+      <ENFieldTitle>导出Excel(带货品图片)</ENFieldTitle>
+      <JPFieldTitle>导出Excel(带货品图片)</JPFieldTitle>
+      <KRFieldTitle>导出Excel(带货品图片)</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MaterialJPG">
+      <CNFieldTitle>货品图片</CNFieldTitle>
+      <TWFieldTitle>貨品圖片</TWFieldTitle>
+      <ENFieldTitle>货品图片</ENFieldTitle>
+      <JPFieldTitle>货品图片</JPFieldTitle>
+      <KRFieldTitle>bản vẽ sản phẩm</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ExportDataToXlsxTooMuch">
+      <CNFieldTitle>导出数据过多，最多只能导出5万条货品图片的数据，请重新查询数据。</CNFieldTitle>
+      <TWFieldTitle>匯出資料過多，最多只能匯出5萬條貨品圖片的資料，請重新查詢資料。</TWFieldTitle>
+      <ENFieldTitle>导出数据过多，最多只能导出5万条货品图片的数据，请重新查询数据。</ENFieldTitle>
+      <JPFieldTitle>导出数据过多，最多只能导出5万条货品图片的数据，请重新查询数据。</JPFieldTitle>
+      <KRFieldTitle>导出数据过多，最多只能导出5万条货品图片的数据，请重新查询数据。</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ExportBeforeMustSetImagePath">
+      <CNFieldTitle>导出货品图片前必须设置货品图片路径</CNFieldTitle>
+      <TWFieldTitle>匯出貨品圖片前必須設定貨品圖片路徑</TWFieldTitle>
+      <ENFieldTitle>导出货品图片前必须设置货品图片路径</ENFieldTitle>
+      <JPFieldTitle>导出货品图片前必须设置货品图片路径</JPFieldTitle>
+      <KRFieldTitle>导出货品图片前必须设置货品图片路径</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="LoadParaData">
+      <CNFieldTitle>系统正在加载参数数据，请稍候...</CNFieldTitle>
+      <TWFieldTitle>系統正在載入參數資料，請稍候...</TWFieldTitle>
+      <ENFieldTitle>系統正在加載參數數據，請稍候...</ENFieldTitle>
+      <JPFieldTitle>系統正在加載參數數據，請稍候...</JPFieldTitle>
+      <KRFieldTitle>系統正在加載參數數據，請稍候...</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="formMain24">
+      <CNFieldTitle>正在初始化...</CNFieldTitle>
+      <TWFieldTitle>正在初始化...</TWFieldTitle>
+      <ENFieldTitle>Initializing...</ENFieldTitle>
+      <JPFieldTitle>正在初始化...</JPFieldTitle>
+      <KRFieldTitle>正在初始化...</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="formLoadingData">
+      <CNFieldTitle>系统载入数据中，请等待......</CNFieldTitle>
+      <TWFieldTitle>載入資料中，請稍候…</TWFieldTitle>
+      <ENFieldTitle>Loading data, please wait…</ENFieldTitle>
+      <JPFieldTitle>載入資料中，請稍候…</JPFieldTitle>
+      <KRFieldTitle>載入資料中，請稍候…</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="OnSelectingData">
+      <CNFieldTitle>系统正在查询数据</CNFieldTitle>
+      <TWFieldTitle>系統正在查詢資料</TWFieldTitle>
+      <ENFieldTitle>系統正在查詢資料</ENFieldTitle>
+      <JPFieldTitle>系統正在查詢資料</JPFieldTitle>
+      <KRFieldTitle>系統正在查詢資料</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Delete">
+      <CNFieldTitle>删除</CNFieldTitle>
+      <TWFieldTitle>刪除</TWFieldTitle>
+      <ENFieldTitle>刪除</ENFieldTitle>
+      <JPFieldTitle>刪除</JPFieldTitle>
+      <KRFieldTitle>刪除</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DeleteCustomPrintStyle">
+      <CNFieldTitle>是否确认删除此自定义打印样式？</CNFieldTitle>
+      <TWFieldTitle>是否確認刪除此自定義列印樣式？</TWFieldTitle>
+      <ENFieldTitle>是否確認刪除此自定義打印樣式？</ENFieldTitle>
+      <JPFieldTitle>是否確認刪除此自定義打印樣式？</JPFieldTitle>
+      <KRFieldTitle>是否確認刪除此自定義打印樣式？</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CanNotFindPrintStyle">
+      <CNFieldTitle>找不到打印样式，请重新查询!</CNFieldTitle>
+      <TWFieldTitle>找不到列印樣式，請重新查詢!</TWFieldTitle>
+      <ENFieldTitle>找不到打印樣式，請重新查詢!</ENFieldTitle>
+      <JPFieldTitle>找不到打印樣式，請重新查詢!</JPFieldTitle>
+      <KRFieldTitle>找不到打印樣式，請重新查詢!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Bind">
+      <CNFieldTitle>绑定</CNFieldTitle>
+      <TWFieldTitle>綁定</TWFieldTitle>
+      <ENFieldTitle>綁定</ENFieldTitle>
+      <JPFieldTitle>綁定</JPFieldTitle>
+      <KRFieldTitle>綁定</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="NotBind">
+      <CNFieldTitle>非绑定</CNFieldTitle>
+      <TWFieldTitle>非綁定</TWFieldTitle>
+      <ENFieldTitle>非綁定</ENFieldTitle>
+      <JPFieldTitle>非綁定</JPFieldTitle>
+      <KRFieldTitle>非綁定</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BindSchemaFromDB">
+      <CNFieldTitle>绑定(架构在数据库中生成)</CNFieldTitle>
+      <TWFieldTitle>綁定(架構在資料庫中生成)</TWFieldTitle>
+      <ENFieldTitle>綁定(架構在數據庫中生成)</ENFieldTitle>
+      <JPFieldTitle>綁定(架構在數據庫中生成)</JPFieldTitle>
+      <KRFieldTitle>綁定(架構在數據庫中生成)</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GridReportBindType">
+      <CNFieldTitle>固定报表绑定方式</CNFieldTitle>
+      <TWFieldTitle>固定報表綁定方式</TWFieldTitle>
+      <ENFieldTitle>固定報表綁定方式</ENFieldTitle>
+      <JPFieldTitle>固定報表綁定方式</JPFieldTitle>
+      <KRFieldTitle>固定報表綁定方式</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="LanField">
+      <CNFieldTitle>多语言字段</CNFieldTitle>
+      <TWFieldTitle>多語言欄位</TWFieldTitle>
+      <ENFieldTitle>多語言字段</ENFieldTitle>
+      <JPFieldTitle>多語言字段</JPFieldTitle>
+      <KRFieldTitle>多語言字段</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CompanyID">
+      <CNFieldTitle>公司内码</CNFieldTitle>
+      <TWFieldTitle>公司內碼</TWFieldTitle>
+      <ENFieldTitle>公司內碼</ENFieldTitle>
+      <JPFieldTitle>公司內碼</JPFieldTitle>
+      <KRFieldTitle>公司內碼</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="InsertColumn">
+      <CNFieldTitle>插入列</CNFieldTitle>
+      <TWFieldTitle>插入欄</TWFieldTitle>
+      <ENFieldTitle>插入列</ENFieldTitle>
+      <JPFieldTitle>插入列</JPFieldTitle>
+      <KRFieldTitle>插入列</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Header">
+      <CNFieldTitle>A．表头</CNFieldTitle>
+      <TWFieldTitle>A．表頭</TWFieldTitle>
+      <ENFieldTitle>A．表頭</ENFieldTitle>
+      <JPFieldTitle>A．表頭</JPFieldTitle>
+      <KRFieldTitle>A．表頭</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="TopGroup">
+      <CNFieldTitle>B．分组统计项（明细项上方）</CNFieldTitle>
+      <TWFieldTitle>B．分組統計項（明細項上方）</TWFieldTitle>
+      <ENFieldTitle>B．分組統計項（明細項上方）</ENFieldTitle>
+      <JPFieldTitle>B．分組統計項（明細項上方）</JPFieldTitle>
+      <KRFieldTitle>B．分組統計項（明細項上方）</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Details">
+      <CNFieldTitle>C．明细项</CNFieldTitle>
+      <TWFieldTitle>C．明細項</TWFieldTitle>
+      <ENFieldTitle>C．明細項</ENFieldTitle>
+      <JPFieldTitle>C．明細項</JPFieldTitle>
+      <KRFieldTitle>C．明細項</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BottomGroup">
+      <CNFieldTitle>D．分组统计项（明细项下方）</CNFieldTitle>
+      <TWFieldTitle>D．分組統計項（明細項下方）</TWFieldTitle>
+      <ENFieldTitle>D．分組統計項（明細項下方）</ENFieldTitle>
+      <JPFieldTitle>D．分組統計項（明細項下方）</JPFieldTitle>
+      <KRFieldTitle>D．分組統計項（明細項下方）</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="TableGroup">
+      <CNFieldTitle>E．表统计项</CNFieldTitle>
+      <TWFieldTitle>E．表統計項</TWFieldTitle>
+      <ENFieldTitle>E．表統計項</ENFieldTitle>
+      <JPFieldTitle>E．表統計項</JPFieldTitle>
+      <KRFieldTitle>E．表統計項</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="RowIndex">
+      <CNFieldTitle>第{0}行</CNFieldTitle>
+      <TWFieldTitle>第{0}列</TWFieldTitle>
+      <ENFieldTitle>第{0}列</ENFieldTitle>
+      <JPFieldTitle>第{0}列</JPFieldTitle>
+      <KRFieldTitle>第{0}列</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ShopID">
+      <CNFieldTitle>店铺ID</CNFieldTitle>
+      <TWFieldTitle>店櫃ID</TWFieldTitle>
+      <ENFieldTitle>店鋪ID</ENFieldTitle>
+      <JPFieldTitle>店鋪ID</JPFieldTitle>
+      <KRFieldTitle>店鋪ID</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="StockID">
+      <CNFieldTitle>仓库</CNFieldTitle>
+      <TWFieldTitle>倉庫</TWFieldTitle>
+      <ENFieldTitle>倉庫</ENFieldTitle>
+      <JPFieldTitle>倉庫</JPFieldTitle>
+      <KRFieldTitle>倉庫</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PromotionID">
+      <CNFieldTitle>促销活动</CNFieldTitle>
+      <TWFieldTitle>促銷活動</TWFieldTitle>
+      <ENFieldTitle>促銷活動</ENFieldTitle>
+      <JPFieldTitle>促銷活動</JPFieldTitle>
+      <KRFieldTitle>促銷活動</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="RoundDigitNum">
+      <CNFieldTitle>四舍五入小数位</CNFieldTitle>
+      <TWFieldTitle>四捨五入小數位</TWFieldTitle>
+      <ENFieldTitle>四舍五入小數位</ENFieldTitle>
+      <JPFieldTitle>四舍五入小數位</JPFieldTitle>
+      <KRFieldTitle>四舍五入小數位</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="OtherAmount">
+      <CNFieldTitle>其它费用</CNFieldTitle>
+      <TWFieldTitle>其他費用</TWFieldTitle>
+      <ENFieldTitle>其它費用</ENFieldTitle>
+      <JPFieldTitle>其它費用</JPFieldTitle>
+      <KRFieldTitle>其它費用</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DeductIntegral">
+      <CNFieldTitle>兑换扣减积分</CNFieldTitle>
+      <TWFieldTitle>兌換扣減紅利</TWFieldTitle>
+      <ENFieldTitle>兌換扣減積分</ENFieldTitle>
+      <JPFieldTitle>兌換扣減積分</JPFieldTitle>
+      <KRFieldTitle>兌換扣減積分</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DischargeIntegralAmount">
+      <CNFieldTitle>会员抵现金额</CNFieldTitle>
+      <TWFieldTitle>會員抵現金額</TWFieldTitle>
+      <ENFieldTitle>會員抵現金額</ENFieldTitle>
+      <JPFieldTitle>會員抵現金額</JPFieldTitle>
+      <KRFieldTitle>會員抵現金額</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DischargeIntegral">
+      <CNFieldTitle>会员抵现积分</CNFieldTitle>
+      <TWFieldTitle>會員抵現紅利</TWFieldTitle>
+      <ENFieldTitle>會員抵現積分</ENFieldTitle>
+      <JPFieldTitle>會員抵現積分</JPFieldTitle>
+      <KRFieldTitle>會員抵現積分</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="InterDigitNum">
+      <CNFieldTitle>取整保留小数位</CNFieldTitle>
+      <TWFieldTitle>取整保留小數位</TWFieldTitle>
+      <ENFieldTitle>取整保留小數位</ENFieldTitle>
+      <JPFieldTitle>取整保留小數位</JPFieldTitle>
+      <KRFieldTitle>取整保留小數位</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="THQMarkAmount">
+      <CNFieldTitle>THQMarkAmount</CNFieldTitle>
+      <TWFieldTitle>THQMarkAmount</TWFieldTitle>
+      <ENFieldTitle>THQMarkAmount</ENFieldTitle>
+      <JPFieldTitle>THQMarkAmount</JPFieldTitle>
+      <KRFieldTitle>THQMarkAmount</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="VIPCouponAmount">
+      <CNFieldTitle>会员优惠券金额</CNFieldTitle>
+      <TWFieldTitle>會員優惠券金額</TWFieldTitle>
+      <ENFieldTitle>會員優惠券金額</ENFieldTitle>
+      <JPFieldTitle>會員優惠券金額</JPFieldTitle>
+      <KRFieldTitle>會員優惠券金額</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="VIPOtherAmount">
+      <CNFieldTitle>会员积分兑换其他收入</CNFieldTitle>
+      <TWFieldTitle>會員紅利兌換其他收入</TWFieldTitle>
+      <ENFieldTitle>會員積分兌換其他收入</ENFieldTitle>
+      <JPFieldTitle>會員積分兌換其他收入</JPFieldTitle>
+      <KRFieldTitle>會員積分兌換其他收入</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="VIPIntegral">
+      <CNFieldTitle>会员积分</CNFieldTitle>
+      <TWFieldTitle>會員紅利</TWFieldTitle>
+      <ENFieldTitle>會員積分</ENFieldTitle>
+      <JPFieldTitle>會員積分</JPFieldTitle>
+      <KRFieldTitle>會員積分</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ChangeAmount">
+      <CNFieldTitle>统一调整目标金额</CNFieldTitle>
+      <TWFieldTitle>統一調整目標金額</TWFieldTitle>
+      <ENFieldTitle>統一調整目標金額</ENFieldTitle>
+      <JPFieldTitle>統一調整目標金額</JPFieldTitle>
+      <KRFieldTitle>統一調整目標金額</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ChequeAmount">
+      <CNFieldTitle>支票</CNFieldTitle>
+      <TWFieldTitle>支票</TWFieldTitle>
+      <ENFieldTitle>支票</ENFieldTitle>
+      <JPFieldTitle>支票</JPFieldTitle>
+      <KRFieldTitle>支票</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="THQAmount">
+      <CNFieldTitle>THQ金额</CNFieldTitle>
+      <TWFieldTitle>THQ金額</TWFieldTitle>
+      <ENFieldTitle>THQ金額</ENFieldTitle>
+      <JPFieldTitle>THQ金額</JPFieldTitle>
+      <KRFieldTitle>THQ金額</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PresendAmount">
+      <CNFieldTitle>让利</CNFieldTitle>
+      <TWFieldTitle>讓利</TWFieldTitle>
+      <ENFieldTitle>讓利</ENFieldTitle>
+      <JPFieldTitle>讓利</JPFieldTitle>
+      <KRFieldTitle>讓利</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BankCardAmount">
+      <CNFieldTitle>刷卡金额</CNFieldTitle>
+      <TWFieldTitle>刷卡金額</TWFieldTitle>
+      <ENFieldTitle>刷卡金額</ENFieldTitle>
+      <JPFieldTitle>刷卡金額</JPFieldTitle>
+      <KRFieldTitle>刷卡金額</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CashAmount">
+      <CNFieldTitle>实收金额</CNFieldTitle>
+      <TWFieldTitle>實收金額</TWFieldTitle>
+      <ENFieldTitle>實收金額</ENFieldTitle>
+      <JPFieldTitle>實收金額</JPFieldTitle>
+      <KRFieldTitle>實收金額</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PayAmount">
+      <CNFieldTitle>付款</CNFieldTitle>
+      <TWFieldTitle>付款</TWFieldTitle>
+      <ENFieldTitle>付款</ENFieldTitle>
+      <JPFieldTitle>付款</JPFieldTitle>
+      <KRFieldTitle>付款</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Group">
+      <CNFieldTitle>分组</CNFieldTitle>
+      <TWFieldTitle>分組</TWFieldTitle>
+      <ENFieldTitle>分組</ENFieldTitle>
+      <JPFieldTitle>分組</JPFieldTitle>
+      <KRFieldTitle>分組</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="TitleCaption1">
+      <CNFieldTitle>标题一</CNFieldTitle>
+      <TWFieldTitle>標題一</TWFieldTitle>
+      <ENFieldTitle>標題一</ENFieldTitle>
+      <JPFieldTitle>標題一</JPFieldTitle>
+      <KRFieldTitle>標題一</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="TitleCaption2">
+      <CNFieldTitle>标题二</CNFieldTitle>
+      <TWFieldTitle>標題二</TWFieldTitle>
+      <ENFieldTitle>標題二</ENFieldTitle>
+      <JPFieldTitle>標題二</JPFieldTitle>
+      <KRFieldTitle>標題二</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Caption1LanField">
+      <CNFieldTitle>标题一多语言字段</CNFieldTitle>
+      <TWFieldTitle>標題一多語言欄位</TWFieldTitle>
+      <ENFieldTitle>標題一多語言字段</ENFieldTitle>
+      <JPFieldTitle>標題一多語言字段</JPFieldTitle>
+      <KRFieldTitle>標題一多語言字段</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Caption2LanField">
+      <CNFieldTitle>标题二多语言字段</CNFieldTitle>
+      <TWFieldTitle>標題二多語言欄位</TWFieldTitle>
+      <ENFieldTitle>標題二多語言字段</ENFieldTitle>
+      <JPFieldTitle>標題二多語言字段</JPFieldTitle>
+      <KRFieldTitle>標題二多語言字段</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BeginDate">
+      <CNFieldTitle>开始日期</CNFieldTitle>
+      <TWFieldTitle>開始日期</TWFieldTitle>
+      <ENFieldTitle>開始日期</ENFieldTitle>
+      <JPFieldTitle>開始日期</JPFieldTitle>
+      <KRFieldTitle>開始日期</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="EndDate">
+      <CNFieldTitle>结束日期</CNFieldTitle>
+      <TWFieldTitle>結束日期</TWFieldTitle>
+      <ENFieldTitle>結束日期</ENFieldTitle>
+      <JPFieldTitle>結束日期</JPFieldTitle>
+      <KRFieldTitle>結束日期</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="All">
+      <CNFieldTitle>全部</CNFieldTitle>
+      <TWFieldTitle>全部</TWFieldTitle>
+      <ENFieldTitle>全部</ENFieldTitle>
+      <JPFieldTitle>全部</JPFieldTitle>
+      <KRFieldTitle>全部</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CopyFirstRowTitle">
+      <CNFieldTitle>复制首行标题</CNFieldTitle>
+      <TWFieldTitle>複製首列標題</TWFieldTitle>
+      <ENFieldTitle>復制首行標題</ENFieldTitle>
+      <JPFieldTitle>復制首行標題</JPFieldTitle>
+      <KRFieldTitle>復制首行標題</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ShowOnlyNotDealwithLan">
+      <CNFieldTitle>只显示未处理多语言</CNFieldTitle>
+      <TWFieldTitle>只顯示未處理多語言</TWFieldTitle>
+      <ENFieldTitle>只顯示未處理多語言</ENFieldTitle>
+      <JPFieldTitle>只顯示未處理多語言</JPFieldTitle>
+      <KRFieldTitle>只顯示未處理多語言</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CanNotAutoBecomeLan">
+      <CNFieldTitle>检测到多语言字段里面含有中文字符，不能自动生成多语言！</CNFieldTitle>
+      <TWFieldTitle>檢測到多語言欄位裡面含有中文字符，不能自動生成多語言！</TWFieldTitle>
+      <ENFieldTitle>檢測到多語言字段里面含有中文字符，不能自動生成多語言！</ENFieldTitle>
+      <JPFieldTitle>檢測到多語言字段里面含有中文字符，不能自動生成多語言！</JPFieldTitle>
+      <KRFieldTitle>檢測到多語言字段里面含有中文字符，不能自動生成多語言！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="AutoBecomeLanSuccess">
+      <CNFieldTitle>自动生成多语言成功！</CNFieldTitle>
+      <TWFieldTitle>自動生成多語言成功！</TWFieldTitle>
+      <ENFieldTitle>自動生成多語言成功！</ENFieldTitle>
+      <JPFieldTitle>自動生成多語言成功！</JPFieldTitle>
+      <KRFieldTitle>自動生成多語言成功！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BillNo">
+      <CNFieldTitle>POS单号</CNFieldTitle>
+      <TWFieldTitle>POS單號</TWFieldTitle>
+      <ENFieldTitle>POS No</ENFieldTitle>
+      <JPFieldTitle>POS单号</JPFieldTitle>
+      <KRFieldTitle>số đơn POS</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BillTypeID">
+      <CNFieldTitle>单据类型</CNFieldTitle>
+      <TWFieldTitle>單據類型</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle>loại hình chứng từ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BillDate">
+      <CNFieldTitle>单据日期</CNFieldTitle>
+      <TWFieldTitle>單據日期</TWFieldTitle>
+      <ENFieldTitle>Bill Date</ENFieldTitle>
+      <JPFieldTitle>单据日期</JPFieldTitle>
+      <KRFieldTitle>ngày dự liệu</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ManualBillNo">
+      <CNFieldTitle>手工单号</CNFieldTitle>
+      <TWFieldTitle>手工單號</TWFieldTitle>
+      <ENFieldTitle>ManualBill No</ENFieldTitle>
+      <JPFieldTitle>手工单号</JPFieldTitle>
+      <KRFieldTitle>số đơn thủ công</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="VendCustID">
+      <CNFieldTitle>供应商</CNFieldTitle>
+      <TWFieldTitle>供應商</TWFieldTitle>
+      <ENFieldTitle>Vendor</ENFieldTitle>
+      <JPFieldTitle>供应商</JPFieldTitle>
+      <KRFieldTitle>nhã cung ứng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SourcebtID">
+      <CNFieldTitle>来源单据类型</CNFieldTitle>
+      <TWFieldTitle>來源單類型</TWFieldTitle>
+      <ENFieldTitle>Source Bill Type</ENFieldTitle>
+      <JPFieldTitle>来源单据类型</JPFieldTitle>
+      <KRFieldTitle>Loại hình chứng từ nguồn gốc</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SourceBillNo">
+      <CNFieldTitle>来源单号</CNFieldTitle>
+      <TWFieldTitle>來源單號</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>来源单号</JPFieldTitle>
+      <KRFieldTitle>số đơn nguồn đến</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="YearNo">
+      <CNFieldTitle>年份</CNFieldTitle>
+      <TWFieldTitle>年份</TWFieldTitle>
+      <ENFieldTitle>Year</ENFieldTitle>
+      <JPFieldTitle>年份</JPFieldTitle>
+      <KRFieldTitle>năm</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SeasonID">
+      <CNFieldTitle>季节</CNFieldTitle>
+      <TWFieldTitle>季節</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle>mùa</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CurrencyID">
+      <CNFieldTitle>币别</CNFieldTitle>
+      <TWFieldTitle>貨幣</TWFieldTitle>
+      <ENFieldTitle>Currency</ENFieldTitle>
+      <JPFieldTitle>币别</JPFieldTitle>
+      <KRFieldTitle>tiền tệ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CurrencyOperator">
+      <CNFieldTitle>折算方式</CNFieldTitle>
+      <TWFieldTitle>換算方式</TWFieldTitle>
+      <ENFieldTitle>Conversion Method</ENFieldTitle>
+      <JPFieldTitle>折算方式</JPFieldTitle>
+      <KRFieldTitle>phương thức chuyển đổi</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ExchangeRate">
+      <CNFieldTitle>汇率</CNFieldTitle>
+      <TWFieldTitle>匯率</TWFieldTitle>
+      <ENFieldTitle>匯率</ENFieldTitle>
+      <JPFieldTitle>匯率</JPFieldTitle>
+      <KRFieldTitle>匯率</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PayingAmount">
+      <CNFieldTitle>PayingAmount</CNFieldTitle>
+      <TWFieldTitle>PayingAmount</TWFieldTitle>
+      <ENFieldTitle>PayingAmount</ENFieldTitle>
+      <JPFieldTitle>PayingAmount</JPFieldTitle>
+      <KRFieldTitle>PayingAmount</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="TransportMethodID">
+      <CNFieldTitle>发送方式代码</CNFieldTitle>
+      <TWFieldTitle>發送方式代碼</TWFieldTitle>
+      <ENFieldTitle>Ship Method Code</ENFieldTitle>
+      <JPFieldTitle>发送方式代码</JPFieldTitle>
+      <KRFieldTitle>Ký hiệu phương thức cấp phát</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="StartShipDate">
+      <CNFieldTitle>交货日期</CNFieldTitle>
+      <TWFieldTitle>交貨日期</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle>Ngày giao hàng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Operator">
+      <CNFieldTitle>操作员</CNFieldTitle>
+      <TWFieldTitle>操作員</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle>操作員</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Checker">
+      <CNFieldTitle>审核人</CNFieldTitle>
+      <TWFieldTitle>審核人</TWFieldTitle>
+      <ENFieldTitle>审核人</ENFieldTitle>
+      <JPFieldTitle>审核人</JPFieldTitle>
+      <KRFieldTitle>审核人</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CheckDate">
+      <CNFieldTitle>审核日期</CNFieldTitle>
+      <TWFieldTitle>審核日期</TWFieldTitle>
+      <ENFieldTitle>Approval Date</ENFieldTitle>
+      <JPFieldTitle>审核日期</JPFieldTitle>
+      <KRFieldTitle>thời gian phê duyệt</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PerCommision">
+      <CNFieldTitle>佣金</CNFieldTitle>
+      <TWFieldTitle>傭金</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle>傭金</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="TaxRate">
+      <CNFieldTitle>税率</CNFieldTitle>
+      <TWFieldTitle>稅率</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle>Thuế suất</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Qty">
+      <CNFieldTitle>数量</CNFieldTitle>
+      <TWFieldTitle>數量</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BillStatus">
+      <CNFieldTitle>单据状态</CNFieldTitle>
+      <TWFieldTitle>單據狀態</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle>trạng thai dự liệu</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Finished">
+      <CNFieldTitle>完成</CNFieldTitle>
+      <TWFieldTitle>完成</TWFieldTitle>
+      <ENFieldTitle>完成</ENFieldTitle>
+      <JPFieldTitle>完成</JPFieldTitle>
+      <KRFieldTitle>完成</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Remark">
+      <CNFieldTitle>备注</CNFieldTitle>
+      <TWFieldTitle>備註</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle>備注</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Signature">
+      <CNFieldTitle>盖章</CNFieldTitle>
+      <TWFieldTitle>蓋章</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle>蓋章</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ModifyDTM">
+      <CNFieldTitle>修改日期</CNFieldTitle>
+      <TWFieldTitle>修改日期</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle>Ngày sửa đổi</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CompanyID2">
+      <CNFieldTitle>公司内码</CNFieldTitle>
+      <TWFieldTitle>公司內碼</TWFieldTitle>
+      <ENFieldTitle>公司內碼</ENFieldTitle>
+      <JPFieldTitle>公司內碼</JPFieldTitle>
+      <KRFieldTitle>公司內碼</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CompanyID333">
+      <CNFieldTitle>公司内码333</CNFieldTitle>
+      <TWFieldTitle>公司內碼333</TWFieldTitle>
+      <ENFieldTitle>公司內碼333</ENFieldTitle>
+      <JPFieldTitle>公司內碼333</JPFieldTitle>
+      <KRFieldTitle>公司內碼333</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="AutoBecomeLan">
+      <CNFieldTitle>是否自动生成多语言？</CNFieldTitle>
+      <TWFieldTitle>是否自動生成多語言？</TWFieldTitle>
+      <ENFieldTitle>是否自動生成多語言？</ENFieldTitle>
+      <JPFieldTitle>是否自動生成多語言？</JPFieldTitle>
+      <KRFieldTitle>是否自動生成多語言？</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="LanCodeCanNotEmpty">
+      <CNFieldTitle>多语言字段不能为空</CNFieldTitle>
+      <TWFieldTitle>多語言欄位不能為空</TWFieldTitle>
+      <ENFieldTitle>多語言字段不能為空</ENFieldTitle>
+      <JPFieldTitle>多語言字段不能為空</JPFieldTitle>
+      <KRFieldTitle>多語言字段不能為空</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BillCompanyID">
+      <CNFieldTitle>公司</CNFieldTitle>
+      <TWFieldTitle>公司</TWFieldTitle>
+      <ENFieldTitle>公司</ENFieldTitle>
+      <JPFieldTitle>公司</JPFieldTitle>
+      <KRFieldTitle>公司</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MaterialID">
+      <CNFieldTitle>货品ID</CNFieldTitle>
+      <TWFieldTitle>貨品ID</TWFieldTitle>
+      <ENFieldTitle>Item ID</ENFieldTitle>
+      <JPFieldTitle>货品ID</JPFieldTitle>
+      <KRFieldTitle>ID sản phẩm</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SizeID">
+      <CNFieldTitle>尺码</CNFieldTitle>
+      <TWFieldTitle>尺碼</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>尺码</JPFieldTitle>
+      <KRFieldTitle>kích thước</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DepartMent">
+      <CNFieldTitle>部门</CNFieldTitle>
+      <TWFieldTitle>部門</TWFieldTitle>
+      <ENFieldTitle>部門</ENFieldTitle>
+      <JPFieldTitle>部門</JPFieldTitle>
+      <KRFieldTitle>部門</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DepartCode">
+      <CNFieldTitle>部门代码</CNFieldTitle>
+      <TWFieldTitle>部門代碼</TWFieldTitle>
+      <ENFieldTitle>部門代碼</ENFieldTitle>
+      <JPFieldTitle>部門代碼</JPFieldTitle>
+      <KRFieldTitle>部門代碼</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DepartName">
+      <CNFieldTitle>部门名称</CNFieldTitle>
+      <TWFieldTitle>部門名稱</TWFieldTitle>
+      <ENFieldTitle>部門名稱</ENFieldTitle>
+      <JPFieldTitle>部門名稱</JPFieldTitle>
+      <KRFieldTitle>部門名稱</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="">
+      <CNFieldTitle>全部</CNFieldTitle>
+      <TWFieldTitle>全部</TWFieldTitle>
+      <ENFieldTitle>全部</ENFieldTitle>
+      <JPFieldTitle>全部</JPFieldTitle>
+      <KRFieldTitle>全部</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="全部">
+      <CNFieldTitle>全部</CNFieldTitle>
+      <TWFieldTitle>全部</TWFieldTitle>
+      <ENFieldTitle>全部</ENFieldTitle>
+      <JPFieldTitle>全部</JPFieldTitle>
+      <KRFieldTitle>全部</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="发票已开">
+      <CNFieldTitle>发票已开</CNFieldTitle>
+      <TWFieldTitle>發票已開</TWFieldTitle>
+      <ENFieldTitle>發票已開</ENFieldTitle>
+      <JPFieldTitle>發票已開</JPFieldTitle>
+      <KRFieldTitle>發票已開</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="发票未开">
+      <CNFieldTitle>发票未开</CNFieldTitle>
+      <TWFieldTitle>發票未開</TWFieldTitle>
+      <ENFieldTitle>發票未開</ENFieldTitle>
+      <JPFieldTitle>發票未開</JPFieldTitle>
+      <KRFieldTitle>發票未開</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="发票是否已开">
+      <CNFieldTitle>发票是否已开</CNFieldTitle>
+      <TWFieldTitle>發票是否已開</TWFieldTitle>
+      <ENFieldTitle>發票是否已開</ENFieldTitle>
+      <JPFieldTitle>發票是否已開</JPFieldTitle>
+      <KRFieldTitle>發票是否已開</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="已开">
+      <CNFieldTitle>已开</CNFieldTitle>
+      <TWFieldTitle>已開</TWFieldTitle>
+      <ENFieldTitle>已開</ENFieldTitle>
+      <JPFieldTitle>已開</JPFieldTitle>
+      <KRFieldTitle>已開</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="未开">
+      <CNFieldTitle>未开</CNFieldTitle>
+      <TWFieldTitle>未開</TWFieldTitle>
+      <ENFieldTitle>未開</ENFieldTitle>
+      <JPFieldTitle>未開</JPFieldTitle>
+      <KRFieldTitle>未開</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="发票号码">
+      <CNFieldTitle>发票号码</CNFieldTitle>
+      <TWFieldTitle>發票號碼</TWFieldTitle>
+      <ENFieldTitle>發票號碼</ENFieldTitle>
+      <JPFieldTitle>發票號碼</JPFieldTitle>
+      <KRFieldTitle>發票號碼</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="AssetCardCode">
+      <CNFieldTitle>资产编码</CNFieldTitle>
+      <TWFieldTitle>資產編號</TWFieldTitle>
+      <ENFieldTitle>Asset Code</ENFieldTitle>
+      <JPFieldTitle>资产编码</JPFieldTitle>
+      <KRFieldTitle>mã số tài sản</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="AssetCardName">
+      <CNFieldTitle>资产名称</CNFieldTitle>
+      <TWFieldTitle>資產名稱</TWFieldTitle>
+      <ENFieldTitle>Asset Name</ENFieldTitle>
+      <JPFieldTitle>资产名称</JPFieldTitle>
+      <KRFieldTitle>tên tài sản</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UnitName">
+      <CNFieldTitle>单位</CNFieldTitle>
+      <TWFieldTitle>單位</TWFieldTitle>
+      <ENFieldTitle>Unit</ENFieldTitle>
+      <JPFieldTitle>单位</JPFieldTitle>
+      <KRFieldTitle>đơn vị</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UseStateName">
+      <CNFieldTitle>使用状态</CNFieldTitle>
+      <TWFieldTitle>使用狀態</TWFieldTitle>
+      <ENFieldTitle>Status Name</ENFieldTitle>
+      <JPFieldTitle>状态名称</JPFieldTitle>
+      <KRFieldTitle>tên trạng thái</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ChangeModeName">
+      <CNFieldTitle>变动方式</CNFieldTitle>
+      <TWFieldTitle>變動方式</TWFieldTitle>
+      <ENFieldTitle>變動Name</ENFieldTitle>
+      <JPFieldTitle>变动名称</JPFieldTitle>
+      <KRFieldTitle>tên biết động</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BuyDate">
+      <CNFieldTitle>购入日期</CNFieldTitle>
+      <TWFieldTitle>購入日期</TWFieldTitle>
+      <ENFieldTitle>Purchase Date</ENFieldTitle>
+      <JPFieldTitle>购入日期</JPFieldTitle>
+      <KRFieldTitle>ngày mua vào</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="LocationName">
+      <CNFieldTitle>存放地点</CNFieldTitle>
+      <TWFieldTitle>存放地點</TWFieldTitle>
+      <ENFieldTitle>地點Name</ENFieldTitle>
+      <JPFieldTitle>地点名称</JPFieldTitle>
+      <KRFieldTitle>tên địa điểm</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DepartMentName">
+      <CNFieldTitle>归属部门</CNFieldTitle>
+      <TWFieldTitle>歸屬部門</TWFieldTitle>
+      <ENFieldTitle>Department (Store)</ENFieldTitle>
+      <JPFieldTitle>部门(店铺)</JPFieldTitle>
+      <KRFieldTitle>bộ môn ( cửa hàng )</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Keeper">
+      <CNFieldTitle>保管人</CNFieldTitle>
+      <TWFieldTitle>保管人</TWFieldTitle>
+      <ENFieldTitle>Keeper</ENFieldTitle>
+      <JPFieldTitle>保管人</JPFieldTitle>
+      <KRFieldTitle>người bảo quản</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CardMemo">
+      <CNFieldTitle>备注</CNFieldTitle>
+      <TWFieldTitle>備註</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle>ghi chú</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BookAccount">
+      <CNFieldTitle>账簿</CNFieldTitle>
+      <TWFieldTitle>帳簿</TWFieldTitle>
+      <ENFieldTitle>賬簿</ENFieldTitle>
+      <JPFieldTitle>賬簿</JPFieldTitle>
+      <KRFieldTitle>賬簿</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="无可厚非地">
+      <CNFieldTitle>明细</CNFieldTitle>
+      <TWFieldTitle>明細</TWFieldTitle>
+      <ENFieldTitle>明細</ENFieldTitle>
+      <JPFieldTitle>明細</JPFieldTitle>
+      <KRFieldTitle>明細</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="OutOfMemoryException">
+      <CNFieldTitle>内足不足！</CNFieldTitle>
+      <TWFieldTitle>內足不足！</TWFieldTitle>
+      <ENFieldTitle>內足不足！</ENFieldTitle>
+      <JPFieldTitle>內足不足！</JPFieldTitle>
+      <KRFieldTitle>內足不足！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SelectReport">
+      <CNFieldTitle>查询报表</CNFieldTitle>
+      <TWFieldTitle>查詢報表</TWFieldTitle>
+      <ENFieldTitle>查詢報表</ENFieldTitle>
+      <JPFieldTitle>查詢報表</JPFieldTitle>
+      <KRFieldTitle>查詢報表</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Period">
+      <CNFieldTitle>期间</CNFieldTitle>
+      <TWFieldTitle>期間</TWFieldTitle>
+      <ENFieldTitle>期間</ENFieldTitle>
+      <JPFieldTitle>期間</JPFieldTitle>
+      <KRFieldTitle>期間</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Month">
+      <CNFieldTitle>期间(月份)</CNFieldTitle>
+      <TWFieldTitle>期間(月份)</TWFieldTitle>
+      <ENFieldTitle>期間(月份)</ENFieldTitle>
+      <JPFieldTitle>期間(月份)</JPFieldTitle>
+      <KRFieldTitle>期間(月份)</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="OperationArea">
+      <CNFieldTitle>业务地区</CNFieldTitle>
+      <TWFieldTitle>業務地區</TWFieldTitle>
+      <ENFieldTitle>業務地區</ENFieldTitle>
+      <JPFieldTitle>業務地區</JPFieldTitle>
+      <KRFieldTitle>業務地區</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Shop">
+      <CNFieldTitle>店铺</CNFieldTitle>
+      <TWFieldTitle>店鋪</TWFieldTitle>
+      <ENFieldTitle>店鋪</ENFieldTitle>
+      <JPFieldTitle>店鋪</JPFieldTitle>
+      <KRFieldTitle>店鋪</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="AreaManager">
+      <CNFieldTitle>区域负责人</CNFieldTitle>
+      <TWFieldTitle>區域負責人</TWFieldTitle>
+      <ENFieldTitle>區域負責人</ENFieldTitle>
+      <JPFieldTitle>區域負責人</JPFieldTitle>
+      <KRFieldTitle>區域負責人</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ShopCode">
+      <CNFieldTitle>店铺代码</CNFieldTitle>
+      <TWFieldTitle>店鋪代碼</TWFieldTitle>
+      <ENFieldTitle>店鋪代碼</ENFieldTitle>
+      <JPFieldTitle>店鋪代碼</JPFieldTitle>
+      <KRFieldTitle>店鋪代碼</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ShopName">
+      <CNFieldTitle>店铺名称</CNFieldTitle>
+      <TWFieldTitle>店鋪名稱</TWFieldTitle>
+      <ENFieldTitle>店鋪名稱</ENFieldTitle>
+      <JPFieldTitle>店鋪名稱</JPFieldTitle>
+      <KRFieldTitle>店鋪名稱</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MonthTarget">
+      <CNFieldTitle>月目标</CNFieldTitle>
+      <TWFieldTitle>月目標</TWFieldTitle>
+      <ENFieldTitle>月目標</ENFieldTitle>
+      <JPFieldTitle>月目標</JPFieldTitle>
+      <KRFieldTitle>月目標</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MonthSales">
+      <CNFieldTitle>月实绩</CNFieldTitle>
+      <TWFieldTitle>月實績</TWFieldTitle>
+      <ENFieldTitle>月實績</ENFieldTitle>
+      <JPFieldTitle>月實績</JPFieldTitle>
+      <KRFieldTitle>月實績</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MonthRate">
+      <CNFieldTitle>月达成率</CNFieldTitle>
+      <TWFieldTitle>月達成率</TWFieldTitle>
+      <ENFieldTitle>月達成率</ENFieldTitle>
+      <JPFieldTitle>月達成率</JPFieldTitle>
+      <KRFieldTitle>月達成率</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Target">
+      <CNFieldTitle>目标</CNFieldTitle>
+      <TWFieldTitle>目標</TWFieldTitle>
+      <ENFieldTitle>目標</ENFieldTitle>
+      <JPFieldTitle>目標</JPFieldTitle>
+      <KRFieldTitle>目標</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Sales">
+      <CNFieldTitle>实绩</CNFieldTitle>
+      <TWFieldTitle>實績</TWFieldTitle>
+      <ENFieldTitle>實績</ENFieldTitle>
+      <JPFieldTitle>實績</JPFieldTitle>
+      <KRFieldTitle>實績</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Rate">
+      <CNFieldTitle>达成率</CNFieldTitle>
+      <TWFieldTitle>達成率</TWFieldTitle>
+      <ENFieldTitle>達成率</ENFieldTitle>
+      <JPFieldTitle>達成率</JPFieldTitle>
+      <KRFieldTitle>達成率</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="P1">
+      <CNFieldTitle>一级业务地区</CNFieldTitle>
+      <TWFieldTitle>一級業務地區</TWFieldTitle>
+      <ENFieldTitle>一級業務地區</ENFieldTitle>
+      <JPFieldTitle>一級業務地區</JPFieldTitle>
+      <KRFieldTitle>一級業務地區</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="P2">
+      <CNFieldTitle>二级业务地区</CNFieldTitle>
+      <TWFieldTitle>二級業務地區</TWFieldTitle>
+      <ENFieldTitle>二級業務地區</ENFieldTitle>
+      <JPFieldTitle>二級業務地區</JPFieldTitle>
+      <KRFieldTitle>二級業務地區</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="P3">
+      <CNFieldTitle>三级业务地区</CNFieldTitle>
+      <TWFieldTitle>三級業務地區</TWFieldTitle>
+      <ENFieldTitle>三級業務地區</ENFieldTitle>
+      <JPFieldTitle>三級業務地區</JPFieldTitle>
+      <KRFieldTitle>三級業務地區</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="P4">
+      <CNFieldTitle>四级业务地区</CNFieldTitle>
+      <TWFieldTitle>四級業務地區</TWFieldTitle>
+      <ENFieldTitle>四級業務地區</ENFieldTitle>
+      <JPFieldTitle>四級業務地區</JPFieldTitle>
+      <KRFieldTitle>四級業務地區</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="P5">
+      <CNFieldTitle>五级业务地区</CNFieldTitle>
+      <TWFieldTitle>五級業務地區</TWFieldTitle>
+      <ENFieldTitle>五級業務地區</ENFieldTitle>
+      <JPFieldTitle>五級業務地區</JPFieldTitle>
+      <KRFieldTitle>五級業務地區</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="P6">
+      <CNFieldTitle>六级业务地区</CNFieldTitle>
+      <TWFieldTitle>六級業務地區</TWFieldTitle>
+      <ENFieldTitle>六級業務地區</ENFieldTitle>
+      <JPFieldTitle>六級業務地區</JPFieldTitle>
+      <KRFieldTitle>六級業務地區</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="P7">
+      <CNFieldTitle>七级业务地区</CNFieldTitle>
+      <TWFieldTitle>七級業務地區</TWFieldTitle>
+      <ENFieldTitle>七級業務地區</ENFieldTitle>
+      <JPFieldTitle>七級業務地區</JPFieldTitle>
+      <KRFieldTitle>七級業務地區</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="P8">
+      <CNFieldTitle>八级业务地区</CNFieldTitle>
+      <TWFieldTitle>八級業務地區</TWFieldTitle>
+      <ENFieldTitle>八級業務地區</ENFieldTitle>
+      <JPFieldTitle>八級業務地區</JPFieldTitle>
+      <KRFieldTitle>八級業務地區</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="P9">
+      <CNFieldTitle>九级业务地区</CNFieldTitle>
+      <TWFieldTitle>九級業務地區</TWFieldTitle>
+      <ENFieldTitle>九級業務地區</ENFieldTitle>
+      <JPFieldTitle>九級業務地區</JPFieldTitle>
+      <KRFieldTitle>九級業務地區</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="P10">
+      <CNFieldTitle>十级业务地区</CNFieldTitle>
+      <TWFieldTitle>十級業務地區</TWFieldTitle>
+      <ENFieldTitle>十級業務地區</ENFieldTitle>
+      <JPFieldTitle>十級業務地區</JPFieldTitle>
+      <KRFieldTitle>十級業務地區</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ShopFullName">
+      <CNFieldTitle>店铺全称</CNFieldTitle>
+      <TWFieldTitle>店鋪全稱</TWFieldTitle>
+      <ENFieldTitle>店鋪全稱</ENFieldTitle>
+      <JPFieldTitle>店鋪全稱</JPFieldTitle>
+      <KRFieldTitle>店鋪全稱</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Ranking">
+      <CNFieldTitle>排名</CNFieldTitle>
+      <TWFieldTitle>排名</TWFieldTitle>
+      <ENFieldTitle>排名</ENFieldTitle>
+      <JPFieldTitle>排名</JPFieldTitle>
+      <KRFieldTitle>排名</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="To">
+      <CNFieldTitle>至</CNFieldTitle>
+      <TWFieldTitle>至</TWFieldTitle>
+      <ENFieldTitle>至</ENFieldTitle>
+      <JPFieldTitle>至</JPFieldTitle>
+      <KRFieldTitle>至</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DayText">
+      <CNFieldTitle>日期</CNFieldTitle>
+      <TWFieldTitle>日期</TWFieldTitle>
+      <ENFieldTitle>日期</ENFieldTitle>
+      <JPFieldTitle>日期</JPFieldTitle>
+      <KRFieldTitle>日期</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="reatarger">
+      <CNFieldTitle>月达成率(按实际结算金额)</CNFieldTitle>
+      <TWFieldTitle>月達成率(按實際結算金額)</TWFieldTitle>
+      <ENFieldTitle>月達成率(按實際結算金額)</ENFieldTitle>
+      <JPFieldTitle>月達成率(按實際結算金額)</JPFieldTitle>
+      <KRFieldTitle>月達成率(按實際結算金額)</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="RealPayAmount">
+      <CNFieldTitle>pos实际结算金额</CNFieldTitle>
+      <TWFieldTitle>pos實際結算金額</TWFieldTitle>
+      <ENFieldTitle>pos實際結算金額</ENFieldTitle>
+      <JPFieldTitle>pos實際結算金額</JPFieldTitle>
+      <KRFieldTitle>pos實際結算金額</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PMProject">
+      <CNFieldTitle>业绩方案</CNFieldTitle>
+      <TWFieldTitle>業績方案</TWFieldTitle>
+      <ENFieldTitle>業績方案</ENFieldTitle>
+      <JPFieldTitle>業績方案</JPFieldTitle>
+      <KRFieldTitle>業績方案</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PersonnelCode">
+      <CNFieldTitle>工号</CNFieldTitle>
+      <TWFieldTitle>工號</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PersonnelName">
+      <CNFieldTitle>姓名</CNFieldTitle>
+      <TWFieldTitle>姓名</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Bonus">
+      <CNFieldTitle>奖金</CNFieldTitle>
+      <TWFieldTitle>獎金</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="IsAutoDistribute">
+      <CNFieldTitle>自动分配</CNFieldTitle>
+      <TWFieldTitle>自動分配</TWFieldTitle>
+      <ENFieldTitle>自動分配</ENFieldTitle>
+      <JPFieldTitle>自動分配</JPFieldTitle>
+      <KRFieldTitle>自動分配</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ProjectName">
+      <CNFieldTitle>方案名称</CNFieldTitle>
+      <TWFieldTitle>方案名稱</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Amount">
+      <CNFieldTitle>金额</CNFieldTitle>
+      <TWFieldTitle>金額</TWFieldTitle>
+      <ENFieldTitle>金額</ENFieldTitle>
+      <JPFieldTitle>金額</JPFieldTitle>
+      <KRFieldTitle>金額</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Area">
+      <CNFieldTitle>地区</CNFieldTitle>
+      <TWFieldTitle>地區</TWFieldTitle>
+      <ENFieldTitle>Area</ENFieldTitle>
+      <JPFieldTitle>地區</JPFieldTitle>
+      <KRFieldTitle>loại hình chứng từ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="AssetClassCode">
+      <CNFieldTitle>代码</CNFieldTitle>
+      <TWFieldTitle>代碼</TWFieldTitle>
+      <ENFieldTitle>AssetClassCode</ENFieldTitle>
+      <JPFieldTitle>代碼</JPFieldTitle>
+      <KRFieldTitle>loại hình chứng từ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="AssetClassName">
+      <CNFieldTitle>名称</CNFieldTitle>
+      <TWFieldTitle>名稱</TWFieldTitle>
+      <ENFieldTitle>AssetClassName</ENFieldTitle>
+      <JPFieldTitle>名稱</JPFieldTitle>
+      <KRFieldTitle>loại hình chứng từ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ARPDate">
+      <CNFieldTitle>应付日期</CNFieldTitle>
+      <TWFieldTitle>應付日期</TWFieldTitle>
+      <ENFieldTitle>ARPDate</ENFieldTitle>
+      <JPFieldTitle>應付日期</JPFieldTitle>
+      <KRFieldTitle>loại hình chứng từ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ActiveName">
+      <CNFieldTitle>摘要</CNFieldTitle>
+      <TWFieldTitle>摘要</TWFieldTitle>
+      <ENFieldTitle>ActiveName</ENFieldTitle>
+      <JPFieldTitle>摘要</JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Balance">
+      <CNFieldTitle>余额</CNFieldTitle>
+      <TWFieldTitle>餘額</TWFieldTitle>
+      <ENFieldTitle>Balance</ENFieldTitle>
+      <JPFieldTitle>餘額</JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Interval">
+      <CNFieldTitle>区间</CNFieldTitle>
+      <TWFieldTitle>區間</TWFieldTitle>
+      <ENFieldTitle>Interval</ENFieldTitle>
+      <JPFieldTitle>區間</JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BillNos">
+      <CNFieldTitle>单号</CNFieldTitle>
+      <TWFieldTitle>單號</TWFieldTitle>
+      <ENFieldTitle>Bill No</ENFieldTitle>
+      <JPFieldTitle>单号</JPFieldTitle>
+      <KRFieldTitle>số đơn</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FormatType">
+      <CNFieldTitle>数据格式化类型（仅对直接绑定有效）:</CNFieldTitle>
+      <TWFieldTitle>數據格式化類型（僅對直接綁定有效）:</TWFieldTitle>
+      <ENFieldTitle>數據格式化類型（僅對直接綁定有效）:</ENFieldTitle>
+      <JPFieldTitle>數據格式化類型（僅對直接綁定有效）:</JPFieldTitle>
+      <KRFieldTitle>數據格式化類型（僅對直接綁定有效）:</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FormatString">
+      <CNFieldTitle>数据格式化字符串（仅对直接绑定有效）:</CNFieldTitle>
+      <TWFieldTitle>數據格式化字符串（僅對直接綁定有效）:</TWFieldTitle>
+      <ENFieldTitle>數據格式化字符串（僅對直接綁定有效）:</ENFieldTitle>
+      <JPFieldTitle>數據格式化字符串（僅對直接綁定有效）:</JPFieldTitle>
+      <KRFieldTitle>數據格式化字符串（僅對直接綁定有效）:</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Copy">
+      <CNFieldTitle>复制</CNFieldTitle>
+      <TWFieldTitle>復制</TWFieldTitle>
+      <ENFieldTitle>復制</ENFieldTitle>
+      <JPFieldTitle>復制</JPFieldTitle>
+      <KRFieldTitle>復制</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Paste">
+      <CNFieldTitle>粘贴</CNFieldTitle>
+      <TWFieldTitle>粘貼</TWFieldTitle>
+      <ENFieldTitle>粘貼</ENFieldTitle>
+      <JPFieldTitle>粘貼</JPFieldTitle>
+      <KRFieldTitle>粘貼</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Notify">
+      <CNFieldTitle>提示</CNFieldTitle>
+      <TWFieldTitle>提示</TWFieldTitle>
+      <ENFieldTitle>提示</ENFieldTitle>
+      <JPFieldTitle>提示</JPFieldTitle>
+      <KRFieldTitle>提示</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CopyOverride">
+      <CNFieldTitle>是否只覆盖为空的单元格？\r\n选是：只覆盖为空的单元格;\r\n选否：所有单元格全覆盖;\r\n选取消：取消覆盖</CNFieldTitle>
+      <TWFieldTitle>是否只覆蓋為空的單元格？\r\n選是：只覆蓋為空的單元格;\r\n選否：所有單元格全覆蓋;\r\n選取消：取消覆蓋</TWFieldTitle>
+      <ENFieldTitle>是否只覆蓋為空的單元格？\r\n選是：只覆蓋為空的單元格;\r\n選否：所有單元格全覆蓋;\r\n選取消：取消覆蓋</ENFieldTitle>
+      <JPFieldTitle>是否只覆蓋為空的單元格？\r\n選是：只覆蓋為空的單元格;\r\n選否：所有單元格全覆蓋;\r\n選取消：取消覆蓋</JPFieldTitle>
+      <KRFieldTitle>是否只覆蓋為空的單元格？\r\n選是：只覆蓋為空的單元格;\r\n選否：所有單元格全覆蓋;\r\n選取消：取消覆蓋</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="OutBillNo">
+      <CNFieldTitle>转出单单号</CNFieldTitle>
+      <TWFieldTitle>轉出單單號</TWFieldTitle>
+      <ENFieldTitle>轉出單單號</ENFieldTitle>
+      <JPFieldTitle>轉出單單號</JPFieldTitle>
+      <KRFieldTitle>轉出單單號</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Status">
+      <CNFieldTitle>状态</CNFieldTitle>
+      <TWFieldTitle>狀態</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>状态</JPFieldTitle>
+      <KRFieldTitle>trạng thái</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="OutDepartMentCode">
+      <CNFieldTitle>转出部门代码</CNFieldTitle>
+      <TWFieldTitle>轉出部門代碼</TWFieldTitle>
+      <ENFieldTitle>轉出部門代碼</ENFieldTitle>
+      <JPFieldTitle>轉出部門代碼</JPFieldTitle>
+      <KRFieldTitle>轉出部門代碼</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="OutDepartMentName">
+      <CNFieldTitle>转出部门名称</CNFieldTitle>
+      <TWFieldTitle>轉出部門名稱</TWFieldTitle>
+      <ENFieldTitle>轉出部門名稱</ENFieldTitle>
+      <JPFieldTitle>轉出部門名稱</JPFieldTitle>
+      <KRFieldTitle>轉出部門名稱</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="InDepartMentCode">
+      <CNFieldTitle>转入部门代码</CNFieldTitle>
+      <TWFieldTitle>轉入部門代碼</TWFieldTitle>
+      <ENFieldTitle>轉入部門代碼</ENFieldTitle>
+      <JPFieldTitle>轉入部門代碼</JPFieldTitle>
+      <KRFieldTitle>轉入部門代碼</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="IntDepartMentName">
+      <CNFieldTitle>转入部门名称</CNFieldTitle>
+      <TWFieldTitle>轉入部門名稱</TWFieldTitle>
+      <ENFieldTitle>轉入部門名稱</ENFieldTitle>
+      <JPFieldTitle>轉入部門名稱</JPFieldTitle>
+      <KRFieldTitle>轉入部門名稱</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="AssetTypeName">
+      <CNFieldTitle>资产类别</CNFieldTitle>
+      <TWFieldTitle>資產類別</TWFieldTitle>
+      <ENFieldTitle>Asset Type</ENFieldTitle>
+      <JPFieldTitle>资产类别</JPFieldTitle>
+      <KRFieldTitle>Loại tài sản</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Model">
+      <CNFieldTitle>型号</CNFieldTitle>
+      <TWFieldTitle>型號</TWFieldTitle>
+      <ENFieldTitle>Model</ENFieldTitle>
+      <JPFieldTitle>型号</JPFieldTitle>
+      <KRFieldTitle>型號</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="OrgVal">
+      <CNFieldTitle>原值</CNFieldTitle>
+      <TWFieldTitle>原值</TWFieldTitle>
+      <ENFieldTitle>Old Value</ENFieldTitle>
+      <JPFieldTitle>原值</JPFieldTitle>
+      <KRFieldTitle>原值</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UsePeriods">
+      <CNFieldTitle>已使用工作量</CNFieldTitle>
+      <TWFieldTitle>已使用工作量</TWFieldTitle>
+      <ENFieldTitle>已使用工作量</ENFieldTitle>
+      <JPFieldTitle>已使用工作量</JPFieldTitle>
+      <KRFieldTitle>已使用工作量</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Spec">
+      <CNFieldTitle>规格</CNFieldTitle>
+      <TWFieldTitle>規格</TWFieldTitle>
+      <ENFieldTitle>Spec</ENFieldTitle>
+      <JPFieldTitle>规格</JPFieldTitle>
+      <KRFieldTitle>quy cách</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Configuration">
+      <CNFieldTitle>配置</CNFieldTitle>
+      <TWFieldTitle>配置</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Card">
+      <CNFieldTitle>品牌</CNFieldTitle>
+      <TWFieldTitle>品牌</TWFieldTitle>
+      <ENFieldTitle>Brand</ENFieldTitle>
+      <JPFieldTitle>品牌</JPFieldTitle>
+      <KRFieldTitle>nhãn hiệu</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Remark1">
+      <CNFieldTitle>备注</CNFieldTitle>
+      <TWFieldTitle>備注</TWFieldTitle>
+      <ENFieldTitle>備注</ENFieldTitle>
+      <JPFieldTitle>備注</JPFieldTitle>
+      <KRFieldTitle>備注</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="JobClassID">
+      <CNFieldTitle>职类</CNFieldTitle>
+      <TWFieldTitle>職類</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="JobID">
+      <CNFieldTitle>职务</CNFieldTitle>
+      <TWFieldTitle>職務</TWFieldTitle>
+      <ENFieldTitle>Job</ENFieldTitle>
+      <JPFieldTitle>职务</JPFieldTitle>
+      <KRFieldTitle>職務</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="LeaveReasonTypeID">
+      <CNFieldTitle>离职原因分类</CNFieldTitle>
+      <TWFieldTitle>離職原因分類</TWFieldTitle>
+      <ENFieldTitle>离职原因分类</ENFieldTitle>
+      <JPFieldTitle>離職原因分類</JPFieldTitle>
+      <KRFieldTitle>離職原因分類</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PersonnelDuty">
+      <CNFieldTitle>职位</CNFieldTitle>
+      <TWFieldTitle>職位</TWFieldTitle>
+      <ENFieldTitle>Position</ENFieldTitle>
+      <JPFieldTitle>职位</JPFieldTitle>
+      <KRFieldTitle>Vị trí chức vụ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="count">
+      <CNFieldTitle>人数</CNFieldTitle>
+      <TWFieldTitle>人數</TWFieldTitle>
+      <ENFieldTitle>人數</ENFieldTitle>
+      <JPFieldTitle>人數</JPFieldTitle>
+      <KRFieldTitle>人數</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.913049+08:00</ModifyDTM>
+    </ID>
+  </IDs>
+</Language>

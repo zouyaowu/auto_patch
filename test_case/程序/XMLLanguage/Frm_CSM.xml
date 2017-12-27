@@ -1,0 +1,2016 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Language Name="Frm_CSM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IDs>
+    <ID FieldName="AllowUsed">
+      <CNFieldTitle>允许使用</CNFieldTitle>
+      <TWFieldTitle>允許使用</TWFieldTitle>
+      <ENFieldTitle>Active</ENFieldTitle>
+      <JPFieldTitle>允许使用</JPFieldTitle>
+      <KRFieldTitle>chấp nhận sử dụng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CompanyID">
+      <CNFieldTitle>公司内码</CNFieldTitle>
+      <TWFieldTitle>公司內碼</TWFieldTitle>
+      <ENFieldTitle>Company Inner Code</ENFieldTitle>
+      <JPFieldTitle>公司内码</JPFieldTitle>
+      <KRFieldTitle>公司内码</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ItemPrice">
+      <CNFieldTitle>价格</CNFieldTitle>
+      <TWFieldTitle>價格</TWFieldTitle>
+      <ENFieldTitle>Price</ENFieldTitle>
+      <JPFieldTitle>价格</JPFieldTitle>
+      <KRFieldTitle>价格</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ModifyDTM">
+      <CNFieldTitle>修改时间</CNFieldTitle>
+      <TWFieldTitle>修改時間</TWFieldTitle>
+      <ENFieldTitle>Modify Time</ENFieldTitle>
+      <JPFieldTitle>修改时间</JPFieldTitle>
+      <KRFieldTitle>修改時間</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PriceType">
+      <CNFieldTitle>定价方式</CNFieldTitle>
+      <TWFieldTitle>定價方式</TWFieldTitle>
+      <ENFieldTitle>Pricing Method</ENFieldTitle>
+      <JPFieldTitle>定价方式</JPFieldTitle>
+      <KRFieldTitle>定价方式</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Remark">
+      <CNFieldTitle>备注</CNFieldTitle>
+      <TWFieldTitle>備註</TWFieldTitle>
+      <ENFieldTitle>Remark</ENFieldTitle>
+      <JPFieldTitle>备注</JPFieldTitle>
+      <KRFieldTitle>ghi chú</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ServiceItemCode">
+      <CNFieldTitle>服务代码</CNFieldTitle>
+      <TWFieldTitle>服務項目代碼</TWFieldTitle>
+      <ENFieldTitle>Service Code</ENFieldTitle>
+      <JPFieldTitle>服务代码</JPFieldTitle>
+      <KRFieldTitle>服务代码</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ServiceItemID">
+      <CNFieldTitle>项目ID</CNFieldTitle>
+      <TWFieldTitle>服務項目ID</TWFieldTitle>
+      <ENFieldTitle>Service ID</ENFieldTitle>
+      <JPFieldTitle>项目ID</JPFieldTitle>
+      <KRFieldTitle>项目ID</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ServiceItemName">
+      <CNFieldTitle>服务名称</CNFieldTitle>
+      <TWFieldTitle>服務項目名稱</TWFieldTitle>
+      <ENFieldTitle>Service Name</ENFieldTitle>
+      <JPFieldTitle>服务名称</JPFieldTitle>
+      <KRFieldTitle>服务名称</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PriceTypeFix">
+      <CNFieldTitle>固定价格</CNFieldTitle>
+      <TWFieldTitle>固定價格</TWFieldTitle>
+      <ENFieldTitle>Fixed Price</ENFieldTitle>
+      <JPFieldTitle>固定价格</JPFieldTitle>
+      <KRFieldTitle>固定价格</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PriceTypeFloat">
+      <CNFieldTitle>非固定价格</CNFieldTitle>
+      <TWFieldTitle>非固定價格</TWFieldTitle>
+      <ENFieldTitle>Non-Fixed Price</ENFieldTitle>
+      <JPFieldTitle>非固定价格</JPFieldTitle>
+      <KRFieldTitle>非固定价格</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ServicePackageCode">
+      <CNFieldTitle>套餐代码</CNFieldTitle>
+      <TWFieldTitle>方案代碼</TWFieldTitle>
+      <ENFieldTitle>Plan Code</ENFieldTitle>
+      <JPFieldTitle>套餐代码</JPFieldTitle>
+      <KRFieldTitle>mã thay thế phương án</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ServicePackageName">
+      <CNFieldTitle>套餐名称</CNFieldTitle>
+      <TWFieldTitle>方案名稱</TWFieldTitle>
+      <ENFieldTitle>Plan Name</ENFieldTitle>
+      <JPFieldTitle>套餐名称</JPFieldTitle>
+      <KRFieldTitle>tên chương trình</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PackagePrice">
+      <CNFieldTitle>套餐价格</CNFieldTitle>
+      <TWFieldTitle>方案價格</TWFieldTitle>
+      <ENFieldTitle>PlanPrice</ENFieldTitle>
+      <JPFieldTitle>套餐价格</JPFieldTitle>
+      <KRFieldTitle>套餐价格</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PackageTimes">
+      <CNFieldTitle>服务次数</CNFieldTitle>
+      <TWFieldTitle>方案項目次數</TWFieldTitle>
+      <ENFieldTitle>Plan項目Times</ENFieldTitle>
+      <JPFieldTitle>套餐项目次数</JPFieldTitle>
+      <KRFieldTitle>套餐项目次数</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="IsLimitedTimes">
+      <CNFieldTitle>套餐限量销售</CNFieldTitle>
+      <TWFieldTitle>方案限量銷售</TWFieldTitle>
+      <ENFieldTitle>Plan限量Sales</ENFieldTitle>
+      <JPFieldTitle>套餐限量销售</JPFieldTitle>
+      <KRFieldTitle>套餐限量销售</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="LimitedTimes">
+      <CNFieldTitle>限量</CNFieldTitle>
+      <TWFieldTitle>限量</TWFieldTitle>
+      <ENFieldTitle>限量</ENFieldTitle>
+      <JPFieldTitle>限量</JPFieldTitle>
+      <KRFieldTitle>限量</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ExpenseTimes">
+      <CNFieldTitle>已消费次数</CNFieldTitle>
+      <TWFieldTitle>已銷售數量</TWFieldTitle>
+      <ENFieldTitle>SoldQty</ENFieldTitle>
+      <JPFieldTitle>已销售数量</JPFieldTitle>
+      <KRFieldTitle>已销售数量</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PackageType">
+      <CNFieldTitle>方式</CNFieldTitle>
+      <TWFieldTitle>方式</TWFieldTitle>
+      <ENFieldTitle>方式</ENFieldTitle>
+      <JPFieldTitle>方式</JPFieldTitle>
+      <KRFieldTitle>方式</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="IsUsePeriod">
+      <CNFieldTitle>是否启用有效期</CNFieldTitle>
+      <TWFieldTitle>是否啟用有效期</TWFieldTitle>
+      <ENFieldTitle>IfActivateValid Date</ENFieldTitle>
+      <JPFieldTitle>是否启用有效期</JPFieldTitle>
+      <KRFieldTitle>是否启用有效期</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PeriodType">
+      <CNFieldTitle>有效期选项</CNFieldTitle>
+      <TWFieldTitle>有效期選項</TWFieldTitle>
+      <ENFieldTitle>Valid Date選項</ENFieldTitle>
+      <JPFieldTitle>有效期选项</JPFieldTitle>
+      <KRFieldTitle>有效期选项</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PeriodQty">
+      <CNFieldTitle>有效期数量</CNFieldTitle>
+      <TWFieldTitle>有效期數量</TWFieldTitle>
+      <ENFieldTitle>Valid DateQty</ENFieldTitle>
+      <JPFieldTitle>有效期数量</JPFieldTitle>
+      <KRFieldTitle>有效期数量</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="IsUseCycle">
+      <CNFieldTitle>是否消费周期</CNFieldTitle>
+      <TWFieldTitle>是否消費週期</TWFieldTitle>
+      <ENFieldTitle>If消費Cycle</ENFieldTitle>
+      <JPFieldTitle>是否消费周期</JPFieldTitle>
+      <KRFieldTitle>是否消费周期</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CycleType">
+      <CNFieldTitle>消费周期选项</CNFieldTitle>
+      <TWFieldTitle>消費週期選項</TWFieldTitle>
+      <ENFieldTitle>消費Cycle選項</ENFieldTitle>
+      <JPFieldTitle>消费周期选项</JPFieldTitle>
+      <KRFieldTitle>消费周期选项</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CycleDays">
+      <CNFieldTitle>周期天数</CNFieldTitle>
+      <TWFieldTitle>週期天數</TWFieldTitle>
+      <ENFieldTitle>Cycle天數</ENFieldTitle>
+      <JPFieldTitle>周期天数</JPFieldTitle>
+      <KRFieldTitle>周期天数</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Times">
+      <CNFieldTitle>次</CNFieldTitle>
+      <TWFieldTitle>次</TWFieldTitle>
+      <ENFieldTitle>Times</ENFieldTitle>
+      <JPFieldTitle>次</JPFieldTitle>
+      <KRFieldTitle>lần</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="LimiteTimes">
+      <CNFieldTitle>限次</CNFieldTitle>
+      <TWFieldTitle>限次</TWFieldTitle>
+      <ENFieldTitle>Limited Times</ENFieldTitle>
+      <JPFieldTitle>限次</JPFieldTitle>
+      <KRFieldTitle>限次</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ConsumeCycle">
+      <CNFieldTitle>消费周期</CNFieldTitle>
+      <TWFieldTitle>消費週期</TWFieldTitle>
+      <ENFieldTitle>消費Cycle</ENFieldTitle>
+      <JPFieldTitle>消费周期</JPFieldTitle>
+      <KRFieldTitle>消费周期</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Period">
+      <CNFieldTitle>有效期</CNFieldTitle>
+      <TWFieldTitle>有效期</TWFieldTitle>
+      <ENFieldTitle>Valid Date</ENFieldTitle>
+      <JPFieldTitle>有效期</JPFieldTitle>
+      <KRFieldTitle>有效期</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Times1">
+      <CNFieldTitle>次数</CNFieldTitle>
+      <TWFieldTitle>次數</TWFieldTitle>
+      <ENFieldTitle>Times</ENFieldTitle>
+      <JPFieldTitle>次数</JPFieldTitle>
+      <KRFieldTitle>số thứ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="IsLimitedTimes0">
+      <CNFieldTitle>不限量</CNFieldTitle>
+      <TWFieldTitle>不限量</TWFieldTitle>
+      <ENFieldTitle>Limited</ENFieldTitle>
+      <JPFieldTitle>不限量</JPFieldTitle>
+      <KRFieldTitle>不限量</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="IsLimitedTimes1">
+      <CNFieldTitle>限量</CNFieldTitle>
+      <TWFieldTitle>限量</TWFieldTitle>
+      <ENFieldTitle>Unlimited</ENFieldTitle>
+      <JPFieldTitle>限量</JPFieldTitle>
+      <KRFieldTitle>限量</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BillNo">
+      <CNFieldTitle>单号</CNFieldTitle>
+      <TWFieldTitle>單號</TWFieldTitle>
+      <ENFieldTitle>Bill No</ENFieldTitle>
+      <JPFieldTitle>单号</JPFieldTitle>
+      <KRFieldTitle>số đơn</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MemberCode">
+      <CNFieldTitle>会员卡号</CNFieldTitle>
+      <TWFieldTitle>會員卡號</TWFieldTitle>
+      <ENFieldTitle>Member Card No</ENFieldTitle>
+      <JPFieldTitle>会员卡号</JPFieldTitle>
+      <KRFieldTitle>số thẻ hội viên</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SaleDate">
+      <CNFieldTitle>销售日期</CNFieldTitle>
+      <TWFieldTitle>銷售日期</TWFieldTitle>
+      <ENFieldTitle>Sales Date</ENFieldTitle>
+      <JPFieldTitle>销售日期</JPFieldTitle>
+      <KRFieldTitle>Ngày tiêu thụ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ServiceItem">
+      <CNFieldTitle>项目</CNFieldTitle>
+      <TWFieldTitle>項目</TWFieldTitle>
+      <ENFieldTitle>項目</ENFieldTitle>
+      <JPFieldTitle>项目</JPFieldTitle>
+      <KRFieldTitle>Project</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Package">
+      <CNFieldTitle>套餐</CNFieldTitle>
+      <TWFieldTitle>方案</TWFieldTitle>
+      <ENFieldTitle>Plan</ENFieldTitle>
+      <JPFieldTitle>套餐</JPFieldTitle>
+      <KRFieldTitle>phương án</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="IsPrintTicketNo">
+      <CNFieldTitle>是否打印小票</CNFieldTitle>
+      <TWFieldTitle>是否列印發票</TWFieldTitle>
+      <ENFieldTitle>Print Invoice</ENFieldTitle>
+      <JPFieldTitle>是否打印小票</JPFieldTitle>
+      <KRFieldTitle>是否打印小票</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Message">
+      <CNFieldTitle>消息</CNFieldTitle>
+      <TWFieldTitle>訊息</TWFieldTitle>
+      <ENFieldTitle>Message</ENFieldTitle>
+      <JPFieldTitle>消息</JPFieldTitle>
+      <KRFieldTitle>Tin tức</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="AmountReceivable">
+      <CNFieldTitle>应收</CNFieldTitle>
+      <TWFieldTitle>應收</TWFieldTitle>
+      <ENFieldTitle>AR</ENFieldTitle>
+      <JPFieldTitle>应收</JPFieldTitle>
+      <KRFieldTitle>應收</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Sale">
+      <CNFieldTitle>销售</CNFieldTitle>
+      <TWFieldTitle>銷售</TWFieldTitle>
+      <ENFieldTitle>Sales</ENFieldTitle>
+      <JPFieldTitle>销售</JPFieldTitle>
+      <KRFieldTitle>銷售</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PackageRefund">
+      <CNFieldTitle>套餐退款</CNFieldTitle>
+      <TWFieldTitle>方案退款</TWFieldTitle>
+      <ENFieldTitle>PlanRefund</ENFieldTitle>
+      <JPFieldTitle>服务退款</JPFieldTitle>
+      <KRFieldTitle>服务退款</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PackageConsumption">
+      <CNFieldTitle>服务消费</CNFieldTitle>
+      <TWFieldTitle>方案消費</TWFieldTitle>
+      <ENFieldTitle>Plan消費</ENFieldTitle>
+      <JPFieldTitle>服务消费</JPFieldTitle>
+      <KRFieldTitle>服务消费</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ClearDetail">
+      <CNFieldTitle>清空明细</CNFieldTitle>
+      <TWFieldTitle>清空明細</TWFieldTitle>
+      <ENFieldTitle>Clear Details</ENFieldTitle>
+      <JPFieldTitle>清空明细</JPFieldTitle>
+      <KRFieldTitle>清空明细</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="OtherFunc">
+      <CNFieldTitle>其他功能</CNFieldTitle>
+      <TWFieldTitle>其他功能</TWFieldTitle>
+      <ENFieldTitle>Other Functions</ENFieldTitle>
+      <JPFieldTitle>其它功能</JPFieldTitle>
+      <KRFieldTitle>其它功能</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Payment">
+      <CNFieldTitle>收银</CNFieldTitle>
+      <TWFieldTitle>收銀</TWFieldTitle>
+      <ENFieldTitle>Payment</ENFieldTitle>
+      <JPFieldTitle>收银</JPFieldTitle>
+      <KRFieldTitle>收银</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Exit">
+      <CNFieldTitle>退出</CNFieldTitle>
+      <TWFieldTitle>退出</TWFieldTitle>
+      <ENFieldTitle>Exit</ENFieldTitle>
+      <JPFieldTitle>退出</JPFieldTitle>
+      <KRFieldTitle>thoát ra</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PackageTabNameItems">
+      <CNFieldTitle>服务项目</CNFieldTitle>
+      <TWFieldTitle>服務項目</TWFieldTitle>
+      <ENFieldTitle>Service項目</ENFieldTitle>
+      <JPFieldTitle>服务项目</JPFieldTitle>
+      <KRFieldTitle>服务项目</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PackageTabNameShops">
+      <CNFieldTitle>使用范围</CNFieldTitle>
+      <TWFieldTitle>增加店櫃</TWFieldTitle>
+      <ENFieldTitle>Add Store</ENFieldTitle>
+      <JPFieldTitle>使用范围</JPFieldTitle>
+      <KRFieldTitle>增加店櫃</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PackageBTSelectItems">
+      <CNFieldTitle>选择服务项目</CNFieldTitle>
+      <TWFieldTitle>選擇服務項目</TWFieldTitle>
+      <ENFieldTitle>SelectService項目</ENFieldTitle>
+      <JPFieldTitle>选择服务项目</JPFieldTitle>
+      <KRFieldTitle>选择服务项目</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PackageBTSelectShops">
+      <CNFieldTitle>选择店铺</CNFieldTitle>
+      <TWFieldTitle>選擇店櫃</TWFieldTitle>
+      <ENFieldTitle>Select Store</ENFieldTitle>
+      <JPFieldTitle>选择店铺</JPFieldTitle>
+      <KRFieldTitle>選擇店櫃</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ServiceCodeIsNull">
+      <CNFieldTitle>服务代码不能为空</CNFieldTitle>
+      <TWFieldTitle>服務代碼不能為空</TWFieldTitle>
+      <ENFieldTitle>ServicePlan Code cannot be blank</ENFieldTitle>
+      <JPFieldTitle>服务代码不能为空</JPFieldTitle>
+      <KRFieldTitle>服务代码不能为空</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ServiceNameIsNull">
+      <CNFieldTitle>服务名称不能为空</CNFieldTitle>
+      <TWFieldTitle>服務名稱不能為空</TWFieldTitle>
+      <ENFieldTitle>ServicePlan Name cannot be blank</ENFieldTitle>
+      <JPFieldTitle>服务名称不能为空</JPFieldTitle>
+      <KRFieldTitle>服务名称不能为空</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MemberInvalid">
+      <CNFieldTitle>会员卡无效</CNFieldTitle>
+      <TWFieldTitle>會員卡無效</TWFieldTitle>
+      <ENFieldTitle>Member Card無效</ENFieldTitle>
+      <JPFieldTitle>会员卡无效</JPFieldTitle>
+      <KRFieldTitle>会员卡无效</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Sequence">
+      <CNFieldTitle>序号</CNFieldTitle>
+      <TWFieldTitle>序號</TWFieldTitle>
+      <ENFieldTitle>Serial No</ENFieldTitle>
+      <JPFieldTitle>序号</JPFieldTitle>
+      <KRFieldTitle>số thứ tự</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SaleType">
+      <CNFieldTitle>销售类型</CNFieldTitle>
+      <TWFieldTitle>銷售類型</TWFieldTitle>
+      <ENFieldTitle>Sales Type</ENFieldTitle>
+      <JPFieldTitle>销售类型</JPFieldTitle>
+      <KRFieldTitle>銷售類型</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ServiceType">
+      <CNFieldTitle>服务类型</CNFieldTitle>
+      <TWFieldTitle>服務類型</TWFieldTitle>
+      <ENFieldTitle>Service Type</ENFieldTitle>
+      <JPFieldTitle>服务类型</JPFieldTitle>
+      <KRFieldTitle>服务类型</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PackageNotFind">
+      <CNFieldTitle>不存在该套餐代码或者套餐名称</CNFieldTitle>
+      <TWFieldTitle>不存在該方案代碼或者方案名稱</TWFieldTitle>
+      <ENFieldTitle>doesn't exist該Plan Code orPlan Name</ENFieldTitle>
+      <JPFieldTitle>不存在该套餐代码或者套餐名称</JPFieldTitle>
+      <KRFieldTitle>不存在该套餐代码或者套餐名称</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ServiceNotFind">
+      <CNFieldTitle>不存在该服务项目代码或者项目名称</CNFieldTitle>
+      <TWFieldTitle>不存在該服務項目代碼或者項目名稱</TWFieldTitle>
+      <ENFieldTitle>doesn't exist該Service Code orItem Name</ENFieldTitle>
+      <JPFieldTitle>不存在该服务项目代码或者项目名称</JPFieldTitle>
+      <KRFieldTitle>不存在该服务项目代码或者项目名称</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PackageType0">
+      <CNFieldTitle>次数</CNFieldTitle>
+      <TWFieldTitle>次數</TWFieldTitle>
+      <ENFieldTitle>Times</ENFieldTitle>
+      <JPFieldTitle>次数</JPFieldTitle>
+      <KRFieldTitle>số thứ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PackageType1">
+      <CNFieldTitle>有效期</CNFieldTitle>
+      <TWFieldTitle>有效期</TWFieldTitle>
+      <ENFieldTitle>Valid Date</ENFieldTitle>
+      <JPFieldTitle>有效期</JPFieldTitle>
+      <KRFieldTitle>有效期</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Refresh">
+      <CNFieldTitle>刷新(F5)</CNFieldTitle>
+      <TWFieldTitle>更新(F5)</TWFieldTitle>
+      <ENFieldTitle>Refresh(F5)</ENFieldTitle>
+      <JPFieldTitle>刷新(F5)</JPFieldTitle>
+      <KRFieldTitle>cập nhật ( F 5 )</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ServiceItemCode1">
+      <CNFieldTitle>项目代码</CNFieldTitle>
+      <TWFieldTitle>項目代碼</TWFieldTitle>
+      <ENFieldTitle>Item Code</ENFieldTitle>
+      <JPFieldTitle>项目代码</JPFieldTitle>
+      <KRFieldTitle>項目代碼</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ServiceItemName1">
+      <CNFieldTitle>项目名称</CNFieldTitle>
+      <TWFieldTitle>項目名稱</TWFieldTitle>
+      <ENFieldTitle>Item Name</ENFieldTitle>
+      <JPFieldTitle>项目名称</JPFieldTitle>
+      <KRFieldTitle>QCItemName</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ESC">
+      <CNFieldTitle>取消(ESC)</CNFieldTitle>
+      <TWFieldTitle>取消(Esc)</TWFieldTitle>
+      <ENFieldTitle>Cancel(Esc)</ENFieldTitle>
+      <JPFieldTitle>取消(ESC)</JPFieldTitle>
+      <KRFieldTitle>hủy bỏ ( Esc )</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="OK">
+      <CNFieldTitle>确定(F12)</CNFieldTitle>
+      <TWFieldTitle>確定(F12)</TWFieldTitle>
+      <ENFieldTitle>Confirm(F12)</ENFieldTitle>
+      <JPFieldTitle>确定(F12)</JPFieldTitle>
+      <KRFieldTitle>确定(F12)</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Choice">
+      <CNFieldTitle>选择</CNFieldTitle>
+      <TWFieldTitle>選擇</TWFieldTitle>
+      <ENFieldTitle>Select</ENFieldTitle>
+      <JPFieldTitle>选择</JPFieldTitle>
+      <KRFieldTitle>lựa chọn</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="LeftTimes">
+      <CNFieldTitle>剩余次数</CNFieldTitle>
+      <TWFieldTitle>剩餘次數</TWFieldTitle>
+      <ENFieldTitle>剩餘Times</ENFieldTitle>
+      <JPFieldTitle>剩余次数</JPFieldTitle>
+      <KRFieldTitle>剩余次数</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="EndDate">
+      <CNFieldTitle>有效期</CNFieldTitle>
+      <TWFieldTitle>有效期</TWFieldTitle>
+      <ENFieldTitle>Valid Date</ENFieldTitle>
+      <JPFieldTitle>有效期</JPFieldTitle>
+      <KRFieldTitle>有效期</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="LastExpenseDate">
+      <CNFieldTitle>最后消费日期</CNFieldTitle>
+      <TWFieldTitle>最後消費日期</TWFieldTitle>
+      <ENFieldTitle>Last Purchase Date</ENFieldTitle>
+      <JPFieldTitle>最后消费日期</JPFieldTitle>
+      <KRFieldTitle>最后消费日期</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="VipCard">
+      <CNFieldTitle>会员卡号</CNFieldTitle>
+      <TWFieldTitle>會員卡號</TWFieldTitle>
+      <ENFieldTitle>Member Card No(F7)</ENFieldTitle>
+      <JPFieldTitle>会员卡号</JPFieldTitle>
+      <KRFieldTitle>số thẻ hội viên</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="EquivalentConsumption">
+      <CNFieldTitle>等价消费</CNFieldTitle>
+      <TWFieldTitle>等價消費</TWFieldTitle>
+      <ENFieldTitle>等價消費</ENFieldTitle>
+      <JPFieldTitle>等价消费</JPFieldTitle>
+      <KRFieldTitle>等价消费</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Consume">
+      <CNFieldTitle>消费</CNFieldTitle>
+      <TWFieldTitle>消費</TWFieldTitle>
+      <ENFieldTitle>消費</ENFieldTitle>
+      <JPFieldTitle>消费</JPFieldTitle>
+      <KRFieldTitle>消费</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PackageTypeName">
+      <CNFieldTitle>套餐类型</CNFieldTitle>
+      <TWFieldTitle>方案類型</TWFieldTitle>
+      <ENFieldTitle>Plan Type</ENFieldTitle>
+      <JPFieldTitle>套餐类型</JPFieldTitle>
+      <KRFieldTitle>套餐类型</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="NoExpenseRecord">
+      <CNFieldTitle>没有可消费的记录</CNFieldTitle>
+      <TWFieldTitle>沒有可消費的記錄</TWFieldTitle>
+      <ENFieldTitle>沒有可消費的記錄</ENFieldTitle>
+      <JPFieldTitle>没有可消费的记录</JPFieldTitle>
+      <KRFieldTitle>没有可消费的记录</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SaveBillError">
+      <CNFieldTitle>保存表单异常</CNFieldTitle>
+      <TWFieldTitle>保存表單異常</TWFieldTitle>
+      <ENFieldTitle>Save表單異常</ENFieldTitle>
+      <JPFieldTitle>保存表单异常</JPFieldTitle>
+      <KRFieldTitle>保存表单异常</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ConsumeSure">
+      <CNFieldTitle>消费确认</CNFieldTitle>
+      <TWFieldTitle>消費確認</TWFieldTitle>
+      <ENFieldTitle>消費Confirm</ENFieldTitle>
+      <JPFieldTitle>消费确认</JPFieldTitle>
+      <KRFieldTitle>消费确认</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PackageCode">
+      <CNFieldTitle>套餐代码</CNFieldTitle>
+      <TWFieldTitle>方案代碼</TWFieldTitle>
+      <ENFieldTitle>Plan Code</ENFieldTitle>
+      <JPFieldTitle>套餐代码</JPFieldTitle>
+      <KRFieldTitle>mã thay thế phương án</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PackageName">
+      <CNFieldTitle>套餐名称</CNFieldTitle>
+      <TWFieldTitle>方案名稱</TWFieldTitle>
+      <ENFieldTitle>Plan Name</ENFieldTitle>
+      <JPFieldTitle>套餐名称</JPFieldTitle>
+      <KRFieldTitle>tên chương trình</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="TimesAll">
+      <CNFieldTitle>总次数</CNFieldTitle>
+      <TWFieldTitle>總次數</TWFieldTitle>
+      <ENFieldTitle>總Times</ENFieldTitle>
+      <JPFieldTitle>总次数</JPFieldTitle>
+      <KRFieldTitle>总次数</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PackageTabNameReplaceList">
+      <CNFieldTitle>替换列表</CNFieldTitle>
+      <TWFieldTitle>取代清單</TWFieldTitle>
+      <ENFieldTitle>替換List</ENFieldTitle>
+      <JPFieldTitle>替换列表</JPFieldTitle>
+      <KRFieldTitle>替换列表</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="OnePriceAndTimes">
+      <CNFieldTitle>单价次数</CNFieldTitle>
+      <TWFieldTitle>單價次數</TWFieldTitle>
+      <ENFieldTitle>Unit PriceTimes</ENFieldTitle>
+      <JPFieldTitle>单价次数</JPFieldTitle>
+      <KRFieldTitle>单价次数</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="OnePrice">
+      <CNFieldTitle>单次价格</CNFieldTitle>
+      <TWFieldTitle>單次價格</TWFieldTitle>
+      <ENFieldTitle>單次Price</ENFieldTitle>
+      <JPFieldTitle>单次价格</JPFieldTitle>
+      <KRFieldTitle>单次价格</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Replace">
+      <CNFieldTitle>替换</CNFieldTitle>
+      <TWFieldTitle>取代</TWFieldTitle>
+      <ENFieldTitle>Replace</ENFieldTitle>
+      <JPFieldTitle>替换</JPFieldTitle>
+      <KRFieldTitle>thay thế</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Overdue">
+      <CNFieldTitle>已过期</CNFieldTitle>
+      <TWFieldTitle>已過期</TWFieldTitle>
+      <ENFieldTitle>Expired</ENFieldTitle>
+      <JPFieldTitle>已过期</JPFieldTitle>
+      <KRFieldTitle>已過期</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MoreThanLimitCycle">
+      <CNFieldTitle>超过消费周期上限</CNFieldTitle>
+      <TWFieldTitle>超過消費週期上限</TWFieldTitle>
+      <ENFieldTitle>超過消費Cycle上限</ENFieldTitle>
+      <JPFieldTitle>超过消费周期上限</JPFieldTitle>
+      <KRFieldTitle>超过消费周期上限</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PayAmount">
+      <CNFieldTitle>金额</CNFieldTitle>
+      <TWFieldTitle>金額</TWFieldTitle>
+      <ENFieldTitle>Amount</ENFieldTitle>
+      <JPFieldTitle>金额</JPFieldTitle>
+      <KRFieldTitle>số tiền</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MsgTitle">
+      <CNFieldTitle>提示</CNFieldTitle>
+      <TWFieldTitle>提示</TWFieldTitle>
+      <ENFieldTitle>Notice</ENFieldTitle>
+      <JPFieldTitle>提示</JPFieldTitle>
+      <KRFieldTitle>nhắc nhở</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DelBillDetailAllRow">
+      <CNFieldTitle>您确定清空所有的明细吗？</CNFieldTitle>
+      <TWFieldTitle>您確定情況所有的明細嗎？</TWFieldTitle>
+      <ENFieldTitle>您Confirm情況所有的明細嗎?</ENFieldTitle>
+      <JPFieldTitle>您确定清空所有的明细吗？</JPFieldTitle>
+      <KRFieldTitle>您确定清空所有的明细吗？</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="NoVipInfo">
+      <CNFieldTitle>请先登录会员信息，再进行退款或者消费操作！</CNFieldTitle>
+      <TWFieldTitle>請登入會員訊息，再進行退款或者消費操作！</TWFieldTitle>
+      <ENFieldTitle>Please先LoginMember Info,再進行Refundor消費操作!</ENFieldTitle>
+      <JPFieldTitle>请先登录会员信息，再进行退款或者消费操作！</JPFieldTitle>
+      <KRFieldTitle>请先登录会员信息，再进行退款或者消费操作！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Paid-in">
+      <CNFieldTitle>实收</CNFieldTitle>
+      <TWFieldTitle>實收</TWFieldTitle>
+      <ENFieldTitle>實收</ENFieldTitle>
+      <JPFieldTitle>实收</JPFieldTitle>
+      <KRFieldTitle>实收</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Pos_Change">
+      <CNFieldTitle>找零</CNFieldTitle>
+      <TWFieldTitle>找零</TWFieldTitle>
+      <ENFieldTitle>Change Due</ENFieldTitle>
+      <JPFieldTitle>找零</JPFieldTitle>
+      <KRFieldTitle>找零</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PleaseInputReceiptAmt">
+      <CNFieldTitle>请输入收款金额</CNFieldTitle>
+      <TWFieldTitle>請輸入收款金額</TWFieldTitle>
+      <ENFieldTitle>Please enterCollect Amount</ENFieldTitle>
+      <JPFieldTitle>请输入收款金额</JPFieldTitle>
+      <KRFieldTitle>请输入收款金额</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Pos_Balance">
+      <CNFieldTitle>结账(F5)</CNFieldTitle>
+      <TWFieldTitle>結帳(F5)</TWFieldTitle>
+      <ENFieldTitle>Close Account(F5)</ENFieldTitle>
+      <JPFieldTitle>结账(F5)</JPFieldTitle>
+      <KRFieldTitle>结账(F5)</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ReceiptType">
+      <CNFieldTitle>收款方式</CNFieldTitle>
+      <TWFieldTitle>收款方式</TWFieldTitle>
+      <ENFieldTitle>Payment Method</ENFieldTitle>
+      <JPFieldTitle>收款方式</JPFieldTitle>
+      <KRFieldTitle>phương thức thu tiền</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BabyInfoSet">
+      <CNFieldTitle>宝宝信息设置</CNFieldTitle>
+      <TWFieldTitle>寶寶訊息設定</TWFieldTitle>
+      <ENFieldTitle>Set Baby Info</ENFieldTitle>
+      <JPFieldTitle>宝宝信息设置</JPFieldTitle>
+      <KRFieldTitle>宝宝信息设置</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="MenberCannotBeEmpty">
+      <CNFieldTitle>请录入会员信息,非注册会员不能添加宝宝资料</CNFieldTitle>
+      <TWFieldTitle>請輸入會員資訊，非註冊會員不能增加寶寶資料</TWFieldTitle>
+      <ENFieldTitle>Membercannot be blank</ENFieldTitle>
+      <JPFieldTitle>请录入会员信息,非注册会员不能添加宝宝资料</JPFieldTitle>
+      <KRFieldTitle>请录入会员信息,非注册会员不能添加宝宝资料</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BabyNameCantBeEmpty">
+      <CNFieldTitle>宝宝姓名不能为空</CNFieldTitle>
+      <TWFieldTitle>寶寶姓名不能為空</TWFieldTitle>
+      <ENFieldTitle>Baby Name cannot be blank</ENFieldTitle>
+      <JPFieldTitle>宝宝姓名不能为空</JPFieldTitle>
+      <KRFieldTitle>宝宝姓名不能为空</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SureToDeleteTheRecord">
+      <CNFieldTitle>确定删除记录吗</CNFieldTitle>
+      <TWFieldTitle>確定刪除記錄嗎</TWFieldTitle>
+      <ENFieldTitle>Are you sure delete the records?</ENFieldTitle>
+      <JPFieldTitle>确定删除记录吗</JPFieldTitle>
+      <KRFieldTitle>确定删除记录吗</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="InquiresTheLessThanInformation">
+      <CNFieldTitle>查询不到信息</CNFieldTitle>
+      <TWFieldTitle>查詢不到訊息</TWFieldTitle>
+      <ENFieldTitle>Info not found.</ENFieldTitle>
+      <JPFieldTitle>查询不到信息</JPFieldTitle>
+      <KRFieldTitle>查询不到信息</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="VipCardNotFind">
+      <CNFieldTitle>会员卡未找到</CNFieldTitle>
+      <TWFieldTitle>會員卡未找到</TWFieldTitle>
+      <ENFieldTitle>Member Card not found.</ENFieldTitle>
+      <JPFieldTitle>会员卡未找到</JPFieldTitle>
+      <KRFieldTitle>会员卡未找到</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="VipCardNotValid">
+      <CNFieldTitle>会员卡已过期</CNFieldTitle>
+      <TWFieldTitle>會員卡已過期</TWFieldTitle>
+      <ENFieldTitle>Member Card expired.</ENFieldTitle>
+      <JPFieldTitle>会员卡已过期</JPFieldTitle>
+      <KRFieldTitle>会员卡已过期</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ServiceRefund">
+      <CNFieldTitle>项目退款</CNFieldTitle>
+      <TWFieldTitle>項目退款</TWFieldTitle>
+      <ENFieldTitle>項目Refund</ENFieldTitle>
+      <JPFieldTitle>项目退款</JPFieldTitle>
+      <KRFieldTitle>项目退款</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PackageStrikeABalance">
+      <CNFieldTitle>会员消费冲账</CNFieldTitle>
+      <TWFieldTitle>方案消費沖帳</TWFieldTitle>
+      <ENFieldTitle>Plan消費Write-Off</ENFieldTitle>
+      <JPFieldTitle>会员消费冲账</JPFieldTitle>
+      <KRFieldTitle>会员消费冲账</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Number">
+      <CNFieldTitle>数量</CNFieldTitle>
+      <TWFieldTitle>數量</TWFieldTitle>
+      <ENFieldTitle>Qty</ENFieldTitle>
+      <JPFieldTitle>数量</JPFieldTitle>
+      <KRFieldTitle>số lượng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Scan">
+      <CNFieldTitle>浏览</CNFieldTitle>
+      <TWFieldTitle>瀏覽</TWFieldTitle>
+      <ENFieldTitle>View</ENFieldTitle>
+      <JPFieldTitle>浏览</JPFieldTitle>
+      <KRFieldTitle>xem</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CancelFailed">
+      <CNFieldTitle>取消失败</CNFieldTitle>
+      <TWFieldTitle>取消失敗</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>取消失败</JPFieldTitle>
+      <KRFieldTitle>取消失败</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="OperationSuccess">
+      <CNFieldTitle>操作成功</CNFieldTitle>
+      <TWFieldTitle>操作成功</TWFieldTitle>
+      <ENFieldTitle>Operate successfully</ENFieldTitle>
+      <JPFieldTitle>操作成功</JPFieldTitle>
+      <KRFieldTitle>thao tác thành công</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="OperationFailed">
+      <CNFieldTitle>操作失败</CNFieldTitle>
+      <TWFieldTitle>操作失敗</TWFieldTitle>
+      <ENFieldTitle>Operate failed</ENFieldTitle>
+      <JPFieldTitle>操作失败</JPFieldTitle>
+      <KRFieldTitle>thao tác thất bại</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Sorry">
+      <CNFieldTitle>抱歉</CNFieldTitle>
+      <TWFieldTitle>抱歉</TWFieldTitle>
+      <ENFieldTitle>Sorry</ENFieldTitle>
+      <JPFieldTitle>抱歉</JPFieldTitle>
+      <KRFieldTitle>抱歉</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CancelSure">
+      <CNFieldTitle>是否取消当前套餐消费</CNFieldTitle>
+      <TWFieldTitle>是否取消當前方案消費</TWFieldTitle>
+      <ENFieldTitle>IfCancel當前Plan消費</ENFieldTitle>
+      <JPFieldTitle>是否取消当前套餐消费</JPFieldTitle>
+      <KRFieldTitle>是否取消当前套餐消费</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ExpensePackageCancel">
+      <CNFieldTitle>套餐取消消费</CNFieldTitle>
+      <TWFieldTitle>方案取消消費</TWFieldTitle>
+      <ENFieldTitle>PlanCancel消費</ENFieldTitle>
+      <JPFieldTitle>套餐取消消费</JPFieldTitle>
+      <KRFieldTitle>套餐取消消费</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BillDate">
+      <CNFieldTitle>订单日期</CNFieldTitle>
+      <TWFieldTitle>訂單日期</TWFieldTitle>
+      <ENFieldTitle>OrderDate</ENFieldTitle>
+      <JPFieldTitle>订单日期</JPFieldTitle>
+      <KRFieldTitle>订单日期</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Pos_PrintTicket">
+      <CNFieldTitle>结算时打印票据</CNFieldTitle>
+      <TWFieldTitle>結算時列印票據</TWFieldTitle>
+      <ENFieldTitle>Settle時PrintNote</ENFieldTitle>
+      <JPFieldTitle>结算时打印票据</JPFieldTitle>
+      <KRFieldTitle>结算时打印票据</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Pos_NoPrintTicket">
+      <CNFieldTitle>结算时不打印票据</CNFieldTitle>
+      <TWFieldTitle>結算時不列印票據</TWFieldTitle>
+      <ENFieldTitle>Settle時不PrintNote</ENFieldTitle>
+      <JPFieldTitle>结算时不打印票据</JPFieldTitle>
+      <KRFieldTitle>结算时不打印票据</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Pos_RoundMothed_0">
+      <CNFieldTitle>按单向下取整</CNFieldTitle>
+      <TWFieldTitle>按單取整</TWFieldTitle>
+      <ENFieldTitle>By Bill取整</ENFieldTitle>
+      <JPFieldTitle>按单向下取整</JPFieldTitle>
+      <KRFieldTitle>按单向下取整</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Pos_RoundMothed_1">
+      <CNFieldTitle>按单四舍五入</CNFieldTitle>
+      <TWFieldTitle>按單四捨五入</TWFieldTitle>
+      <ENFieldTitle>By Bill四捨五入</ENFieldTitle>
+      <JPFieldTitle>按单四舍五入</JPFieldTitle>
+      <KRFieldTitle>按单四舍五入</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Pos_RoundMothed_2">
+      <CNFieldTitle>按明细四舍五入</CNFieldTitle>
+      <TWFieldTitle>按明細四捨五入</TWFieldTitle>
+      <ENFieldTitle>By明細四捨五入</ENFieldTitle>
+      <JPFieldTitle>按明细四舍五入</JPFieldTitle>
+      <KRFieldTitle>按明细四舍五入</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Pos_RoundNum">
+      <CNFieldTitle>保留小数位</CNFieldTitle>
+      <TWFieldTitle>小數位:</TWFieldTitle>
+      <ENFieldTitle>Decimals:</ENFieldTitle>
+      <JPFieldTitle>保留小数位:</JPFieldTitle>
+      <KRFieldTitle>保留小数位:</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Pos_ClassName">
+      <CNFieldTitle>班次</CNFieldTitle>
+      <TWFieldTitle>班次:</TWFieldTitle>
+      <ENFieldTitle>Shift:</ENFieldTitle>
+      <JPFieldTitle>班次:</JPFieldTitle>
+      <KRFieldTitle>班次:</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Pos_CasherName">
+      <CNFieldTitle>收银员</CNFieldTitle>
+      <TWFieldTitle>收銀員:</TWFieldTitle>
+      <ENFieldTitle>Cashier:</ENFieldTitle>
+      <JPFieldTitle>收银员:</JPFieldTitle>
+      <KRFieldTitle>收银员:</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ShopNameTitle">
+      <CNFieldTitle>店铺名称</CNFieldTitle>
+      <TWFieldTitle>店櫃名稱</TWFieldTitle>
+      <ENFieldTitle>Store Name</ENFieldTitle>
+      <JPFieldTitle>店铺名称</JPFieldTitle>
+      <KRFieldTitle>tên cửa hàng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="InTheSaleCanNotRefund">
+      <CNFieldTitle>当前正处于销售状态，不可以进行退款操作！</CNFieldTitle>
+      <TWFieldTitle>當前正處於銷售狀態，不可以進行退款操作！</TWFieldTitle>
+      <ENFieldTitle>當前正處於Sales Status,不可以進行Refund操作!</ENFieldTitle>
+      <JPFieldTitle>当前正处于销售状态，不可以进行退款操作！</JPFieldTitle>
+      <KRFieldTitle>当前正处于销售状态，不可以进行退款操作！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="IsExit">
+      <CNFieldTitle>是否退出会员服务销售？</CNFieldTitle>
+      <TWFieldTitle>是否退出會員服務銷售？</TWFieldTitle>
+      <ENFieldTitle>IfExitMemberServiceSales?</ENFieldTitle>
+      <JPFieldTitle>是否退出会员服务销售？</JPFieldTitle>
+      <KRFieldTitle>是否退出会员服务销售？</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CanNotReplaceTheMemberInformation">
+      <CNFieldTitle>当前销售单未完成，不可以更换会员信息！</CNFieldTitle>
+      <TWFieldTitle>當前銷售單未完成，不可以更換會員資訊！</TWFieldTitle>
+      <ENFieldTitle>當前Sales單未Finish,不可以更換Member資訊!</ENFieldTitle>
+      <JPFieldTitle>当前销售单未完成，不可以更换会员信息！</JPFieldTitle>
+      <KRFieldTitle>当前销售单未完成，不可以更换会员信息！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PackageIsOnlyOpenToMembers">
+      <CNFieldTitle>套餐服务只对会员开放！</CNFieldTitle>
+      <TWFieldTitle>方案服務只對會員開放！</TWFieldTitle>
+      <ENFieldTitle>PlanService只對Member開放!</ENFieldTitle>
+      <JPFieldTitle>套餐服务只对会员开放！</JPFieldTitle>
+      <KRFieldTitle>套餐服务只对会员开放！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="RecordsDuplication">
+      <CNFieldTitle>不能存在多条相同的退款记录！</CNFieldTitle>
+      <TWFieldTitle>不能存在多條相同的退款記錄！</TWFieldTitle>
+      <ENFieldTitle>不能存在多條相同的Refund記錄!</ENFieldTitle>
+      <JPFieldTitle>不能存在多条相同的退款记录！</JPFieldTitle>
+      <KRFieldTitle>不能存在多条相同的退款记录！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="IsTrueBalance">
+      <CNFieldTitle>是否确认POS结账操作？</CNFieldTitle>
+      <TWFieldTitle>是否確認POS結帳操作？</TWFieldTitle>
+      <ENFieldTitle>IfConfirmPOSClose Account操作?</ENFieldTitle>
+      <JPFieldTitle>是否确认POS结账操作？</JPFieldTitle>
+      <KRFieldTitle>是否确认POS结账操作？</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CanNotBalance">
+      <CNFieldTitle>未缴清金额，不能结算！</CNFieldTitle>
+      <TWFieldTitle>未繳清金額，不能結算！</TWFieldTitle>
+      <ENFieldTitle>未繳清Amount,不能Settle!</ENFieldTitle>
+      <JPFieldTitle>未缴清金额，不能结算！</JPFieldTitle>
+      <KRFieldTitle>未缴清金额，不能结算！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DBSaleDateRange">
+      <CNFieldTitle>开始时间不得大于结束时间！</CNFieldTitle>
+      <TWFieldTitle>開始時間不得大於結束時間！</TWFieldTitle>
+      <ENFieldTitle>Start Time不得greater thanEnd Time!</ENFieldTitle>
+      <JPFieldTitle>开始时间不得大于结束时间！</JPFieldTitle>
+      <KRFieldTitle>开始时间不得大于结束时间！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="AccountNo">
+      <CNFieldTitle>帐号</CNFieldTitle>
+      <TWFieldTitle>帳號</TWFieldTitle>
+      <ENFieldTitle>ID</ENFieldTitle>
+      <JPFieldTitle>帐号</JPFieldTitle>
+      <KRFieldTitle>帳號</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="WrongOfBabyBirthday">
+      <CNFieldTitle>宝宝出生日期错误</CNFieldTitle>
+      <TWFieldTitle>寶寶出生日期錯誤</TWFieldTitle>
+      <ENFieldTitle>Baby Birth Date error</ENFieldTitle>
+      <JPFieldTitle>宝宝出生日期错误</JPFieldTitle>
+      <KRFieldTitle>宝宝出生日期错误</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="OverTheMaxExchangeAmt">
+      <CNFieldTitle>超出最大找零金额！</CNFieldTitle>
+      <TWFieldTitle>超出最大找零金額！</TWFieldTitle>
+      <ENFieldTitle>Exceed Maximum Change Due!</ENFieldTitle>
+      <JPFieldTitle>超出最大找零金额！</JPFieldTitle>
+      <KRFieldTitle>超出最大找零金额！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FrmTitle">
+      <CNFieldTitle>会员服务销售</CNFieldTitle>
+      <TWFieldTitle>會員服務銷售</TWFieldTitle>
+      <ENFieldTitle>MemberServiceSales</ENFieldTitle>
+      <JPFieldTitle>会员服务销售</JPFieldTitle>
+      <KRFieldTitle>会员服务销售</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CanNotRefundMultiService">
+      <CNFieldTitle>不可以同时退多个服务或者套餐！</CNFieldTitle>
+      <TWFieldTitle>不可以同時退多個服務或者方案！</TWFieldTitle>
+      <ENFieldTitle>不可以同時退多個ServiceorPlan!</ENFieldTitle>
+      <JPFieldTitle>不可以同时退多个服务或者套餐！</JPFieldTitle>
+      <KRFieldTitle>不可以同时退多个服务或者套餐！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PackageSoldOut">
+      <CNFieldTitle>该套餐已达到可销售数量上限！</CNFieldTitle>
+      <TWFieldTitle>該方案已達到可銷售數量上限！</TWFieldTitle>
+      <ENFieldTitle>該Plan已達到可SalesMaximum Qty!</ENFieldTitle>
+      <JPFieldTitle>该套餐已达到可销售数量上限！</JPFieldTitle>
+      <KRFieldTitle>该套餐已达到可销售数量上限！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CannotBeEmpty">
+      <CNFieldTitle>不能为空</CNFieldTitle>
+      <TWFieldTitle>不能為空</TWFieldTitle>
+      <ENFieldTitle>Not to be blank</ENFieldTitle>
+      <JPFieldTitle>不能为空</JPFieldTitle>
+      <KRFieldTitle>không được để trống</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PackageTabNameScheme">
+      <CNFieldTitle>替换方案</CNFieldTitle>
+      <TWFieldTitle>取代方案</TWFieldTitle>
+      <ENFieldTitle>替換方案</ENFieldTitle>
+      <JPFieldTitle>替换方案</JPFieldTitle>
+      <KRFieldTitle>phương án thay thế</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BtnNew">
+      <CNFieldTitle>新增</CNFieldTitle>
+      <TWFieldTitle>新增</TWFieldTitle>
+      <ENFieldTitle>Add</ENFieldTitle>
+      <JPFieldTitle>新增</JPFieldTitle>
+      <KRFieldTitle>thêm mới</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BtnDel">
+      <CNFieldTitle>删除</CNFieldTitle>
+      <TWFieldTitle>刪除</TWFieldTitle>
+      <ENFieldTitle>Delete</ENFieldTitle>
+      <JPFieldTitle>删除</JPFieldTitle>
+      <KRFieldTitle>xóa</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SchemeCode">
+      <CNFieldTitle>方案代码</CNFieldTitle>
+      <TWFieldTitle>方案代碼</TWFieldTitle>
+      <ENFieldTitle>Plan Code</ENFieldTitle>
+      <JPFieldTitle>方案代码</JPFieldTitle>
+      <KRFieldTitle>mã thay thế phương án</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SchemeName">
+      <CNFieldTitle>方案名称</CNFieldTitle>
+      <TWFieldTitle>方案名稱</TWFieldTitle>
+      <ENFieldTitle>Plan Name</ENFieldTitle>
+      <JPFieldTitle>方案名称</JPFieldTitle>
+      <KRFieldTitle>tên chương trình</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SchemeItem">
+      <CNFieldTitle>方案明细</CNFieldTitle>
+      <TWFieldTitle>方案明細</TWFieldTitle>
+      <ENFieldTitle>Plan Detail</ENFieldTitle>
+      <JPFieldTitle>方案明细</JPFieldTitle>
+      <KRFieldTitle>方案明细</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="UploadPosParamerFail">
+      <CNFieldTitle>加载POS参数失败！</CNFieldTitle>
+      <TWFieldTitle>載入POS參數失敗！</TWFieldTitle>
+      <ENFieldTitle>Load the POS Settings failed!</ENFieldTitle>
+      <JPFieldTitle>加载POS参数失败！</JPFieldTitle>
+      <KRFieldTitle>加载POS参数失败！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SchemeCodeRepeatWarm">
+      <CNFieldTitle>方案代码不能重复</CNFieldTitle>
+      <TWFieldTitle>方案代碼不能重複</TWFieldTitle>
+      <ENFieldTitle>Duplicate Plan Code has been forbidden.</ENFieldTitle>
+      <JPFieldTitle>方案代码不能重复</JPFieldTitle>
+      <KRFieldTitle>方案代码不能重复</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PackageRepeat">
+      <CNFieldTitle>会员套餐替换</CNFieldTitle>
+      <TWFieldTitle>會員套餐取代</TWFieldTitle>
+      <ENFieldTitle>套餐替換</ENFieldTitle>
+      <JPFieldTitle>会员套餐替换</JPFieldTitle>
+      <KRFieldTitle>会员套餐替换</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PackageRepeatSureInfo">
+      <CNFieldTitle>您将替换一次[{0}]为:</CNFieldTitle>
+      <TWFieldTitle>您將取代一次[{0}]為:</TWFieldTitle>
+      <ENFieldTitle>您將替換一次[{0}]為:</ENFieldTitle>
+      <JPFieldTitle>您将替换一次[{0}]为:</JPFieldTitle>
+      <KRFieldTitle>您将替换一次[{0}]为:</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PackageRepeatSuccess">
+      <CNFieldTitle>套餐替换成功</CNFieldTitle>
+      <TWFieldTitle>套餐取代成功</TWFieldTitle>
+      <ENFieldTitle>套餐替換成功</ENFieldTitle>
+      <JPFieldTitle>套餐替换成功</JPFieldTitle>
+      <KRFieldTitle>套餐替换成功</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PackageRepeatFailure">
+      <CNFieldTitle>套餐替换失败</CNFieldTitle>
+      <TWFieldTitle>套餐取代失敗</TWFieldTitle>
+      <ENFieldTitle>套餐替換失敗</ENFieldTitle>
+      <JPFieldTitle>套餐替换失败</JPFieldTitle>
+      <KRFieldTitle>套餐替换失败</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PackageRepeatException">
+      <CNFieldTitle>套餐替换异常</CNFieldTitle>
+      <TWFieldTitle>套餐取代異常</TWFieldTitle>
+      <ENFieldTitle>套餐替換異常</ENFieldTitle>
+      <JPFieldTitle>套餐替换异常</JPFieldTitle>
+      <KRFieldTitle>套餐替换异常</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ServiceCode">
+      <CNFieldTitle>服务代码</CNFieldTitle>
+      <TWFieldTitle>服務代碼</TWFieldTitle>
+      <ENFieldTitle>Service Code</ENFieldTitle>
+      <JPFieldTitle>服务代码</JPFieldTitle>
+      <KRFieldTitle>服务代码</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ServiceName">
+      <CNFieldTitle>服务名称</CNFieldTitle>
+      <TWFieldTitle>服務名稱</TWFieldTitle>
+      <ENFieldTitle>Service Name</ENFieldTitle>
+      <JPFieldTitle>服务名称</JPFieldTitle>
+      <KRFieldTitle>服务名称</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ServicePrice">
+      <CNFieldTitle>服务价格</CNFieldTitle>
+      <TWFieldTitle>服務價格</TWFieldTitle>
+      <ENFieldTitle>Sevice Price</ENFieldTitle>
+      <JPFieldTitle>服务价格</JPFieldTitle>
+      <KRFieldTitle>服务价格</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ServiceTimes">
+      <CNFieldTitle>服务次数</CNFieldTitle>
+      <TWFieldTitle>服務次數</TWFieldTitle>
+      <ENFieldTitle>Service Times</ENFieldTitle>
+      <JPFieldTitle>服务次数</JPFieldTitle>
+      <KRFieldTitle>服务次数</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ServiceExpException">
+      <CNFieldTitle>服务消费异常</CNFieldTitle>
+      <TWFieldTitle>服務消費異常</TWFieldTitle>
+      <ENFieldTitle>服務消費異常</ENFieldTitle>
+      <JPFieldTitle>服务消费异常</JPFieldTitle>
+      <KRFieldTitle>服务消费异常</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ServiceExpSuccess">
+      <CNFieldTitle>成功消费</CNFieldTitle>
+      <TWFieldTitle>成功消費</TWFieldTitle>
+      <ENFieldTitle>成功消費</ENFieldTitle>
+      <JPFieldTitle>成功消费</JPFieldTitle>
+      <KRFieldTitle>成功消费</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ServiceExpCancelException">
+      <CNFieldTitle>消费冲账异常</CNFieldTitle>
+      <TWFieldTitle>消費沖帳異常</TWFieldTitle>
+      <ENFieldTitle>消費沖帳異常</ENFieldTitle>
+      <JPFieldTitle>消费冲账异常</JPFieldTitle>
+      <KRFieldTitle>消费冲账异常</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ServiceRefundAmountWarm">
+      <CNFieldTitle>是否继续操作?
+当前服务可退款金额:</CNFieldTitle>
+      <TWFieldTitle>是否繼續操作?  當前服務可退款金額:</TWFieldTitle>
+      <ENFieldTitle>是否繼續操作?  當前服務可退款Amount:</ENFieldTitle>
+      <JPFieldTitle>是否继续操作?
+当前服务可退款金额:</JPFieldTitle>
+      <KRFieldTitle>是否继续操作?
+当前服务可退款金额:</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GeYue">
+      <CNFieldTitle>个月</CNFieldTitle>
+      <TWFieldTitle>個月</TWFieldTitle>
+      <ENFieldTitle>個月</ENFieldTitle>
+      <JPFieldTitle>个月</JPFieldTitle>
+      <KRFieldTitle>个月</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="LatePrintTicket">
+      <CNFieldTitle>补打小票</CNFieldTitle>
+      <TWFieldTitle>補印小票</TWFieldTitle>
+      <ENFieldTitle>Reprint Receipt</ENFieldTitle>
+      <JPFieldTitle>补打小票</JPFieldTitle>
+      <KRFieldTitle>补打小票</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="StartDate">
+      <CNFieldTitle>开始日期</CNFieldTitle>
+      <TWFieldTitle>開始日期</TWFieldTitle>
+      <ENFieldTitle>Start Date</ENFieldTitle>
+      <JPFieldTitle>开始日期</JPFieldTitle>
+      <KRFieldTitle>ngày bắt đầu</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="EndDate2">
+      <CNFieldTitle>结束日期</CNFieldTitle>
+      <TWFieldTitle>結束日期</TWFieldTitle>
+      <ENFieldTitle>End Date</ENFieldTitle>
+      <JPFieldTitle>结束日期</JPFieldTitle>
+      <KRFieldTitle>ngày kết thúc</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Shop">
+      <CNFieldTitle>店铺</CNFieldTitle>
+      <TWFieldTitle>店櫃</TWFieldTitle>
+      <ENFieldTitle>Store</ENFieldTitle>
+      <JPFieldTitle>店铺</JPFieldTitle>
+      <KRFieldTitle>cửa hàng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ServicePackage">
+      <CNFieldTitle>服务套餐</CNFieldTitle>
+      <TWFieldTitle>服務套餐</TWFieldTitle>
+      <ENFieldTitle>服務套餐</ENFieldTitle>
+      <JPFieldTitle>服务套餐</JPFieldTitle>
+      <KRFieldTitle>服务套餐</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ServiceItem2">
+      <CNFieldTitle>服务项目</CNFieldTitle>
+      <TWFieldTitle>服務項目</TWFieldTitle>
+      <ENFieldTitle>Service</ENFieldTitle>
+      <JPFieldTitle>服务项目</JPFieldTitle>
+      <KRFieldTitle>服务项目</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BillType">
+      <CNFieldTitle>单据类型</CNFieldTitle>
+      <TWFieldTitle>單據類型</TWFieldTitle>
+      <ENFieldTitle>單據類型</ENFieldTitle>
+      <JPFieldTitle>单据类型</JPFieldTitle>
+      <KRFieldTitle>loại hinh chứng từ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CardCode">
+      <CNFieldTitle>会员卡号</CNFieldTitle>
+      <TWFieldTitle>會員卡號</TWFieldTitle>
+      <ENFieldTitle>Member Card No</ENFieldTitle>
+      <JPFieldTitle>会员卡号</JPFieldTitle>
+      <KRFieldTitle>số thẻ hội viên</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PrintDegree">
+      <CNFieldTitle>打印次数</CNFieldTitle>
+      <TWFieldTitle>列印次數</TWFieldTitle>
+      <ENFieldTitle>Print次數</ENFieldTitle>
+      <JPFieldTitle>打印次数</JPFieldTitle>
+      <KRFieldTitle>打印次数</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ServiceTypeName">
+      <CNFieldTitle>服务类型</CNFieldTitle>
+      <TWFieldTitle>服務類型</TWFieldTitle>
+      <ENFieldTitle>服務類型</ENFieldTitle>
+      <JPFieldTitle>服务类型</JPFieldTitle>
+      <KRFieldTitle>服务类型</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SaleTypeName">
+      <CNFieldTitle>销售类型</CNFieldTitle>
+      <TWFieldTitle>銷售類型</TWFieldTitle>
+      <ENFieldTitle>銷售類型</ENFieldTitle>
+      <JPFieldTitle>销售类型</JPFieldTitle>
+      <KRFieldTitle>銷售類型</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SourceBillNo">
+      <CNFieldTitle>来源单号</CNFieldTitle>
+      <TWFieldTitle>來源單號</TWFieldTitle>
+      <ENFieldTitle>Source Bill No</ENFieldTitle>
+      <JPFieldTitle>来源单号</JPFieldTitle>
+      <KRFieldTitle>số đơn nguồn đến</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="isPrint">
+      <CNFieldTitle>打印</CNFieldTitle>
+      <TWFieldTitle>列印</TWFieldTitle>
+      <ENFieldTitle>Print</ENFieldTitle>
+      <JPFieldTitle>打印</JPFieldTitle>
+      <KRFieldTitle>in ấn</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="RecAmount">
+      <CNFieldTitle>实收金额</CNFieldTitle>
+      <TWFieldTitle>實收金額</TWFieldTitle>
+      <ENFieldTitle>Actual Amount</ENFieldTitle>
+      <JPFieldTitle>实收金额</JPFieldTitle>
+      <KRFieldTitle>实收金额</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="YSAmount">
+      <CNFieldTitle>应收金额</CNFieldTitle>
+      <TWFieldTitle>應收金額</TWFieldTitle>
+      <ENFieldTitle>AR Amount</ENFieldTitle>
+      <JPFieldTitle>应收金额</JPFieldTitle>
+      <KRFieldTitle>應收金額</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PleaseSelBillForPrint">
+      <CNFieldTitle>请选择要打印小票的单据！</CNFieldTitle>
+      <TWFieldTitle>請選擇要列印小票的單據！</TWFieldTitle>
+      <ENFieldTitle>請選擇要PrintReceipt的單據!</ENFieldTitle>
+      <JPFieldTitle>请选择要打印小票的单据！</JPFieldTitle>
+      <KRFieldTitle>请选择要打印小票的单据！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FrmCSM_LatePrintTicket1">
+      <CNFieldTitle>单号</CNFieldTitle>
+      <TWFieldTitle>單號</TWFieldTitle>
+      <ENFieldTitle>Bill No</ENFieldTitle>
+      <JPFieldTitle>单号</JPFieldTitle>
+      <KRFieldTitle>số đơn</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FrmCSM_LatePrintTicket2">
+      <CNFieldTitle>会员卡号</CNFieldTitle>
+      <TWFieldTitle>會員卡號</TWFieldTitle>
+      <ENFieldTitle>Member Card No</ENFieldTitle>
+      <JPFieldTitle>会员卡号</JPFieldTitle>
+      <KRFieldTitle>số thẻ hội viên</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FrmCSM_LatePrintTicket3">
+      <CNFieldTitle>开始日期</CNFieldTitle>
+      <TWFieldTitle>開始日期</TWFieldTitle>
+      <ENFieldTitle>Start Date</ENFieldTitle>
+      <JPFieldTitle>开始日期</JPFieldTitle>
+      <KRFieldTitle>ngày bắt đầu</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FrmCSM_LatePrintTicket4">
+      <CNFieldTitle>结束日期</CNFieldTitle>
+      <TWFieldTitle>結束日期</TWFieldTitle>
+      <ENFieldTitle>End Date</ENFieldTitle>
+      <JPFieldTitle>结束日期</JPFieldTitle>
+      <KRFieldTitle>ngày kết thúc</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FrmCSM_LatePrintTicket5">
+      <CNFieldTitle>店铺</CNFieldTitle>
+      <TWFieldTitle>店櫃</TWFieldTitle>
+      <ENFieldTitle>Store</ENFieldTitle>
+      <JPFieldTitle>店铺</JPFieldTitle>
+      <KRFieldTitle>cửa hàng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FrmCSM_LatePrintTicket6">
+      <CNFieldTitle>服务套餐</CNFieldTitle>
+      <TWFieldTitle>服務套餐</TWFieldTitle>
+      <ENFieldTitle>服務套餐</ENFieldTitle>
+      <JPFieldTitle>服务套餐</JPFieldTitle>
+      <KRFieldTitle>服务套餐</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FrmCSM_LatePrintTicket7">
+      <CNFieldTitle>服务套餐</CNFieldTitle>
+      <TWFieldTitle>服務套餐</TWFieldTitle>
+      <ENFieldTitle>服務套餐</ENFieldTitle>
+      <JPFieldTitle>服务套餐</JPFieldTitle>
+      <KRFieldTitle>服务套餐</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FrmCSM_LatePrintTicket8">
+      <CNFieldTitle>服务项目</CNFieldTitle>
+      <TWFieldTitle>服務項目</TWFieldTitle>
+      <ENFieldTitle>Old Service</ENFieldTitle>
+      <JPFieldTitle>服务项目</JPFieldTitle>
+      <KRFieldTitle>服务项目</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FrmCSM_LatePrintTicket9">
+      <CNFieldTitle>单据类型</CNFieldTitle>
+      <TWFieldTitle>單據類型</TWFieldTitle>
+      <ENFieldTitle>單據類型</ENFieldTitle>
+      <JPFieldTitle>单据类型</JPFieldTitle>
+      <KRFieldTitle>loại hinh chứng từ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FrmCSM_LatePrintTicket10">
+      <CNFieldTitle>销售</CNFieldTitle>
+      <TWFieldTitle>銷售</TWFieldTitle>
+      <ENFieldTitle>Sales</ENFieldTitle>
+      <JPFieldTitle>销售</JPFieldTitle>
+      <KRFieldTitle>銷售</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FrmCSM_LatePrintTicket11">
+      <CNFieldTitle>消费</CNFieldTitle>
+      <TWFieldTitle>消費</TWFieldTitle>
+      <ENFieldTitle>消費</ENFieldTitle>
+      <JPFieldTitle>消费</JPFieldTitle>
+      <KRFieldTitle>消费</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FrmCSM_LatePrintTicket12">
+      <CNFieldTitle>单据信息</CNFieldTitle>
+      <TWFieldTitle>單據資訊</TWFieldTitle>
+      <ENFieldTitle>單據資訊</ENFieldTitle>
+      <JPFieldTitle>单据信息</JPFieldTitle>
+      <KRFieldTitle>thông tin dự liệu</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FrmCSM_LatePrintTicket13">
+      <CNFieldTitle>单据明细信息</CNFieldTitle>
+      <TWFieldTitle>單據明細資訊</TWFieldTitle>
+      <ENFieldTitle>單據明細資訊</ENFieldTitle>
+      <JPFieldTitle>单据明细信息</JPFieldTitle>
+      <KRFieldTitle>单据明细信息</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FrmCSM_LatePrintTicket14">
+      <CNFieldTitle>收款信息</CNFieldTitle>
+      <TWFieldTitle>收款資訊</TWFieldTitle>
+      <ENFieldTitle>收款資訊</ENFieldTitle>
+      <JPFieldTitle>收款信息</JPFieldTitle>
+      <KRFieldTitle>收款信息</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FrmCSM_LatePrintTicket15">
+      <CNFieldTitle>代码;名称</CNFieldTitle>
+      <TWFieldTitle>代碼;名稱</TWFieldTitle>
+      <ENFieldTitle>Code;Name</ENFieldTitle>
+      <JPFieldTitle>代码;名称</JPFieldTitle>
+      <KRFieldTitle>mã;tên</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="formMain24">
+      <CNFieldTitle>正在查询...</CNFieldTitle>
+      <TWFieldTitle>正在查詢...</TWFieldTitle>
+      <ENFieldTitle>Searching...</ENFieldTitle>
+      <JPFieldTitle>正在查询...</JPFieldTitle>
+      <KRFieldTitle>正在查询...</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FrmCSM_LatePrintTicket16">
+      <CNFieldTitle>记录数:</CNFieldTitle>
+      <TWFieldTitle>記錄數:</TWFieldTitle>
+      <ENFieldTitle>Records:</ENFieldTitle>
+      <JPFieldTitle>记录数:</JPFieldTitle>
+      <KRFieldTitle>số ghi nhận :</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Pos_Personnel">
+      <CNFieldTitle>营业员</CNFieldTitle>
+      <TWFieldTitle>營業員</TWFieldTitle>
+      <ENFieldTitle>營業員</ENFieldTitle>
+      <JPFieldTitle>营业员</JPFieldTitle>
+      <KRFieldTitle>營業員</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="NonePrinter">
+      <CNFieldTitle>没有打印机</CNFieldTitle>
+      <TWFieldTitle>沒有印表機</TWFieldTitle>
+      <ENFieldTitle>No Printer</ENFieldTitle>
+      <JPFieldTitle>没有打印机</JPFieldTitle>
+      <KRFieldTitle>没有打印机</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CustomerName">
+      <CNFieldTitle>会员姓名</CNFieldTitle>
+      <TWFieldTitle>會員姓名</TWFieldTitle>
+      <ENFieldTitle>Member Name</ENFieldTitle>
+      <JPFieldTitle>会员姓名</JPFieldTitle>
+      <KRFieldTitle>会员姓名</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CardTypeName">
+      <CNFieldTitle>卡类别</CNFieldTitle>
+      <TWFieldTitle>卡類別</TWFieldTitle>
+      <ENFieldTitle>Card Type</ENFieldTitle>
+      <JPFieldTitle>卡类别</JPFieldTitle>
+      <KRFieldTitle>loại thẻ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CardRemainAmount">
+      <CNFieldTitle>卡余额</CNFieldTitle>
+      <TWFieldTitle>卡餘額</TWFieldTitle>
+      <ENFieldTitle>卡餘額</ENFieldTitle>
+      <JPFieldTitle>卡余额</JPFieldTitle>
+      <KRFieldTitle>卡余额</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CardIntegral">
+      <CNFieldTitle>卡积分</CNFieldTitle>
+      <TWFieldTitle>卡紅利</TWFieldTitle>
+      <ENFieldTitle>Card Points</ENFieldTitle>
+      <JPFieldTitle>卡积分</JPFieldTitle>
+      <KRFieldTitle>卡积分</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CardDiscount">
+      <CNFieldTitle>卡折扣</CNFieldTitle>
+      <TWFieldTitle>卡折扣</TWFieldTitle>
+      <ENFieldTitle>Card Discount</ENFieldTitle>
+      <JPFieldTitle>卡折扣</JPFieldTitle>
+      <KRFieldTitle>卡折扣</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="VipServiceRefund">
+      <CNFieldTitle>会员服务退款</CNFieldTitle>
+      <TWFieldTitle>會員服務退款</TWFieldTitle>
+      <ENFieldTitle>會員服務退款</ENFieldTitle>
+      <JPFieldTitle>会员服务退款</JPFieldTitle>
+      <KRFieldTitle>会员服务退款</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SCPersonnel">
+      <CNFieldTitle>售卡业务员</CNFieldTitle>
+      <TWFieldTitle>售卡業務員</TWFieldTitle>
+      <ENFieldTitle>售卡業務員</ENFieldTitle>
+      <JPFieldTitle>售卡业务员</JPFieldTitle>
+      <KRFieldTitle>售卡业务员</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Pos_RoundMothed_3">
+      <CNFieldTitle>按单向上取整</CNFieldTitle>
+      <TWFieldTitle>按單無條件進位</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>按单向上取整</JPFieldTitle>
+      <KRFieldTitle>按单向上取整</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PosReceiptException1">
+      <CNFieldTitle>现金与找零一致,请在收款明细中删除现金类收款</CNFieldTitle>
+      <TWFieldTitle>現金與找零一致，請在收款明細中刪除現金類收款</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>现金与找零一致,请在收款明细中删除现金类收款</JPFieldTitle>
+      <KRFieldTitle>现金与找零一致,请在收款明细中删除现金类收款</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CanNotSellItemAndProjectAtTheSameTime">
+      <CNFieldTitle>不能同时销售项目和套餐</CNFieldTitle>
+      <TWFieldTitle>不能同時銷售項目和套餐</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>不能同时销售项目和套餐</JPFieldTitle>
+      <KRFieldTitle>不能同时销售项目和套餐</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ChangeVipCard">
+      <CNFieldTitle>会员换卡</CNFieldTitle>
+      <TWFieldTitle>會員換卡</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>会员换卡</JPFieldTitle>
+      <KRFieldTitle>会员换卡</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GiveVipCard">
+      <CNFieldTitle>赠送卡号</CNFieldTitle>
+      <TWFieldTitle>贈送卡號</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>赠送卡号</JPFieldTitle>
+      <KRFieldTitle>赠送卡号</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="InvokeDataBaseFailted">
+      <CNFieldTitle>调用数据库失败!</CNFieldTitle>
+      <TWFieldTitle>呼叫資料庫失敗!</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>调用数据库失败!</JPFieldTitle>
+      <KRFieldTitle>调用数据库失败!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="OldCardCode">
+      <CNFieldTitle>旧卡号</CNFieldTitle>
+      <TWFieldTitle>舊卡號</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>旧卡号</JPFieldTitle>
+      <KRFieldTitle>旧卡号</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PackageGive">
+      <CNFieldTitle>套餐赠送</CNFieldTitle>
+      <TWFieldTitle>套餐贈送</TWFieldTitle>
+      <ENFieldTitle>PackageGive</ENFieldTitle>
+      <JPFieldTitle>套餐赠送</JPFieldTitle>
+      <KRFieldTitle>套餐赠送</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PackageGive_Msg01">
+      <CNFieldTitle>请输入赠送会员卡并回车确认!</CNFieldTitle>
+      <TWFieldTitle>請輸入贈送會員卡並Enter確認!</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>请输入赠送会员卡并回车确认!</JPFieldTitle>
+      <KRFieldTitle>请输入赠送会员卡并回车确认!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PackageGive_Msg02">
+      <CNFieldTitle>原卡号和赠送卡号不能相同!</CNFieldTitle>
+      <TWFieldTitle>原卡號和贈送卡號不能相同!</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>原卡号和赠送卡号不能相同!</JPFieldTitle>
+      <KRFieldTitle>原卡号和赠送卡号不能相同!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PackageGive_Msg03">
+      <CNFieldTitle>赠送次数输入错误!</CNFieldTitle>
+      <TWFieldTitle>贈送次數輸入錯誤!</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>赠送次数输入错误!</JPFieldTitle>
+      <KRFieldTitle>赠送次数输入错误!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PackageGive_Msg11">
+      <CNFieldTitle>确定赠送服务[{0}](有效期:{1})给会员[{2}]吗?</CNFieldTitle>
+      <TWFieldTitle>確定贈送服務[{0}](有效期:{1})給會員[{2}]嗎?</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>确定赠送服务[{0}](有效期:{1})给会员[{2}]吗?</JPFieldTitle>
+      <KRFieldTitle>确定赠送服务[{0}](有效期:{1})给会员[{2}]吗?</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PackageGive_Msg12">
+      <CNFieldTitle>确定赠送服务[{0}]({1}次)给会员[{2}]吗?</CNFieldTitle>
+      <TWFieldTitle>確定贈送服務[{0}]({1}次)給會員[{2}]嗎?</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>确定赠送服务[{0}]({1}次)给会员[{2}]吗?</JPFieldTitle>
+      <KRFieldTitle>确定赠送服务[{0}]({1}次)给会员[{2}]吗?</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PackageGive_Msg21">
+      <CNFieldTitle>剩余次数不足,赠送失败!</CNFieldTitle>
+      <TWFieldTitle>剩餘次數不足，贈送失敗!</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>剩余次数不足,赠送失败!</JPFieldTitle>
+      <KRFieldTitle>剩余次数不足,赠送失败!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PackageGive_Msg22">
+      <CNFieldTitle>原卡号与赠送卡号不能相同!</CNFieldTitle>
+      <TWFieldTitle>原卡號與贈送卡號不能相同!</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>原卡号与赠送卡号不能相同!</JPFieldTitle>
+      <KRFieldTitle>原卡号与赠送卡号不能相同!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PackageGive_Msg23">
+      <CNFieldTitle>[赠送套餐]调用数据库发生异常,赠送失败!</CNFieldTitle>
+      <TWFieldTitle>[贈送套餐]呼叫資料庫發生異常，贈送失敗!</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>[赠送套餐]调用数据库发生异常,赠送失败!</JPFieldTitle>
+      <KRFieldTitle>[赠送套餐]调用数据库发生异常,赠送失败!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GiveAmount">
+      <CNFieldTitle>赠送次数</CNFieldTitle>
+      <TWFieldTitle>贈送次數</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>赠送次数</JPFieldTitle>
+      <KRFieldTitle>赠送次数</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ExpExchange">
+      <CNFieldTitle>积分兑换</CNFieldTitle>
+      <TWFieldTitle>紅利兌換</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="IsSelect">
+      <CNFieldTitle>选择</CNFieldTitle>
+      <TWFieldTitle>選擇</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ExchangeIntegral">
+      <CNFieldTitle>兑换积分</CNFieldTitle>
+      <TWFieldTitle>兌換紅利</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ZFAmount">
+      <CNFieldTitle>支付金额</CNFieldTitle>
+      <TWFieldTitle>支付金額</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Price">
+      <CNFieldTitle>价格</CNFieldTitle>
+      <TWFieldTitle>價格</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Qty">
+      <CNFieldTitle>数量</CNFieldTitle>
+      <TWFieldTitle>數量</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="NoData">
+      <CNFieldTitle>没有数据</CNFieldTitle>
+      <TWFieldTitle>沒有資料</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="NoEnoughIntegral">
+      <CNFieldTitle>积分不足</CNFieldTitle>
+      <TWFieldTitle>紅利不足</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ChangeSaleTypeAfterClearDetail">
+      <CNFieldTitle>清空销售明细才能切换销售模式!</CNFieldTitle>
+      <TWFieldTitle>清空銷售明細才能切換銷售模式!</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SaleTypeError">
+      <CNFieldTitle>销售模式错误</CNFieldTitle>
+      <TWFieldTitle>銷售模式錯誤</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="OptionAfterClearDetail">
+      <CNFieldTitle>清空明细才可以操作</CNFieldTitle>
+      <TWFieldTitle>清空明細才可以操作</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SaleNormal">
+      <CNFieldTitle>正常销售</CNFieldTitle>
+      <TWFieldTitle>正常銷售</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Export">
+      <CNFieldTitle>导出</CNFieldTitle>
+      <TWFieldTitle>匯出</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Service">
+      <CNFieldTitle>服务</CNFieldTitle>
+      <TWFieldTitle>服務</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="NodeIsUsedCanNotAddSonNode">
+      <CNFieldTitle>节点已经被引用不能新增子节点</CNFieldTitle>
+      <TWFieldTitle>節點已經被引用不能新增子節點</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ServiceItemTypeName">
+      <CNFieldTitle>服务大类</CNFieldTitle>
+      <TWFieldTitle>服務大類</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="TEST">
+      <CNFieldTitle>测试</CNFieldTitle>
+      <TWFieldTitle>測試</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="NoUser">
+      <CNFieldTitle>显示不可用</CNFieldTitle>
+      <TWFieldTitle>顯示不可用</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Suretimes">
+      <CNFieldTitle>当前消费次数</CNFieldTitle>
+      <TWFieldTitle>當前消費次數</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Discount">
+      <CNFieldTitle>一般折扣</CNFieldTitle>
+      <TWFieldTitle>一般折扣</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="IsGive">
+      <CNFieldTitle>赠送</CNFieldTitle>
+      <TWFieldTitle>贈送</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SettlementAmount">
+      <CNFieldTitle>结算金额</CNFieldTitle>
+      <TWFieldTitle>結算金額</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PresendAmount">
+      <CNFieldTitle>让利金额</CNFieldTitle>
+      <TWFieldTitle>讓利金額</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="VIPDiscount">
+      <CNFieldTitle>会员折扣</CNFieldTitle>
+      <TWFieldTitle>會員折扣</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="VipPrice">
+      <CNFieldTitle>会员价</CNFieldTitle>
+      <TWFieldTitle>會員價</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="VIPIntegral">
+      <CNFieldTitle>会员积分</CNFieldTitle>
+      <TWFieldTitle>會員紅利</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SettlementPrice">
+      <CNFieldTitle>结算价</CNFieldTitle>
+      <TWFieldTitle>結算價</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="THQOrPresendFullRej">
+      <CNFieldTitle>来源单据有使用优惠券，或者使用手工输入赠送金额，或者刷一次性消费储值卡，或者使用积分抵现，需整单退款</CNFieldTitle>
+      <TWFieldTitle>來源單據有使用優惠券，或者使用手工輸入贈送金額，或者刷一次性消費儲值卡，或者使用紅利抵現，需整單退款</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="RefundAmount_Msg1">
+      <CNFieldTitle>整单退款套餐中包含不允许退款的套餐</CNFieldTitle>
+      <TWFieldTitle>整單退款套餐中包含不允許退款的套餐</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="RefundAmount_Msg2">
+      <CNFieldTitle>整单退款套餐中包含消费过的套餐</CNFieldTitle>
+      <TWFieldTitle>整單退款套餐中包含消費過的套餐</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Write-Off">
+      <CNFieldTitle>红冲</CNFieldTitle>
+      <TWFieldTitle>沖銷</TWFieldTitle>
+      <ENFieldTitle>Write-Off</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="IsWrite-Off">
+      <CNFieldTitle>是否红冲操作</CNFieldTitle>
+      <TWFieldTitle>是否沖銷操作</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PackageSerach">
+      <CNFieldTitle>服务套餐查询</CNFieldTitle>
+      <TWFieldTitle>服務套餐查詢</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.8974293+08:00</ModifyDTM>
+    </ID>
+  </IDs>
+</Language>

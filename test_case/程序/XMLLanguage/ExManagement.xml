@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Language Name="ExManagement" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IDs>
+    <ID FieldName="ExInfo1">
+      <CNFieldTitle>ExInfo1</CNFieldTitle>
+      <TWFieldTitle>ExInfo1</TWFieldTitle>
+      <ENFieldTitle>ExInfo1</ENFieldTitle>
+      <JPFieldTitle>ExInfo1</JPFieldTitle>
+      <KRFieldTitle>ExInfo1</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.4286518+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ExInfo2">
+      <CNFieldTitle>ExInfo2</CNFieldTitle>
+      <TWFieldTitle>ExInfo2</TWFieldTitle>
+      <ENFieldTitle>ExInfo2</ENFieldTitle>
+      <JPFieldTitle>ExInfo2</JPFieldTitle>
+      <KRFieldTitle>ExInfo2</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.4286518+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ExInfo3">
+      <CNFieldTitle>ExInfo3</CNFieldTitle>
+      <TWFieldTitle>ExInfo3</TWFieldTitle>
+      <ENFieldTitle>ExInfo3</ENFieldTitle>
+      <JPFieldTitle>ExInfo3</JPFieldTitle>
+      <KRFieldTitle>ExInfo3</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.4286518+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ExInfo4">
+      <CNFieldTitle>ExInfo4</CNFieldTitle>
+      <TWFieldTitle>ExInfo4</TWFieldTitle>
+      <ENFieldTitle>ExInfo4</ENFieldTitle>
+      <JPFieldTitle>ExInfo4</JPFieldTitle>
+      <KRFieldTitle>ExInfo4</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.4286518+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ExInfo5">
+      <CNFieldTitle>ExInfo5</CNFieldTitle>
+      <TWFieldTitle>ExInfo5</TWFieldTitle>
+      <ENFieldTitle>ExInfo5</ENFieldTitle>
+      <JPFieldTitle>ExInfo5</JPFieldTitle>
+      <KRFieldTitle>ExInfo5</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.4286518+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ExInfo6">
+      <CNFieldTitle>ExInfo6</CNFieldTitle>
+      <TWFieldTitle>ExInfo6</TWFieldTitle>
+      <ENFieldTitle>ExInfo6</ENFieldTitle>
+      <JPFieldTitle>ExInfo6</JPFieldTitle>
+      <KRFieldTitle>ExInfo6</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.4286518+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ExInfo7">
+      <CNFieldTitle>提示</CNFieldTitle>
+      <TWFieldTitle>提示</TWFieldTitle>
+      <ENFieldTitle>Notice</ENFieldTitle>
+      <JPFieldTitle>提示</JPFieldTitle>
+      <KRFieldTitle>nhắc nhở</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.4286518+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ExInfo8">
+      <CNFieldTitle>ExInfo8</CNFieldTitle>
+      <TWFieldTitle>ExInfo8</TWFieldTitle>
+      <ENFieldTitle>ExInfo8</ENFieldTitle>
+      <JPFieldTitle>ExInfo8</JPFieldTitle>
+      <KRFieldTitle>ExInfo8</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.4286518+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ExInfo9">
+      <CNFieldTitle>ExInfo9</CNFieldTitle>
+      <TWFieldTitle>ExInfo9</TWFieldTitle>
+      <ENFieldTitle>ExInfo9</ENFieldTitle>
+      <JPFieldTitle>ExInfo9</JPFieldTitle>
+      <KRFieldTitle>ExInfo9</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.4286518+08:00</ModifyDTM>
+    </ID>
+  </IDs>
+</Language>

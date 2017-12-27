@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Language Name="Service_DataInterface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IDs>
+    <ID FieldName="accountpass_error">
+      <CNFieldTitle>用户名或密码错误</CNFieldTitle>
+      <TWFieldTitle>用戶名或密碼錯誤</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="accountpass_non_null">
+      <CNFieldTitle>用户名和密码不能为空</CNFieldTitle>
+      <TWFieldTitle>用戶名和密碼不能為空</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="authorization_verification_error">
+      <CNFieldTitle>授权验证失败:</CNFieldTitle>
+      <TWFieldTitle>授權驗證失敗:</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="barcode_non_exist">
+      <CNFieldTitle>以下条码不存在:</CNFieldTitle>
+      <TWFieldTitle></TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="barcode_unexist_left">
+      <CNFieldTitle>条码[</CNFieldTitle>
+      <TWFieldTitle>條碼[</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="barcode_unexist_right">
+      <CNFieldTitle>]不存在!</CNFieldTitle>
+      <TWFieldTitle>]不存在!</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="bill_build_error">
+      <CNFieldTitle>产生单据出错,返回空</CNFieldTitle>
+      <TWFieldTitle>產生單據出錯,返回空</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="billtype_error">
+      <CNFieldTitle>生成失败: 单据类型错误:</CNFieldTitle>
+      <TWFieldTitle>生成失敗: 單據類型錯誤:</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="box">
+      <CNFieldTitle>箱号:</CNFieldTitle>
+      <TWFieldTitle>箱號:</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="boxInbill_sign_in_left">
+      <CNFieldTitle>单号[</CNFieldTitle>
+      <TWFieldTitle>單號[</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="boxInbill_sign_in_middle">
+      <CNFieldTitle>]里的箱号[</CNFieldTitle>
+      <TWFieldTitle>]里的箱號[</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="boxInbill_sign_in_right">
+      <CNFieldTitle>]已经签收过!</CNFieldTitle>
+      <TWFieldTitle>]已經簽收過!</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="build_downbill_error">
+      <CNFieldTitle>生成失败: 已经产生下游单据!</CNFieldTitle>
+      <TWFieldTitle>生成失敗: 已經產生下游單據!</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="build_salbill_error">
+      <CNFieldTitle>产生销售单失败,返回空</CNFieldTitle>
+      <TWFieldTitle>產生銷售單失敗,返回空</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="color">
+      <CNFieldTitle>颜色:</CNFieldTitle>
+      <TWFieldTitle>顏色:</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="disbill_submit_error">
+      <CNFieldTitle>盘点单不是[已生效]状态,不能进行提交!</CNFieldTitle>
+      <TWFieldTitle>盤點單不是[已生效]狀態,不能進行提交!</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="find_billno_error">
+      <CNFieldTitle>找不到对应单号,请确认后再进行签收!</CNFieldTitle>
+      <TWFieldTitle>找不到對應單號,請確認后再進行簽收!</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="good">
+      <CNFieldTitle>好得</CNFieldTitle>
+      <TWFieldTitle>好得</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>好得</JPFieldTitle>
+      <KRFieldTitle>tốt</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="IMEI_author_error_right">
+      <CNFieldTitle>]授权验证失败(</CNFieldTitle>
+      <TWFieldTitle>]授權驗證失敗(</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="IMEI_autuor_error_left">
+      <CNFieldTitle>设备[</CNFieldTitle>
+      <TWFieldTitle></TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="material">
+      <CNFieldTitle>货号:</CNFieldTitle>
+      <TWFieldTitle>貨號:</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="matID_and_sizeID">
+      <CNFieldTitle>货品ID[{0}]尺码[{1}]</CNFieldTitle>
+      <TWFieldTitle>貨品ID[{0}]尺碼[{1}]</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="matinv_lazy">
+      <CNFieldTitle>以下货品库存不足:</CNFieldTitle>
+      <TWFieldTitle>以下貨品庫存不足:</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="must_input_tips">
+      <CNFieldTitle>用户名,密码和公司为必填项</CNFieldTitle>
+      <TWFieldTitle></TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="number">
+      <CNFieldTitle>数量:</CNFieldTitle>
+      <TWFieldTitle>數量:</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="outbill_build_error">
+      <CNFieldTitle>产生出库失败,返回空</CNFieldTitle>
+      <TWFieldTitle>產生出庫失敗,返回空</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="parameter_not_null">
+      <CNFieldTitle>必填参数不能为空!</CNFieldTitle>
+      <TWFieldTitle>必填參數不能為空!</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="pass_error">
+      <CNFieldTitle>密码错误</CNFieldTitle>
+      <TWFieldTitle>密碼錯誤</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="pickbill_updata_result_error">
+      <CNFieldTitle>拣货单不是[未送审]状态,不能修改结果!</CNFieldTitle>
+      <TWFieldTitle>揀貨單不是[未送審]狀態,不能修改結果!</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="picknum_over_sourcenum">
+      <CNFieldTitle>装箱数量超出来源单数量!</CNFieldTitle>
+      <TWFieldTitle>裝箱數量超出來源單數量!</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="primarydisc_update_result_error">
+      <CNFieldTitle>初盘盘点单不是[未送审]状态,不能修改盘点结果!</CNFieldTitle>
+      <TWFieldTitle>初盤盤點單不是[未送審]狀態,不能修改盤點結果!</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="save_zonedata_error">
+      <CNFieldTitle>保存分区数据异常(Null)!</CNFieldTitle>
+      <TWFieldTitle>保存分區數據異常(Null)!</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="select_again">
+      <CNFieldTitle>调拨单已经生效,请重新查询!</CNFieldTitle>
+      <TWFieldTitle>調撥單已經生效,請重新查詢!</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="select_billdetail_error">
+      <CNFieldTitle>没有查询到单据明细!</CNFieldTitle>
+      <TWFieldTitle>沒有查詢到單據明細!</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="select_related_data_error">
+      <CNFieldTitle>无法查询到相关数据</CNFieldTitle>
+      <TWFieldTitle>無法查詢到相關數據</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="selet_matfactor_error">
+      <CNFieldTitle>查询不到货品条件</CNFieldTitle>
+      <TWFieldTitle>查詢不到貨品條件</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="sign_in_error">
+      <CNFieldTitle>签收失败!</CNFieldTitle>
+      <TWFieldTitle>簽收失敗!</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="sign_in_success">
+      <CNFieldTitle>签收成功!</CNFieldTitle>
+      <TWFieldTitle>簽收成功!</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="sourcebill_occupy_left">
+      <CNFieldTitle>当前单据来源单已被操作员[</CNFieldTitle>
+      <TWFieldTitle>當前單據來源單已被操作員[</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="sourcebill_occupy_right">
+      <CNFieldTitle>]占用,不能再进行操作!</CNFieldTitle>
+      <TWFieldTitle>]占用,不能再進行操作!</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="sourcebill_unbuild">
+      <CNFieldTitle>生成失败: 来源单据未生效!</CNFieldTitle>
+      <TWFieldTitle>生成失敗: 來源單據未生效!</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="stop_used">
+      <CNFieldTitle>本用户已停止使用</CNFieldTitle>
+      <TWFieldTitle>本用戶已停止使用</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="unknown_error_001">
+      <CNFieldTitle>未知错误001</CNFieldTitle>
+      <TWFieldTitle>未知錯誤001</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="update_result_error">
+      <CNFieldTitle>盘点单不是[未送审]状态,不能修改盘点结果!</CNFieldTitle>
+      <TWFieldTitle>盤點單不是[未送審]狀態,不能修改盤點結果!</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="update_result_error2">
+      <CNFieldTitle>初盘盘点单不是[未送审]状态,不能修改盘点结果!</CNFieldTitle>
+      <TWFieldTitle>初盤盤點單不是[未送審]狀態,不能修改盤點結果!</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="user_non_exist">
+      <CNFieldTitle>用户名不存在</CNFieldTitle>
+      <TWFieldTitle>用戶名不存在</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="zone_frozen_left">
+      <CNFieldTitle>分区[</CNFieldTitle>
+      <TWFieldTitle>分區[</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="zone_frozen_right">
+      <CNFieldTitle>]已冻结, 不能修改!</CNFieldTitle>
+      <TWFieldTitle>]已凍結, 不能修改!</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="zone_submit_sure_right">
+      <CNFieldTitle>]已存在数据, 继续提交将覆盖, 确认提交吗!</CNFieldTitle>
+      <TWFieldTitle>]已存在數據, 繼續提交將覆蓋, 確認提交嗎!</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="zone_submitlocation_sure_right">
+      <CNFieldTitle>]在服务器存在货品明细,提交本地盘点结果将覆盖服务器分区数据,确认提交吗!</CNFieldTitle>
+      <TWFieldTitle>]在服務器存在貨品明細,提交本地盤點結果將覆蓋服務器分區數據,確認提交嗎!</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="zone_update_result_right">
+      <CNFieldTitle>]存在冻结的货品资料,不能修改盘点结果!</CNFieldTitle>
+      <TWFieldTitle>]存在凍結的貨品資料,不能修改盤點結果!</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9286664+08:00</ModifyDTM>
+    </ID>
+  </IDs>
+</Language>

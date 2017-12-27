@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Language Name="WcfLoadBalancing" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IDs>
+    <ID FieldName="Call">
+      <CNFieldTitle>的呼叫.</CNFieldTitle>
+      <TWFieldTitle>的呼叫</TWFieldTitle>
+      <ENFieldTitle>的呼叫</ENFieldTitle>
+      <JPFieldTitle>的呼叫.</JPFieldTitle>
+      <KRFieldTitle>của tiếng hú</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9599165+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ChannelHasNotSet">
+      <CNFieldTitle>尚未设置通道！</CNFieldTitle>
+      <TWFieldTitle>尚未設定通道！</TWFieldTitle>
+      <ENFieldTitle>Aisle hasn't been set!</ENFieldTitle>
+      <JPFieldTitle>尚未设置通道！</JPFieldTitle>
+      <KRFieldTitle>vẫn chưa cài đặt kênh !</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9599165+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ComeFrom">
+      <CNFieldTitle>来自</CNFieldTitle>
+      <TWFieldTitle>來自</TWFieldTitle>
+      <ENFieldTitle>From</ENFieldTitle>
+      <JPFieldTitle>来自</JPFieldTitle>
+      <KRFieldTitle>đền từ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9599165+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ForSuccess">
+      <CNFieldTitle>获取成功！</CNFieldTitle>
+      <TWFieldTitle>取得成功！</TWFieldTitle>
+      <ENFieldTitle>Retrieve successfully!</ENFieldTitle>
+      <JPFieldTitle>获取成功！</JPFieldTitle>
+      <KRFieldTitle>tham số thành công !</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9599165+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="HasTakenOver">
+      <CNFieldTitle>已经接手</CNFieldTitle>
+      <TWFieldTitle>已經接手</TWFieldTitle>
+      <ENFieldTitle>已經接手</ENFieldTitle>
+      <JPFieldTitle>已经接手</JPFieldTitle>
+      <KRFieldTitle>已經接手</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9599165+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="NoCorrespondingModuleInfo">
+      <CNFieldTitle>没有对应模块的中间层信息!</CNFieldTitle>
+      <TWFieldTitle>沒有對應模組的中間層資訊！</TWFieldTitle>
+      <ENFieldTitle>沒有對應Module的中間層Info!</ENFieldTitle>
+      <JPFieldTitle>没有对应模块的中间层信息!</JPFieldTitle>
+      <KRFieldTitle>không có thông tin lớp trong của tổ hợp đối ứng !</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9599165+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="NotSetTaozhangInfo">
+      <CNFieldTitle>没有配置账套信息！</CNFieldTitle>
+      <TWFieldTitle>沒有設定帳套資訊！</TWFieldTitle>
+      <ENFieldTitle>沒有SettingBookInfo!</ENFieldTitle>
+      <JPFieldTitle>没有配置账套信息！</JPFieldTitle>
+      <KRFieldTitle>không có cài đặt sổ công nợ của bộ sổ công nợ !</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9599165+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SetConfigurationInfo">
+      <CNFieldTitle>请先设置配置信息！</CNFieldTitle>
+      <TWFieldTitle>請設定組態資訊！</TWFieldTitle>
+      <ENFieldTitle>Please set Configurations!</ENFieldTitle>
+      <JPFieldTitle>请先设置配置信息！</JPFieldTitle>
+      <KRFieldTitle>vui lòng cài đặt thông tin tổ hợp !</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9599165+08:00</ModifyDTM>
+    </ID>
+  </IDs>
+</Language>

@@ -1,0 +1,4357 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Language Name="Frm_BG" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IDs>
+    <ID FieldName="ItemHasExists">
+      <CNFieldTitle>该合同条款已经存在!</CNFieldTitle>
+      <TWFieldTitle>該合約條款已經存在！</TWFieldTitle>
+      <ENFieldTitle>The Contract Clause already existed!</ENFieldTitle>
+      <JPFieldTitle>该合同条款已经存在!</JPFieldTitle>
+      <KRFieldTitle>该合同条款已经存在!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="plsSelectIsShow">
+      <CNFieldTitle>请选择显示方式!</CNFieldTitle>
+      <TWFieldTitle>請選擇顯示方式！</TWFieldTitle>
+      <ENFieldTitle>Please select顯示方式!</ENFieldTitle>
+      <JPFieldTitle>请选择显示方式!</JPFieldTitle>
+      <KRFieldTitle>请选择显示方式!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="plsSelectItem">
+      <CNFieldTitle>请选择合同条款!</CNFieldTitle>
+      <TWFieldTitle>請選擇合約條款！</TWFieldTitle>
+      <ENFieldTitle>Please select Contract Clause!</ENFieldTitle>
+      <JPFieldTitle>请选择合同条款!</JPFieldTitle>
+      <KRFieldTitle>请选择合同条款!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SelectBargainItemText">
+      <CNFieldTitle>选择合同条款</CNFieldTitle>
+      <TWFieldTitle>選擇合約條款</TWFieldTitle>
+      <ENFieldTitle>Select Contract Clause</ENFieldTitle>
+      <JPFieldTitle>选择合同条款</JPFieldTitle>
+      <KRFieldTitle>选择合同条款</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="TitleInfo1">
+      <CNFieldTitle>提示</CNFieldTitle>
+      <TWFieldTitle>提示</TWFieldTitle>
+      <ENFieldTitle>Notice</ENFieldTitle>
+      <JPFieldTitle>提示</JPFieldTitle>
+      <KRFieldTitle>nhắc nhở</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckItemTextIsNull">
+      <CNFieldTitle>未生成条款文本， 是否立即生成？</CNFieldTitle>
+      <TWFieldTitle>未產生條款文字， 是否立即產生？</TWFieldTitle>
+      <ENFieldTitle>未產生Clause文字, If立即產生?</ENFieldTitle>
+      <JPFieldTitle>未生成条款文本， 是否立即生成？</JPFieldTitle>
+      <KRFieldTitle>未生成条款文本， 是否立即生成？</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckBargainEndDate">
+      <CNFieldTitle>合同结束日期不能为空！</CNFieldTitle>
+      <TWFieldTitle>合約結束日期不能為空！</TWFieldTitle>
+      <ENFieldTitle>Contract End Date cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>合同结束日期不能为空！</JPFieldTitle>
+      <KRFieldTitle>合同结束日期不能为空！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckBargainNo">
+      <CNFieldTitle>合同编号不能为空！</CNFieldTitle>
+      <TWFieldTitle>合約編號不能為空！</TWFieldTitle>
+      <ENFieldTitle>Contract No cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>合同编号不能为空！</JPFieldTitle>
+      <KRFieldTitle>合同编号不能为空！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckBargainStartDate">
+      <CNFieldTitle>合同开始日期不能为空！</CNFieldTitle>
+      <TWFieldTitle>合約開始日期不能為空！</TWFieldTitle>
+      <ENFieldTitle>Contract Start Date cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>合同开始日期不能为空！</JPFieldTitle>
+      <KRFieldTitle>合同开始日期不能为空！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckCustAndVendor">
+      <CNFieldTitle>往来单位不能为空！</CNFieldTitle>
+      <TWFieldTitle>往來單位不能為空！</TWFieldTitle>
+      <ENFieldTitle>Dealing Entity cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>往来单位不能为空！</JPFieldTitle>
+      <KRFieldTitle>往来单位不能为空！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="formBaseBtn1">
+      <CNFieldTitle>确定</CNFieldTitle>
+      <TWFieldTitle>確定</TWFieldTitle>
+      <ENFieldTitle>Confirm</ENFieldTitle>
+      <JPFieldTitle>确定</JPFieldTitle>
+      <KRFieldTitle>xác nhận</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="formBaseBtn2">
+      <CNFieldTitle>取消</CNFieldTitle>
+      <TWFieldTitle>取消</TWFieldTitle>
+      <ENFieldTitle>Cancel</ENFieldTitle>
+      <JPFieldTitle>取消</JPFieldTitle>
+      <KRFieldTitle>hủy</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="formBaseBtn3">
+      <CNFieldTitle>返回</CNFieldTitle>
+      <TWFieldTitle>返回</TWFieldTitle>
+      <ENFieldTitle>Exit</ENFieldTitle>
+      <JPFieldTitle>返回</JPFieldTitle>
+      <KRFieldTitle>quay lại</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="formBaseBtn4">
+      <CNFieldTitle>打印</CNFieldTitle>
+      <TWFieldTitle>列印</TWFieldTitle>
+      <ENFieldTitle>Print</ENFieldTitle>
+      <JPFieldTitle>打印</JPFieldTitle>
+      <KRFieldTitle>in ấn</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="formBaseBtn5">
+      <CNFieldTitle>刷新</CNFieldTitle>
+      <TWFieldTitle>更新</TWFieldTitle>
+      <ENFieldTitle>Refresh</ENFieldTitle>
+      <JPFieldTitle>刷新</JPFieldTitle>
+      <KRFieldTitle>quyét mới</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="formBaseBtn6">
+      <CNFieldTitle>保存设置</CNFieldTitle>
+      <TWFieldTitle>保存設定</TWFieldTitle>
+      <ENFieldTitle>Save Setting</ENFieldTitle>
+      <JPFieldTitle>保存设置</JPFieldTitle>
+      <KRFieldTitle>lưu cài đặt</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="formBaseBtn7">
+      <CNFieldTitle>导出</CNFieldTitle>
+      <TWFieldTitle>匯出</TWFieldTitle>
+      <ENFieldTitle>Export</ENFieldTitle>
+      <JPFieldTitle>导出</JPFieldTitle>
+      <KRFieldTitle>truyền xuất</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="formBaseBtn8">
+      <CNFieldTitle>查询</CNFieldTitle>
+      <TWFieldTitle>查詢</TWFieldTitle>
+      <ENFieldTitle>Search</ENFieldTitle>
+      <JPFieldTitle>查询</JPFieldTitle>
+      <KRFieldTitle>tìm kiếm</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="formBaseBtn9">
+      <CNFieldTitle>退出</CNFieldTitle>
+      <TWFieldTitle>退出</TWFieldTitle>
+      <ENFieldTitle>Exit</ENFieldTitle>
+      <JPFieldTitle>退出</JPFieldTitle>
+      <KRFieldTitle>thoát ra</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="formBaseInfo1">
+      <CNFieldTitle>请设置查询条件!</CNFieldTitle>
+      <TWFieldTitle>請設定查詢條件！</TWFieldTitle>
+      <ENFieldTitle>Please set Search Options!</ENFieldTitle>
+      <JPFieldTitle>请设置查询条件!</JPFieldTitle>
+      <KRFieldTitle>vui lòng cài đặt điều kiện kiểm tra !</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="formBaseInfo10">
+      <CNFieldTitle>确认要删除当前记录!</CNFieldTitle>
+      <TWFieldTitle>確認要刪除當前記錄！</TWFieldTitle>
+      <ENFieldTitle>Do you want to delete the data!</ENFieldTitle>
+      <JPFieldTitle>确认要删除当前记录!</JPFieldTitle>
+      <KRFieldTitle>确认要删除当前记录!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="formBaseInfo11">
+      <CNFieldTitle>该单据未送审，不能进行审核!</CNFieldTitle>
+      <TWFieldTitle>該單據未送審，不能進行審核！</TWFieldTitle>
+      <ENFieldTitle>The bill isn on unappoved status. You cannot approve</ENFieldTitle>
+      <JPFieldTitle>该单据未送审，不能进行审核!</JPFieldTitle>
+      <KRFieldTitle>dự liệu này chưa phê duyệt , không thể tiến hành phê duyệt !</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTNounExplainCode">
+      <CNFieldTitle>名词解释代码</CNFieldTitle>
+      <TWFieldTitle>名詞解釋代碼</TWFieldTitle>
+      <ENFieldTitle>名詞解釋Code</ENFieldTitle>
+      <JPFieldTitle>名词解释代码</JPFieldTitle>
+      <KRFieldTitle>名词解释代码</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTNounExplainMemo">
+      <CNFieldTitle>名词解释内容</CNFieldTitle>
+      <TWFieldTitle>名詞解釋內容</TWFieldTitle>
+      <ENFieldTitle>名詞解釋Content</ENFieldTitle>
+      <JPFieldTitle>名词解释内容</JPFieldTitle>
+      <KRFieldTitle>名词解释内容</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTNounExplainName">
+      <CNFieldTitle>名词解释名称</CNFieldTitle>
+      <TWFieldTitle>名詞解釋名稱</TWFieldTitle>
+      <ENFieldTitle>名詞解釋Name</ENFieldTitle>
+      <JPFieldTitle>名词解释名称</JPFieldTitle>
+      <KRFieldTitle>名词解释名称</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="TimeEqualInfo">
+      <CNFieldTitle>开始日期不能大于结束日期！</CNFieldTitle>
+      <TWFieldTitle>開始日期不能大於結束日期！</TWFieldTitle>
+      <ENFieldTitle>Start Date cannot be later than End Date!</ENFieldTitle>
+      <JPFieldTitle>开始日期不能大于结束日期！</JPFieldTitle>
+      <KRFieldTitle>ngày bắt đầu không thể lớn hơn ngày kết thúc !</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Address">
+      <CNFieldTitle>地址</CNFieldTitle>
+      <TWFieldTitle>地址</TWFieldTitle>
+      <ENFieldTitle>Address</ENFieldTitle>
+      <JPFieldTitle>地址</JPFieldTitle>
+      <KRFieldTitle>địa chỉ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Area">
+      <CNFieldTitle>地区</CNFieldTitle>
+      <TWFieldTitle>地區</TWFieldTitle>
+      <ENFieldTitle>Area</ENFieldTitle>
+      <JPFieldTitle>地区</JPFieldTitle>
+      <KRFieldTitle>khu vực</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="LinkMen">
+      <CNFieldTitle>联系人</CNFieldTitle>
+      <TWFieldTitle>聯絡人</TWFieldTitle>
+      <ENFieldTitle>Contact Person</ENFieldTitle>
+      <JPFieldTitle>联系人</JPFieldTitle>
+      <KRFieldTitle>người liên hệ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Sequence">
+      <CNFieldTitle>序号</CNFieldTitle>
+      <TWFieldTitle>序號</TWFieldTitle>
+      <ENFieldTitle>Serial No</ENFieldTitle>
+      <JPFieldTitle>序号</JPFieldTitle>
+      <KRFieldTitle>số thứ tự</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ShopArea">
+      <CNFieldTitle>经营面积</CNFieldTitle>
+      <TWFieldTitle>經營面積</TWFieldTitle>
+      <ENFieldTitle>經營Area</ENFieldTitle>
+      <JPFieldTitle>经营面积</JPFieldTitle>
+      <KRFieldTitle>经营面积</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ShopCode">
+      <CNFieldTitle>店铺代码</CNFieldTitle>
+      <TWFieldTitle>店櫃代碼</TWFieldTitle>
+      <ENFieldTitle>Store Code</ENFieldTitle>
+      <JPFieldTitle>店铺代码</JPFieldTitle>
+      <KRFieldTitle>mã thay thế cửa hàng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ShopName">
+      <CNFieldTitle>店铺名称</CNFieldTitle>
+      <TWFieldTitle>店櫃名稱</TWFieldTitle>
+      <ENFieldTitle>Store Name</ENFieldTitle>
+      <JPFieldTitle>店铺名称</JPFieldTitle>
+      <KRFieldTitle>tên cửa hàng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ShopType">
+      <CNFieldTitle>店铺类型</CNFieldTitle>
+      <TWFieldTitle>店櫃類型</TWFieldTitle>
+      <ENFieldTitle>Store Type</ENFieldTitle>
+      <JPFieldTitle>店铺类型</JPFieldTitle>
+      <KRFieldTitle>loại hiình cửa hàng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="TelPhone">
+      <CNFieldTitle>电话</CNFieldTitle>
+      <TWFieldTitle>電話</TWFieldTitle>
+      <ENFieldTitle>Phone</ENFieldTitle>
+      <JPFieldTitle>电话</JPFieldTitle>
+      <KRFieldTitle>điện thoại</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SelectShop">
+      <CNFieldTitle>选择店铺</CNFieldTitle>
+      <TWFieldTitle>選擇店櫃</TWFieldTitle>
+      <ENFieldTitle>Select Store</ENFieldTitle>
+      <JPFieldTitle>选择店铺</JPFieldTitle>
+      <KRFieldTitle>選擇店櫃</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckBargainInvalidation">
+      <CNFieldTitle>当前合同单据已失效，不能变更！</CNFieldTitle>
+      <TWFieldTitle>當前合約單據已失效，不能變更！</TWFieldTitle>
+      <ENFieldTitle>當前ContractBillIneffective,不能Adjustment!</ENFieldTitle>
+      <JPFieldTitle>当前合同单据已失效，不能变更！</JPFieldTitle>
+      <KRFieldTitle>当前合同单据已失效，不能变更！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckBargainNoActive">
+      <CNFieldTitle>当前合同单据未生效，不能变更！</CNFieldTitle>
+      <TWFieldTitle>當前合約單據未生效，不能變更！</TWFieldTitle>
+      <ENFieldTitle>當前ContractBillIneffective,不能Adjustment!</ENFieldTitle>
+      <JPFieldTitle>当前合同单据未生效，不能变更！</JPFieldTitle>
+      <KRFieldTitle>当前合同单据未生效，不能变更！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckBargainNoLastVersion">
+      <CNFieldTitle>当前合同单据不是最后一个版本，不能变更！</CNFieldTitle>
+      <TWFieldTitle>當前合約單據不是最後一個版本，不能變更！</TWFieldTitle>
+      <ENFieldTitle>當前ContractBill不Yes最後一個Version,不能Adjustment!</ENFieldTitle>
+      <JPFieldTitle>当前合同单据不是最后一个版本，不能变更！</JPFieldTitle>
+      <KRFieldTitle>当前合同单据不是最后一个版本，不能变更！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="isSaveItem">
+      <CNFieldTitle>条款内容已经修改,是否保存？</CNFieldTitle>
+      <TWFieldTitle>條款內容已經修改，是否保存？</TWFieldTitle>
+      <ENFieldTitle>Clause Content已經修改,IfSave?</ENFieldTitle>
+      <JPFieldTitle>条款内容已经修改,是否保存？</JPFieldTitle>
+      <KRFieldTitle>条款内容已经修改,是否保存？</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="plsSelectDeleteObject">
+      <CNFieldTitle>请选择要删除的对象!</CNFieldTitle>
+      <TWFieldTitle>請選擇要刪除的對象！</TWFieldTitle>
+      <ENFieldTitle>Please select要Delete的Entity!</ENFieldTitle>
+      <JPFieldTitle>请选择要删除的对象!</JPFieldTitle>
+      <KRFieldTitle>请选择要删除的对象!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="plsSelectField">
+      <CNFieldTitle>请选择字段!</CNFieldTitle>
+      <TWFieldTitle>請選擇欄位！</TWFieldTitle>
+      <ENFieldTitle>Please select Field!</ENFieldTitle>
+      <JPFieldTitle>请选择字段!</JPFieldTitle>
+      <KRFieldTitle>请选择字段!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="plsSelectPlaceHolder">
+      <CNFieldTitle>请选择插入的位置!</CNFieldTitle>
+      <TWFieldTitle>請選擇插入的位置！</TWFieldTitle>
+      <ENFieldTitle>Please selectInsert的位置!</ENFieldTitle>
+      <JPFieldTitle>请选择插入的位置!</JPFieldTitle>
+      <KRFieldTitle>请选择插入的位置!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="plsSelectTable">
+      <CNFieldTitle>请选择合同文本表!</CNFieldTitle>
+      <TWFieldTitle>請選擇合約文字表！</TWFieldTitle>
+      <ENFieldTitle>Please select Contract文字表!</ENFieldTitle>
+      <JPFieldTitle>请选择合同文本表!</JPFieldTitle>
+      <KRFieldTitle>请选择合同文本表!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PreViewBargainItem">
+      <CNFieldTitle>合同条款预览</CNFieldTitle>
+      <TWFieldTitle>合約條款預覽</TWFieldTitle>
+      <ENFieldTitle>Contract ClausePreview</ENFieldTitle>
+      <JPFieldTitle>合同条款预览</JPFieldTitle>
+      <KRFieldTitle>合同条款预览</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="txtSelectField">
+      <CNFieldTitle>选择合同字段</CNFieldTitle>
+      <TWFieldTitle>選擇合約欄位</TWFieldTitle>
+      <ENFieldTitle>Select ContractColumn</ENFieldTitle>
+      <JPFieldTitle>选择合同字段</JPFieldTitle>
+      <KRFieldTitle>选择合同字段</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="txtSelectTable">
+      <CNFieldTitle>选择合同文本表</CNFieldTitle>
+      <TWFieldTitle>選擇合約文字表</TWFieldTitle>
+      <ENFieldTitle>Select Contract文字表</ENFieldTitle>
+      <JPFieldTitle>选择合同文本表</JPFieldTitle>
+      <KRFieldTitle>选择合同文本表</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="All">
+      <CNFieldTitle>全部</CNFieldTitle>
+      <TWFieldTitle>全部</TWFieldTitle>
+      <ENFieldTitle>All</ENFieldTitle>
+      <JPFieldTitle>全部</JPFieldTitle>
+      <KRFieldTitle>toàn bộ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainType">
+      <CNFieldTitle>合同类型</CNFieldTitle>
+      <TWFieldTitle>合約類型</TWFieldTitle>
+      <ENFieldTitle>Contract Type</ENFieldTitle>
+      <JPFieldTitle>合同类型</JPFieldTitle>
+      <KRFieldTitle>合同类型</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="formBaseBtn10">
+      <CNFieldTitle>插入</CNFieldTitle>
+      <TWFieldTitle>插入</TWFieldTitle>
+      <ENFieldTitle>Insert</ENFieldTitle>
+      <JPFieldTitle>插入</JPFieldTitle>
+      <KRFieldTitle>chèn vào</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="formBaseBtn11">
+      <CNFieldTitle>删除</CNFieldTitle>
+      <TWFieldTitle>刪除</TWFieldTitle>
+      <ENFieldTitle>Delete</ENFieldTitle>
+      <JPFieldTitle>删除</JPFieldTitle>
+      <KRFieldTitle>xóa</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="formBaseBtn12">
+      <CNFieldTitle>保存修改</CNFieldTitle>
+      <TWFieldTitle>保存修改</TWFieldTitle>
+      <ENFieldTitle>Save Changes</ENFieldTitle>
+      <JPFieldTitle>保存修改</JPFieldTitle>
+      <KRFieldTitle>保存修改</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="formBaseBtn13">
+      <CNFieldTitle>取消修改</CNFieldTitle>
+      <TWFieldTitle>取消修改</TWFieldTitle>
+      <ENFieldTitle>Cancel Changes</ENFieldTitle>
+      <JPFieldTitle>取消修改</JPFieldTitle>
+      <KRFieldTitle>取消修改</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="formBaseBtn14">
+      <CNFieldTitle>关闭</CNFieldTitle>
+      <TWFieldTitle>關閉</TWFieldTitle>
+      <ENFieldTitle>Close</ENFieldTitle>
+      <JPFieldTitle>关闭</JPFieldTitle>
+      <KRFieldTitle>đóng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="formBaseBtn15">
+      <CNFieldTitle>升级</CNFieldTitle>
+      <TWFieldTitle>升級</TWFieldTitle>
+      <ENFieldTitle>Upgrade</ENFieldTitle>
+      <JPFieldTitle>升级</JPFieldTitle>
+      <KRFieldTitle>升级</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="formBaseBtn16">
+      <CNFieldTitle>降级</CNFieldTitle>
+      <TWFieldTitle>降級</TWFieldTitle>
+      <ENFieldTitle>Downgrade</ENFieldTitle>
+      <JPFieldTitle>降级</JPFieldTitle>
+      <KRFieldTitle>降级</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="formBaseBtn17">
+      <CNFieldTitle>上移</CNFieldTitle>
+      <TWFieldTitle>上移</TWFieldTitle>
+      <ENFieldTitle>上移</ENFieldTitle>
+      <JPFieldTitle>上移</JPFieldTitle>
+      <KRFieldTitle>chuyển lên trên</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="formBaseBtn18">
+      <CNFieldTitle>下移</CNFieldTitle>
+      <TWFieldTitle>下移</TWFieldTitle>
+      <ENFieldTitle>下移</ENFieldTitle>
+      <JPFieldTitle>下移</JPFieldTitle>
+      <KRFieldTitle>dười xuống</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="formBaseBtn19">
+      <CNFieldTitle>引用范本</CNFieldTitle>
+      <TWFieldTitle>引用範本</TWFieldTitle>
+      <ENFieldTitle>引用Template</ENFieldTitle>
+      <JPFieldTitle>引用范本</JPFieldTitle>
+      <KRFieldTitle>引用范本</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="formBaseBtn20">
+      <CNFieldTitle>条款预览</CNFieldTitle>
+      <TWFieldTitle>條款預覽</TWFieldTitle>
+      <ENFieldTitle>ClausePreview</ENFieldTitle>
+      <JPFieldTitle>条款预览</JPFieldTitle>
+      <KRFieldTitle>条款预览</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="formBaseBtn21">
+      <CNFieldTitle>全部显示名称</CNFieldTitle>
+      <TWFieldTitle>全部顯示名稱</TWFieldTitle>
+      <ENFieldTitle>AllShow Name</ENFieldTitle>
+      <JPFieldTitle>全部显示名称</JPFieldTitle>
+      <KRFieldTitle>全部显示名称</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="formBaseBtn22">
+      <CNFieldTitle>全部显示内容</CNFieldTitle>
+      <TWFieldTitle>全部顯示內容</TWFieldTitle>
+      <ENFieldTitle>All顯示Content</ENFieldTitle>
+      <JPFieldTitle>全部显示内容</JPFieldTitle>
+      <KRFieldTitle>全部显示内容</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="formBaseBtn23">
+      <CNFieldTitle>插入字段</CNFieldTitle>
+      <TWFieldTitle>插入欄位</TWFieldTitle>
+      <ENFieldTitle>InsertColumn</ENFieldTitle>
+      <JPFieldTitle>插入字段</JPFieldTitle>
+      <KRFieldTitle>插入字段</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="formBaseBtn24">
+      <CNFieldTitle>插入表</CNFieldTitle>
+      <TWFieldTitle>插入工作表</TWFieldTitle>
+      <ENFieldTitle>Insert Worksheet</ENFieldTitle>
+      <JPFieldTitle>插入表</JPFieldTitle>
+      <KRFieldTitle>插入表</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="IsDeleteItemText">
+      <CNFieldTitle>合并条款将删除原有条款文本,是否确认合并？</CNFieldTitle>
+      <TWFieldTitle>合併條款將刪除原有條款文字，是否確認合併？</TWFieldTitle>
+      <ENFieldTitle>MergeClause將Delete原有Clause文字,IfConfirmMerge?</ENFieldTitle>
+      <JPFieldTitle>合并条款将删除原有条款文本,是否确认合并？</JPFieldTitle>
+      <KRFieldTitle>合并条款将删除原有条款文本,是否确认合并？</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ItemCanNotDelete">
+      <CNFieldTitle>当前节点不能删除!</CNFieldTitle>
+      <TWFieldTitle>當前節點不能刪除！</TWFieldTitle>
+      <ENFieldTitle>Current NodeUnable to Delete!</ENFieldTitle>
+      <JPFieldTitle>当前节点不能删除!</JPFieldTitle>
+      <KRFieldTitle>当前节点不能删除!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ItemCanNotUpAndDown">
+      <CNFieldTitle>当前节点已不能上移或下移!</CNFieldTitle>
+      <TWFieldTitle>當前節點已不能上移或下移！</TWFieldTitle>
+      <ENFieldTitle>Current Node已不能上移Or下移!</ENFieldTitle>
+      <JPFieldTitle>当前节点已不能上移或下移!</JPFieldTitle>
+      <KRFieldTitle>当前节点已不能上移或下移!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ItemCanNotUpDmGrade">
+      <CNFieldTitle>当前节点已不能升级或降级!</CNFieldTitle>
+      <TWFieldTitle>當前節點已不能升級或降級！</TWFieldTitle>
+      <ENFieldTitle>Current Node已不能UpgradeOrDowngrade!</ENFieldTitle>
+      <JPFieldTitle>当前节点已不能升级或降级!</JPFieldTitle>
+      <KRFieldTitle>当前节点已不能升级或降级!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="NoBargainItemToMerge">
+      <CNFieldTitle>没有条款明细,不能合并条款文本!</CNFieldTitle>
+      <TWFieldTitle>沒有條款明細，不能合併條款文字！</TWFieldTitle>
+      <ENFieldTitle>沒有Clause明細,不能MergeClause文字!</ENFieldTitle>
+      <JPFieldTitle>没有条款明细,不能合并条款文本!</JPFieldTitle>
+      <KRFieldTitle>没有条款明细,不能合并条款文本!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ObjectTable">
+      <CNFieldTitle>表代码</CNFieldTitle>
+      <TWFieldTitle>工作表代碼</TWFieldTitle>
+      <ENFieldTitle>Worksheet Code</ENFieldTitle>
+      <JPFieldTitle>表代码</JPFieldTitle>
+      <KRFieldTitle>表代码</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ObjectTableName">
+      <CNFieldTitle>表名称</CNFieldTitle>
+      <TWFieldTitle>工作表名稱</TWFieldTitle>
+      <ENFieldTitle>Worksheet Name</ENFieldTitle>
+      <JPFieldTitle>表名称</JPFieldTitle>
+      <KRFieldTitle>表名称</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="txtBargainItemMemo">
+      <CNFieldTitle>内容</CNFieldTitle>
+      <TWFieldTitle>內容</TWFieldTitle>
+      <ENFieldTitle>Content</ENFieldTitle>
+      <JPFieldTitle>内容</JPFieldTitle>
+      <KRFieldTitle>nội dung</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="txtBargainItemName">
+      <CNFieldTitle>合同条款名称</CNFieldTitle>
+      <TWFieldTitle>合約條款名稱</TWFieldTitle>
+      <ENFieldTitle>Contract Clause Name</ENFieldTitle>
+      <JPFieldTitle>合同条款名称</JPFieldTitle>
+      <KRFieldTitle>合同条款名称</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Card">
+      <CNFieldTitle>品牌</CNFieldTitle>
+      <TWFieldTitle>品牌</TWFieldTitle>
+      <ENFieldTitle>Brand</ENFieldTitle>
+      <JPFieldTitle>品牌</JPFieldTitle>
+      <KRFieldTitle>nhãn hiệu</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Kind">
+      <CNFieldTitle>类别</CNFieldTitle>
+      <TWFieldTitle>類別</TWFieldTitle>
+      <ENFieldTitle>類別</ENFieldTitle>
+      <JPFieldTitle>类别</JPFieldTitle>
+      <KRFieldTitle>loại</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SalDiscountTitle1">
+      <CNFieldTitle>请先设置开始日期！</CNFieldTitle>
+      <TWFieldTitle>請設定開始日期！</TWFieldTitle>
+      <ENFieldTitle>Please set Start Date!</ENFieldTitle>
+      <JPFieldTitle>请先设置开始日期！</JPFieldTitle>
+      <KRFieldTitle>请先设置开始日期！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SalDiscountTitle10">
+      <CNFieldTitle>期货折扣</CNFieldTitle>
+      <TWFieldTitle>期貨折扣</TWFieldTitle>
+      <ENFieldTitle>Futures Discount</ENFieldTitle>
+      <JPFieldTitle>期货折扣</JPFieldTitle>
+      <KRFieldTitle>triết khấu hợp đồng tương lai</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SalDiscountTitle11">
+      <CNFieldTitle>现货折扣</CNFieldTitle>
+      <TWFieldTitle>現貨折扣</TWFieldTitle>
+      <ENFieldTitle>SpotDiscount</ENFieldTitle>
+      <JPFieldTitle>现货折扣</JPFieldTitle>
+      <KRFieldTitle>chiết khấu hàng giao ngây</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SalDiscountTitle12">
+      <CNFieldTitle>开始日期</CNFieldTitle>
+      <TWFieldTitle>開始日期</TWFieldTitle>
+      <ENFieldTitle>Start Date</ENFieldTitle>
+      <JPFieldTitle>开始日期</JPFieldTitle>
+      <KRFieldTitle>ngày bắt đầu</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SalDiscountTitle13">
+      <CNFieldTitle>截止日期</CNFieldTitle>
+      <TWFieldTitle>結束日期</TWFieldTitle>
+      <ENFieldTitle>End Date</ENFieldTitle>
+      <JPFieldTitle>截止日期</JPFieldTitle>
+      <KRFieldTitle>ngày kết thúc</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SalDiscountTitle14">
+      <CNFieldTitle>最低采购额</CNFieldTitle>
+      <TWFieldTitle>最低採購額</TWFieldTitle>
+      <ENFieldTitle>Minimum Purchase Amount</ENFieldTitle>
+      <JPFieldTitle>最低采购额</JPFieldTitle>
+      <KRFieldTitle>最低采购额</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SalDiscountTitle15">
+      <CNFieldTitle>请选择品牌！</CNFieldTitle>
+      <TWFieldTitle>請選擇品牌！</TWFieldTitle>
+      <ENFieldTitle>Please select Brand!</ENFieldTitle>
+      <JPFieldTitle>请选择品牌！</JPFieldTitle>
+      <KRFieldTitle>vui lòng chọn nhãn hiệu sản phẩm !</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SalDiscountTitle16">
+      <CNFieldTitle>请先设置合同开始日期！</CNFieldTitle>
+      <TWFieldTitle>請設定合約開始日期！</TWFieldTitle>
+      <ENFieldTitle>Please set Contract Start Date!</ENFieldTitle>
+      <JPFieldTitle>请先设置合同开始日期！</JPFieldTitle>
+      <KRFieldTitle>请先设置合同开始日期！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SalDiscountTitle2">
+      <CNFieldTitle>截止日期不能小于开始日期！</CNFieldTitle>
+      <TWFieldTitle>結束日期不能小於開始日期！</TWFieldTitle>
+      <ENFieldTitle>End Date cannot be earlier than Start Date!</ENFieldTitle>
+      <JPFieldTitle>截止日期不能小于开始日期！</JPFieldTitle>
+      <KRFieldTitle>thời gian kết thúc không thể nhỏ hơn ngày bắt đầu !</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SalDiscountTitle3">
+      <CNFieldTitle>截止日期一定要小于下一区间的截止日期！</CNFieldTitle>
+      <TWFieldTitle>結束日期一定要小於下一區間的結束日期！</TWFieldTitle>
+      <ENFieldTitle>End Date一定要Less Than下一區間的End Date!</ENFieldTitle>
+      <JPFieldTitle>截止日期一定要小于下一区间的截止日期！</JPFieldTitle>
+      <KRFieldTitle>截止日期一定要小于下一区间的截止日期！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SalDiscountTitle4">
+      <CNFieldTitle>合同开始日期不能为空！</CNFieldTitle>
+      <TWFieldTitle>合約開始日期不能為空！</TWFieldTitle>
+      <ENFieldTitle>Contract Start Date cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>合同开始日期不能为空！</JPFieldTitle>
+      <KRFieldTitle>合同开始日期不能为空！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SalDiscountTitle5">
+      <CNFieldTitle>首区间的开始日期只能是合同开始日期！</CNFieldTitle>
+      <TWFieldTitle>初始區間的開始日期只能是合約開始日期！</TWFieldTitle>
+      <ENFieldTitle>初始區間的Start Date只能YesContract Start Date!</ENFieldTitle>
+      <JPFieldTitle>首区间的开始日期只能是合同开始日期！</JPFieldTitle>
+      <KRFieldTitle>首区间的开始日期只能是合同开始日期！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SalDiscountTitle6">
+      <CNFieldTitle>开始日期不能小于合同开始日期！</CNFieldTitle>
+      <TWFieldTitle>開始日期不能小於合約開始日期！</TWFieldTitle>
+      <ENFieldTitle>Start Date cannot be earlier than Contract Start Date!</ENFieldTitle>
+      <JPFieldTitle>开始日期不能小于合同开始日期！</JPFieldTitle>
+      <KRFieldTitle>ngày bắt đầu không thể nhỏ hơn ngày bắt đầu hợp đồng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SalDiscountTitle7">
+      <CNFieldTitle>开始日期一定要大于上一区间的开始日期！</CNFieldTitle>
+      <TWFieldTitle>開始日期一定要大於上一區間的開始日期！</TWFieldTitle>
+      <ENFieldTitle>Start Date一定要greater than上一區間的Start Date!</ENFieldTitle>
+      <JPFieldTitle>开始日期一定要大于上一区间的开始日期！</JPFieldTitle>
+      <KRFieldTitle>ngày bắt đầu nhất định cần lớn hơn ngày bắt đầu khu vực trước !</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SalDiscountTitle8">
+      <CNFieldTitle>开始日期一定要小于下一区间的开始日期！</CNFieldTitle>
+      <TWFieldTitle>開始日期一定要小於下一區間的開始日期！</TWFieldTitle>
+      <ENFieldTitle>Start Date一定要Less Than下一區間的Start Date!</ENFieldTitle>
+      <JPFieldTitle>开始日期一定要小于下一区间的开始日期！</JPFieldTitle>
+      <KRFieldTitle>ngày bắt đầu nhất định cần nhỏ hơn ngày bắt đầu khu vực trước !</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SalDiscountTitle9">
+      <CNFieldTitle>开始日期要小于截止日期！</CNFieldTitle>
+      <TWFieldTitle>開始日期要小於結束日期！</TWFieldTitle>
+      <ENFieldTitle>Start Date must be earlier than End Date!</ENFieldTitle>
+      <JPFieldTitle>开始日期要小于截止日期！</JPFieldTitle>
+      <KRFieldTitle>ngày bắt đầu cần nhỏ hơn ngày kết thúc !</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Add">
+      <CNFieldTitle>新增</CNFieldTitle>
+      <TWFieldTitle>新增</TWFieldTitle>
+      <ENFieldTitle>Add</ENFieldTitle>
+      <JPFieldTitle>新增</JPFieldTitle>
+      <KRFieldTitle>thêm mới</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SalDiscountTitle17">
+      <CNFieldTitle>销售扣率</CNFieldTitle>
+      <TWFieldTitle>銷售抽成</TWFieldTitle>
+      <ENFieldTitle>Sales Commission</ENFieldTitle>
+      <JPFieldTitle>销售扣率</JPFieldTitle>
+      <KRFieldTitle>销售扣率</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SalDiscountTitle18">
+      <CNFieldTitle>最低采购额</CNFieldTitle>
+      <TWFieldTitle>最低採購額</TWFieldTitle>
+      <ENFieldTitle>Minimum Purchase Amount</ENFieldTitle>
+      <JPFieldTitle>最低采购额</JPFieldTitle>
+      <KRFieldTitle>最低采购额</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SalDiscountTitle19">
+      <CNFieldTitle>增加</CNFieldTitle>
+      <TWFieldTitle>增加</TWFieldTitle>
+      <ENFieldTitle>Add</ENFieldTitle>
+      <JPFieldTitle>增加</JPFieldTitle>
+      <KRFieldTitle>增加</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SalDiscountTitle20">
+      <CNFieldTitle>统一期货折扣</CNFieldTitle>
+      <TWFieldTitle>統一期貨折扣</TWFieldTitle>
+      <ENFieldTitle>Set Futures Discount</ENFieldTitle>
+      <JPFieldTitle>统一期货折扣</JPFieldTitle>
+      <KRFieldTitle>統一期貨折扣</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SalDiscountTitle21">
+      <CNFieldTitle>统一现货折扣</CNFieldTitle>
+      <TWFieldTitle>統一現貨折扣</TWFieldTitle>
+      <ENFieldTitle>Set Spot Discount</ENFieldTitle>
+      <JPFieldTitle>统一现货折扣</JPFieldTitle>
+      <KRFieldTitle>統一現貨折扣</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DeductChargeTitle1">
+      <CNFieldTitle>扣款项目</CNFieldTitle>
+      <TWFieldTitle>扣款項目</TWFieldTitle>
+      <ENFieldTitle>扣款項目</ENFieldTitle>
+      <JPFieldTitle>扣款项目</JPFieldTitle>
+      <KRFieldTitle>扣款项目</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DeductChargeTitle10">
+      <CNFieldTitle>开始日期要小于等于结束日期！</CNFieldTitle>
+      <TWFieldTitle>開始日期要小於等於結束日期！</TWFieldTitle>
+      <ENFieldTitle>Start Date must be earlier than or eqaul to End Date!</ENFieldTitle>
+      <JPFieldTitle>开始日期要小于等于结束日期！</JPFieldTitle>
+      <KRFieldTitle>ngày bắt đầu cần nhỏ hơn hoặc bằng ngày kết thúc !</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DeductChargeTitle11">
+      <CNFieldTitle>该扣费项目已经设置了其它扣款方式！</CNFieldTitle>
+      <TWFieldTitle>該扣款項目已經設定了其他扣款方式！</TWFieldTitle>
+      <ENFieldTitle>該扣款項目已經Setting了Other扣款方式!</ENFieldTitle>
+      <JPFieldTitle>该扣费项目已经设置了其它扣款方式！</JPFieldTitle>
+      <KRFieldTitle>该扣费项目已经设置了其它扣款方式！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DeductChargeTitle12">
+      <CNFieldTitle>项目代码</CNFieldTitle>
+      <TWFieldTitle>項目代碼</TWFieldTitle>
+      <ENFieldTitle>Item Code</ENFieldTitle>
+      <JPFieldTitle>项目代码</JPFieldTitle>
+      <KRFieldTitle>項目代碼</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DeductChargeTitle13">
+      <CNFieldTitle>项目名称</CNFieldTitle>
+      <TWFieldTitle>項目名稱</TWFieldTitle>
+      <ENFieldTitle>Item Name</ENFieldTitle>
+      <JPFieldTitle>项目名称</JPFieldTitle>
+      <KRFieldTitle>QCItemName</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DeductChargeTitle14">
+      <CNFieldTitle>扣款费用计算方式的扣款项目、开始日期和结束日期都不能为空！</CNFieldTitle>
+      <TWFieldTitle>扣款費用計算方式的扣款項目、開始日期和結束日期都不能為空！</TWFieldTitle>
+      <ENFieldTitle>扣款Expense Formula的扣款項目. Both Start Date and End Date cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>扣款费用计算方式的扣款项目、开始日期和结束日期都不能为空！</JPFieldTitle>
+      <KRFieldTitle>扣款费用计算方式的扣款项目、开始日期和结束日期都不能为空！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DeductChargeTitle15">
+      <CNFieldTitle>设定扣款限额的扣款项目不能为空！</CNFieldTitle>
+      <TWFieldTitle>設定扣款限額的扣款項目不能為空！</TWFieldTitle>
+      <ENFieldTitle>Setting扣款限額的扣款項目 cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>设定扣款限额的扣款项目不能为空！</JPFieldTitle>
+      <KRFieldTitle>设定扣款限额的扣款项目不能为空！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DeductChargeTitle16">
+      <CNFieldTitle>该项目已经存在！</CNFieldTitle>
+      <TWFieldTitle>該項目已經存在！</TWFieldTitle>
+      <ENFieldTitle>該項目already existed!</ENFieldTitle>
+      <JPFieldTitle>该项目已经存在！</JPFieldTitle>
+      <KRFieldTitle>该项目已经存在！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DeductChargeTitle17">
+      <CNFieldTitle>扣款费用计算方式</CNFieldTitle>
+      <TWFieldTitle>扣款費用計算方式</TWFieldTitle>
+      <ENFieldTitle>扣款Expense Formula</ENFieldTitle>
+      <JPFieldTitle>扣款费用计算方式</JPFieldTitle>
+      <KRFieldTitle>扣款费用计算方式</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DeductChargeTitle18">
+      <CNFieldTitle>扣款限额</CNFieldTitle>
+      <TWFieldTitle>扣款限額</TWFieldTitle>
+      <ENFieldTitle>扣款限額</ENFieldTitle>
+      <JPFieldTitle>扣款限额</JPFieldTitle>
+      <KRFieldTitle>扣款限额</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DeductChargeTitle2">
+      <CNFieldTitle>结束日期</CNFieldTitle>
+      <TWFieldTitle>結束日期</TWFieldTitle>
+      <ENFieldTitle>End Date</ENFieldTitle>
+      <JPFieldTitle>结束日期</JPFieldTitle>
+      <KRFieldTitle>ngày kết thúc</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DeductChargeTitle3">
+      <CNFieldTitle>按销售比例</CNFieldTitle>
+      <TWFieldTitle>按銷售比例</TWFieldTitle>
+      <ENFieldTitle>BySales Percentage</ENFieldTitle>
+      <JPFieldTitle>按销售比例</JPFieldTitle>
+      <KRFieldTitle>按销售比例</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DeductChargeTitle4">
+      <CNFieldTitle>按结算货款比例</CNFieldTitle>
+      <TWFieldTitle>按結算貨款比例</TWFieldTitle>
+      <ENFieldTitle>BySettle貨款比例</ENFieldTitle>
+      <JPFieldTitle>按结算货款比例</JPFieldTitle>
+      <KRFieldTitle>按结算货款比例</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DeductChargeTitle5">
+      <CNFieldTitle>按每月固定金额</CNFieldTitle>
+      <TWFieldTitle>按每月固定金額</TWFieldTitle>
+      <ENFieldTitle>By每月FixedAmount</ENFieldTitle>
+      <JPFieldTitle>按每月固定金额</JPFieldTitle>
+      <KRFieldTitle>按每月固定金额</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DeductChargeTitle6">
+      <CNFieldTitle>最高限额</CNFieldTitle>
+      <TWFieldTitle>最高限額</TWFieldTitle>
+      <ENFieldTitle>最高限額</ENFieldTitle>
+      <JPFieldTitle>最高限额</JPFieldTitle>
+      <KRFieldTitle>最高限额</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DeductChargeTitle7">
+      <CNFieldTitle>累计扣款额</CNFieldTitle>
+      <TWFieldTitle>累計扣款額</TWFieldTitle>
+      <ENFieldTitle>累計扣款額</ENFieldTitle>
+      <JPFieldTitle>累计扣款额</JPFieldTitle>
+      <KRFieldTitle>累计扣款额</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DeductChargeTitle8">
+      <CNFieldTitle>请先设置扣费项目！</CNFieldTitle>
+      <TWFieldTitle>請設定扣費項目！</TWFieldTitle>
+      <ENFieldTitle>Please先Setting扣費項目!</ENFieldTitle>
+      <JPFieldTitle>请先设置扣费项目！</JPFieldTitle>
+      <KRFieldTitle>请先设置扣费项目！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DeductChargeTitle9">
+      <CNFieldTitle>该日期已经设置了扣费方式！</CNFieldTitle>
+      <TWFieldTitle>該日期已經設定了扣費方式！</TWFieldTitle>
+      <ENFieldTitle>該Date已經Setting了扣費方式!</ENFieldTitle>
+      <JPFieldTitle>该日期已经设置了扣费方式！</JPFieldTitle>
+      <KRFieldTitle>该日期已经设置了扣费方式！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckBargainNoInure">
+      <CNFieldTitle>当前合同单据未生效，不能签回！</CNFieldTitle>
+      <TWFieldTitle>當前合約單據未生效，不能簽回！</TWFieldTitle>
+      <ENFieldTitle>當前ContractBillIneffective,不能Sign Back!</ENFieldTitle>
+      <JPFieldTitle>当前合同单据未生效，不能签回！</JPFieldTitle>
+      <KRFieldTitle>当前合同单据未生效，不能签回！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckBargainNoLastVersionForRelet">
+      <CNFieldTitle>当前合同单据不是最后一个版本，不能续签！</CNFieldTitle>
+      <TWFieldTitle>當前合約單據不是最後一個版本，不能續約！</TWFieldTitle>
+      <ENFieldTitle>當前ContractBill不Yes最後一個Version,不能Renewal!</ENFieldTitle>
+      <JPFieldTitle>当前合同单据不是最后一个版本，不能续签！</JPFieldTitle>
+      <KRFieldTitle>当前合同单据不是最后一个版本，不能续签！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckBargainNoRelet">
+      <CNFieldTitle>当前合同单据未生效，不能续签！</CNFieldTitle>
+      <TWFieldTitle>當前合約單據未生效，不能續約！</TWFieldTitle>
+      <ENFieldTitle>當前ContractBillIneffective,不能Renewal!</ENFieldTitle>
+      <JPFieldTitle>当前合同单据未生效，不能续签！</JPFieldTitle>
+      <KRFieldTitle>当前合同单据未生效，不能续签！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckBargainNoSign">
+      <CNFieldTitle>当前合同单据未生效，不能签回！</CNFieldTitle>
+      <TWFieldTitle>當前合約單據未生效，不能簽回！</TWFieldTitle>
+      <ENFieldTitle>當前ContractBillIneffective,不能Sign Back!</ENFieldTitle>
+      <JPFieldTitle>当前合同单据未生效，不能签回！</JPFieldTitle>
+      <KRFieldTitle>当前合同单据未生效，不能签回！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckBargainNoSignDate">
+      <CNFieldTitle>合同签定时间不能为空！</CNFieldTitle>
+      <TWFieldTitle>合約簽訂時間不能為空！</TWFieldTitle>
+      <ENFieldTitle>Contract簽訂Time cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>合同签定时间不能为空！</JPFieldTitle>
+      <KRFieldTitle>合同签定时间不能为空！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckBargainNoSigner">
+      <CNFieldTitle>合同签定人不能为空！</CNFieldTitle>
+      <TWFieldTitle>合約簽訂人不能為空！</TWFieldTitle>
+      <ENFieldTitle>Contract Signer cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>合同签定人不能为空！</JPFieldTitle>
+      <KRFieldTitle>合同签定人不能为空！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FormBGSelectForSign">
+      <CNFieldTitle>选择签约信息</CNFieldTitle>
+      <TWFieldTitle>選擇簽約資訊</TWFieldTitle>
+      <ENFieldTitle>SelectSignInfo</ENFieldTitle>
+      <JPFieldTitle>选择签约信息</JPFieldTitle>
+      <KRFieldTitle>选择签约信息</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lbl_SignDate">
+      <CNFieldTitle>合同签定日期</CNFieldTitle>
+      <TWFieldTitle>合約簽訂日期</TWFieldTitle>
+      <ENFieldTitle>Contract簽訂Date</ENFieldTitle>
+      <JPFieldTitle>合同签定日期</JPFieldTitle>
+      <KRFieldTitle>合同签定日期</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lbl_SignerName">
+      <CNFieldTitle>合同签定人</CNFieldTitle>
+      <TWFieldTitle>合約簽訂人</TWFieldTitle>
+      <ENFieldTitle>Contract Signer</ENFieldTitle>
+      <JPFieldTitle>合同签定人</JPFieldTitle>
+      <KRFieldTitle>合同签定人</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CommissionRangeTitle1">
+      <CNFieldTitle>代销设置</CNFieldTitle>
+      <TWFieldTitle>代銷設定</TWFieldTitle>
+      <ENFieldTitle>代銷Setting</ENFieldTitle>
+      <JPFieldTitle>代销设置</JPFieldTitle>
+      <KRFieldTitle>代销设置</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CommissionRangeTitle2">
+      <CNFieldTitle>统一代销最低折扣</CNFieldTitle>
+      <TWFieldTitle>統一代銷最低折扣</TWFieldTitle>
+      <ENFieldTitle>統一代銷Minimum Discount</ENFieldTitle>
+      <JPFieldTitle>统一代销最低折扣</JPFieldTitle>
+      <KRFieldTitle>统一代销最低折扣</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CommissionRangeTitle3">
+      <CNFieldTitle>最低代销折扣</CNFieldTitle>
+      <TWFieldTitle>最低代銷折扣</TWFieldTitle>
+      <ENFieldTitle>最低代銷Discount</ENFieldTitle>
+      <JPFieldTitle>最低代销折扣</JPFieldTitle>
+      <KRFieldTitle>最低代销折扣</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SalDiscountTitle22">
+      <CNFieldTitle>最低采购额的开始日期和截止日期不能为空！</CNFieldTitle>
+      <TWFieldTitle>最低採購額的開始日期和結束日期不能為空！</TWFieldTitle>
+      <ENFieldTitle>Minimum Purchase Amount的Start Date and End Date cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>最低采购额的开始日期和截止日期不能为空！</JPFieldTitle>
+      <KRFieldTitle>最低采购额的开始日期和截止日期不能为空！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ObjectTableCanNotBeNull">
+      <CNFieldTitle>该文本对象表没有数据!</CNFieldTitle>
+      <TWFieldTitle>該文字對象表沒有資料！</TWFieldTitle>
+      <ENFieldTitle>該文字Entity表No Data!</ENFieldTitle>
+      <JPFieldTitle>该文本对象表没有数据!</JPFieldTitle>
+      <KRFieldTitle>该文本对象表没有数据!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="NoBargainItemToPreView">
+      <CNFieldTitle>没有条款明细,不能预览!</CNFieldTitle>
+      <TWFieldTitle>沒有條款明細，不能預覽！</TWFieldTitle>
+      <ENFieldTitle>沒有Clause明細,不能Preview!</ENFieldTitle>
+      <JPFieldTitle>没有条款明细,不能预览!</JPFieldTitle>
+      <KRFieldTitle>没有条款明细,不能预览!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="isConfirmDelete">
+      <CNFieldTitle>是否确定要删除本记录？</CNFieldTitle>
+      <TWFieldTitle>是否確定要刪除本記錄？</TWFieldTitle>
+      <ENFieldTitle>Are you sure to delete the record?</ENFieldTitle>
+      <JPFieldTitle>是否确定要删除本记录？</JPFieldTitle>
+      <KRFieldTitle>có phải xác định xóa ghi nhận cài đặt ?</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="NoFieldValue">
+      <CNFieldTitle>没有该字段数据!</CNFieldTitle>
+      <TWFieldTitle>沒有該欄位資料！</TWFieldTitle>
+      <ENFieldTitle>沒有該Columndata!</ENFieldTitle>
+      <JPFieldTitle>没有该字段数据!</JPFieldTitle>
+      <KRFieldTitle>没有该字段数据!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckAccessoryName">
+      <CNFieldTitle>附件名称不能为空！</CNFieldTitle>
+      <TWFieldTitle>附件名稱不能為空！</TWFieldTitle>
+      <ENFieldTitle>AttachmentName cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>附件名称不能为空！</JPFieldTitle>
+      <KRFieldTitle>附件名称不能为空！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckNote">
+      <CNFieldTitle>事件内容不能为空！</CNFieldTitle>
+      <TWFieldTitle>事件內容不能為空！</TWFieldTitle>
+      <ENFieldTitle>事件Content cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>事件内容不能为空！</JPFieldTitle>
+      <KRFieldTitle>事件内容不能为空！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckNounExplainName">
+      <CNFieldTitle>名词解释名称不能为空！</CNFieldTitle>
+      <TWFieldTitle>名詞解釋名稱不能為空！</TWFieldTitle>
+      <ENFieldTitle>名詞解釋Name cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>名词解释名称不能为空！</JPFieldTitle>
+      <KRFieldTitle>名词解释名称不能为空！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BtnConsigner">
+      <CNFieldTitle>委托代理人</CNFieldTitle>
+      <TWFieldTitle>委託代理人</TWFieldTitle>
+      <ENFieldTitle>委託代理人</ENFieldTitle>
+      <JPFieldTitle>委托代理人</JPFieldTitle>
+      <KRFieldTitle>委托代理人</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FormBGSelectConsigner">
+      <CNFieldTitle>选择委托代理人</CNFieldTitle>
+      <TWFieldTitle>選擇委託代理人</TWFieldTitle>
+      <ENFieldTitle>Select委託代理人</ENFieldTitle>
+      <JPFieldTitle>选择委托代理人</JPFieldTitle>
+      <KRFieldTitle>选择委托代理人</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckBargainNoExecForStop">
+      <CNFieldTitle>当前合同单据未执行，不能终止！</CNFieldTitle>
+      <TWFieldTitle>當前合約單據未執行，不能終止！</TWFieldTitle>
+      <ENFieldTitle>當前ContractBill未Execute,不能Stop!</ENFieldTitle>
+      <JPFieldTitle>当前合同单据未执行，不能终止！</JPFieldTitle>
+      <KRFieldTitle>当前合同单据未执行，不能终止！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckBargainNoInureForBillCancel">
+      <CNFieldTitle>当前合同单据未生效，不能作废！</CNFieldTitle>
+      <TWFieldTitle>當前合約單據未生效，不能作廢！</TWFieldTitle>
+      <ENFieldTitle>當前ContractBillIneffective,不能Void!</ENFieldTitle>
+      <JPFieldTitle>当前合同单据未生效，不能作废！</JPFieldTitle>
+      <KRFieldTitle>当前合同单据未生效，不能作废！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckBargainNoInureForStop">
+      <CNFieldTitle>当前合同单据未生效，不能终止！</CNFieldTitle>
+      <TWFieldTitle>當前合約單據未生效，不能終止！</TWFieldTitle>
+      <ENFieldTitle>當前ContractBillIneffective,不能Stop!</ENFieldTitle>
+      <JPFieldTitle>当前合同单据未生效，不能终止！</JPFieldTitle>
+      <KRFieldTitle>当前合同单据未生效，不能终止！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckBargainNoSignForBillCancel">
+      <CNFieldTitle>当前合同单据未执行，不能作废！</CNFieldTitle>
+      <TWFieldTitle>當前合約單據未執行，不能作廢！</TWFieldTitle>
+      <ENFieldTitle>當前ContractBill未Execute,不能Void!</ENFieldTitle>
+      <JPFieldTitle>当前合同单据未执行，不能作废！</JPFieldTitle>
+      <KRFieldTitle>当前合同单据未执行，不能作废！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainRetailEntrustTitle1">
+      <CNFieldTitle>代销范围</CNFieldTitle>
+      <TWFieldTitle>代銷範圍</TWFieldTitle>
+      <ENFieldTitle>代銷範圍</ENFieldTitle>
+      <JPFieldTitle>代销范围</JPFieldTitle>
+      <KRFieldTitle>代销范围</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainRetailEntrustTitle2">
+      <CNFieldTitle>扣款费用</CNFieldTitle>
+      <TWFieldTitle>扣款費用</TWFieldTitle>
+      <ENFieldTitle>扣款Expense</ENFieldTitle>
+      <JPFieldTitle>扣款费用</JPFieldTitle>
+      <KRFieldTitle>chi phí trừ tiền</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainRetailEntrustTitle3">
+      <CNFieldTitle>折扣分摊</CNFieldTitle>
+      <TWFieldTitle>折扣分攤</TWFieldTitle>
+      <ENFieldTitle>Discount Distribution</ENFieldTitle>
+      <JPFieldTitle>折扣分摊</JPFieldTitle>
+      <KRFieldTitle>折扣分摊</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainRetailEntrustTitle4">
+      <CNFieldTitle>卡类型</CNFieldTitle>
+      <TWFieldTitle>卡類型</TWFieldTitle>
+      <ENFieldTitle>Card Type</ENFieldTitle>
+      <JPFieldTitle>卡类型</JPFieldTitle>
+      <KRFieldTitle>loại hình thẻ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainRetailEntrustTitle5">
+      <CNFieldTitle>供货商分摊比例</CNFieldTitle>
+      <TWFieldTitle>供應商分攤比例</TWFieldTitle>
+      <ENFieldTitle>Vendor分攤比例</ENFieldTitle>
+      <JPFieldTitle>供货商分摊比例</JPFieldTitle>
+      <KRFieldTitle>供货商分摊比例</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainRetailEntrustTitle6">
+      <CNFieldTitle>折扣分摊的卡类型不能为空！</CNFieldTitle>
+      <TWFieldTitle>折扣分攤的卡類型不能為空！</TWFieldTitle>
+      <ENFieldTitle>Discount Distribution的Card Type cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>折扣分摊的卡类型不能为空！</JPFieldTitle>
+      <KRFieldTitle>折扣分摊的卡类型不能为空！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckPlanKeepDateIsNull">
+      <CNFieldTitle>计划续约时间不能为空！</CNFieldTitle>
+      <TWFieldTitle>計劃續約時間不能為空！</TWFieldTitle>
+      <ENFieldTitle>Planned Renewal Time cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>计划续约时间不能为空！</JPFieldTitle>
+      <KRFieldTitle>计划续约时间不能为空！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckPreRemindDayIsNull">
+      <CNFieldTitle>提前提醒天数不能为空！</CNFieldTitle>
+      <TWFieldTitle>提前提醒天數不能為空！</TWFieldTitle>
+      <ENFieldTitle>Notification (Days) cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>提前提醒天数不能为空！</JPFieldTitle>
+      <KRFieldTitle>提前提醒天数不能为空！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckFileExists">
+      <CNFieldTitle>找不到相应文件！</CNFieldTitle>
+      <TWFieldTitle>找不到相應檔案！</TWFieldTitle>
+      <ENFieldTitle>File not found!</ENFieldTitle>
+      <JPFieldTitle>找不到相应文件！</JPFieldTitle>
+      <KRFieldTitle>找不到相应文件！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainRetailEntrustTitle7">
+      <CNFieldTitle>该卡类型已存在！</CNFieldTitle>
+      <TWFieldTitle>該卡類型已存在！</TWFieldTitle>
+      <ENFieldTitle>The Card Type already existed!</ENFieldTitle>
+      <JPFieldTitle>该卡类型已存在！</JPFieldTitle>
+      <KRFieldTitle>该卡类型已存在！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="IsSureDelete">
+      <CNFieldTitle>是否确定要删除本记录？</CNFieldTitle>
+      <TWFieldTitle>是否確定要刪除本記錄？</TWFieldTitle>
+      <ENFieldTitle>Are you sure to delete the record?</ENFieldTitle>
+      <JPFieldTitle>是否确定要删除本记录？</JPFieldTitle>
+      <KRFieldTitle>có phải xác định xóa ghi nhận cài đặt ?</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lueAnd">
+      <CNFieldTitle>与</CNFieldTitle>
+      <TWFieldTitle>與</TWFieldTitle>
+      <ENFieldTitle>And</ENFieldTitle>
+      <JPFieldTitle>与</JPFieldTitle>
+      <KRFieldTitle>與</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lueOr">
+      <CNFieldTitle>或</CNFieldTitle>
+      <TWFieldTitle>或</TWFieldTitle>
+      <ENFieldTitle>Or</ENFieldTitle>
+      <JPFieldTitle>或</JPFieldTitle>
+      <KRFieldTitle>hoặc</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainRetailEntrustTitle10">
+      <CNFieldTitle>返利设置</CNFieldTitle>
+      <TWFieldTitle>獎勵設定</TWFieldTitle>
+      <ENFieldTitle>獎勵Setting</ENFieldTitle>
+      <JPFieldTitle>返利设置</JPFieldTitle>
+      <KRFieldTitle>返利设置</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainRetailEntrustTitle8">
+      <CNFieldTitle>店铺范围</CNFieldTitle>
+      <TWFieldTitle>店櫃範圍</TWFieldTitle>
+      <ENFieldTitle>Store Range</ENFieldTitle>
+      <JPFieldTitle>店铺范围</JPFieldTitle>
+      <KRFieldTitle>phạm vy cửa hàng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainRetailEntrustTitle9">
+      <CNFieldTitle>扣率设置</CNFieldTitle>
+      <TWFieldTitle>抽成設定</TWFieldTitle>
+      <ENFieldTitle>CommissionSetting</ENFieldTitle>
+      <JPFieldTitle>扣率设置</JPFieldTitle>
+      <KRFieldTitle>扣率设置</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SalPurAmount">
+      <CNFieldTitle>采购金额</CNFieldTitle>
+      <TWFieldTitle>採購金額</TWFieldTitle>
+      <ENFieldTitle>Purchase Amount</ENFieldTitle>
+      <JPFieldTitle>采购金额</JPFieldTitle>
+      <KRFieldTitle>trị giá thu mua</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SalPurDiscount">
+      <CNFieldTitle>返利比率</CNFieldTitle>
+      <TWFieldTitle>獎勵比率</TWFieldTitle>
+      <ENFieldTitle>Rebate Ratio</ENFieldTitle>
+      <JPFieldTitle>返利比率</JPFieldTitle>
+      <KRFieldTitle>返利比率</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="btnSelectAll">
+      <CNFieldTitle>全选</CNFieldTitle>
+      <TWFieldTitle>全選</TWFieldTitle>
+      <ENFieldTitle>Select All</ENFieldTitle>
+      <JPFieldTitle>全选</JPFieldTitle>
+      <KRFieldTitle>chọn toàn bộ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="btnSelectReverse">
+      <CNFieldTitle>反选</CNFieldTitle>
+      <TWFieldTitle>反選</TWFieldTitle>
+      <ENFieldTitle>Counter-Select</ENFieldTitle>
+      <JPFieldTitle>反选</JPFieldTitle>
+      <KRFieldTitle>chọn lại</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="btnUnSelectAll">
+      <CNFieldTitle>全消</CNFieldTitle>
+      <TWFieldTitle>全消</TWFieldTitle>
+      <ENFieldTitle>Delete All</ENFieldTitle>
+      <JPFieldTitle>全消</JPFieldTitle>
+      <KRFieldTitle>hủy toàn bộ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckSetPurDiscount">
+      <CNFieldTitle>请设置返利!</CNFieldTitle>
+      <TWFieldTitle>請設定獎勵！</TWFieldTitle>
+      <ENFieldTitle>Please Set獎勵!</ENFieldTitle>
+      <JPFieldTitle>请设置返利!</JPFieldTitle>
+      <KRFieldTitle>请设置返利!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckSetPurSalDiscount">
+      <CNFieldTitle>请设置扣率!</CNFieldTitle>
+      <TWFieldTitle>請設定抽成！</TWFieldTitle>
+      <ENFieldTitle>PleaseSet Commission!</ENFieldTitle>
+      <JPFieldTitle>请设置扣率!</JPFieldTitle>
+      <KRFieldTitle>请设置扣率!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckSetShop">
+      <CNFieldTitle>请设置店铺范围!</CNFieldTitle>
+      <TWFieldTitle>請設定店櫃範圍！</TWFieldTitle>
+      <ENFieldTitle>Please SetStore Range!</ENFieldTitle>
+      <JPFieldTitle>请设置店铺范围!</JPFieldTitle>
+      <KRFieldTitle>vui lòng cài đặt phạm vy cửa hàng !</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="deleteItem">
+      <CNFieldTitle>是否确定删除该条款和该条款下的所有条款？</CNFieldTitle>
+      <TWFieldTitle>是否確定刪除該條款和該條款下的所有條款？</TWFieldTitle>
+      <ENFieldTitle>IfConfirmDelete該Clause和該Clause下的所有Clause?</ENFieldTitle>
+      <JPFieldTitle>是否确定删除该条款和该条款下的所有条款？</JPFieldTitle>
+      <KRFieldTitle>是否确定删除该条款和该条款下的所有条款？</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PurAmountCanNotLTZero">
+      <CNFieldTitle>采购金额不能少于等于零!</CNFieldTitle>
+      <TWFieldTitle>採購金額不能小於等於零！</TWFieldTitle>
+      <ENFieldTitle>Purchase Amount不能Less Than or Eqaul to0!</ENFieldTitle>
+      <JPFieldTitle>采购金额不能少于等于零!</JPFieldTitle>
+      <KRFieldTitle>采购金额不能少于等于零!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="StartAndEndDateCanNotBeNull">
+      <CNFieldTitle>开始日期和截止日期不能为空！</CNFieldTitle>
+      <TWFieldTitle>開始日期和結束日期不能為空！</TWFieldTitle>
+      <ENFieldTitle>Start Date and End Date cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>开始日期和截止日期不能为空！</JPFieldTitle>
+      <KRFieldTitle>ngày bắt đầu và ngày kết không thể để trống !</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainRetailAffiliatedTitle1">
+      <CNFieldTitle>店铺费用</CNFieldTitle>
+      <TWFieldTitle>店櫃費用</TWFieldTitle>
+      <ENFieldTitle>Store Expense</ENFieldTitle>
+      <JPFieldTitle>店铺费用</JPFieldTitle>
+      <KRFieldTitle>店铺费用</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainRetailAffiliatedTitle10">
+      <CNFieldTitle>店铺范围</CNFieldTitle>
+      <TWFieldTitle>店櫃範圍</TWFieldTitle>
+      <ENFieldTitle>Store Range</ENFieldTitle>
+      <JPFieldTitle>店铺范围</JPFieldTitle>
+      <KRFieldTitle>phạm vy cửa hàng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainRetailAffiliatedTitle2">
+      <CNFieldTitle>默认费用</CNFieldTitle>
+      <TWFieldTitle>預設費用</TWFieldTitle>
+      <ENFieldTitle>Default Expense</ENFieldTitle>
+      <JPFieldTitle>默认费用</JPFieldTitle>
+      <KRFieldTitle>默认费用</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainRetailAffiliatedTitle3">
+      <CNFieldTitle>固定费用</CNFieldTitle>
+      <TWFieldTitle>固定費用</TWFieldTitle>
+      <ENFieldTitle>Fixed Expense</ENFieldTitle>
+      <JPFieldTitle>固定费用</JPFieldTitle>
+      <KRFieldTitle>固定费用</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainRetailAffiliatedTitle4">
+      <CNFieldTitle>账扣类型</CNFieldTitle>
+      <TWFieldTitle>扣帳類型</TWFieldTitle>
+      <ENFieldTitle>扣帳Type</ENFieldTitle>
+      <JPFieldTitle>帐扣类型</JPFieldTitle>
+      <KRFieldTitle>帐扣类型</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainRetailAffiliatedTitle5">
+      <CNFieldTitle>含税</CNFieldTitle>
+      <TWFieldTitle>是否含稅</TWFieldTitle>
+      <ENFieldTitle>Tax</ENFieldTitle>
+      <JPFieldTitle>含税</JPFieldTitle>
+      <KRFieldTitle>含税</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainRetailAffiliatedTitle6">
+      <CNFieldTitle>税率</CNFieldTitle>
+      <TWFieldTitle>稅率</TWFieldTitle>
+      <ENFieldTitle>Tax Rate</ENFieldTitle>
+      <JPFieldTitle>税率</JPFieldTitle>
+      <KRFieldTitle>tỉ lệ thuế</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainRetailAffiliatedTitle7">
+      <CNFieldTitle>单位价格</CNFieldTitle>
+      <TWFieldTitle>單位價格</TWFieldTitle>
+      <ENFieldTitle>Unit Price</ENFieldTitle>
+      <JPFieldTitle>单位价格</JPFieldTitle>
+      <KRFieldTitle>单位价格</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainRetailAffiliatedTitle8">
+      <CNFieldTitle>费用金额/计算公式</CNFieldTitle>
+      <TWFieldTitle>費用金額/計算公式</TWFieldTitle>
+      <ENFieldTitle>Expense Amount/Formula</ENFieldTitle>
+      <JPFieldTitle>费用金额/计算公式</JPFieldTitle>
+      <KRFieldTitle>费用金额/计算公式</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainRetailAffiliatedTitle9">
+      <CNFieldTitle>该店铺费用已存在！</CNFieldTitle>
+      <TWFieldTitle>該店櫃費用已存在！</TWFieldTitle>
+      <ENFieldTitle>該Store Expensealready existed!</ENFieldTitle>
+      <JPFieldTitle>该店铺费用已存在！</JPFieldTitle>
+      <KRFieldTitle>该店铺费用已存在！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckMaxSmallAndEqualToMin">
+      <CNFieldTitle>区间最大值不能小于等于最小值！</CNFieldTitle>
+      <TWFieldTitle>區間最大值不能小於等於最小值！</TWFieldTitle>
+      <ENFieldTitle>區間Maximum Value不能Less Than or Eqaul toMinimum Value!</ENFieldTitle>
+      <JPFieldTitle>区间最大值不能小于等于最小值！</JPFieldTitle>
+      <KRFieldTitle>区间最大值不能小于等于最小值！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckQHCompName">
+      <CNFieldTitle>名称不能为空！</CNFieldTitle>
+      <TWFieldTitle>名稱不能為空！</TWFieldTitle>
+      <ENFieldTitle>Name cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>名称不能为空！</JPFieldTitle>
+      <KRFieldTitle>tên không được để trống !</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BtnQHCompImport">
+      <CNFieldTitle>引用</CNFieldTitle>
+      <TWFieldTitle>引用</TWFieldTitle>
+      <ENFieldTitle>引用</ENFieldTitle>
+      <JPFieldTitle>引用</JPFieldTitle>
+      <KRFieldTitle>引用</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BtnRefreshTree">
+      <CNFieldTitle>刷新列表</CNFieldTitle>
+      <TWFieldTitle>更新清單</TWFieldTitle>
+      <ENFieldTitle>RefreshList</ENFieldTitle>
+      <JPFieldTitle>刷新列表</JPFieldTitle>
+      <KRFieldTitle>刷新列表</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="hle_Material">
+      <CNFieldTitle>货品范围</CNFieldTitle>
+      <TWFieldTitle>貨品範圍</TWFieldTitle>
+      <ENFieldTitle>Item範圍</ENFieldTitle>
+      <JPFieldTitle>货品范围</JPFieldTitle>
+      <KRFieldTitle>货品范围</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lbl_Amount">
+      <CNFieldTitle>金额范围</CNFieldTitle>
+      <TWFieldTitle>金額範圍</TWFieldTitle>
+      <ENFieldTitle>Amount Rang</ENFieldTitle>
+      <JPFieldTitle>金额范围</JPFieldTitle>
+      <KRFieldTitle>金额范围</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lbl_CashDiscount">
+      <CNFieldTitle>现货折扣</CNFieldTitle>
+      <TWFieldTitle>現貨折扣</TWFieldTitle>
+      <ENFieldTitle>SpotDiscount</ENFieldTitle>
+      <JPFieldTitle>现货折扣</JPFieldTitle>
+      <KRFieldTitle>chiết khấu hàng giao ngây</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lbl_FuturesDiscount">
+      <CNFieldTitle>期货折扣</CNFieldTitle>
+      <TWFieldTitle>期貨折扣</TWFieldTitle>
+      <ENFieldTitle>Futures Discount</ENFieldTitle>
+      <JPFieldTitle>期货折扣</JPFieldTitle>
+      <KRFieldTitle>triết khấu hợp đồng tương lai</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lbl_Name">
+      <CNFieldTitle>名称</CNFieldTitle>
+      <TWFieldTitle>名稱</TWFieldTitle>
+      <ENFieldTitle>Name</ENFieldTitle>
+      <JPFieldTitle>名称</JPFieldTitle>
+      <KRFieldTitle>tên</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lbl_Qty">
+      <CNFieldTitle>数量范围</CNFieldTitle>
+      <TWFieldTitle>數量範圍</TWFieldTitle>
+      <ENFieldTitle>Qty Range</ENFieldTitle>
+      <JPFieldTitle>数量范围</JPFieldTitle>
+      <KRFieldTitle>数量范围</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lbl_QtyCondition">
+      <CNFieldTitle>条件与或</CNFieldTitle>
+      <TWFieldTitle>條件與或</TWFieldTitle>
+      <ENFieldTitle>條件與Or</ENFieldTitle>
+      <JPFieldTitle>条件与或</JPFieldTitle>
+      <KRFieldTitle>条件与或</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lbl_Sku">
+      <CNFieldTitle>货号SKU范围</CNFieldTitle>
+      <TWFieldTitle>貨號SKU範圍</TWFieldTitle>
+      <ENFieldTitle>ItemSKU範圍</ENFieldTitle>
+      <JPFieldTitle>货号SKU范围</JPFieldTitle>
+      <KRFieldTitle>货号SKU范围</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="rgpDiscType0">
+      <CNFieldTitle>升降折扣</CNFieldTitle>
+      <TWFieldTitle>升降折扣</TWFieldTitle>
+      <ENFieldTitle>Increase and Decrease Discount</ENFieldTitle>
+      <JPFieldTitle>升降折扣</JPFieldTitle>
+      <KRFieldTitle>升降折扣</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="rgpDiscType1">
+      <CNFieldTitle>变更折扣</CNFieldTitle>
+      <TWFieldTitle>變更折扣</TWFieldTitle>
+      <ENFieldTitle>Adjust Discount</ENFieldTitle>
+      <JPFieldTitle>变更折扣</JPFieldTitle>
+      <KRFieldTitle>变更折扣</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="rgpTempType0">
+      <CNFieldTitle>按客户总量</CNFieldTitle>
+      <TWFieldTitle>按客戶總量</TWFieldTitle>
+      <ENFieldTitle>ByCustomer總量</ENFieldTitle>
+      <JPFieldTitle>按客户总量</JPFieldTitle>
+      <KRFieldTitle>按客户总量</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="rgpTempType1">
+      <CNFieldTitle>按货号总量</CNFieldTitle>
+      <TWFieldTitle>按貨號總量</TWFieldTitle>
+      <ENFieldTitle>ByItem總量</ENFieldTitle>
+      <JPFieldTitle>按货号总量</JPFieldTitle>
+      <KRFieldTitle>按货号总量</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="grpMinPurAmount">
+      <CNFieldTitle>最低订货额</CNFieldTitle>
+      <TWFieldTitle>最低訂貨金額</TWFieldTitle>
+      <ENFieldTitle>Minimum Order Amount</ENFieldTitle>
+      <JPFieldTitle>最低订货额</JPFieldTitle>
+      <KRFieldTitle>最低订货额</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="grpDiscount">
+      <CNFieldTitle>销售折扣</CNFieldTitle>
+      <TWFieldTitle>銷售折扣</TWFieldTitle>
+      <ENFieldTitle>Sales Discount</ENFieldTitle>
+      <JPFieldTitle>销售折扣</JPFieldTitle>
+      <KRFieldTitle>销售折扣</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="tabDiscountText">
+      <CNFieldTitle>货品折扣设置</CNFieldTitle>
+      <TWFieldTitle>貨品折扣設定</TWFieldTitle>
+      <ENFieldTitle>Item Discount Setting</ENFieldTitle>
+      <JPFieldTitle>货品折扣设置</JPFieldTitle>
+      <KRFieldTitle>货品折扣设置</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="IsSureDeleteList">
+      <CNFieldTitle>确定要删除当前节点及其所有子节点记录么？</CNFieldTitle>
+      <TWFieldTitle>確定要刪除當前節點及其所有子節點記錄？</TWFieldTitle>
+      <ENFieldTitle>Confirm要DeleteCurrent Node及其所有Lower-Node記錄?</ENFieldTitle>
+      <JPFieldTitle>确定要删除当前节点及其所有子节点记录么？</JPFieldTitle>
+      <KRFieldTitle>确定要删除当前节点及其所有子节点记录么？</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lbl_CardName">
+      <CNFieldTitle>品牌</CNFieldTitle>
+      <TWFieldTitle>品牌</TWFieldTitle>
+      <ENFieldTitle>Brand</ENFieldTitle>
+      <JPFieldTitle>品牌</JPFieldTitle>
+      <KRFieldTitle>nhãn hiệu</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lbl_KindName">
+      <CNFieldTitle>类别</CNFieldTitle>
+      <TWFieldTitle>類別</TWFieldTitle>
+      <ENFieldTitle>類別</ENFieldTitle>
+      <JPFieldTitle>类别</JPFieldTitle>
+      <KRFieldTitle>loại</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainRetailAffiliatedTitle11">
+      <CNFieldTitle>店铺范围不能为空！</CNFieldTitle>
+      <TWFieldTitle>店櫃範圍不能為空！</TWFieldTitle>
+      <ENFieldTitle>Store Range cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>店铺范围不能为空！</JPFieldTitle>
+      <KRFieldTitle>phạm vy cửa hàng không thể để trống !</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainRetailAffiliatedTitle12">
+      <CNFieldTitle>店铺费用设置不能为空！</CNFieldTitle>
+      <TWFieldTitle>店櫃費用設定不能為空！</TWFieldTitle>
+      <ENFieldTitle>Store ExpenseSetting cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>店铺费用设置不能为空！</JPFieldTitle>
+      <KRFieldTitle>店铺费用设置不能为空！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainRetailAffiliatedTitle13">
+      <CNFieldTitle>店铺费用、帐扣类型、单位价格、公式都不能为空！</CNFieldTitle>
+      <TWFieldTitle>店櫃費用、扣帳類型、單位價格、公式都不能為空！</TWFieldTitle>
+      <ENFieldTitle>Store Expense. 扣帳Type. Unit Price. Formula都 cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>店铺费用、帐扣类型、单位价格、公式都不能为空！</JPFieldTitle>
+      <KRFieldTitle>店铺费用、帐扣类型、单位价格、公式都不能为空！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="IsDelPreItem">
+      <CNFieldTitle>引用范本将删除原有条款内容,是否确定引用范本?</CNFieldTitle>
+      <TWFieldTitle>引用範本將刪除原有條款內容，是否確定引用範本？</TWFieldTitle>
+      <ENFieldTitle>引用Template將Delete原有Clause Content,IfConfirm引用Template?</ENFieldTitle>
+      <JPFieldTitle>引用范本将删除原有条款内容,是否确定引用范本?</JPFieldTitle>
+      <KRFieldTitle>引用范本将删除原有条款内容,是否确定引用范本?</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="NotExistsAssignField">
+      <CNFieldTitle>不存在指定的明细字段：{0}的数据,该明细字段数据未能展示。</CNFieldTitle>
+      <TWFieldTitle>不存在指定的欄位:{0}的資料，該欄位資料未能顯示。</TWFieldTitle>
+      <ENFieldTitle>doesn't exist指定的Column:{0}的Data ,該ColumnData 未能顯示.</ENFieldTitle>
+      <JPFieldTitle>不存在指定的明细字段：{0}的数据,该明细字段数据未能展示。</JPFieldTitle>
+      <KRFieldTitle>不存在指定的明细字段：{0}的数据,该明细字段数据未能展示。</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="NotExistsAssignObjectTable">
+      <CNFieldTitle>不存在指定的表对象：{0}的数据,该表对象数据未能展示。</CNFieldTitle>
+      <TWFieldTitle>不存在指定的表對象:{0}的資料，該表對象資料未能顯示。</TWFieldTitle>
+      <ENFieldTitle>doesn't exist指定的表Entity:{0}的Data ,該表EntityData 未能顯示.</ENFieldTitle>
+      <JPFieldTitle>不存在指定的表对象：{0}的数据,该表对象数据未能展示。</JPFieldTitle>
+      <KRFieldTitle>不存在指定的表对象：{0}的数据,该表对象数据未能展示。</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="plsSelectItemModel">
+      <CNFieldTitle>请选择具体合同模板!</CNFieldTitle>
+      <TWFieldTitle>請選擇合約範本！</TWFieldTitle>
+      <ENFieldTitle>Please select Contract Template!</ENFieldTitle>
+      <JPFieldTitle>请选择具体合同模板!</JPFieldTitle>
+      <KRFieldTitle>请选择具体合同模板!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainTabMarketPlaceTitle2">
+      <CNFieldTitle>合同货品详细</CNFieldTitle>
+      <TWFieldTitle>合約貨品詳細</TWFieldTitle>
+      <ENFieldTitle>ContractItem詳細</ENFieldTitle>
+      <JPFieldTitle>合同货品详细</JPFieldTitle>
+      <KRFieldTitle>合同货品详细</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FormLookUpNounExplain">
+      <CNFieldTitle>名词解释查询/定位--支持模糊查询</CNFieldTitle>
+      <TWFieldTitle>名詞解釋查詢/定位--模糊查詢</TWFieldTitle>
+      <ENFieldTitle>名詞解釋Search/Find--Fuzzy Search</ENFieldTitle>
+      <JPFieldTitle>名词解释查询/定位--支持模糊查询</JPFieldTitle>
+      <KRFieldTitle>名词解释查询/定位--支持模糊查询</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckNoAllowNull">
+      <CNFieldTitle>不能为空！</CNFieldTitle>
+      <TWFieldTitle>不能為空！</TWFieldTitle>
+      <ENFieldTitle>cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>不能为空！</JPFieldTitle>
+      <KRFieldTitle>không được để trống !</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="tabBargainAccessory">
+      <CNFieldTitle>合同附件</CNFieldTitle>
+      <TWFieldTitle>合約附件</TWFieldTitle>
+      <ENFieldTitle>Contract Appendix</ENFieldTitle>
+      <JPFieldTitle>合同附件</JPFieldTitle>
+      <KRFieldTitle>合同附件</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="tabBargainDetail">
+      <CNFieldTitle>合同明细</CNFieldTitle>
+      <TWFieldTitle>合約明細</TWFieldTitle>
+      <ENFieldTitle>Contract明細</ENFieldTitle>
+      <JPFieldTitle>合同明细</JPFieldTitle>
+      <KRFieldTitle>合同明细</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="tabBargainItemDetail">
+      <CNFieldTitle>合同条款</CNFieldTitle>
+      <TWFieldTitle>合約條款</TWFieldTitle>
+      <ENFieldTitle>Contract Clause</ENFieldTitle>
+      <JPFieldTitle>合同条款</JPFieldTitle>
+      <KRFieldTitle>合同条款</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="tabBargainNote">
+      <CNFieldTitle>大事件</CNFieldTitle>
+      <TWFieldTitle>大事件</TWFieldTitle>
+      <ENFieldTitle>大事件</ENFieldTitle>
+      <JPFieldTitle>大事件</JPFieldTitle>
+      <KRFieldTitle>大事件</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="tabBargainNounExplain">
+      <CNFieldTitle>名词解释</CNFieldTitle>
+      <TWFieldTitle>名詞解釋</TWFieldTitle>
+      <ENFieldTitle>名詞解釋</ENFieldTitle>
+      <JPFieldTitle>名词解释</JPFieldTitle>
+      <KRFieldTitle>名词解释</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="tabBargainVersion">
+      <CNFieldTitle>合同版本</CNFieldTitle>
+      <TWFieldTitle>合約版本</TWFieldTitle>
+      <ENFieldTitle>ContractVersion</ENFieldTitle>
+      <JPFieldTitle>合同版本</JPFieldTitle>
+      <KRFieldTitle>合同版本</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="tabVenderOrCust">
+      <CNFieldTitle>供需单位信息</CNFieldTitle>
+      <TWFieldTitle>供需單位資訊</TWFieldTitle>
+      <ENFieldTitle>供需UnitInfo</ENFieldTitle>
+      <JPFieldTitle>供需单位信息</JPFieldTitle>
+      <KRFieldTitle>供需单位信息</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BtnOpenFile">
+      <CNFieldTitle>打开</CNFieldTitle>
+      <TWFieldTitle>開啟</TWFieldTitle>
+      <ENFieldTitle>Open</ENFieldTitle>
+      <JPFieldTitle>打开</JPFieldTitle>
+      <KRFieldTitle>mở</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DeductChargeTitle19">
+      <CNFieldTitle>该项目的日期设置产生了交叉，不能更改项目！</CNFieldTitle>
+      <TWFieldTitle>該項目的日期設定產生了交叉，不能更改項目！</TWFieldTitle>
+      <ENFieldTitle>該項目的DateSetting產生了交叉,不能更改項目!</ENFieldTitle>
+      <JPFieldTitle>该项目的日期设置产生了交叉，不能更改项目！</JPFieldTitle>
+      <KRFieldTitle>该项目的日期设置产生了交叉，不能更改项目！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="getRefItemModel">
+      <CNFieldTitle>引用合同范本</CNFieldTitle>
+      <TWFieldTitle>引用合約範本</TWFieldTitle>
+      <ENFieldTitle>引用Contract Template</ENFieldTitle>
+      <JPFieldTitle>引用合同范本</JPFieldTitle>
+      <KRFieldTitle>引用合同范本</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="txtSelectItemModel">
+      <CNFieldTitle>选择合同范本</CNFieldTitle>
+      <TWFieldTitle>選擇合約範本</TWFieldTitle>
+      <ENFieldTitle>Select Contract Template</ENFieldTitle>
+      <JPFieldTitle>选择合同范本</JPFieldTitle>
+      <KRFieldTitle>选择合同范本</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lblABank">
+      <CNFieldTitle>开户银行:</CNFieldTitle>
+      <TWFieldTitle>銀行:</TWFieldTitle>
+      <ENFieldTitle>Bank:</ENFieldTitle>
+      <JPFieldTitle>开户银行:</JPFieldTitle>
+      <KRFieldTitle>銀行:</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lblABankNo">
+      <CNFieldTitle>银行账号:</CNFieldTitle>
+      <TWFieldTitle>銀行帳號:</TWFieldTitle>
+      <ENFieldTitle>Bank Account:</ENFieldTitle>
+      <JPFieldTitle>银行账号:</JPFieldTitle>
+      <KRFieldTitle>銀行帳號:</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lblAddress">
+      <CNFieldTitle>签约地址</CNFieldTitle>
+      <TWFieldTitle>簽約地址:</TWFieldTitle>
+      <ENFieldTitle>SignAddress:</ENFieldTitle>
+      <JPFieldTitle>签约地址</JPFieldTitle>
+      <KRFieldTitle>签约地址</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lblAFax">
+      <CNFieldTitle>传        真:</CNFieldTitle>
+      <TWFieldTitle>傳真:</TWFieldTitle>
+      <ENFieldTitle>Fax:</ENFieldTitle>
+      <JPFieldTitle>传        真:</JPFieldTitle>
+      <KRFieldTitle>传        真:</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lblAName">
+      <CNFieldTitle>甲方</CNFieldTitle>
+      <TWFieldTitle>甲方</TWFieldTitle>
+      <ENFieldTitle>甲方</ENFieldTitle>
+      <JPFieldTitle>甲方</JPFieldTitle>
+      <KRFieldTitle>甲方</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lblANames">
+      <CNFieldTitle>甲        方</CNFieldTitle>
+      <TWFieldTitle>甲方</TWFieldTitle>
+      <ENFieldTitle>甲方</ENFieldTitle>
+      <JPFieldTitle>甲        方</JPFieldTitle>
+      <KRFieldTitle>甲        方</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lblAPostCode">
+      <CNFieldTitle>邮政编码:</CNFieldTitle>
+      <TWFieldTitle>郵遞區號:</TWFieldTitle>
+      <ENFieldTitle>Postal Code :</ENFieldTitle>
+      <JPFieldTitle>邮政编码:</JPFieldTitle>
+      <KRFieldTitle>邮政编码:</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lblARep">
+      <CNFieldTitle>甲方代表:</CNFieldTitle>
+      <TWFieldTitle>甲方代表:</TWFieldTitle>
+      <ENFieldTitle>甲方代表:</ENFieldTitle>
+      <JPFieldTitle>甲方代表:</JPFieldTitle>
+      <KRFieldTitle>甲方代表:</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lblATaxNo">
+      <CNFieldTitle>税务登记号:</CNFieldTitle>
+      <TWFieldTitle>統一編號:</TWFieldTitle>
+      <ENFieldTitle>Tax No:</ENFieldTitle>
+      <JPFieldTitle>税务登记号:</JPFieldTitle>
+      <KRFieldTitle>統一編號:</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lblAUnit">
+      <CNFieldTitle>单位名称(盖章):</CNFieldTitle>
+      <TWFieldTitle>單位名稱(蓋章):</TWFieldTitle>
+      <ENFieldTitle>Unit Name(蓋章):</ENFieldTitle>
+      <JPFieldTitle>单位名称(盖章):</JPFieldTitle>
+      <KRFieldTitle>单位名称(盖章):</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lblAUnitAddress">
+      <CNFieldTitle>单位地址:</CNFieldTitle>
+      <TWFieldTitle>單位地址:</TWFieldTitle>
+      <ENFieldTitle>UnitAddress:</ENFieldTitle>
+      <JPFieldTitle>单位地址:</JPFieldTitle>
+      <KRFieldTitle>单位地址:</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lblBargainDate">
+      <CNFieldTitle>签约日期</CNFieldTitle>
+      <TWFieldTitle>簽約日期</TWFieldTitle>
+      <ENFieldTitle>Contract Date</ENFieldTitle>
+      <JPFieldTitle>签约日期</JPFieldTitle>
+      <KRFieldTitle>签约日期</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lblBargainEDate">
+      <CNFieldTitle>合同截止日期</CNFieldTitle>
+      <TWFieldTitle>合約結束日期</TWFieldTitle>
+      <ENFieldTitle>Contract End Date</ENFieldTitle>
+      <JPFieldTitle>合同截止日期</JPFieldTitle>
+      <KRFieldTitle>合同截止日期</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lblBargainNo">
+      <CNFieldTitle>合同编号：</CNFieldTitle>
+      <TWFieldTitle>合約編號:</TWFieldTitle>
+      <ENFieldTitle>Contract No:</ENFieldTitle>
+      <JPFieldTitle>合同编号：</JPFieldTitle>
+      <KRFieldTitle>合同编号：</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lblBargainSDate">
+      <CNFieldTitle>合同开始日期</CNFieldTitle>
+      <TWFieldTitle>合約開始日期</TWFieldTitle>
+      <ENFieldTitle>Contract Start Date</ENFieldTitle>
+      <JPFieldTitle>合同开始日期</JPFieldTitle>
+      <KRFieldTitle>合同开始日期</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lblBName">
+      <CNFieldTitle>乙方</CNFieldTitle>
+      <TWFieldTitle>乙方</TWFieldTitle>
+      <ENFieldTitle>乙方</ENFieldTitle>
+      <JPFieldTitle>乙方</JPFieldTitle>
+      <KRFieldTitle>乙方</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lblBNames">
+      <CNFieldTitle>乙        方</CNFieldTitle>
+      <TWFieldTitle>乙方</TWFieldTitle>
+      <ENFieldTitle>乙方</ENFieldTitle>
+      <JPFieldTitle>乙        方</JPFieldTitle>
+      <KRFieldTitle>乙方</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lblBRep">
+      <CNFieldTitle>乙方代表:</CNFieldTitle>
+      <TWFieldTitle>乙方代表:</TWFieldTitle>
+      <ENFieldTitle>乙方代表:</ENFieldTitle>
+      <JPFieldTitle>乙方代表:</JPFieldTitle>
+      <KRFieldTitle>乙方代表:</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lblNote">
+      <CNFieldTitle>根据《中华人民共和国合同法》及其它相关法律法规的规定。甲、乙双方在平等自愿，协商一致的基础上，签定本合同。</CNFieldTitle>
+      <TWFieldTitle>根據《民法》及其他相關法令，甲、乙雙方在平等互惠的基礎上，簽訂本合約。</TWFieldTitle>
+      <ENFieldTitle>根據《民法》及Other相關法令,甲. 乙雙方在平等互惠的基礎上,簽訂本Contract.</ENFieldTitle>
+      <JPFieldTitle>根据《中华人民共和国合同法》及其它相关法律法规的规定。甲、乙双方在平等自愿，协商一致的基础上，签定本合同。</JPFieldTitle>
+      <KRFieldTitle>根据《中华人民共和国合同法》及其它相关法律法规的规定。甲、乙双方在平等自愿，协商一致的基础上，签定本合同。</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainAutoRemindTitle1">
+      <CNFieldTitle>合同类型</CNFieldTitle>
+      <TWFieldTitle>合約類型</TWFieldTitle>
+      <ENFieldTitle>Contract Type</ENFieldTitle>
+      <JPFieldTitle>合同类型</JPFieldTitle>
+      <KRFieldTitle>合同类型</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainAutoRemindTitle10">
+      <CNFieldTitle>签约人</CNFieldTitle>
+      <TWFieldTitle>簽約人</TWFieldTitle>
+      <ENFieldTitle>Signer</ENFieldTitle>
+      <JPFieldTitle>签约人</JPFieldTitle>
+      <KRFieldTitle>签约人</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainAutoRemindTitle11">
+      <CNFieldTitle>签约日期</CNFieldTitle>
+      <TWFieldTitle>簽約日期</TWFieldTitle>
+      <ENFieldTitle>Sign Date</ENFieldTitle>
+      <JPFieldTitle>签约日期</JPFieldTitle>
+      <KRFieldTitle>签约日期</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainAutoRemindTitle12">
+      <CNFieldTitle>合同开始日期</CNFieldTitle>
+      <TWFieldTitle>合約開始日期</TWFieldTitle>
+      <ENFieldTitle>Contract Start Date</ENFieldTitle>
+      <JPFieldTitle>合同开始日期</JPFieldTitle>
+      <KRFieldTitle>合同开始日期</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainAutoRemindTitle13">
+      <CNFieldTitle>合同结束日期</CNFieldTitle>
+      <TWFieldTitle>合約結束日期</TWFieldTitle>
+      <ENFieldTitle>Contract End Date</ENFieldTitle>
+      <JPFieldTitle>合同结束日期</JPFieldTitle>
+      <KRFieldTitle>合同结束日期</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainAutoRemindTitle2">
+      <CNFieldTitle>合同结束日期</CNFieldTitle>
+      <TWFieldTitle>合約結束日期</TWFieldTitle>
+      <ENFieldTitle>Contract End Date</ENFieldTitle>
+      <JPFieldTitle>合同结束日期</JPFieldTitle>
+      <KRFieldTitle>合同结束日期</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainAutoRemindTitle3">
+      <CNFieldTitle>合同单号</CNFieldTitle>
+      <TWFieldTitle>合約號</TWFieldTitle>
+      <ENFieldTitle>Contract No</ENFieldTitle>
+      <JPFieldTitle>合同单号</JPFieldTitle>
+      <KRFieldTitle>合同单号</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainAutoRemindTitle4">
+      <CNFieldTitle>合同编号</CNFieldTitle>
+      <TWFieldTitle>合約編號</TWFieldTitle>
+      <ENFieldTitle>Contract No</ENFieldTitle>
+      <JPFieldTitle>合同编号</JPFieldTitle>
+      <KRFieldTitle>合同编号</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainAutoRemindTitle5">
+      <CNFieldTitle>版本号</CNFieldTitle>
+      <TWFieldTitle>版本號</TWFieldTitle>
+      <ENFieldTitle>Version</ENFieldTitle>
+      <JPFieldTitle>版本号</JPFieldTitle>
+      <KRFieldTitle>số phiên bản</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainAutoRemindTitle6">
+      <CNFieldTitle>合同名称</CNFieldTitle>
+      <TWFieldTitle>合約名稱</TWFieldTitle>
+      <ENFieldTitle>Contract Name</ENFieldTitle>
+      <JPFieldTitle>合同名称</JPFieldTitle>
+      <KRFieldTitle>合同名称</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainAutoRemindTitle7">
+      <CNFieldTitle>合同类型</CNFieldTitle>
+      <TWFieldTitle>合約類型</TWFieldTitle>
+      <ENFieldTitle>Contract Type</ENFieldTitle>
+      <JPFieldTitle>合同类型</JPFieldTitle>
+      <KRFieldTitle>合同类型</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainAutoRemindTitle8">
+      <CNFieldTitle>往来单位</CNFieldTitle>
+      <TWFieldTitle>往來單位</TWFieldTitle>
+      <ENFieldTitle>Dealing Entity</ENFieldTitle>
+      <JPFieldTitle>往来单位</JPFieldTitle>
+      <KRFieldTitle>往來單位</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainAutoRemindTitle9">
+      <CNFieldTitle>合同状态</CNFieldTitle>
+      <TWFieldTitle>合約狀態</TWFieldTitle>
+      <ENFieldTitle>Contract Status</ENFieldTitle>
+      <JPFieldTitle>合同状态</JPFieldTitle>
+      <KRFieldTitle>合同状态</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainAutoRemindTitle14">
+      <CNFieldTitle>合同待工作列表</CNFieldTitle>
+      <TWFieldTitle>合約待辦事項</TWFieldTitle>
+      <ENFieldTitle>ContractTo-Do List</ENFieldTitle>
+      <JPFieldTitle>合同待工作列表</JPFieldTitle>
+      <KRFieldTitle>合同待工作列表</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainConvergeTitle1">
+      <CNFieldTitle>未被变更</CNFieldTitle>
+      <TWFieldTitle>未被變更</TWFieldTitle>
+      <ENFieldTitle>Unadjusted</ENFieldTitle>
+      <JPFieldTitle>未被变更</JPFieldTitle>
+      <KRFieldTitle>未被变更</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainConvergeTitle10">
+      <CNFieldTitle>范围设置有误！</CNFieldTitle>
+      <TWFieldTitle>範圍設定有誤！</TWFieldTitle>
+      <ENFieldTitle>Set Range error!</ENFieldTitle>
+      <JPFieldTitle>范围设置有误！</JPFieldTitle>
+      <KRFieldTitle>范围设置有误！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainConvergeTitle11">
+      <CNFieldTitle>导出成功！</CNFieldTitle>
+      <TWFieldTitle>匯出成功！</TWFieldTitle>
+      <ENFieldTitle>Export successfully!</ENFieldTitle>
+      <JPFieldTitle>导出成功！</JPFieldTitle>
+      <KRFieldTitle>truyền xuất thành công !</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainConvergeTitle2">
+      <CNFieldTitle>已被变更</CNFieldTitle>
+      <TWFieldTitle>已被變更</TWFieldTitle>
+      <ENFieldTitle>Modified</ENFieldTitle>
+      <JPFieldTitle>已被变更</JPFieldTitle>
+      <KRFieldTitle>已被变更</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainConvergeTitle3">
+      <CNFieldTitle>合同汇总查询</CNFieldTitle>
+      <TWFieldTitle>合約彙總查詢</TWFieldTitle>
+      <ENFieldTitle>Contract彙總Search</ENFieldTitle>
+      <JPFieldTitle>合同汇总查询</JPFieldTitle>
+      <KRFieldTitle>合同汇总查询</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainConvergeTitle4">
+      <CNFieldTitle>合同签回日期</CNFieldTitle>
+      <TWFieldTitle>合約簽回日期</TWFieldTitle>
+      <ENFieldTitle>Contract Sign Date</ENFieldTitle>
+      <JPFieldTitle>合同签回日期</JPFieldTitle>
+      <KRFieldTitle>合同签回日期</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainConvergeTitle5">
+      <CNFieldTitle>合同开始日期</CNFieldTitle>
+      <TWFieldTitle>合約開始日期</TWFieldTitle>
+      <ENFieldTitle>Contract Start Date</ENFieldTitle>
+      <JPFieldTitle>合同开始日期</JPFieldTitle>
+      <KRFieldTitle>合同开始日期</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainConvergeTitle6">
+      <CNFieldTitle>合同结束日期</CNFieldTitle>
+      <TWFieldTitle>合約結束日期</TWFieldTitle>
+      <ENFieldTitle>Contract End Date</ENFieldTitle>
+      <JPFieldTitle>合同结束日期</JPFieldTitle>
+      <KRFieldTitle>合同结束日期</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainConvergeTitle7">
+      <CNFieldTitle>是否被变更</CNFieldTitle>
+      <TWFieldTitle>是否被變更</TWFieldTitle>
+      <ENFieldTitle>Adjusted</ENFieldTitle>
+      <JPFieldTitle>是否被变更</JPFieldTitle>
+      <KRFieldTitle>是否被变更</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainConvergeTitle8">
+      <CNFieldTitle>操作员</CNFieldTitle>
+      <TWFieldTitle>操作員</TWFieldTitle>
+      <ENFieldTitle>Operator</ENFieldTitle>
+      <JPFieldTitle>操作员</JPFieldTitle>
+      <KRFieldTitle>thao tác viên</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainConvergeTitle9">
+      <CNFieldTitle>往来单位</CNFieldTitle>
+      <TWFieldTitle>往來單位</TWFieldTitle>
+      <ENFieldTitle>Dealing Entity</ENFieldTitle>
+      <JPFieldTitle>往来单位</JPFieldTitle>
+      <KRFieldTitle>往來單位</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BillDate">
+      <CNFieldTitle>开单日期</CNFieldTitle>
+      <TWFieldTitle>開單日期</TWFieldTitle>
+      <ENFieldTitle>Bill Date</ENFieldTitle>
+      <JPFieldTitle>开单日期</JPFieldTitle>
+      <KRFieldTitle>ngày mở đơn</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BillStatus">
+      <CNFieldTitle>单据状态</CNFieldTitle>
+      <TWFieldTitle>單據狀態</TWFieldTitle>
+      <ENFieldTitle>Status</ENFieldTitle>
+      <JPFieldTitle>单据状态</JPFieldTitle>
+      <KRFieldTitle>trạng thai dự liệu</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ChangingStatus">
+      <CNFieldTitle>变更状态</CNFieldTitle>
+      <TWFieldTitle>變更狀態</TWFieldTitle>
+      <ENFieldTitle>Adjustment Status</ENFieldTitle>
+      <JPFieldTitle>变更状态</JPFieldTitle>
+      <KRFieldTitle>变更状态</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CheckDate">
+      <CNFieldTitle>生效日期</CNFieldTitle>
+      <TWFieldTitle>生效日期</TWFieldTitle>
+      <ENFieldTitle>Effective Date</ENFieldTitle>
+      <JPFieldTitle>生效日期</JPFieldTitle>
+      <KRFieldTitle>ngày hiệu lực</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="isConfirmDeleteTheObject">
+      <CNFieldTitle>是否确定要删除该对象？</CNFieldTitle>
+      <TWFieldTitle>是否確定要刪除該對象？</TWFieldTitle>
+      <ENFieldTitle>Are you sure to delete the Entity?</ENFieldTitle>
+      <JPFieldTitle>是否确定要删除该对象？</JPFieldTitle>
+      <KRFieldTitle>是否确定要删除该对象？</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckSetMinPurAmount">
+      <CNFieldTitle>请设置最低采购额!</CNFieldTitle>
+      <TWFieldTitle>請設定最低採購金額！</TWFieldTitle>
+      <ENFieldTitle>Please set minimum Purchase Amount!</ENFieldTitle>
+      <JPFieldTitle>请设置最低采购额!</JPFieldTitle>
+      <KRFieldTitle>请设置最低采购额!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="txtPrintPreView">
+      <CNFieldTitle>打印预览</CNFieldTitle>
+      <TWFieldTitle>預覽列印</TWFieldTitle>
+      <ENFieldTitle>Print Preview</ENFieldTitle>
+      <JPFieldTitle>打印预览</JPFieldTitle>
+      <KRFieldTitle>預覽列印</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckBargainTimeIsNull">
+      <CNFieldTitle>合同开始日期不能为空！</CNFieldTitle>
+      <TWFieldTitle>合約開始日期不能為空！</TWFieldTitle>
+      <ENFieldTitle>Contract Start Date cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>合同开始日期不能为空！</JPFieldTitle>
+      <KRFieldTitle>合同开始日期不能为空！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckDetailTimeAndBargain">
+      <CNFieldTitle>明细记录开始日期不能小于合同开始日期！</CNFieldTitle>
+      <TWFieldTitle>明細記錄開始日期不能小於合約開始日期！</TWFieldTitle>
+      <ENFieldTitle>明細記錄Start Date cannot be earlier than Contract Start Date!</ENFieldTitle>
+      <JPFieldTitle>明细记录开始日期不能小于合同开始日期！</JPFieldTitle>
+      <KRFieldTitle>明细记录开始日期不能小于合同开始日期！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckPreRemindDayIsZero">
+      <CNFieldTitle>提前提醒天数不能为0！</CNFieldTitle>
+      <TWFieldTitle>提前提醒天數不能為0！</TWFieldTitle>
+      <ENFieldTitle>Notification (Days)cannot be 0!</ENFieldTitle>
+      <JPFieldTitle>提前提醒天数不能为0！</JPFieldTitle>
+      <KRFieldTitle>提前提醒天数不能为0！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckSetTimeInfo">
+      <CNFieldTitle>明细记录日期不能为空！</CNFieldTitle>
+      <TWFieldTitle>明細記錄日期不能為空！</TWFieldTitle>
+      <ENFieldTitle>明細記錄Date cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>明细记录日期不能为空！</JPFieldTitle>
+      <KRFieldTitle>明细记录日期不能为空！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DateNotSame">
+      <CNFieldTitle>合同的开始日期和最低采购额设置的首区间的开始日期不一致！</CNFieldTitle>
+      <TWFieldTitle>合約的開始日期和最低採購額設定的初始區間的開始日期不一致！</TWFieldTitle>
+      <ENFieldTitle>Contract的Start Date和Minimum Purchase AmountSetting的初始區間的Start Date不一致!</ENFieldTitle>
+      <JPFieldTitle>合同的开始日期和最低采购额设置的首区间的开始日期不一致！</JPFieldTitle>
+      <KRFieldTitle>合同的开始日期和最低采购额设置的首区间的开始日期不一致！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DeductCharggeDateRange">
+      <CNFieldTitle>设置的日期范围不可以包含其他已经设置的日期！</CNFieldTitle>
+      <TWFieldTitle>設定的日期範圍不可包含其他已經設定的日期！</TWFieldTitle>
+      <ENFieldTitle>Setting的Date Range不可IncludingOther已經Setting的Date!</ENFieldTitle>
+      <JPFieldTitle>设置的日期范围不可以包含其他已经设置的日期！</JPFieldTitle>
+      <KRFieldTitle>设置的日期范围不可以包含其他已经设置的日期！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckSelectDataIsRepeat">
+      <CNFieldTitle>选择的记录已经存在！</CNFieldTitle>
+      <TWFieldTitle>選擇的記錄已經存在！</TWFieldTitle>
+      <ENFieldTitle>Selected records already existed!</ENFieldTitle>
+      <JPFieldTitle>选择的记录已经存在！</JPFieldTitle>
+      <KRFieldTitle>选择的记录已经存在！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ShopAmount">
+      <CNFieldTitle>店铺自定义费用</CNFieldTitle>
+      <TWFieldTitle>店櫃自訂費用</TWFieldTitle>
+      <ENFieldTitle>Store自訂Expense</ENFieldTitle>
+      <JPFieldTitle>店铺自定义费用</JPFieldTitle>
+      <KRFieldTitle>店铺自定义费用</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="grpCust">
+      <CNFieldTitle>自定义明细项</CNFieldTitle>
+      <TWFieldTitle>自訂明細項</TWFieldTitle>
+      <ENFieldTitle>自訂明細項</ENFieldTitle>
+      <JPFieldTitle>自定义明细项</JPFieldTitle>
+      <KRFieldTitle>自定义明细项</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="grpSys">
+      <CNFieldTitle>系统明细项</CNFieldTitle>
+      <TWFieldTitle>系統明細項</TWFieldTitle>
+      <ENFieldTitle>System明細項</ENFieldTitle>
+      <JPFieldTitle>系统明细项</JPFieldTitle>
+      <KRFieldTitle>系统明细项</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckNounExplainMemo">
+      <CNFieldTitle>名词解释内容不能为空！</CNFieldTitle>
+      <TWFieldTitle>名詞解釋內容不能為空！</TWFieldTitle>
+      <ENFieldTitle>名詞解釋Content cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>名词解释内容不能为空！</JPFieldTitle>
+      <KRFieldTitle>名词解释内容不能为空！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="formToolBtn26">
+      <CNFieldTitle>帮助</CNFieldTitle>
+      <TWFieldTitle>協助</TWFieldTitle>
+      <ENFieldTitle>Help</ENFieldTitle>
+      <JPFieldTitle>帮助</JPFieldTitle>
+      <KRFieldTitle>協助</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="VendCustCode">
+      <CNFieldTitle>往来单位代码</CNFieldTitle>
+      <TWFieldTitle>往來單位代碼</TWFieldTitle>
+      <ENFieldTitle>Dealing Entity Code</ENFieldTitle>
+      <JPFieldTitle>往来单位代码</JPFieldTitle>
+      <KRFieldTitle>往来单位代码</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="VendCustName">
+      <CNFieldTitle>往来单位名称</CNFieldTitle>
+      <TWFieldTitle>往來單位名稱</TWFieldTitle>
+      <ENFieldTitle>Dealing Entity Name</ENFieldTitle>
+      <JPFieldTitle>往来单位名称</JPFieldTitle>
+      <KRFieldTitle>往来单位名称</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckBargainIsBlankOut">
+      <CNFieldTitle>当前合同单据已作废，不能签回\续签\变更！</CNFieldTitle>
+      <TWFieldTitle>當前合約單據已作廢，不能簽回/續約/變更！</TWFieldTitle>
+      <ENFieldTitle>當前ContractBillVoided,不能Sign Back/Renewal/Adjustment!</ENFieldTitle>
+      <JPFieldTitle>当前合同单据已作废，不能签回\续签\变更！</JPFieldTitle>
+      <KRFieldTitle>当前合同单据已作废，不能签回\续签\变更！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckAccessoryNameIsRepeat">
+      <CNFieldTitle>合同附件名称不能重复！</CNFieldTitle>
+      <TWFieldTitle>合約附件名稱不能重複！</TWFieldTitle>
+      <ENFieldTitle>Contract AppendixName 不能重複!</ENFieldTitle>
+      <JPFieldTitle>合同附件名称不能重复！</JPFieldTitle>
+      <KRFieldTitle>合同附件名称不能重复！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckFileDelError">
+      <CNFieldTitle>文件删除失败，可能是正在使用中，如有打开请关闭再按确定！</CNFieldTitle>
+      <TWFieldTitle>檔案刪除失敗，可能是正在使用中，請關閉再按確定！</TWFieldTitle>
+      <ENFieldTitle>FileDelete failed,可能Yes正在使用中, pleaseClose再ByConfirm!</ENFieldTitle>
+      <JPFieldTitle>文件删除失败，可能是正在使用中，如有打开请关闭再按确定！</JPFieldTitle>
+      <KRFieldTitle>文件删除失败，可能是正在使用中，如有打开请关闭再按确定！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckFileHasExists">
+      <CNFieldTitle>已有同名文件存在，是否覆盖？</CNFieldTitle>
+      <TWFieldTitle>已有同名檔案存在，是否取代？</TWFieldTitle>
+      <ENFieldTitle>已有同名檔案存在，是否取代？</ENFieldTitle>
+      <JPFieldTitle>已有同名文件存在，是否覆盖？</JPFieldTitle>
+      <KRFieldTitle>已有同名檔案存在，是否取代？</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckUpLoadFileCannotWrite">
+      <CNFieldTitle>目前文件不可写入，请检查权限！</CNFieldTitle>
+      <TWFieldTitle>目前檔案不可寫入，請檢查權限！</TWFieldTitle>
+      <ENFieldTitle>目前File不可寫入, please checkPermission!</ENFieldTitle>
+      <JPFieldTitle>目前文件不可写入，请检查权限！</JPFieldTitle>
+      <KRFieldTitle>tập tin hiện tại không thể viết vào , vui lòng kiểm tra quyền hạn !</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckUpLoadFileErro">
+      <CNFieldTitle>文件上传失败，请检查系统参数G1001是否设置正确并确保参数路径的读写权限！</CNFieldTitle>
+      <TWFieldTitle>檔案上傳失敗，請檢查系統參數『G1001』是否設定正確，並確保參數路徑的讀取權限！</TWFieldTitle>
+      <ENFieldTitle>FileUpload failed, please checkSystemParameter『G1001』IfSettingCorrect,並確保ParameterPath的讀取Permission!</ENFieldTitle>
+      <JPFieldTitle>文件上传失败，请检查系统参数G1001是否设置正确并确保参数路径的读写权限！</JPFieldTitle>
+      <KRFieldTitle>文件上传失败，请检查系统参数G1001是否设置正确并确保参数路径的读写权限！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BalanceDateCannotNull">
+      <CNFieldTitle>对账周期不能为空!</CNFieldTitle>
+      <TWFieldTitle>對帳週期不能為空！</TWFieldTitle>
+      <ENFieldTitle>對帳Cycle cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>对账周期不能为空!</JPFieldTitle>
+      <KRFieldTitle>对账周期不能为空!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DiscountCannotNull">
+      <CNFieldTitle>回款率不能为空</CNFieldTitle>
+      <TWFieldTitle>收款率不能為空</TWFieldTitle>
+      <ENFieldTitle>Collect率cannot be blank</ENFieldTitle>
+      <JPFieldTitle>回款率不能为空</JPFieldTitle>
+      <KRFieldTitle>回款率不能为空</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="HaveNotConfigCalcItem">
+      <CNFieldTitle>尚末配置计算项</CNFieldTitle>
+      <TWFieldTitle>尚末設定計算式</TWFieldTitle>
+      <ENFieldTitle>Unset Formula</ENFieldTitle>
+      <JPFieldTitle>尚末配置计算项</JPFieldTitle>
+      <KRFieldTitle>尚末配置计算项</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PromExpenceApportionFormulaCannotNull">
+      <CNFieldTitle>活动费用分分摊公式不能为空</CNFieldTitle>
+      <TWFieldTitle>活動費用分攤公式不能為空</TWFieldTitle>
+      <ENFieldTitle>Promotion Expense分攤Formula cannot be blank</ENFieldTitle>
+      <JPFieldTitle>活动费用分分摊公式不能为空</JPFieldTitle>
+      <KRFieldTitle>活动费用分分摊公式不能为空</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PromExpenceApportionRateCannotNull">
+      <CNFieldTitle>活动费用分分摊率不能为空</CNFieldTitle>
+      <TWFieldTitle>活動費用分攤率不能為空</TWFieldTitle>
+      <ENFieldTitle>Promotion ExpenseDistribution Ratiocannot be blank</ENFieldTitle>
+      <JPFieldTitle>活动费用分分摊率不能为空</JPFieldTitle>
+      <KRFieldTitle>活动费用分分摊率不能为空</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="TheEDateCannotSmallThanTheSDate">
+      <CNFieldTitle>截止日期不能小于开始日期!</CNFieldTitle>
+      <TWFieldTitle>結束日期不能小於開始日期！</TWFieldTitle>
+      <ENFieldTitle>End Date cannot be earlier than Start Date!</ENFieldTitle>
+      <JPFieldTitle>截止日期不能小于开始日期!</JPFieldTitle>
+      <KRFieldTitle>thời gian kết thúc không thể nhỏ hơn ngày bắt đầu !</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="TheNextSDateCannotSmallThanThePreEdate">
+      <CNFieldTitle>上一对账周期的截止日期不能大于下一对账周期的开始日期!</CNFieldTitle>
+      <TWFieldTitle>前次對帳週期的結束日期，不能大於下次對帳週期的開始日期！</TWFieldTitle>
+      <ENFieldTitle>前次對帳Cycle的End Date,不能greater than下次對帳Cycle的Start Date!</ENFieldTitle>
+      <JPFieldTitle>上一对账周期的截止日期不能大于下一对账周期的开始日期!</JPFieldTitle>
+      <KRFieldTitle>上一对账周期的截止日期不能大于下一对账周期的开始日期!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PleasDelBalaDateFirst">
+      <CNFieldTitle>请先删除对账周期记录，否则不能修改合同起止日期!</CNFieldTitle>
+      <TWFieldTitle>請刪除對帳週期記錄，否則不能修改合約起迄日期！</TWFieldTitle>
+      <ENFieldTitle>Please先Delete對帳Cycle記錄,No則不能修改ContractStart and End Date!</ENFieldTitle>
+      <JPFieldTitle>请先删除对账周期记录，否则不能修改合同起止日期!</JPFieldTitle>
+      <KRFieldTitle>请先删除对账周期记录，否则不能修改合同起止日期!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="btnAllDisCount">
+      <CNFieldTitle>统一返利比率</CNFieldTitle>
+      <TWFieldTitle>統一獎勵比率</TWFieldTitle>
+      <ENFieldTitle>Set Reward Ratio</ENFieldTitle>
+      <JPFieldTitle>统一返利比率</JPFieldTitle>
+      <KRFieldTitle>统一返利比率</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="btnAllEndDate">
+      <CNFieldTitle>统一结束日期</CNFieldTitle>
+      <TWFieldTitle>統一結束日期</TWFieldTitle>
+      <ENFieldTitle>Set End Date</ENFieldTitle>
+      <JPFieldTitle>统一结束日期</JPFieldTitle>
+      <KRFieldTitle>统一结束日期</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="btnAllStartDate">
+      <CNFieldTitle>统一开始日期</CNFieldTitle>
+      <TWFieldTitle>統一開始日期</TWFieldTitle>
+      <ENFieldTitle>Set Start Date</ENFieldTitle>
+      <JPFieldTitle>统一开始日期</JPFieldTitle>
+      <KRFieldTitle>统一开始日期</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="tabBargainRemind">
+      <CNFieldTitle>自动提醒设置</CNFieldTitle>
+      <TWFieldTitle>自動提醒設定</TWFieldTitle>
+      <ENFieldTitle>Set Alarm</ENFieldTitle>
+      <JPFieldTitle>自动提醒设置</JPFieldTitle>
+      <KRFieldTitle>自动提醒设置</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckNoSignReminderEMailIsNull">
+      <CNFieldTitle>合同未签定提醒人邮件不能为空！</CNFieldTitle>
+      <TWFieldTitle>合約未簽訂提醒人E-Mail不能為空！</TWFieldTitle>
+      <ENFieldTitle>Contract未簽訂提醒人E-Mail cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>合同未签定提醒人邮件不能为空！</JPFieldTitle>
+      <KRFieldTitle>合同未签定提醒人邮件不能为空！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckNoSignReminderIsNull">
+      <CNFieldTitle>合同未签定提醒人列表不能为空！</CNFieldTitle>
+      <TWFieldTitle>合約未簽訂提醒人不能為空！</TWFieldTitle>
+      <ENFieldTitle>Contract未簽訂提醒人 cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>合同未签定提醒人列表不能为空！</JPFieldTitle>
+      <KRFieldTitle>合同未签定提醒人列表不能为空！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckReminderEMailIsNull">
+      <CNFieldTitle>合同到期提醒人邮件不能为空！</CNFieldTitle>
+      <TWFieldTitle>合約到期提醒人E-Mail不能為空！</TWFieldTitle>
+      <ENFieldTitle>ContractMaturity Notice人E-Mail cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>合同到期提醒人邮件不能为空！</JPFieldTitle>
+      <KRFieldTitle>合同到期提醒人邮件不能为空！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckReminderIsNull">
+      <CNFieldTitle>合同到期提醒人列表不能为空！</CNFieldTitle>
+      <TWFieldTitle>合約到期提醒人不能為空！</TWFieldTitle>
+      <ENFieldTitle>ContractMaturity Notice人 cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>合同到期提醒人列表不能为空！</JPFieldTitle>
+      <KRFieldTitle>合同到期提醒人列表不能为空！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckUnSignRemindDayIsNull">
+      <CNFieldTitle>未签提醒天数不能为空！</CNFieldTitle>
+      <TWFieldTitle>未簽提醒天數不能為空！</TWFieldTitle>
+      <ENFieldTitle>Unsigned Reminder cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>未签提醒天数不能为空！</JPFieldTitle>
+      <KRFieldTitle>未签提醒天数不能为空！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FormBGSelectUser">
+      <CNFieldTitle>选择资料</CNFieldTitle>
+      <TWFieldTitle>選擇資料</TWFieldTitle>
+      <ENFieldTitle>Select Info</ENFieldTitle>
+      <JPFieldTitle>选择资料</JPFieldTitle>
+      <KRFieldTitle>選擇資料</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTEMail">
+      <CNFieldTitle>电子邮件</CNFieldTitle>
+      <TWFieldTitle>E-Mail</TWFieldTitle>
+      <ENFieldTitle>E-Mail</ENFieldTitle>
+      <JPFieldTitle>电子邮件</JPFieldTitle>
+      <KRFieldTitle>E-Mial</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTIsSelect">
+      <CNFieldTitle>选择</CNFieldTitle>
+      <TWFieldTitle>選擇</TWFieldTitle>
+      <ENFieldTitle>Select</ENFieldTitle>
+      <JPFieldTitle>选择</JPFieldTitle>
+      <KRFieldTitle>lựa chọn</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTUserCode">
+      <CNFieldTitle>用户代码</CNFieldTitle>
+      <TWFieldTitle>用戶代碼</TWFieldTitle>
+      <ENFieldTitle>User Code</ENFieldTitle>
+      <JPFieldTitle>用户代码</JPFieldTitle>
+      <KRFieldTitle>Mã số người dùng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTUserName">
+      <CNFieldTitle>用户名称</CNFieldTitle>
+      <TWFieldTitle>用戶名稱</TWFieldTitle>
+      <ENFieldTitle>User Name</ENFieldTitle>
+      <JPFieldTitle>用户名称</JPFieldTitle>
+      <KRFieldTitle>Tên số người dùng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckBargainStatusNotInure">
+      <CNFieldTitle>单据未生效，不能反审核！</CNFieldTitle>
+      <TWFieldTitle>單據未生效，不能反審核！</TWFieldTitle>
+      <ENFieldTitle>The current bill hasn't been Effective.  You cannot Counter-Approve!</ENFieldTitle>
+      <JPFieldTitle>单据未生效，不能反审核！</JPFieldTitle>
+      <KRFieldTitle>单据未生效，不能反审核！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckBargainStatusNotSignAndHasSign">
+      <CNFieldTitle>合同已执行或已失效，不能反审核！</CNFieldTitle>
+      <TWFieldTitle>合約已執行或已失效，不能反審核！</TWFieldTitle>
+      <ENFieldTitle>ContractExecutedOrIneffective,不能Counter-Approve!</ENFieldTitle>
+      <JPFieldTitle>合同已执行或已失效，不能反审核！</JPFieldTitle>
+      <KRFieldTitle>合同已执行或已失效，不能反审核！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckDetailDateError">
+      <CNFieldTitle>合同明细时间出错，请与系统管理员联系！</CNFieldTitle>
+      <TWFieldTitle>合約明細時間出錯，請與系統管理員聯絡！</TWFieldTitle>
+      <ENFieldTitle>Contract明細Time出錯, please contact administrator!</ENFieldTitle>
+      <JPFieldTitle>合同明细时间出错，请与系统管理员联系！</JPFieldTitle>
+      <KRFieldTitle>合同明细时间出错，请与系统管理员联系！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckEMailFormatIsError">
+      <CNFieldTitle>邮件格式错误！</CNFieldTitle>
+      <TWFieldTitle>E-Mail格式錯誤！</TWFieldTitle>
+      <ENFieldTitle>E-Mail format error!</ENFieldTitle>
+      <JPFieldTitle>邮件格式错误！</JPFieldTitle>
+      <KRFieldTitle>đinh dạng E-Mail gặp sự cố</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckStopBargainBillNoIsNull">
+      <CNFieldTitle>终止合同单号不能为空！</CNFieldTitle>
+      <TWFieldTitle>終止合約號不能為空！</TWFieldTitle>
+      <ENFieldTitle>StopContract No cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>终止合同单号不能为空！</JPFieldTitle>
+      <KRFieldTitle>终止合同单号不能为空！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckStopBargainTypeIsNull">
+      <CNFieldTitle>终止合同类型不能为空！</CNFieldTitle>
+      <TWFieldTitle>終止合約類型不能為空！</TWFieldTitle>
+      <ENFieldTitle>StopContract Type cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>终止合同类型不能为空！</JPFieldTitle>
+      <KRFieldTitle>终止合同类型不能为空！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckStopDateNoInSEArea">
+      <CNFieldTitle>合同终止时间不在原合同起止范围内！</CNFieldTitle>
+      <TWFieldTitle>合約終止時間不在原合約起迄範圍內！</TWFieldTitle>
+      <ENFieldTitle>ContractStopTime不在原ContractStart and End 範圍內!</ENFieldTitle>
+      <JPFieldTitle>合同终止时间不在原合同起止范围内！</JPFieldTitle>
+      <KRFieldTitle>合同终止时间不在原合同起止范围内！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FormLookUpSourceBill">
+      <CNFieldTitle>选择合同单号</CNFieldTitle>
+      <TWFieldTitle>選擇合約號</TWFieldTitle>
+      <ENFieldTitle>Select Contract No</ENFieldTitle>
+      <JPFieldTitle>选择合同单号</JPFieldTitle>
+      <KRFieldTitle>选择合同单号</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTBargainBillNo">
+      <CNFieldTitle>合同单号</CNFieldTitle>
+      <TWFieldTitle>合約號</TWFieldTitle>
+      <ENFieldTitle>Contract No</ENFieldTitle>
+      <JPFieldTitle>合同单号</JPFieldTitle>
+      <KRFieldTitle>合同单号</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTBargainEndDate">
+      <CNFieldTitle>合同结束日期</CNFieldTitle>
+      <TWFieldTitle>合約結束日期</TWFieldTitle>
+      <ENFieldTitle>Contract End Date</ENFieldTitle>
+      <JPFieldTitle>合同结束日期</JPFieldTitle>
+      <KRFieldTitle>合同结束日期</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTBargainStartDate">
+      <CNFieldTitle>合同开始日期</CNFieldTitle>
+      <TWFieldTitle>合約開始日期</TWFieldTitle>
+      <ENFieldTitle>Contract Start Date</ENFieldTitle>
+      <JPFieldTitle>合同开始日期</JPFieldTitle>
+      <KRFieldTitle>合同开始日期</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTBargainStatus">
+      <CNFieldTitle>合同状态</CNFieldTitle>
+      <TWFieldTitle>合約狀態</TWFieldTitle>
+      <ENFieldTitle>Contract Status</ENFieldTitle>
+      <JPFieldTitle>合同状态</JPFieldTitle>
+      <KRFieldTitle>合同状态</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTChangingStatus">
+      <CNFieldTitle>变更状态</CNFieldTitle>
+      <TWFieldTitle>變更狀態</TWFieldTitle>
+      <ENFieldTitle>Adjustment Status</ENFieldTitle>
+      <JPFieldTitle>变更状态</JPFieldTitle>
+      <KRFieldTitle>变更状态</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTCheckDate">
+      <CNFieldTitle>生效日期</CNFieldTitle>
+      <TWFieldTitle>生效日期</TWFieldTitle>
+      <ENFieldTitle>Effective Date</ENFieldTitle>
+      <JPFieldTitle>生效日期</JPFieldTitle>
+      <KRFieldTitle>ngày hiệu lực</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTDepartMentName">
+      <CNFieldTitle>部门</CNFieldTitle>
+      <TWFieldTitle>部門</TWFieldTitle>
+      <ENFieldTitle>Department</ENFieldTitle>
+      <JPFieldTitle>部门</JPFieldTitle>
+      <KRFieldTitle>bộ môn</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTManualBillNo">
+      <CNFieldTitle>合同号</CNFieldTitle>
+      <TWFieldTitle>合約號</TWFieldTitle>
+      <ENFieldTitle>Contract No</ENFieldTitle>
+      <JPFieldTitle>合同号</JPFieldTitle>
+      <KRFieldTitle>合同号</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTSignDate">
+      <CNFieldTitle>签约日期</CNFieldTitle>
+      <TWFieldTitle>簽約日期</TWFieldTitle>
+      <ENFieldTitle>Sign Date</ENFieldTitle>
+      <JPFieldTitle>签约日期</JPFieldTitle>
+      <KRFieldTitle>签约日期</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTStopBargainType">
+      <CNFieldTitle>合同类型</CNFieldTitle>
+      <TWFieldTitle>合約類型</TWFieldTitle>
+      <ENFieldTitle>Contract Type</ENFieldTitle>
+      <JPFieldTitle>合同类型</JPFieldTitle>
+      <KRFieldTitle>合同类型</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTVendCustShortName">
+      <CNFieldTitle>往来单位名称</CNFieldTitle>
+      <TWFieldTitle>往來單位名稱</TWFieldTitle>
+      <ENFieldTitle>Dealing Entity Name</ENFieldTitle>
+      <JPFieldTitle>往来单位名称</JPFieldTitle>
+      <KRFieldTitle>往来单位名称</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTApproveDate">
+      <CNFieldTitle>审批日期</CNFieldTitle>
+      <TWFieldTitle>審批日期</TWFieldTitle>
+      <ENFieldTitle>Approval Date</ENFieldTitle>
+      <JPFieldTitle>审批日期</JPFieldTitle>
+      <KRFieldTitle>审批日期</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTPlanKeepDate">
+      <CNFieldTitle>计划续签日期</CNFieldTitle>
+      <TWFieldTitle>計劃續約日期</TWFieldTitle>
+      <ENFieldTitle>Planned Renewal Date</ENFieldTitle>
+      <JPFieldTitle>计划续签日期</JPFieldTitle>
+      <KRFieldTitle>计划续签日期</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTRemindDay">
+      <CNFieldTitle>提醒天数</CNFieldTitle>
+      <TWFieldTitle>提醒天數</TWFieldTitle>
+      <ENFieldTitle>Notification (Days)</ENFieldTitle>
+      <JPFieldTitle>提醒天数</JPFieldTitle>
+      <KRFieldTitle>提醒天数</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTRemindType">
+      <CNFieldTitle>提醒类型</CNFieldTitle>
+      <TWFieldTitle>提醒類型</TWFieldTitle>
+      <ENFieldTitle>提醒Type</ENFieldTitle>
+      <JPFieldTitle>提醒类型</JPFieldTitle>
+      <KRFieldTitle>提醒类型</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lbl_ByCode">
+      <CNFieldTitle>按代码定位</CNFieldTitle>
+      <TWFieldTitle>按代碼定位</TWFieldTitle>
+      <ENFieldTitle>Find by Code</ENFieldTitle>
+      <JPFieldTitle>按代码定位</JPFieldTitle>
+      <KRFieldTitle>điịnh vị theo mã thay thế</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lbl_ByName">
+      <CNFieldTitle>按名称定位</CNFieldTitle>
+      <TWFieldTitle>按名稱定位</TWFieldTitle>
+      <ENFieldTitle>Find by Name</ENFieldTitle>
+      <JPFieldTitle>按名称定位</JPFieldTitle>
+      <KRFieldTitle>điịnh vị theo tên</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTIsMainSaleCard">
+      <CNFieldTitle>主营品牌</CNFieldTitle>
+      <TWFieldTitle>經營品牌</TWFieldTitle>
+      <ENFieldTitle>Operating Brand</ENFieldTitle>
+      <JPFieldTitle>主营品牌</JPFieldTitle>
+      <KRFieldTitle>nhãn hiệu kinh doanh</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainRetailAffiliatedTitle19">
+      <CNFieldTitle>收支类型</CNFieldTitle>
+      <TWFieldTitle>收支類型</TWFieldTitle>
+      <ENFieldTitle>Balance Type</ENFieldTitle>
+      <JPFieldTitle>收支类型</JPFieldTitle>
+      <KRFieldTitle>收支类型</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTCheckName">
+      <CNFieldTitle>审核人</CNFieldTitle>
+      <TWFieldTitle>審核人</TWFieldTitle>
+      <ENFieldTitle>Approver</ENFieldTitle>
+      <JPFieldTitle>审核人</JPFieldTitle>
+      <KRFieldTitle>người phê duyệt</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckAreaEnd">
+      <CNFieldTitle>区间截止值不能为空，请选择！</CNFieldTitle>
+      <TWFieldTitle>區間截止值不能為空，請選擇！</TWFieldTitle>
+      <ENFieldTitle>區間End Valuecannot be blank, please select!</ENFieldTitle>
+      <JPFieldTitle>区间截止值不能为空，请选择！</JPFieldTitle>
+      <KRFieldTitle>区间截止值不能为空，请选择！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckAreaStart">
+      <CNFieldTitle>区间起始值不能为空，请选择！</CNFieldTitle>
+      <TWFieldTitle>區間起始值不能為空，請選擇！</TWFieldTitle>
+      <ENFieldTitle>區間Start Valuecannot be blank, please select!</ENFieldTitle>
+      <JPFieldTitle>区间起始值不能为空，请选择！</JPFieldTitle>
+      <KRFieldTitle>区间起始值不能为空，请选择！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckBelongCompanyIDIsNull">
+      <CNFieldTitle>所属公司不能为空，请选择！</CNFieldTitle>
+      <TWFieldTitle>所屬公司不能為空，請選擇！</TWFieldTitle>
+      <ENFieldTitle>Companycannot be blank, please select!</ENFieldTitle>
+      <JPFieldTitle>所属公司不能为空，请选择！</JPFieldTitle>
+      <KRFieldTitle>所属公司不能为空，请选择！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FrmBG_Bar_CollectSearch">
+      <CNFieldTitle>合同明细汇总</CNFieldTitle>
+      <TWFieldTitle>合約明細彙總</TWFieldTitle>
+      <ENFieldTitle>Contract明細彙總</ENFieldTitle>
+      <JPFieldTitle>合同明细汇总</JPFieldTitle>
+      <KRFieldTitle>合同明细汇总</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTBargainInfor">
+      <CNFieldTitle>合同信息</CNFieldTitle>
+      <TWFieldTitle>合約資訊</TWFieldTitle>
+      <ENFieldTitle>ContractInfo</ENFieldTitle>
+      <JPFieldTitle>合同信息</JPFieldTitle>
+      <KRFieldTitle>合同信息</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTBargainRelet">
+      <CNFieldTitle>续签</CNFieldTitle>
+      <TWFieldTitle>續約</TWFieldTitle>
+      <ENFieldTitle>Renew</ENFieldTitle>
+      <JPFieldTitle>续签</JPFieldTitle>
+      <KRFieldTitle>續約</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTBargainType">
+      <CNFieldTitle>合同类型</CNFieldTitle>
+      <TWFieldTitle>合約類型</TWFieldTitle>
+      <ENFieldTitle>Contract Type</ENFieldTitle>
+      <JPFieldTitle>合同类型</JPFieldTitle>
+      <KRFieldTitle>合同类型</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTChanging">
+      <CNFieldTitle>新签、变更及终止</CNFieldTitle>
+      <TWFieldTitle>新增、變更及終止</TWFieldTitle>
+      <ENFieldTitle>Add. Adjustment及Stop</ENFieldTitle>
+      <JPFieldTitle>新签、变更及终止</JPFieldTitle>
+      <KRFieldTitle>新签、变更及终止</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTCollect">
+      <CNFieldTitle>汇总</CNFieldTitle>
+      <TWFieldTitle>彙總</TWFieldTitle>
+      <ENFieldTitle>彙總</ENFieldTitle>
+      <JPFieldTitle>汇总</JPFieldTitle>
+      <KRFieldTitle>tổn hợp</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTCollectNum">
+      <CNFieldTitle>现有合同总数</CNFieldTitle>
+      <TWFieldTitle>現有合約總數</TWFieldTitle>
+      <ENFieldTitle>現有Contract總數</ENFieldTitle>
+      <JPFieldTitle>现有合同总数</JPFieldTitle>
+      <KRFieldTitle>现有合同总数</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTEffectRate">
+      <CNFieldTitle>合同有效率%</CNFieldTitle>
+      <TWFieldTitle>合約有效率%</TWFieldTitle>
+      <ENFieldTitle>Contract有效率%</ENFieldTitle>
+      <JPFieldTitle>合同有效率%</JPFieldTitle>
+      <KRFieldTitle>合同有效率%</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTNeedSignNum">
+      <CNFieldTitle>应签数</CNFieldTitle>
+      <TWFieldTitle>應簽數</TWFieldTitle>
+      <ENFieldTitle>應簽數</ENFieldTitle>
+      <JPFieldTitle>应签数</JPFieldTitle>
+      <KRFieldTitle>应签数</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTReceiptRate">
+      <CNFieldTitle>完成率%</CNFieldTitle>
+      <TWFieldTitle>完成率%</TWFieldTitle>
+      <ENFieldTitle>Finish率%</ENFieldTitle>
+      <JPFieldTitle>完成率%</JPFieldTitle>
+      <KRFieldTitle>完成率%</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTSignNum">
+      <CNFieldTitle>完成数</CNFieldTitle>
+      <TWFieldTitle>完成數</TWFieldTitle>
+      <ENFieldTitle>Finish數</ENFieldTitle>
+      <JPFieldTitle>完成数</JPFieldTitle>
+      <KRFieldTitle>完成数</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lblCollectArea">
+      <CNFieldTitle>汇总区间</CNFieldTitle>
+      <TWFieldTitle>彙總區間</TWFieldTitle>
+      <ENFieldTitle>彙總區間</ENFieldTitle>
+      <JPFieldTitle>汇总区间</JPFieldTitle>
+      <KRFieldTitle>汇总区间</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lblCompany">
+      <CNFieldTitle>所属公司</CNFieldTitle>
+      <TWFieldTitle>所屬公司</TWFieldTitle>
+      <ENFieldTitle>Company</ENFieldTitle>
+      <JPFieldTitle>所属公司</JPFieldTitle>
+      <KRFieldTitle>所屬公司</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTBusinessArea">
+      <CNFieldTitle>营业面积</CNFieldTitle>
+      <TWFieldTitle>營業面積</TWFieldTitle>
+      <ENFieldTitle>Selling Area</ENFieldTitle>
+      <JPFieldTitle>营业面积</JPFieldTitle>
+      <KRFieldTitle>營業面積</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTManage">
+      <CNFieldTitle>负责人</CNFieldTitle>
+      <TWFieldTitle>負責人</TWFieldTitle>
+      <ENFieldTitle>Person in Charge</ENFieldTitle>
+      <JPFieldTitle>负责人</JPFieldTitle>
+      <KRFieldTitle>负责人</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckBargainChargeItemIDIsNull">
+      <CNFieldTitle>扣款项目不能为空！</CNFieldTitle>
+      <TWFieldTitle>扣款項目不能為空！</TWFieldTitle>
+      <ENFieldTitle>扣款項目 cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>扣款项目不能为空！</JPFieldTitle>
+      <KRFieldTitle>扣款项目不能为空！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckCardTypeIDIDIsNull">
+      <CNFieldTitle>卡类型不能为空！</CNFieldTitle>
+      <TWFieldTitle>卡類型不能為空！</TWFieldTitle>
+      <ENFieldTitle>Card Type cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>卡类型不能为空！</JPFieldTitle>
+      <KRFieldTitle>thẻ phân loại  không được để trống</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckEndDateIsnull">
+      <CNFieldTitle>结束日期不能为空！</CNFieldTitle>
+      <TWFieldTitle>結束日期不能為空！</TWFieldTitle>
+      <ENFieldTitle>End Date cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>结束日期不能为空！</JPFieldTitle>
+      <KRFieldTitle>thời gian kết thúc không thể để trống !</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckStartDateIsNull">
+      <CNFieldTitle>开始日期不能为空！</CNFieldTitle>
+      <TWFieldTitle>開始日期不能為空！</TWFieldTitle>
+      <ENFieldTitle>Start Date cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>开始日期不能为空！</JPFieldTitle>
+      <KRFieldTitle>ngày bắt đầu không thể để trống !</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="btnPurAmount">
+      <CNFieldTitle>统一采购金额</CNFieldTitle>
+      <TWFieldTitle>統一採購金額</TWFieldTitle>
+      <ENFieldTitle>Set Purchase Amount</ENFieldTitle>
+      <JPFieldTitle>统一采购金额</JPFieldTitle>
+      <KRFieldTitle>统一采购金额</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BtnFreeze">
+      <CNFieldTitle>冻结</CNFieldTitle>
+      <TWFieldTitle>凍結</TWFieldTitle>
+      <ENFieldTitle>Freeze</ENFieldTitle>
+      <JPFieldTitle>冻结</JPFieldTitle>
+      <KRFieldTitle>đông kết</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="btnBargainItemLoca">
+      <CNFieldTitle>定位下一条</CNFieldTitle>
+      <TWFieldTitle>定位下一筆</TWFieldTitle>
+      <ENFieldTitle>Find Next</ENFieldTitle>
+      <JPFieldTitle>定位下一条</JPFieldTitle>
+      <KRFieldTitle>定位下一条</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lblBargainItemCodeLoca">
+      <CNFieldTitle>条款代码定位</CNFieldTitle>
+      <TWFieldTitle>條款代碼定位</TWFieldTitle>
+      <ENFieldTitle>ClauseFind Code</ENFieldTitle>
+      <JPFieldTitle>条款代码定位</JPFieldTitle>
+      <KRFieldTitle>条款代码定位</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lblBargainItemMemoLoca">
+      <CNFieldTitle>条款内容定位</CNFieldTitle>
+      <TWFieldTitle>條款內容定位</TWFieldTitle>
+      <ENFieldTitle>Clause ContentFind</ENFieldTitle>
+      <JPFieldTitle>条款内容定位</JPFieldTitle>
+      <KRFieldTitle>条款内容定位</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lblBargainItemNameLoca">
+      <CNFieldTitle>条款名称定位</CNFieldTitle>
+      <TWFieldTitle>條款名稱定位</TWFieldTitle>
+      <ENFieldTitle>Find Clause Name</ENFieldTitle>
+      <JPFieldTitle>条款名称定位</JPFieldTitle>
+      <KRFieldTitle>条款名称定位</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckBargainInStop">
+      <CNFieldTitle>当前合同单据已终止，不能续签！</CNFieldTitle>
+      <TWFieldTitle>當前合約單據已終止，不能續約！</TWFieldTitle>
+      <ENFieldTitle>當前ContractBillStopped,不能Renewal!</ENFieldTitle>
+      <JPFieldTitle>当前合同单据已终止，不能续签！</JPFieldTitle>
+      <KRFieldTitle>当前合同单据已终止，不能续签！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BalanceStartGTEndDay">
+      <CNFieldTitle>截止日不能小于开始日期!</CNFieldTitle>
+      <TWFieldTitle>截止日不能小於開始日期！</TWFieldTitle>
+      <ENFieldTitle>End Date cannot be earlier than Start Date!</ENFieldTitle>
+      <JPFieldTitle>截止日不能小于开始日期!</JPFieldTitle>
+      <KRFieldTitle>截止日不能小于开始日期!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="btnAutoCompBalaDate">
+      <CNFieldTitle>按自然月生成周期</CNFieldTitle>
+      <TWFieldTitle>按自然月產生週期</TWFieldTitle>
+      <ENFieldTitle>ByCalendar Month產生Cycle</ENFieldTitle>
+      <JPFieldTitle>按自然月生成周期</JPFieldTitle>
+      <KRFieldTitle>按自然月生成周期</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lblUnifyEndDay">
+      <CNFieldTitle>统一截止日</CNFieldTitle>
+      <TWFieldTitle>統一截止日</TWFieldTitle>
+      <ENFieldTitle>Set End Date</ENFieldTitle>
+      <JPFieldTitle>统一截止日</JPFieldTitle>
+      <KRFieldTitle>统一截止日</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lblUnifyExceedAmt">
+      <CNFieldTitle>统一保底金额</CNFieldTitle>
+      <TWFieldTitle>統一包底金額</TWFieldTitle>
+      <ENFieldTitle>Set Guaranteed Sales Volume</ENFieldTitle>
+      <JPFieldTitle>统一保底金额</JPFieldTitle>
+      <KRFieldTitle>统一保底金额</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lblUnifyleastAmt">
+      <CNFieldTitle>统一超额金额</CNFieldTitle>
+      <TWFieldTitle>統一超額金額</TWFieldTitle>
+      <ENFieldTitle>統一超額Amount</ENFieldTitle>
+      <JPFieldTitle>统一超额金额</JPFieldTitle>
+      <KRFieldTitle>统一超额金额</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PleaseSetExceedAmt">
+      <CNFieldTitle>请输入金额!</CNFieldTitle>
+      <TWFieldTitle>請輸入金額！</TWFieldTitle>
+      <ENFieldTitle>Please enterAmount!</ENFieldTitle>
+      <JPFieldTitle>请输入金额!</JPFieldTitle>
+      <KRFieldTitle>请输入金额!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckEndDateToBargain">
+      <CNFieldTitle>截止日期不能大于合同结束日期!</CNFieldTitle>
+      <TWFieldTitle>結束日期不能大於合約結束日期！</TWFieldTitle>
+      <ENFieldTitle>End Date不能greater thanContract End Date!</ENFieldTitle>
+      <JPFieldTitle>截止日期不能大于合同结束日期!</JPFieldTitle>
+      <KRFieldTitle>截止日期不能大于合同结束日期!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckBargainIsStopingToModify">
+      <CNFieldTitle>当前合同单据正处于被终止状态，不能变更！</CNFieldTitle>
+      <TWFieldTitle>當前合約單據正處於終止狀態，不能變更！</TWFieldTitle>
+      <ENFieldTitle>當前ContractBill正處於StopStatus,不能Adjustment!</ENFieldTitle>
+      <JPFieldTitle>当前合同单据正处于被终止状态，不能变更！</JPFieldTitle>
+      <KRFieldTitle>当前合同单据正处于被终止状态，不能变更！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckBargainIsStopingToRelet">
+      <CNFieldTitle>当前合同单据正处于被终止状态，不能续签！</CNFieldTitle>
+      <TWFieldTitle>當前合約單據正處於終止狀態，不能續約！</TWFieldTitle>
+      <ENFieldTitle>當前ContractBill正處於StopStatus,不能Renewal!</ENFieldTitle>
+      <JPFieldTitle>当前合同单据正处于被终止状态，不能续签！</JPFieldTitle>
+      <KRFieldTitle>当前合同单据正处于被终止状态，不能续签！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckStopDate">
+      <CNFieldTitle>终止日期不能为空！</CNFieldTitle>
+      <TWFieldTitle>終止日期不能為空！</TWFieldTitle>
+      <ENFieldTitle>End Date cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>终止日期不能为空！</JPFieldTitle>
+      <KRFieldTitle>终止日期不能为空！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="lblSum">
+      <CNFieldTitle>合计:</CNFieldTitle>
+      <TWFieldTitle>合計:</TWFieldTitle>
+      <ENFieldTitle>Total:</ENFieldTitle>
+      <JPFieldTitle>合计:</JPFieldTitle>
+      <KRFieldTitle>tổng số :</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainRetailAffiliatedTitle14">
+      <CNFieldTitle>选择固定费用将清除费用金额计算公式,是否确认？</CNFieldTitle>
+      <TWFieldTitle>選擇固定費用將清除費用金額計算公式，是否確認？</TWFieldTitle>
+      <ENFieldTitle>Selecting Fixed Expense will cause clearing Expense Formula, continue?</ENFieldTitle>
+      <JPFieldTitle>选择固定费用将清除费用金额计算公式,是否确认？</JPFieldTitle>
+      <KRFieldTitle>选择固定费用将清除费用金额计算公式,是否确认？</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainRetailAffiliatedTitle15">
+      <CNFieldTitle>店铺费用尚未设置费用公式!</CNFieldTitle>
+      <TWFieldTitle>店櫃費用尚未設定費用公式！</TWFieldTitle>
+      <ENFieldTitle>Store Expense尚UndefinedExpense Formula!</ENFieldTitle>
+      <JPFieldTitle>店铺费用尚未设置费用公式!</JPFieldTitle>
+      <KRFieldTitle>店铺费用尚未设置费用公式!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainRetailAffiliatedTitle16">
+      <CNFieldTitle>存在相同的周期，不能统一对账截止日！</CNFieldTitle>
+      <TWFieldTitle>存在相同的週期，不能統一對帳截止日！</TWFieldTitle>
+      <ENFieldTitle>存在相同的Cycle,不能統一對帳End Date!</ENFieldTitle>
+      <JPFieldTitle>存在相同的周期，不能统一对账截止日！</JPFieldTitle>
+      <KRFieldTitle>存在相同的周期，不能统一对账截止日！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="chkReMind">
+      <CNFieldTitle>是否提醒</CNFieldTitle>
+      <TWFieldTitle>是否提醒</TWFieldTitle>
+      <ENFieldTitle>If提醒</ENFieldTitle>
+      <JPFieldTitle>是否提醒</JPFieldTitle>
+      <KRFieldTitle>是否提醒</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainRetailAffiliatedTitle17">
+      <CNFieldTitle>取消固定费用将清除费用金额并需要设置计算公式,是否确认？</CNFieldTitle>
+      <TWFieldTitle>取消固定費用將清除費用金額並需要設定計算公式，是否確認？</TWFieldTitle>
+      <ENFieldTitle>CancelFixed Expense將ClearExpense Amount並需要SettingFormula,IfConfirm?</ENFieldTitle>
+      <JPFieldTitle>取消固定费用将清除费用金额并需要设置计算公式,是否确认？</JPFieldTitle>
+      <KRFieldTitle>取消固定费用将清除费用金额并需要设置计算公式,是否确认？</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckNoSolutionDataForOutPut">
+      <CNFieldTitle>没有数据可以导出！</CNFieldTitle>
+      <TWFieldTitle>沒有資料可以匯出！</TWFieldTitle>
+      <ENFieldTitle>No data can be exported!</ENFieldTitle>
+      <JPFieldTitle>没有数据可以导出！</JPFieldTitle>
+      <KRFieldTitle>không có dự liệu có thể truyền xuất !</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DeleteAll">
+      <CNFieldTitle>全部删除</CNFieldTitle>
+      <TWFieldTitle>全部刪除</TWFieldTitle>
+      <ENFieldTitle>Delete All</ENFieldTitle>
+      <JPFieldTitle>全部删除</JPFieldTitle>
+      <KRFieldTitle>xóa toàn bộ</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="IsSureDeleteAll">
+      <CNFieldTitle>是否确定要删除所有记录？</CNFieldTitle>
+      <TWFieldTitle>是否確定要刪除所有記錄？</TWFieldTitle>
+      <ENFieldTitle>IfConfirm要Delete所有記錄?</ENFieldTitle>
+      <JPFieldTitle>是否确定要删除所有记录？</JPFieldTitle>
+      <KRFieldTitle>是否确定要删除所有记录？</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BalanceDateLTBargainEndDate">
+      <CNFieldTitle>实际对账周期最后截止日期必须等于合同结束日期!</CNFieldTitle>
+      <TWFieldTitle>實際對帳週期最後結束日期，必須等於合約結束日期！</TWFieldTitle>
+      <ENFieldTitle>Actual對帳Cycle最後End Date,must be equal toContract End Date!</ENFieldTitle>
+      <JPFieldTitle>实际对账周期最后截止日期必须等于合同结束日期!</JPFieldTitle>
+      <KRFieldTitle>实际对账周期最后截止日期必须等于合同结束日期!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainSort">
+      <CNFieldTitle>合同分类</CNFieldTitle>
+      <TWFieldTitle>合約分類</TWFieldTitle>
+      <ENFieldTitle>Contract分類</ENFieldTitle>
+      <JPFieldTitle>合同分类</JPFieldTitle>
+      <KRFieldTitle>合同分类</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ExpenseDateLTBargainEndDate">
+      <CNFieldTitle>实际费用周期最后截止日期必须等于合同结束日期!</CNFieldTitle>
+      <TWFieldTitle>實際費用週期最後結束日期，必須等於合約結束日期！</TWFieldTitle>
+      <ENFieldTitle>ActualExpenseCycle最後End Date,must be equal toContract End Date!</ENFieldTitle>
+      <JPFieldTitle>实际费用周期最后截止日期必须等于合同结束日期!</JPFieldTitle>
+      <KRFieldTitle>实际费用周期最后截止日期必须等于合同结束日期!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FormLookUpVendCust">
+      <CNFieldTitle>往来单位查询/定位--支持模糊查询</CNFieldTitle>
+      <TWFieldTitle>往來單位查詢/定位--模糊查詢</TWFieldTitle>
+      <ENFieldTitle>Dealing EntitySearch/Find--Fuzzy Search</ENFieldTitle>
+      <JPFieldTitle>往来单位查询/定位--支持模糊查询</JPFieldTitle>
+      <KRFieldTitle>往来单位查询/定位--支持模糊查询</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="IsDelete3Party">
+      <CNFieldTitle>是否确认删除所有其他供需单位信息？</CNFieldTitle>
+      <TWFieldTitle>是否確認刪除所有其他供需單位資訊？</TWFieldTitle>
+      <ENFieldTitle>IfConfirmDelete所有Other供需UnitInfo?</ENFieldTitle>
+      <JPFieldTitle>是否确认删除所有其他供需单位信息？</JPFieldTitle>
+      <KRFieldTitle>是否确认删除所有其他供需单位信息？</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="tabThreeParty">
+      <CNFieldTitle>其他供需单位信息</CNFieldTitle>
+      <TWFieldTitle>其他供需單位資訊</TWFieldTitle>
+      <ENFieldTitle>Other供需UnitInfo</ENFieldTitle>
+      <JPFieldTitle>其他供需单位信息</JPFieldTitle>
+      <KRFieldTitle>其他供需单位信息</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="IsThreeParty">
+      <CNFieldTitle>是否多方合同</CNFieldTitle>
+      <TWFieldTitle>是否多方合約</TWFieldTitle>
+      <ENFieldTitle>If多方Contract</ENFieldTitle>
+      <JPFieldTitle>是否多方合同</JPFieldTitle>
+      <KRFieldTitle>是否多方合同</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="No">
+      <CNFieldTitle>否</CNFieldTitle>
+      <TWFieldTitle>否</TWFieldTitle>
+      <ENFieldTitle>No</ENFieldTitle>
+      <JPFieldTitle>否</JPFieldTitle>
+      <KRFieldTitle>không</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Yes">
+      <CNFieldTitle>是</CNFieldTitle>
+      <TWFieldTitle>是</TWFieldTitle>
+      <ENFieldTitle>Yes</ENFieldTitle>
+      <JPFieldTitle>是</JPFieldTitle>
+      <KRFieldTitle>đúng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="chSetThreeParty">
+      <CNFieldTitle>其他供需单位信息不能为空！</CNFieldTitle>
+      <TWFieldTitle>其他供需單位資訊不能為空！</TWFieldTitle>
+      <ENFieldTitle>Other供需UnitInfo cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>其他供需单位信息不能为空！</JPFieldTitle>
+      <KRFieldTitle>其他供需单位信息不能为空！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="chThreePartyName">
+      <CNFieldTitle>单位名称不能为空！</CNFieldTitle>
+      <TWFieldTitle>單位名稱不能為空！</TWFieldTitle>
+      <ENFieldTitle>Unit Name cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>单位名称不能为空！</JPFieldTitle>
+      <KRFieldTitle>单位名称不能为空！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckOnlyDelLastRecord">
+      <CNFieldTitle>只能从最后一笔期间进行删除！</CNFieldTitle>
+      <TWFieldTitle>只能從最後一筆期間進行刪除！</TWFieldTitle>
+      <ENFieldTitle>只能從最後一筆Period進行Delete!</ENFieldTitle>
+      <JPFieldTitle>只能从最后一笔期间进行删除！</JPFieldTitle>
+      <KRFieldTitle>只能从最后一笔期间进行删除！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckPleaseInputBGManualBillNo">
+      <CNFieldTitle>请先设置合同编号！</CNFieldTitle>
+      <TWFieldTitle>請設定合約編號！</TWFieldTitle>
+      <ENFieldTitle>Please set Contract No!</ENFieldTitle>
+      <JPFieldTitle>请先设置合同编号！</JPFieldTitle>
+      <KRFieldTitle>请先设置合同编号！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="EMShopArea">
+      <CNFieldTitle>店柜范围</CNFieldTitle>
+      <TWFieldTitle>店櫃範圍</TWFieldTitle>
+      <ENFieldTitle>Store Range</ENFieldTitle>
+      <JPFieldTitle>店柜范围</JPFieldTitle>
+      <KRFieldTitle>phạm vy cửa hàng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="EMShopCollectionSetting">
+      <CNFieldTitle>收款方式设置</CNFieldTitle>
+      <TWFieldTitle>收款方式設定</TWFieldTitle>
+      <ENFieldTitle>Payment MethodSetting</ENFieldTitle>
+      <JPFieldTitle>收款方式设置</JPFieldTitle>
+      <KRFieldTitle>收款方式设置</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="EMShopExspenseItem">
+      <CNFieldTitle>收款项目</CNFieldTitle>
+      <TWFieldTitle>收款項目</TWFieldTitle>
+      <ENFieldTitle>Collect項目</ENFieldTitle>
+      <JPFieldTitle>收款项目</JPFieldTitle>
+      <KRFieldTitle>收款项目</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="EMShopPW">
+      <CNFieldTitle>铺位设置</CNFieldTitle>
+      <TWFieldTitle>櫃位設定</TWFieldTitle>
+      <ENFieldTitle>CounterSetting</ENFieldTitle>
+      <JPFieldTitle>铺位设置</JPFieldTitle>
+      <KRFieldTitle>铺位设置</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="EMShopReconciliationDate">
+      <CNFieldTitle>对账日期</CNFieldTitle>
+      <TWFieldTitle>對帳日期</TWFieldTitle>
+      <ENFieldTitle>對帳Date</ENFieldTitle>
+      <JPFieldTitle>对账日期</JPFieldTitle>
+      <KRFieldTitle>对账日期</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="EMShopSettlementSize">
+      <CNFieldTitle>结款码定义</CNFieldTitle>
+      <TWFieldTitle>結款碼設定</TWFieldTitle>
+      <ENFieldTitle>Sales KeySetting</ENFieldTitle>
+      <JPFieldTitle>结款码定义</JPFieldTitle>
+      <KRFieldTitle>结款码定义</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BtnSelectPW">
+      <CNFieldTitle>选择铺位</CNFieldTitle>
+      <TWFieldTitle>選擇櫃位</TWFieldTitle>
+      <ENFieldTitle>SelectCounter</ENFieldTitle>
+      <JPFieldTitle>选择铺位</JPFieldTitle>
+      <KRFieldTitle>选择铺位</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BMDateHasOccuredOperation">
+      <CNFieldTitle>该周期已发生业务，不能操作！</CNFieldTitle>
+      <TWFieldTitle>該週期已發生業務，不能操作！</TWFieldTitle>
+      <ENFieldTitle>該Cycle已發生業務,不能操作!</ENFieldTitle>
+      <JPFieldTitle>该周期已发生业务，不能操作！</JPFieldTitle>
+      <KRFieldTitle>该周期已发生业务，不能操作！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="chShopoverlap">
+      <CNFieldTitle>以下店柜资料不能同时存在于合同有效时间重叠的多个合同：</CNFieldTitle>
+      <TWFieldTitle>以下店櫃資料不能同時存在於合約有效時間重疊的多個合約:</TWFieldTitle>
+      <ENFieldTitle>以下Store Info不能同時存在於Contract有效Time重疊的多個Contract:</ENFieldTitle>
+      <JPFieldTitle>以下店柜资料不能同时存在于合同有效时间重叠的多个合同：</JPFieldTitle>
+      <KRFieldTitle>以下店柜资料不能同时存在于合同有效时间重叠的多个合同：</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BtnSelectReceiptType">
+      <CNFieldTitle>选择收款方式</CNFieldTitle>
+      <TWFieldTitle>選擇收款方式</TWFieldTitle>
+      <ENFieldTitle>Select Payment Method</ENFieldTitle>
+      <JPFieldTitle>选择收款方式</JPFieldTitle>
+      <KRFieldTitle>选择收款方式</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckNoWillBeChange">
+      <CNFieldTitle>所有周期都已经发生业务，操作未影响任何数据！</CNFieldTitle>
+      <TWFieldTitle>所有週期都已經發生業務，操作未影響任何資料！</TWFieldTitle>
+      <ENFieldTitle>所有Cycle都已經發生業務,操作未影響任何data!</ENFieldTitle>
+      <JPFieldTitle>所有周期都已经发生业务，操作未影响任何数据！</JPFieldTitle>
+      <KRFieldTitle>所有周期都已经发生业务，操作未影响任何数据！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckChargeItemIsRepeat">
+      <CNFieldTitle>费用项目不能重复！</CNFieldTitle>
+      <TWFieldTitle>費用項目不能重複！</TWFieldTitle>
+      <ENFieldTitle>Expenses不能重複!</ENFieldTitle>
+      <JPFieldTitle>费用项目不能重复！</JPFieldTitle>
+      <KRFieldTitle>费用项目不能重复！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckWhetherMultilateral">
+      <CNFieldTitle>是否多方合同</CNFieldTitle>
+      <TWFieldTitle>是否多方合約</TWFieldTitle>
+      <ENFieldTitle>If多方Contract</ENFieldTitle>
+      <JPFieldTitle>是否多方合同</JPFieldTitle>
+      <KRFieldTitle>是否多方合同</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckWhetherRemind">
+      <CNFieldTitle>是否提醒</CNFieldTitle>
+      <TWFieldTitle>是否提醒</TWFieldTitle>
+      <ENFieldTitle>If提醒</ENFieldTitle>
+      <JPFieldTitle>是否提醒</JPFieldTitle>
+      <KRFieldTitle>是否提醒</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckPleaseSelectARecord">
+      <CNFieldTitle>请选定一笔记录再进行操作！</CNFieldTitle>
+      <TWFieldTitle>請選定一筆記錄再進行操作！</TWFieldTitle>
+      <ENFieldTitle>Please選定一筆記錄再進行操作!</ENFieldTitle>
+      <JPFieldTitle>请选定一笔记录再进行操作！</JPFieldTitle>
+      <KRFieldTitle>请选定一笔记录再进行操作！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BtnAutoLastDay">
+      <CNFieldTitle>每月结束日为</CNFieldTitle>
+      <TWFieldTitle>每月結束日為</TWFieldTitle>
+      <ENFieldTitle>每月End Date為</ENFieldTitle>
+      <JPFieldTitle>每月结束日为</JPFieldTitle>
+      <KRFieldTitle>每月结束日为</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BtnAutoMonthCycle">
+      <CNFieldTitle>自然月周期</CNFieldTitle>
+      <TWFieldTitle>自然月週期</TWFieldTitle>
+      <ENFieldTitle>Calendar MonthCycle</ENFieldTitle>
+      <JPFieldTitle>自然月周期</JPFieldTitle>
+      <KRFieldTitle>自然月周期</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BtnAutoSalSetting">
+      <CNFieldTitle>自动设置保底销售额度</CNFieldTitle>
+      <TWFieldTitle>自動設定包底銷售額度</TWFieldTitle>
+      <ENFieldTitle>自動SettingGuaranteed Sales Volume</ENFieldTitle>
+      <JPFieldTitle>自动设置保底销售额度</JPFieldTitle>
+      <KRFieldTitle>自动设置保底销售额度</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BtnBMAdd">
+      <CNFieldTitle>新增折扣段</CNFieldTitle>
+      <TWFieldTitle>新增折扣區間</TWFieldTitle>
+      <ENFieldTitle>AddDiscount Range</ENFieldTitle>
+      <JPFieldTitle>新增折扣段</JPFieldTitle>
+      <KRFieldTitle>新增折扣段</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BtnBMAutoSetting">
+      <CNFieldTitle>自动设置折扣段</CNFieldTitle>
+      <TWFieldTitle>自動設定折扣區間</TWFieldTitle>
+      <ENFieldTitle>自動SettingDiscount Range</ENFieldTitle>
+      <JPFieldTitle>自动设置折扣段</JPFieldTitle>
+      <KRFieldTitle>自动设置折扣段</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BtnBMDel">
+      <CNFieldTitle>删除折扣段</CNFieldTitle>
+      <TWFieldTitle>刪除折扣區間</TWFieldTitle>
+      <ENFieldTitle>DeleteDiscount Range</ENFieldTitle>
+      <JPFieldTitle>删除折扣段</JPFieldTitle>
+      <KRFieldTitle>删除折扣段</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BtnSelectShopCounter">
+      <CNFieldTitle>选择店柜</CNFieldTitle>
+      <TWFieldTitle>選擇店櫃</TWFieldTitle>
+      <ENFieldTitle>Select Store</ENFieldTitle>
+      <JPFieldTitle>选择店柜</JPFieldTitle>
+      <KRFieldTitle>選擇店櫃</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="grpMature">
+      <CNFieldTitle>合同到期提醒设置用户</CNFieldTitle>
+      <TWFieldTitle>設定合約到期提醒用戶</TWFieldTitle>
+      <ENFieldTitle>SettingContractMaturity NoticeUser</ENFieldTitle>
+      <JPFieldTitle>合同到期提醒设置用户</JPFieldTitle>
+      <KRFieldTitle>合同到期提醒设置用户</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="grpNosign">
+      <CNFieldTitle>合同未签定提醒设置用户</CNFieldTitle>
+      <TWFieldTitle>設定合約未簽訂提醒用戶</TWFieldTitle>
+      <ENFieldTitle>SettingContract未簽訂提醒User</ENFieldTitle>
+      <JPFieldTitle>合同未签定提醒设置用户</JPFieldTitle>
+      <KRFieldTitle>合同未签定提醒设置用户</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTShopCounterArea">
+      <CNFieldTitle>店柜范围</CNFieldTitle>
+      <TWFieldTitle>店櫃範圍</TWFieldTitle>
+      <ENFieldTitle>Store Range</ENFieldTitle>
+      <JPFieldTitle>店柜范围</JPFieldTitle>
+      <KRFieldTitle>phạm vy cửa hàng</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="grpVenderOrCustA">
+      <CNFieldTitle>甲方信息</CNFieldTitle>
+      <TWFieldTitle>甲方資訊</TWFieldTitle>
+      <ENFieldTitle>甲方Info</ENFieldTitle>
+      <JPFieldTitle>甲方信息</JPFieldTitle>
+      <KRFieldTitle>甲方信息</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="grpVenderOrCustB">
+      <CNFieldTitle>乙方信息</CNFieldTitle>
+      <TWFieldTitle>乙方資訊</TWFieldTitle>
+      <ENFieldTitle>乙方Info</ENFieldTitle>
+      <JPFieldTitle>乙方信息</JPFieldTitle>
+      <KRFieldTitle>乙方信息</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckSportCityIsRepeat">
+      <CNFieldTitle>运动城不能同时存在于合同有效时间重叠的多个合同！</CNFieldTitle>
+      <TWFieldTitle>運動城不能同時存在於合約有效時間重疊的多個合約！</TWFieldTitle>
+      <ENFieldTitle>Sports Town不能同時存在於Contract有效Time重疊的多個Contract!</ENFieldTitle>
+      <JPFieldTitle>运动城不能同时存在于合同有效时间重叠的多个合同！</JPFieldTitle>
+      <KRFieldTitle>运动城不能同时存在于合同有效时间重叠的多个合同！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckUnSignRemindDayIsZero">
+      <CNFieldTitle>提前提醒天数不能为0！</CNFieldTitle>
+      <TWFieldTitle>提前提醒天數不能為0！</TWFieldTitle>
+      <ENFieldTitle>Notification (Days)cannot be 0!</ENFieldTitle>
+      <JPFieldTitle>提前提醒天数不能为0！</JPFieldTitle>
+      <KRFieldTitle>提前提醒天数不能为0！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ShowSelectedOnly">
+      <CNFieldTitle>只显示选中</CNFieldTitle>
+      <TWFieldTitle>只顯示選中</TWFieldTitle>
+      <ENFieldTitle>Show Selected</ENFieldTitle>
+      <JPFieldTitle>只显示选中</JPFieldTitle>
+      <KRFieldTitle>只顯示選中</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="TimeEqualInfo1">
+      <CNFieldTitle>{0}不能大于{1}！</CNFieldTitle>
+      <TWFieldTitle>{0}不能大於{1}！</TWFieldTitle>
+      <ENFieldTitle>{0} cannot be greater than {1}!</ENFieldTitle>
+      <JPFieldTitle>{0}不能大于{1}！</JPFieldTitle>
+      <KRFieldTitle>{0}不能大于{1}！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="TimeEqualInfo2">
+      <CNFieldTitle>{0}不能小于{1}！</CNFieldTitle>
+      <TWFieldTitle>{0}不能小於{1}！</TWFieldTitle>
+      <ENFieldTitle>{0} cannot be less than {1}!</ENFieldTitle>
+      <JPFieldTitle>{0}不能小于{1}！</JPFieldTitle>
+      <KRFieldTitle>{0}不能小于{1}！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckEndMaxValue">
+      <CNFieldTitle>已达到最大值！</CNFieldTitle>
+      <TWFieldTitle>已達到最大值！</TWFieldTitle>
+      <ENFieldTitle>已達到Maximum Value!</ENFieldTitle>
+      <JPFieldTitle>已达到最大值！</JPFieldTitle>
+      <KRFieldTitle>已达到最大值！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DelDiscountTitle1">
+      <CNFieldTitle>只能删除区间的最后一笔记录</CNFieldTitle>
+      <TWFieldTitle>只能删除區間的最後一筆記錄！</TWFieldTitle>
+      <ENFieldTitle>只能删除區間的最後一筆記錄!</ENFieldTitle>
+      <JPFieldTitle>只能删除区间的最后一笔记录</JPFieldTitle>
+      <KRFieldTitle>只能删除区间的最后一笔记录</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="EMCompactEqualInfo1">
+      <CNFieldTitle>合同的保底销售额度必须等于分解的保底销售额度之和！</CNFieldTitle>
+      <TWFieldTitle>合約的包底銷售額度必須等於分解的包底銷售額度之和！</TWFieldTitle>
+      <ENFieldTitle>Contract的Guaranteed Sales Volumemust be equal to分解的Guaranteed Sales Volume之和!</ENFieldTitle>
+      <JPFieldTitle>合同的保底销售额度必须等于分解的保底销售额度之和！</JPFieldTitle>
+      <KRFieldTitle>合同的保底销售额度必须等于分解的保底销售额度之和！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="EMCompactEqualInfo2">
+      <CNFieldTitle>合同的销售额度必须等于分解的销售额度之和！</CNFieldTitle>
+      <TWFieldTitle>合約的銷售額度，必須等於分解的銷售額度之和！</TWFieldTitle>
+      <ENFieldTitle>Contract的Sales Volume,must be equal to分解的Sales Volume之和!</ENFieldTitle>
+      <JPFieldTitle>合同的销售额度必须等于分解的销售额度之和！</JPFieldTitle>
+      <KRFieldTitle>合同的销售额度必须等于分解的销售额度之和！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="EMCompactEqualInfo3">
+      <CNFieldTitle>合同的店柜租金必须等于分解的店柜租金之和！</CNFieldTitle>
+      <TWFieldTitle>合約的店櫃租金，必須等於分解的店櫃租金之和！</TWFieldTitle>
+      <ENFieldTitle>Contract的StoreRental,must be equal to分解的StoreRental之和!</ENFieldTitle>
+      <JPFieldTitle>合同的店柜租金必须等于分解的店柜租金之和！</JPFieldTitle>
+      <KRFieldTitle>合同的店柜租金必须等于分解的店柜租金之和！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="EMCompactEqualInfo4">
+      <CNFieldTitle>合同的租金必须等于分解的租金之和！</CNFieldTitle>
+      <TWFieldTitle>合約的租金，必須等於分解的租金之和！</TWFieldTitle>
+      <ENFieldTitle>Contract的Rental,must be equal to分解的Rental之和!</ENFieldTitle>
+      <JPFieldTitle>合同的租金必须等于分解的租金之和！</JPFieldTitle>
+      <KRFieldTitle>合同的租金必须等于分解的租金之和！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="bgPwCheck">
+      <CNFieldTitle>铺位:{0},已被合同:{1}使用,不能重复签订！</CNFieldTitle>
+      <TWFieldTitle>櫃位:{0}，已被合約:{1}使用，不能重複簽訂！</TWFieldTitle>
+      <ENFieldTitle>Counter:{0},已被Contract:{1}使用,不能重複簽訂!</ENFieldTitle>
+      <JPFieldTitle>铺位:{0},已被合同:{1}使用,不能重复签订！</JPFieldTitle>
+      <KRFieldTitle>铺位:{0},已被合同:{1}使用,不能重复签订！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="bgPwShop">
+      <CNFieldTitle>铺位对应</CNFieldTitle>
+      <TWFieldTitle>櫃位對應</TWFieldTitle>
+      <ENFieldTitle>Counter對應</ENFieldTitle>
+      <JPFieldTitle>铺位对应</JPFieldTitle>
+      <KRFieldTitle>铺位对应</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CheckPWInSport">
+      <CNFieldTitle>铺位"{0}"不属于运动城"{1}"!</CNFieldTitle>
+      <TWFieldTitle>櫃位"{0}"不屬於運動城"{1}"！</TWFieldTitle>
+      <ENFieldTitle>Counter"{0}"不屬於Sports Town"{1}"!</ENFieldTitle>
+      <JPFieldTitle>铺位"{0}"不属于运动城"{1}"!</JPFieldTitle>
+      <KRFieldTitle>铺位"{0}"不属于运动城"{1}"!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CheckShopInSport">
+      <CNFieldTitle>店柜"{0}"不属于运动城"{1}"!</CNFieldTitle>
+      <TWFieldTitle>店櫃"{0}"不屬於運動城"{1}"！</TWFieldTitle>
+      <ENFieldTitle>Store "{0}" doesn't belong to Sports Town "{1}"!</ENFieldTitle>
+      <JPFieldTitle>店柜"{0}"不属于运动城"{1}"!</JPFieldTitle>
+      <KRFieldTitle>店柜"{0}"不属于运动城"{1}"!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="TitleBtnFrozen">
+      <CNFieldTitle>冻结</CNFieldTitle>
+      <TWFieldTitle>凍結</TWFieldTitle>
+      <ENFieldTitle>Freeze</ENFieldTitle>
+      <JPFieldTitle>冻结</JPFieldTitle>
+      <KRFieldTitle>đông kết</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="TitleBtnNoFrozen">
+      <CNFieldTitle>解冻</CNFieldTitle>
+      <TWFieldTitle>解凍</TWFieldTitle>
+      <ENFieldTitle>Unfreeze</ENFieldTitle>
+      <JPFieldTitle>解冻</JPFieldTitle>
+      <KRFieldTitle>giải đông</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckBargainFrozen1">
+      <CNFieldTitle>当前合同单据处于未生效状态，不能冻结！</CNFieldTitle>
+      <TWFieldTitle>當前合約單據處於未生效狀態，不能凍結！</TWFieldTitle>
+      <ENFieldTitle>The contract isn't on Ineffective status.  You cannot freeze!</ENFieldTitle>
+      <JPFieldTitle>当前合同单据处于未生效状态，不能冻结！</JPFieldTitle>
+      <KRFieldTitle>当前合同单据处于未生效状态，不能冻结！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckBargainFrozen2">
+      <CNFieldTitle>当前合同单据不是执行状态，不能冻结！</CNFieldTitle>
+      <TWFieldTitle>當前合約單據不是執行狀態，不能凍結！</TWFieldTitle>
+      <ENFieldTitle>The contract isn't on Executive status.  You cannot freeze!</ENFieldTitle>
+      <JPFieldTitle>当前合同单据不是执行状态，不能冻结！</JPFieldTitle>
+      <KRFieldTitle>当前合同单据不是执行状态，不能冻结！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckBargainNoFrozen1">
+      <CNFieldTitle>当前合同单据处于未生效状态，不能解冻！</CNFieldTitle>
+      <TWFieldTitle>當前合約單據處於未生效狀態，不能解凍！</TWFieldTitle>
+      <ENFieldTitle>The contract isn't on Ineffective status.  You cannot unfreeze!</ENFieldTitle>
+      <JPFieldTitle>当前合同单据处于未生效状态，不能解冻！</JPFieldTitle>
+      <KRFieldTitle>当前合同单据处于未生效状态，不能解冻！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckBargainNoFrozen2">
+      <CNFieldTitle>当前合同单据不是冻结状态，不能解冻！</CNFieldTitle>
+      <TWFieldTitle>當前合約單據不是凍結狀態，不能解凍！</TWFieldTitle>
+      <ENFieldTitle>The contract isn't on Freeze status.  You cannot unfreeze!</ENFieldTitle>
+      <JPFieldTitle>当前合同单据不是冻结状态，不能解冻！</JPFieldTitle>
+      <KRFieldTitle>当前合同单据不是冻结状态，不能解冻！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckBargainFrozen3">
+      <CNFieldTitle>确定需要冻结当前合同吗?</CNFieldTitle>
+      <TWFieldTitle>確定需要凍結當前合約嗎？</TWFieldTitle>
+      <ENFieldTitle>Are you sure to freeze the contract?</ENFieldTitle>
+      <JPFieldTitle>确定需要冻结当前合同吗?</JPFieldTitle>
+      <KRFieldTitle>确定需要冻结当前合同吗?</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckBargainNoFrozen3">
+      <CNFieldTitle>确定需要解冻当前合同吗?</CNFieldTitle>
+      <TWFieldTitle>確定需要解凍當前合約嗎？</TWFieldTitle>
+      <ENFieldTitle>Are you sure to unfreeze the contract?</ENFieldTitle>
+      <JPFieldTitle>确定需要解冻当前合同吗?</JPFieldTitle>
+      <KRFieldTitle>确定需要解冻当前合同吗?</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckBargainStatus1">
+      <CNFieldTitle>合同已变更，不能反审核!</CNFieldTitle>
+      <TWFieldTitle>合約已變更，不能反審核！</TWFieldTitle>
+      <ENFieldTitle>The contract has been changed.  You cannot counter-approve!</ENFieldTitle>
+      <JPFieldTitle>合同已变更，不能反审核!</JPFieldTitle>
+      <KRFieldTitle>合同已变更，不能反审核!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckBargainStatus2">
+      <CNFieldTitle>合同状态是{0}，不能反审核!</CNFieldTitle>
+      <TWFieldTitle>合約狀態是{0}，不能反審核！</TWFieldTitle>
+      <ENFieldTitle>The contract has been on {0} status.  You cannot counter-approve!</ENFieldTitle>
+      <JPFieldTitle>合同状态是{0}，不能反审核!</JPFieldTitle>
+      <KRFieldTitle>合同状态是{0}，不能反审核!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckBgBarRef">
+      <CNFieldTitle>合同已经被引用，不能删除!</CNFieldTitle>
+      <TWFieldTitle>合約已經被引用，不能刪除！</TWFieldTitle>
+      <ENFieldTitle>The contract has been used.  You cannot delete!</ENFieldTitle>
+      <JPFieldTitle>合同已经被引用，不能删除!</JPFieldTitle>
+      <KRFieldTitle>合同已经被引用，不能删除!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="TimeEqualInfo3">
+      <CNFieldTitle>{0}必须等于{1}！</CNFieldTitle>
+      <TWFieldTitle>{0}必須等於{1}！</TWFieldTitle>
+      <ENFieldTitle>{0} must be equal to {1}!</ENFieldTitle>
+      <JPFieldTitle>{0}必须等于{1}！</JPFieldTitle>
+      <KRFieldTitle>{0}必须等于{1}！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="TimeEqualInfo4">
+      <CNFieldTitle>最后一个周期的对账日期的{0}必须等于{1}！</CNFieldTitle>
+      <TWFieldTitle>最後一個週期的對帳日期的{0}，必須等於{1}！</TWFieldTitle>
+      <ENFieldTitle>最後一個Cycle的對帳Date的{0},must be equal to{1}!</ENFieldTitle>
+      <JPFieldTitle>最后一个周期的对账日期的{0}必须等于{1}！</JPFieldTitle>
+      <KRFieldTitle>最后一个周期的对账日期的{0}必须等于{1}！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="TimeEqualInfo5">
+      <CNFieldTitle>第一个周期的对账日期的{0}必须等于{1}！</CNFieldTitle>
+      <TWFieldTitle>第一個週期的對帳日期的{0}，必須等於{1}！</TWFieldTitle>
+      <ENFieldTitle>第一個Cycle的對帳Date的{0},must be equal to{1}!</ENFieldTitle>
+      <JPFieldTitle>第一个周期的对账日期的{0}必须等于{1}！</JPFieldTitle>
+      <KRFieldTitle>第一个周期的对账日期的{0}必须等于{1}！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckBargainNoFrozen21">
+      <CNFieldTitle>确定需要解冻当前合同吗?</CNFieldTitle>
+      <TWFieldTitle>確定需要解凍當前合約嗎？</TWFieldTitle>
+      <ENFieldTitle>Are you sure to unfreeze the contract?</ENFieldTitle>
+      <JPFieldTitle>确定需要解冻当前合同吗?</JPFieldTitle>
+      <KRFieldTitle>确定需要解冻当前合同吗?</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CommissionSet">
+      <CNFieldTitle>佣金设置</CNFieldTitle>
+      <TWFieldTitle>傭金設定</TWFieldTitle>
+      <ENFieldTitle>CommissionSetting</ENFieldTitle>
+      <JPFieldTitle>佣金设置</JPFieldTitle>
+      <KRFieldTitle>佣金设置</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ReconcileCycle">
+      <CNFieldTitle>对帐周期</CNFieldTitle>
+      <TWFieldTitle>對帳週期</TWFieldTitle>
+      <ENFieldTitle>對帳Cycle</ENFieldTitle>
+      <JPFieldTitle>对帐周期</JPFieldTitle>
+      <KRFieldTitle>对帐周期</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="RateCannotZero">
+      <CNFieldTitle>佣金比例不能为零！</CNFieldTitle>
+      <TWFieldTitle>傭金比例不能為零！</TWFieldTitle>
+      <ENFieldTitle>Commission Ratio cannot be 0!</ENFieldTitle>
+      <JPFieldTitle>佣金比例不能为零！</JPFieldTitle>
+      <KRFieldTitle>佣金比例不能为零！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DateCannotRepeat">
+      <CNFieldTitle>日期不能重复！</CNFieldTitle>
+      <TWFieldTitle>日期不能重複！</TWFieldTitle>
+      <ENFieldTitle>Duplicate date has been forbidden!</ENFieldTitle>
+      <JPFieldTitle>日期不能重复！</JPFieldTitle>
+      <KRFieldTitle>日期不能重复！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PlanDateLessThanStartDate">
+      <CNFieldTitle>计划续签日期不能小于或等于合同开始日期！</CNFieldTitle>
+      <TWFieldTitle>計劃續約日期不能小於或等於合約開始日期！</TWFieldTitle>
+      <ENFieldTitle>Planned Renewal Date cannot be earlier than or equal to Start Date!</ENFieldTitle>
+      <JPFieldTitle>计划续签日期不能小于或等于合同开始日期！</JPFieldTitle>
+      <KRFieldTitle>计划续签日期不能小于或等于合同开始日期！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DataCannotRepeat">
+      <CNFieldTitle>数据不允许重复！</CNFieldTitle>
+      <TWFieldTitle>資料不允許重複！</TWFieldTitle>
+      <ENFieldTitle>Duplicate data has been forbidden!</ENFieldTitle>
+      <JPFieldTitle>数据不允许重复！</JPFieldTitle>
+      <KRFieldTitle>数据不允许重复！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CompactRepeat">
+      <CNFieldTitle>当前店铺在时间范围（{0}~{1}）内已存在一笔有效的合同记录！</CNFieldTitle>
+      <TWFieldTitle>同一客戶同一時間，不能對同一店櫃多次簽訂合約！</TWFieldTitle>
+      <ENFieldTitle>同一Customer同一Time,不能對同一Store多次簽訂Contract!</ENFieldTitle>
+      <JPFieldTitle>当前店铺在时间范围（{0}~{1}）内已存在一笔有效的合同记录！</JPFieldTitle>
+      <KRFieldTitle>当前店铺在时间范围（{0}~{1}）内已存在一笔有效的合同记录！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CommissionCannotZero">
+      <CNFieldTitle>佣金不能为零！</CNFieldTitle>
+      <TWFieldTitle>傭金不能為零！</TWFieldTitle>
+      <ENFieldTitle>Commissioncannot be 0!</ENFieldTitle>
+      <JPFieldTitle>佣金不能为零！</JPFieldTitle>
+      <KRFieldTitle>佣金不能为零！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="StartDiscountTooLarge">
+      <CNFieldTitle>开始折扣不能大于1！</CNFieldTitle>
+      <TWFieldTitle>開始折扣不能大於1！</TWFieldTitle>
+      <ENFieldTitle>Start Discount不能greater than1!</ENFieldTitle>
+      <JPFieldTitle>开始折扣不能大于1！</JPFieldTitle>
+      <KRFieldTitle>开始折扣不能大于1！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="EndDiscountTooLarge">
+      <CNFieldTitle>结束折扣不能大于1！</CNFieldTitle>
+      <TWFieldTitle>結束折扣不能大於1！</TWFieldTitle>
+      <ENFieldTitle>End Discount不能greater than1!</ENFieldTitle>
+      <JPFieldTitle>结束折扣不能大于1！</JPFieldTitle>
+      <KRFieldTitle>结束折扣不能大于1！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="HasOccuredOperation">
+      <CNFieldTitle>该合同已发生业务，不能操作！</CNFieldTitle>
+      <TWFieldTitle>該合約已發生業務，不能操作！</TWFieldTitle>
+      <ENFieldTitle>該Contract已發生業務,不能操作!</ENFieldTitle>
+      <JPFieldTitle>该合同已发生业务，不能操作！</JPFieldTitle>
+      <KRFieldTitle>该合同已发生业务，不能操作！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PeriodStartDate">
+      <CNFieldTitle>试用期开始日期</CNFieldTitle>
+      <TWFieldTitle>試用期開始日期</TWFieldTitle>
+      <ENFieldTitle>Probation Start Date</ENFieldTitle>
+      <JPFieldTitle>试用期开始日期</JPFieldTitle>
+      <KRFieldTitle>Ngày bắt đầu thử việc</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PeriodEndDate">
+      <CNFieldTitle>试用期结束日期</CNFieldTitle>
+      <TWFieldTitle>試用期結束日期</TWFieldTitle>
+      <ENFieldTitle>Probation End Date</ENFieldTitle>
+      <JPFieldTitle>试用期结束日期</JPFieldTitle>
+      <KRFieldTitle>Ngày kết thúc thử việc</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FieldValueIsEmpty">
+      <CNFieldTitle>所选字段的值为空值！</CNFieldTitle>
+      <TWFieldTitle>所選欄位的值為空值！</TWFieldTitle>
+      <ENFieldTitle>Selected Field is blank!</ENFieldTitle>
+      <JPFieldTitle>所选字段的值为空值！</JPFieldTitle>
+      <KRFieldTitle>所选字段的值为空值！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="NotSame">
+      <CNFieldTitle>不相等.</CNFieldTitle>
+      <TWFieldTitle>不相等</TWFieldTitle>
+      <ENFieldTitle>Not Equal</ENFieldTitle>
+      <JPFieldTitle>不相等.</JPFieldTitle>
+      <KRFieldTitle>不相等.</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CanNotBig">
+      <CNFieldTitle>不能大于</CNFieldTitle>
+      <TWFieldTitle>不能大於</TWFieldTitle>
+      <ENFieldTitle>Not greater than</ENFieldTitle>
+      <JPFieldTitle>不能大于</JPFieldTitle>
+      <KRFieldTitle>không thể lớn hơn</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="And">
+      <CNFieldTitle>同</CNFieldTitle>
+      <TWFieldTitle>同</TWFieldTitle>
+      <ENFieldTitle>同</ENFieldTitle>
+      <JPFieldTitle>同</JPFieldTitle>
+      <KRFieldTitle>同</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DateCannotEmpty">
+      <CNFieldTitle>的开始日期和截止日期都不能为空！</CNFieldTitle>
+      <TWFieldTitle>的開始日期和截止日期都不能為空！</TWFieldTitle>
+      <ENFieldTitle>的Both Start Date and End Date cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>的开始日期和截止日期都不能为空！</JPFieldTitle>
+      <KRFieldTitle>的开始日期和截止日期都不能为空！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CommiEntrustInfo1">
+      <CNFieldTitle>返点率必须大于0！</CNFieldTitle>
+      <TWFieldTitle>獎勵率必須大於0！</TWFieldTitle>
+      <ENFieldTitle>Rebate Ratio must be greater than 0!</ENFieldTitle>
+      <JPFieldTitle>返点率必须大于0！</JPFieldTitle>
+      <KRFieldTitle>返点率必须大于0！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CommiEntrustInfo2">
+      <CNFieldTitle>返点设置的扣率区间值不能重复！</CNFieldTitle>
+      <TWFieldTitle>獎勵設定的抽成區間值不能重複！</TWFieldTitle>
+      <ENFieldTitle>獎勵Setting的Commission Range值不能重複!</ENFieldTitle>
+      <JPFieldTitle>返点设置的扣率区间值不能重复！</JPFieldTitle>
+      <KRFieldTitle>返点设置的扣率区间值不能重复！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CommiEntrustInfo3">
+      <CNFieldTitle>结算公式包含返点，必须要设置返点值！</CNFieldTitle>
+      <TWFieldTitle>結算公式包含返點，必須要設定返點值！</TWFieldTitle>
+      <ENFieldTitle>SettleFormulaIncluding返點,必須要Setting返點值!</ENFieldTitle>
+      <JPFieldTitle>结算公式包含返点，必须要设置返点值！</JPFieldTitle>
+      <KRFieldTitle>结算公式包含返点，必须要设置返点值！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CommiEntrustInfo4">
+      <CNFieldTitle>项目计算公式不能为空！</CNFieldTitle>
+      <TWFieldTitle>項目計算公式不能為空！</TWFieldTitle>
+      <ENFieldTitle>項目Formula cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>项目计算公式不能为空！</JPFieldTitle>
+      <KRFieldTitle>项目计算公式不能为空！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CommiEntrustInfo5">
+      <CNFieldTitle>结算项目不能为空！</CNFieldTitle>
+      <TWFieldTitle>結算項目不能為空！</TWFieldTitle>
+      <ENFieldTitle>Settle項目 cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>结算项目不能为空！</JPFieldTitle>
+      <KRFieldTitle>结算项目不能为空！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CommiEntrustInfo6">
+      <CNFieldTitle>返点设置</CNFieldTitle>
+      <TWFieldTitle>返點設定</TWFieldTitle>
+      <ENFieldTitle>返點Setting</ENFieldTitle>
+      <JPFieldTitle>返点设置</JPFieldTitle>
+      <KRFieldTitle>返点设置</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CommiEntrustInfo7">
+      <CNFieldTitle>结算公式</CNFieldTitle>
+      <TWFieldTitle>結算公式</TWFieldTitle>
+      <ENFieldTitle>SettleFormula</ENFieldTitle>
+      <JPFieldTitle>结算公式</JPFieldTitle>
+      <KRFieldTitle>结算公式</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="formCalcItemCondition">
+      <CNFieldTitle>设置条件项目及计算公式</CNFieldTitle>
+      <TWFieldTitle>設定條件項目及計算公式</TWFieldTitle>
+      <ENFieldTitle>Set Conditions and Formula</ENFieldTitle>
+      <JPFieldTitle>设置条件项目及计算公式</JPFieldTitle>
+      <KRFieldTitle>设置条件项目及计算公式</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CommiEntrustInfo8">
+      <CNFieldTitle>结算项目</CNFieldTitle>
+      <TWFieldTitle>結算項目</TWFieldTitle>
+      <ENFieldTitle>Settle項目</ENFieldTitle>
+      <JPFieldTitle>结算项目</JPFieldTitle>
+      <KRFieldTitle>结算项目</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SumDetailNotEqualsTotal">
+      <CNFieldTitle>加盟费必须等于合同结算日期页中加盟费的汇总值！</CNFieldTitle>
+      <TWFieldTitle>加盟費必須等於合約結算日期頁中加盟費的彙總值！</TWFieldTitle>
+      <ENFieldTitle>Franchise費must be equal toContractSettlement Date頁中Franchise費的彙總值!</ENFieldTitle>
+      <JPFieldTitle>加盟费必须等于合同结算日期页中加盟费的汇总值！</JPFieldTitle>
+      <KRFieldTitle>加盟费必须等于合同结算日期页中加盟费的汇总值！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FrmBG_Bar_InvestmentTitle2">
+      <CNFieldTitle>当前结算客户在结算区间（{0}~{1}）已存在一笔有效的合同记录！</CNFieldTitle>
+      <TWFieldTitle>當前結算客戶在結算區間({0}~{1})已存在一筆有效的合約記錄！</TWFieldTitle>
+      <ENFieldTitle>當前SettleCustomer在Settle區間({0}~{1})already existed一筆有效的Contract記錄!</ENFieldTitle>
+      <JPFieldTitle>当前结算客户在结算区间（{0}~{1}）已存在一笔有效的合同记录！</JPFieldTitle>
+      <KRFieldTitle>当前结算客户在结算区间（{0}~{1}）已存在一笔有效的合同记录！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FrmBG_Bar_InvestmentTitle3">
+      <CNFieldTitle>第一笔结算日期的开始日期必须等于合同开始日期并且最后一笔结算日期的结束日期必须等于合同结束日期！</CNFieldTitle>
+      <TWFieldTitle>第一筆結算日期的開始日期必須等於合約開始日期並且最後一筆結算日期的結束日期必須等於合約結束日期！</TWFieldTitle>
+      <ENFieldTitle>第一筆Settlement Date的Start Date must be equal toContract Start Date并且最後一筆Settlement Date的End Date must be equal toContract End Date!</ENFieldTitle>
+      <JPFieldTitle>第一笔结算日期的开始日期必须等于合同开始日期并且最后一笔结算日期的结束日期必须等于合同结束日期！</JPFieldTitle>
+      <KRFieldTitle>第一笔结算日期的开始日期必须等于合同开始日期并且最后一笔结算日期的结束日期必须等于合同结束日期！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FrmBG_Bar_InvestmentTitle4">
+      <CNFieldTitle>第一笔结算日期的开始日期必须等于合同开始日期！</CNFieldTitle>
+      <TWFieldTitle>第一筆結算日期的開始日期必須等於合約開始日期！</TWFieldTitle>
+      <ENFieldTitle>第一筆Settlement Date的Start Date must be equal toContract Start Date!</ENFieldTitle>
+      <JPFieldTitle>第一笔结算日期的开始日期必须等于合同开始日期！</JPFieldTitle>
+      <KRFieldTitle>第一笔结算日期的开始日期必须等于合同开始日期！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FrmBG_Bar_InvestmentTitle5">
+      <CNFieldTitle>最后一笔结算日期必须等于合同结束日期！</CNFieldTitle>
+      <TWFieldTitle>最後一筆結算日期必須等於合約結束日期！</TWFieldTitle>
+      <ENFieldTitle>最後一筆Settlement Date must be equal toContract End Date!</ENFieldTitle>
+      <JPFieldTitle>最后一笔结算日期必须等于合同结束日期！</JPFieldTitle>
+      <KRFieldTitle>最后一笔结算日期必须等于合同结束日期！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="AccperiodMonthNotFound">
+      <CNFieldTitle>{0} 年 {1} 月的会计期间还没定义！</CNFieldTitle>
+      <TWFieldTitle>{0} 年 {1} 月的會計期間還沒定義！</TWFieldTitle>
+      <ENFieldTitle>{0} 年 {1} 月的Accounting Period還沒定義!</ENFieldTitle>
+      <JPFieldTitle>{0} 年 {1} 月的会计期间还没定义！</JPFieldTitle>
+      <KRFieldTitle>{0}năm {1} tháng và kì hạn kế toán vẫn chưa được định nghĩa !</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="btnAutoCompBalaDate1">
+      <CNFieldTitle>按会计期间生成周期</CNFieldTitle>
+      <TWFieldTitle>按會計期間生成週期</TWFieldTitle>
+      <ENFieldTitle>按Accounting Period生成Week期</ENFieldTitle>
+      <JPFieldTitle>按会计期间生成周期</JPFieldTitle>
+      <KRFieldTitle>按会计期间生成周期</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ItemNameCanNotBeSame">
+      <CNFieldTitle>结算项目名称不能相同！</CNFieldTitle>
+      <TWFieldTitle>結算項目名稱不能相同！</TWFieldTitle>
+      <ENFieldTitle>Settle項目名稱不能相同!</ENFieldTitle>
+      <JPFieldTitle>结算项目名称不能相同！</JPFieldTitle>
+      <KRFieldTitle>结算项目名称不能相同！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="InvMaxLimit">
+      <CNFieldTitle>存货额度</CNFieldTitle>
+      <TWFieldTitle>存貨額度</TWFieldTitle>
+      <ENFieldTitle>存貨額度</ENFieldTitle>
+      <JPFieldTitle>存货额度</JPFieldTitle>
+      <KRFieldTitle>存货额度</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckMaxAmountIsNull">
+      <CNFieldTitle>请输入最大存货额度！</CNFieldTitle>
+      <TWFieldTitle>請輸入最大存貨額度！</TWFieldTitle>
+      <ENFieldTitle>請輸入最大存貨額度!</ENFieldTitle>
+      <JPFieldTitle>请输入最大存货额度！</JPFieldTitle>
+      <KRFieldTitle>请输入最大存货额度！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckCommisionRangeIsNull">
+      <CNFieldTitle>代销范围不能为空！</CNFieldTitle>
+      <TWFieldTitle>代銷範圍不能為空！</TWFieldTitle>
+      <ENFieldTitle>代銷範圍不能為空!</ENFieldTitle>
+      <JPFieldTitle>代销范围不能为空！</JPFieldTitle>
+      <KRFieldTitle>代销范围不能为空！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckCommsionIsNull">
+      <CNFieldTitle>佣金必须设置！</CNFieldTitle>
+      <TWFieldTitle>傭金必須設定！</TWFieldTitle>
+      <ENFieldTitle>Commission must be set!</ENFieldTitle>
+      <JPFieldTitle>佣金必须设置！</JPFieldTitle>
+      <KRFieldTitle>佣金必须设置！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckspeRetailAmtCommiRatioIsNull">
+      <CNFieldTitle>零售额佣金比例必填！</CNFieldTitle>
+      <TWFieldTitle>零售額傭金比例必填！</TWFieldTitle>
+      <ENFieldTitle>零售額Commission Ratio必填!</ENFieldTitle>
+      <JPFieldTitle>零售额佣金比例必填！</JPFieldTitle>
+      <KRFieldTitle>零售额佣金比例必填！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTKindName">
+      <CNFieldTitle>类别</CNFieldTitle>
+      <TWFieldTitle>類別</TWFieldTitle>
+      <ENFieldTitle>Type</ENFieldTitle>
+      <JPFieldTitle>类别</JPFieldTitle>
+      <KRFieldTitle>loại</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FrmBG_Bar_InvestmentTitle1">
+      <CNFieldTitle>确定删除所有未结算的记录吗？</CNFieldTitle>
+      <TWFieldTitle>確定刪除所有未結算的記錄嗎？</TWFieldTitle>
+      <ENFieldTitle>確定Delete所有未結算的記錄嗎?</ENFieldTitle>
+      <JPFieldTitle>确定删除所有未结算的记录吗？</JPFieldTitle>
+      <KRFieldTitle>确定删除所有未结算的记录吗？</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FrmBG_Bar_InvestmentTitle10">
+      <CNFieldTitle>开始时间不能大于或者等于合同开始时间！</CNFieldTitle>
+      <TWFieldTitle>開始時間不能大於或者等於合約開始時間！</TWFieldTitle>
+      <ENFieldTitle>開始時間不能大於或者等於Contract開始時間!</ENFieldTitle>
+      <JPFieldTitle>开始时间不能大于或者等于合同开始时间！</JPFieldTitle>
+      <KRFieldTitle>开始时间不能大于或者等于合同开始时间！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FrmBG_Bar_InvestmentTitle11">
+      <CNFieldTitle>结束时间不能大于或者等于合同开始时间！</CNFieldTitle>
+      <TWFieldTitle>結束時間不能大於或者等於合約開始時間！</TWFieldTitle>
+      <ENFieldTitle>結束時間不能大於或者等於Contract開始時間!</ENFieldTitle>
+      <JPFieldTitle>结束时间不能大于或者等于合同开始时间！</JPFieldTitle>
+      <KRFieldTitle>结束时间不能大于或者等于合同开始时间！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FrmBG_Bar_InvestmentTitle12">
+      <CNFieldTitle>合同开始时间不在任何会计期间内，不自动生成任何结算周期！</CNFieldTitle>
+      <TWFieldTitle>合約開始時間不在任何會計期間內，不自動生成任何結算週期！</TWFieldTitle>
+      <ENFieldTitle>Contract開始時間不在任何Accounting Period內，不自動生成任何結算Week期!</ENFieldTitle>
+      <JPFieldTitle>合同开始时间不在任何会计期间内，不自动生成任何结算周期！</JPFieldTitle>
+      <KRFieldTitle>合同开始时间不在任何会计期间内，不自动生成任何结算周期！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FrmBG_Bar_InvestmentTitle13">
+      <CNFieldTitle>开始时间不能重复！</CNFieldTitle>
+      <TWFieldTitle>開始時間不能重複！</TWFieldTitle>
+      <ENFieldTitle>Duplicate Start Time has been forbidden!</ENFieldTitle>
+      <JPFieldTitle>开始时间不能重复！</JPFieldTitle>
+      <KRFieldTitle>开始时间不能重复！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FrmBG_Bar_InvestmentTitle14">
+      <CNFieldTitle>已存在开始时间为{0}的周期！</CNFieldTitle>
+      <TWFieldTitle>已存在開始時間為{0}的週期！</TWFieldTitle>
+      <ENFieldTitle>已存在開始時間為{0}的Week期!</ENFieldTitle>
+      <JPFieldTitle>已存在开始时间为{0}的周期！</JPFieldTitle>
+      <KRFieldTitle>已存在开始时间为{0}的周期！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FrmBG_Bar_InvestmentTitle15">
+      <CNFieldTitle>合同周期不能重复！</CNFieldTitle>
+      <TWFieldTitle>合約週期不能重複！</TWFieldTitle>
+      <ENFieldTitle>ContractWeek期不能重複!</ENFieldTitle>
+      <JPFieldTitle>合同周期不能重复！</JPFieldTitle>
+      <KRFieldTitle>合同周期不能重复！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckCommissionSetIsNull">
+      <CNFieldTitle>佣金比例不能为空！</CNFieldTitle>
+      <TWFieldTitle>傭金比例不能為空！</TWFieldTitle>
+      <ENFieldTitle>Commission Ratio cannot be blank!</ENFieldTitle>
+      <JPFieldTitle>佣金比例不能为空！</JPFieldTitle>
+      <KRFieldTitle>佣金比例不能为空！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SelectCost">
+      <CNFieldTitle>选择费用项目</CNFieldTitle>
+      <TWFieldTitle>選擇費用項目</TWFieldTitle>
+      <ENFieldTitle>選擇費用項目</ENFieldTitle>
+      <JPFieldTitle>选择费用项目</JPFieldTitle>
+      <KRFieldTitle>选择费用项目</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="AdscriptionName">
+      <CNFieldTitle>费用归属</CNFieldTitle>
+      <TWFieldTitle>費用歸屬</TWFieldTitle>
+      <ENFieldTitle>費用歸屬</ENFieldTitle>
+      <JPFieldTitle>费用归属</JPFieldTitle>
+      <KRFieldTitle>费用归属</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CostList">
+      <CNFieldTitle>费用项目列表</CNFieldTitle>
+      <TWFieldTitle>費用項目清單</TWFieldTitle>
+      <ENFieldTitle>費用項目清單</ENFieldTitle>
+      <JPFieldTitle>费用项目列表</JPFieldTitle>
+      <KRFieldTitle>费用项目列表</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ExpenseItemCodeS">
+      <CNFieldTitle>代码定位</CNFieldTitle>
+      <TWFieldTitle>代碼定位</TWFieldTitle>
+      <ENFieldTitle>代碼定位</ENFieldTitle>
+      <JPFieldTitle>代码定位</JPFieldTitle>
+      <KRFieldTitle>định vị mã</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ExpenseItemNameS">
+      <CNFieldTitle>名称定位</CNFieldTitle>
+      <TWFieldTitle>名稱定位</TWFieldTitle>
+      <ENFieldTitle>名稱定位</ENFieldTitle>
+      <JPFieldTitle>名称定位</JPFieldTitle>
+      <KRFieldTitle>đinh vị tên</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="cannotacross">
+      <CNFieldTitle>当前周期不能影响已结算周期！</CNFieldTitle>
+      <TWFieldTitle>當前週期不能影響已結算週期！</TWFieldTitle>
+      <ENFieldTitle>當前Week期不能影響已結算Week期！</ENFieldTitle>
+      <JPFieldTitle>当前周期不能影响已结算周期！</JPFieldTitle>
+      <KRFieldTitle>当前周期不能影响已结算周期！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="cannotunitoperator">
+      <CNFieldTitle>存在已结算周期，不能进行统一操作!</CNFieldTitle>
+      <TWFieldTitle>存在已結算週期，不能進行統一操作!</TWFieldTitle>
+      <ENFieldTitle>存在已結算Week期，不能進行統一操作!</ENFieldTitle>
+      <JPFieldTitle>存在已结算周期，不能进行统一操作!</JPFieldTitle>
+      <KRFieldTitle>存在已结算周期，不能进行统一操作!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="cannotdel">
+      <CNFieldTitle>不能删除已结算周期！</CNFieldTitle>
+      <TWFieldTitle>不能刪除已結算週期！</TWFieldTitle>
+      <ENFieldTitle>不能刪除已結算Week期！</ENFieldTitle>
+      <JPFieldTitle>不能删除已结算周期！</JPFieldTitle>
+      <KRFieldTitle>不能删除已结算周期！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="QSDateTtpeName">
+      <CNFieldTitle>清算周期不能操作!</CNFieldTitle>
+      <TWFieldTitle>清算週期不能操作!</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>清算周期不能操作!</JPFieldTitle>
+      <KRFieldTitle>清算周期不能操作!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="EMQSDateInfo1">
+      <CNFieldTitle>清算天数</CNFieldTitle>
+      <TWFieldTitle>清算天數</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>清算天数</JPFieldTitle>
+      <KRFieldTitle>清算天数</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="EMQSDateInfo2">
+      <CNFieldTitle>加</CNFieldTitle>
+      <TWFieldTitle>加</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>加</JPFieldTitle>
+      <KRFieldTitle>加</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainReletCheck1">
+      <CNFieldTitle>当前合同的清算周期内已经月结，不能续签!</CNFieldTitle>
+      <TWFieldTitle>當前合約的清算週期內已經月結，不能續簽!</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>当前合同的清算周期内已经月结，不能续签!</JPFieldTitle>
+      <KRFieldTitle>当前合同的清算周期内已经月结，不能续签!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainPeriodRepeat">
+      <CNFieldTitle>合同：{0} 中店铺：{1} 与当前合同中该店铺合同起止日期有重叠！</CNFieldTitle>
+      <TWFieldTitle>合約：{0} 中店櫃：{1} 與當前合約中該店櫃合約起迄日期有重疊！</TWFieldTitle>
+      <ENFieldTitle>Bargain period repeat，bargain:{0},Shop:{1}!</ENFieldTitle>
+      <JPFieldTitle>合同：{0} 中店铺：{1} 与当前合同中该店铺合同起止日期有重叠！</JPFieldTitle>
+      <KRFieldTitle>合同：{0} 中店铺：{1} 与当前合同中该店铺合同起止日期有重叠！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ActualExpenseDateStartNotEqual">
+      <CNFieldTitle>实际费用周期开始日期必须等于合同开始日期!</CNFieldTitle>
+      <TWFieldTitle>實際費用週期開始日期必須等於合約開始日期!</TWFieldTitle>
+      <ENFieldTitle>Actual Expense Date mast qeual the bargain date!</ENFieldTitle>
+      <JPFieldTitle>实际费用周期开始日期必须等于合同开始日期!</JPFieldTitle>
+      <KRFieldTitle>实际费用周期开始日期必须等于合同开始日期!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BalanceDateStartNotEqual">
+      <CNFieldTitle>实际对账周期开始日期必须等于合同开始日期!</CNFieldTitle>
+      <TWFieldTitle>實際對帳週期開始日期必須等於合約開始日期!</TWFieldTitle>
+      <ENFieldTitle>The Balance Date mast equal the bargain date!</ENFieldTitle>
+      <JPFieldTitle>实际对账周期开始日期必须等于合同开始日期!</JPFieldTitle>
+      <KRFieldTitle>实际对账周期开始日期必须等于合同开始日期!</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ReceiptType">
+      <CNFieldTitle>收款方式</CNFieldTitle>
+      <TWFieldTitle>收款方式</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>收款方式</JPFieldTitle>
+      <KRFieldTitle>phương thức thu tiền</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTReceiptTypeName">
+      <CNFieldTitle>收款方式</CNFieldTitle>
+      <TWFieldTitle>收款方式</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>收款方式</JPFieldTitle>
+      <KRFieldTitle>phương thức thu tiền</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="GTReceiptTypeCode">
+      <CNFieldTitle>收款方式代码</CNFieldTitle>
+      <TWFieldTitle>收款方式代碼</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>收款方式代码</JPFieldTitle>
+      <KRFieldTitle>mã phương thức nhận tiền</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Edit">
+      <CNFieldTitle>编辑</CNFieldTitle>
+      <TWFieldTitle>編輯</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>编辑</JPFieldTitle>
+      <KRFieldTitle>biên soạn</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="ckShortCode">
+      <CNFieldTitle>助记码重复</CNFieldTitle>
+      <TWFieldTitle>助記碼重複</TWFieldTitle>
+      <ENFieldTitle>ShortCode Over</ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle>助记码重复</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="PaymentConditionName">
+      <CNFieldTitle>付款条件</CNFieldTitle>
+      <TWFieldTitle>付款條件</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle>付款條件</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CodeName">
+      <CNFieldTitle>代码;名称</CNFieldTitle>
+      <TWFieldTitle>代碼;名稱</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle>代碼;名稱</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="VenderMustDecPiaoHouAmt">
+      <CNFieldTitle>合同客户不是供应商，必须要勾上【结算金额扣减票后账扣费用】！</CNFieldTitle>
+      <TWFieldTitle>客戶為供應商，必須要勾上【結算金額扣減票後帳扣費用】！</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle>客戶為供應商，必須要勾上【結算金額扣減票後帳扣費用】！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CSSEndDateNotEqual">
+      <CNFieldTitle>结算周期最后截止日期必须等于合同结束日期！</CNFieldTitle>
+      <TWFieldTitle>結算週期最後截止日期必須等於合約結束日期！</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="CSSStartDateNotEqual">
+      <CNFieldTitle>结算周期开始日期必须等于合同开始日期!</CNFieldTitle>
+      <TWFieldTitle>結算週期開始日期必須等於合約開始日期!</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="EndDateLateThenStartDate">
+      <CNFieldTitle>上一结算周期的截止日期不能大于下一结算周期的开始日期!</CNFieldTitle>
+      <TWFieldTitle>上一結算週期的截止日期不能大於下一結算週期的開始日期!</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="gridcol_BillStatus">
+      <CNFieldTitle>单据状态</CNFieldTitle>
+      <TWFieldTitle>單據狀態</TWFieldTitle>
+      <ENFieldTitle>Status</ENFieldTitle>
+      <JPFieldTitle>单据状态</JPFieldTitle>
+      <KRFieldTitle>trạng thai dự liệu</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainRetailPriceSystem">
+      <CNFieldTitle>价格体系不能为空</CNFieldTitle>
+      <TWFieldTitle>價格體系不能為空</TWFieldTitle>
+      <ENFieldTitle>价格体系不能为空</ENFieldTitle>
+      <JPFieldTitle>价格体系不能为空</JPFieldTitle>
+      <KRFieldTitle>价格体系不能为空</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BargainRetaiSettleMentID">
+      <CNFieldTitle>代销方式不能为空</CNFieldTitle>
+      <TWFieldTitle>代銷方式不能為空</TWFieldTitle>
+      <ENFieldTitle>代销方式不能为空</ENFieldTitle>
+      <JPFieldTitle>代销方式不能为空</JPFieldTitle>
+      <KRFieldTitle>代销方式不能为空</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="SettleTwo">
+      <CNFieldTitle>代销结算</CNFieldTitle>
+      <TWFieldTitle>代銷結算</TWFieldTitle>
+      <ENFieldTitle>代销结算</ENFieldTitle>
+      <JPFieldTitle>代销结算</JPFieldTitle>
+      <KRFieldTitle>代销结算</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BarRetailBeCommissioned">
+      <CNFieldTitle>以下序号：【{0}】 存在货品条件重复，允许添加！请检查！</CNFieldTitle>
+      <TWFieldTitle>以下序號：【{0}】 存在貨品條件重複，允許新增！請檢查！</TWFieldTitle>
+      <ENFieldTitle>以下序号：【{0}】 存在货品条件重复，允许添加！请检查！</ENFieldTitle>
+      <JPFieldTitle>以下序号：【{0}】 存在货品条件重复，允许添加！请检查！</JPFieldTitle>
+      <KRFieldTitle>以下序号：【{0}】 存在货品条件重复，允许添加！请检查！</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BarRetailBeCommissionedSequence">
+      <CNFieldTitle>以下序号：【{0}】 存在货品条件查询无结果，请重新设置</CNFieldTitle>
+      <TWFieldTitle>以下序號：【{0}】 存在貨品條件查詢無結果，請重新設定</TWFieldTitle>
+      <ENFieldTitle>以下序号：【{0}】 存在货品条件查询无结果，请重新设置</ENFieldTitle>
+      <JPFieldTitle>以下序号：【{0}】 存在货品条件查询无结果，请重新设置</JPFieldTitle>
+      <KRFieldTitle>以下序号：【{0}】 存在货品条件查询无结果，请重新设置</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="BalanceDate">
+      <CNFieldTitle>结算周期</CNFieldTitle>
+      <TWFieldTitle>結算週期</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="LoadingDataMatAndStyle">
+      <CNFieldTitle>正在加载中</CNFieldTitle>
+      <TWFieldTitle>正在載入中</TWFieldTitle>
+      <ENFieldTitle>正在加载中</ENFieldTitle>
+      <JPFieldTitle>正在加载中</JPFieldTitle>
+      <KRFieldTitle>正在加载中</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="YGPosBalanceRate">
+      <CNFieldTitle>员购扣率</CNFieldTitle>
+      <TWFieldTitle>員購扣率</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle></JPFieldTitle>
+      <KRFieldTitle></KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.6942982+08:00</ModifyDTM>
+    </ID>
+  </IDs>
+</Language>

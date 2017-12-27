@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Language Name="BC_Shop" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IDs>
+    <ID FieldName="MustInputDigital">
+      <CNFieldTitle>必须输入数字</CNFieldTitle>
+      <TWFieldTitle>必須輸入數字</TWFieldTitle>
+      <ENFieldTitle>MustInputDigital</ENFieldTitle>
+      <JPFieldTitle>必须输入数字</JPFieldTitle>
+      <KRFieldTitle>必须输入数字</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.3817748+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="NotRequire">
+      <CNFieldTitle>不能为空</CNFieldTitle>
+      <TWFieldTitle>不能為空</TWFieldTitle>
+      <ENFieldTitle>cannot be blank</ENFieldTitle>
+      <JPFieldTitle>不能为空</JPFieldTitle>
+      <KRFieldTitle>không được để trống</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.3817748+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Test">
+      <CNFieldTitle>测试</CNFieldTitle>
+      <TWFieldTitle>測試</TWFieldTitle>
+      <ENFieldTitle>Test</ENFieldTitle>
+      <JPFieldTitle>测试</JPFieldTitle>
+      <KRFieldTitle>测试</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:43.3817748+08:00</ModifyDTM>
+    </ID>
+  </IDs>
+</Language>

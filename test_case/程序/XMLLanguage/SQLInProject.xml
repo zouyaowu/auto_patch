@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Language Name="SQLInProject" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IDs>
+    <ID FieldName="AuditResult1">
+      <CNFieldTitle>通过</CNFieldTitle>
+      <TWFieldTitle>通過</TWFieldTitle>
+      <ENFieldTitle>Pass</ENFieldTitle>
+      <JPFieldTitle>通过</JPFieldTitle>
+      <KRFieldTitle>thông qua</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9442941+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="AuditResult2">
+      <CNFieldTitle>反审核</CNFieldTitle>
+      <TWFieldTitle>反審核</TWFieldTitle>
+      <ENFieldTitle>Counter-Approve</ENFieldTitle>
+      <JPFieldTitle>反审核</JPFieldTitle>
+      <KRFieldTitle>phê duyệt lại</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9442941+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="AuditResult3">
+      <CNFieldTitle>反送审</CNFieldTitle>
+      <TWFieldTitle>反送審</TWFieldTitle>
+      <ENFieldTitle>Counter-Approve</ENFieldTitle>
+      <JPFieldTitle>反送审</JPFieldTitle>
+      <KRFieldTitle>trình duyệt lại</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9442941+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="AuditResult4">
+      <CNFieldTitle>已作废</CNFieldTitle>
+      <TWFieldTitle>已作廢</TWFieldTitle>
+      <ENFieldTitle>Voided</ENFieldTitle>
+      <JPFieldTitle>已作废</JPFieldTitle>
+      <KRFieldTitle>Đã báo hủy</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9442941+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="AuditResult5">
+      <CNFieldTitle>已终止</CNFieldTitle>
+      <TWFieldTitle>已終止</TWFieldTitle>
+      <ENFieldTitle>Stopped</ENFieldTitle>
+      <JPFieldTitle>已终止</JPFieldTitle>
+      <KRFieldTitle>Đã chấm dứt</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9442941+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="AuditResult6">
+      <CNFieldTitle>不通过</CNFieldTitle>
+      <TWFieldTitle>不通過</TWFieldTitle>
+      <ENFieldTitle>Not Pass</ENFieldTitle>
+      <JPFieldTitle>不通过</JPFieldTitle>
+      <KRFieldTitle>không thông qua</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9442941+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="AuditResult7">
+      <CNFieldTitle>取回</CNFieldTitle>
+      <TWFieldTitle>取回</TWFieldTitle>
+      <ENFieldTitle>Retrieve</ENFieldTitle>
+      <JPFieldTitle>取回</JPFieldTitle>
+      <KRFieldTitle>lấy lại</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9442941+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="Connect2DBIsOverTime">
+      <CNFieldTitle>连接数据库超时，请检查输入的服务器是否正确。</CNFieldTitle>
+      <TWFieldTitle>連線資料庫超時，請檢查輸入的伺服器是否正確。</TWFieldTitle>
+      <ENFieldTitle>連接資料庫超時，請檢查輸入的伺服器是否正確。</ENFieldTitle>
+      <JPFieldTitle>连接数据库超时，请检查输入的服务器是否正确。</JPFieldTitle>
+      <KRFieldTitle>连接数据库超时，请检查输入的服务器是否正确。</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9442941+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DbInfo2">
+      <CNFieldTitle>执行出错</CNFieldTitle>
+      <TWFieldTitle>執行出錯</TWFieldTitle>
+      <ENFieldTitle>Execute error</ENFieldTitle>
+      <JPFieldTitle>执行出错</JPFieldTitle>
+      <KRFieldTitle>執行出錯</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9442941+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DbInfo3">
+      <CNFieldTitle>执行SQL语句出错</CNFieldTitle>
+      <TWFieldTitle>執行SQL語句出錯</TWFieldTitle>
+      <ENFieldTitle>Execute SQL Scripts error</ENFieldTitle>
+      <JPFieldTitle>执行SQL语句出错</JPFieldTitle>
+      <KRFieldTitle>執行SQL語句出錯</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9442941+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DbInfo4">
+      <CNFieldTitle>出错原因</CNFieldTitle>
+      <TWFieldTitle>出錯原因</TWFieldTitle>
+      <ENFieldTitle>Error Reason</ENFieldTitle>
+      <JPFieldTitle>出错原因</JPFieldTitle>
+      <KRFieldTitle>nguyên nhân sai xót</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9442941+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="DbInfo5">
+      <CNFieldTitle>数据库连接地址不能为空</CNFieldTitle>
+      <TWFieldTitle>資料庫連接地址不能為空</TWFieldTitle>
+      <ENFieldTitle>數據庫連接地址不能為空</ENFieldTitle>
+      <JPFieldTitle>數據庫連接地址不能為空</JPFieldTitle>
+      <KRFieldTitle>數據庫連接地址不能為空</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9442941+08:00</ModifyDTM>
+    </ID>
+    <ID FieldName="FindMethodError">
+      <CNFieldTitle>反射方法:{0}出错，方法不存在，或者参数数据类型不正确</CNFieldTitle>
+      <TWFieldTitle>反射方法:{0}出錯，方法不存在，或者參數資料類型不正確</TWFieldTitle>
+      <ENFieldTitle></ENFieldTitle>
+      <JPFieldTitle>反射方法:{0}出错，方法不存在，或者参数数据类型不正确</JPFieldTitle>
+      <KRFieldTitle>反射方法:{0}出错，方法不存在，或者参数数据类型不正确</KRFieldTitle>
+      <ModifyDTM>2017-12-13T10:27:44.9442941+08:00</ModifyDTM>
+    </ID>
+  </IDs>
+</Language>
