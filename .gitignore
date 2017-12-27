@@ -99,3 +99,9 @@ ENV/
 
 # mypy
 .mypy_cache/
+soure/new.xlsx
+soure/28基础版产品新功能列表说明.xlsx
+soure/V1.28.02.001产品新功能列表说明.xlsx
+soure/V1.28.03.001产品新功能列表说明.xlsx
+*.xlsx
+for_wingIDE/auto_patch.py
