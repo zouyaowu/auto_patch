@@ -33,23 +33,23 @@ def patch_check(path='./', excel_file=None):
                 excel_file = path + i
                 break
     dll = sql = list()
-    dll,sql = read_file_name_from_update_checkin_execl(excel_file)
+    dll,sql,exc_file = read_file_name_from_update_checkin_execl(excel_file)
     programe_file = ('.dll', '.exe', '.lib')
     script_file = ('.sql', '.rps')
-    # 不检查的文件，如：版本号更新文件，视图刷新脚本    
+    # 不检查的文件，如：版本号更新文件，视图刷新脚本
     no_check = ('版本脚本.sql', '视图刷新脚本.sql')
-    # dll文件存放在同一个文件夹，无需考虑重名问题
+    for t in range(len(dll)):
+        # 有部分人员签入不喜欢带上后缀，exe、lib 等
+        dll[t] = data_format(dll[t])
+        if dll[t][-4:] in programe_file:
+            dll[t] = dll[t][0:-4]
     # 去重
     dll_tmp = set(dll)
     dll = list(dll_tmp)
     dll.sort()
     dll_for_check = dll.copy()
-    for t in range(len(dll_for_check)):
-        # 有部分人员签入不喜欢带上后缀，exe、lib 等
-        dll_for_check[t] = data_format(dll_for_check[t])
-        if dll_for_check[t][-4:] in programe_file:
-            dll_for_check[t] = dll_for_check[t][0:-4]
-    
+
+
     sql.sort()
     for i in range(sql.count('')):
         sql.remove('')
@@ -57,14 +57,15 @@ def patch_check(path='./', excel_file=None):
     for t in range(len(sql_for_check)):
         sql_for_check[t] = data_format(sql_for_check[t])
         if sql_for_check[t][-4:] not in script_file:
-            sql_for_check[t] += '.sql' 
-    
+            sql_for_check[t] += '.sql'
+
     # 本地文件遍历
     local_file = list()
     local_dll_list = list()
     local_sql_list = list()
+    local_except_file = list()
     for k in ('程序', '报表', '脚本', '人力web'):
-        local_file.extend(get_file_list(path + k))        
+        local_file.extend(get_file_list(path + k))
     for t in local_file:
         first_name, last_name = os.path.splitext(t)
         if last_name in programe_file:
@@ -72,19 +73,22 @@ def patch_check(path='./', excel_file=None):
             local_dll_list.append(data_format(first_name))
         elif last_name in script_file:
             local_sql_list.append(data_format(t))
+        else:
+            local_except_file.append(data_format(t))
     local_dll_list.sort()
     local_sql_list.sort()
     for k in no_check:
         # 有可能有多个位置存放了不需要检查的脚本（如：脚本更新.sql）
+        # 只保留其中一条，避免检查出错
         for t in range(local_sql_list.count(k)):
             local_sql_list.remove(k)
-    
+
     dll_miss_in_excel = list()
     if operator.eq(dll_for_check, local_dll_list):
         print('dll is eq')
         # 返回的列表是文档内存在，但是本地文件不存在的
         dll = None
-    else: 
+    else:
         for t in local_dll_list:
             # excel 中的元素去掉本地找到的列表元素
             # print("lcd:", local_dll_list)
@@ -99,17 +103,15 @@ def patch_check(path='./', excel_file=None):
                 print("we have a bug", bug)
         print("excel文件中存在，在本地没有找到的dll：", len(dll), dll)
         print("本地找到，excel中没有的dll：", len(dll_miss_in_excel), dll_miss_in_excel)
-        
+
     sql_miss_in_excel = list()
     if operator.eq(sql_for_check, local_sql_list):
         print('sql is eq')
         sql = None
     else:
-        sql_tmp = list()        
+        sql_tmp = list()
         for k in local_sql_list:
-            # excel 中的元素去掉本地找到的列表元素      
-            # print("lcs:", len(local_sql_list), local_sql_list)
-            # print("ecs:", len(sql_for_check), sql_for_check)
+            # excel 中的元素去掉本地找到的列表元素
             try:
                 index_t = sql_for_check.index(k)
                 sql_tmp.append(sql.pop(index_t))
@@ -117,22 +119,31 @@ def patch_check(path='./', excel_file=None):
             except ValueError:
                 sql_miss_in_excel.append(k)
             except Exception as bug:
-                print("wo have a bug:", bug)                
+                print("wo have a bug:", bug)
         print("excel文件中存在，在本地没有找到的脚本：", sql)
         print("本地找到，excel中没有的脚本：", sql_miss_in_excel)
+
+    # 不是脚本、不是程序的内容
+    if exc_file:
+        print("!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+        print("此部分不属于 ERP脚本或程序，请人工检查:")
+        print(exc_file)
+        print("!!!!!!!!!!!!!!!!!!!!!!!!!!!")
     # 返回的内容包括：本地缺失的dll、excel缺失的dll、本地确实的sql、excel缺失的sql
-    return (dll, dll_miss_in_excel, sql, sql_miss_in_excel)
+    return (dll, dll_miss_in_excel, sql, sql_miss_in_excel, exc_file)
 
 
 def read_file_name_from_update_checkin_execl(excel_file=None):
     """
     功能：待验证补丁表格文档读取
     入参：表格文件路径
-    返回：提取出文件中包含的所有文件（报表、dll、sql 等）的2个集合（2个返回结果）
+    返回：提取出文件中包含的所有文件（报表、dll、sql 等）（3个返回结果）
     """
     dll_set = list()
     script_set = list()
     sql_set_tmp = set()
+    # 非脚本、ERP的DLL、EXE文件（比如：订单推送、端点同步、宝胜官网接口）
+    except_file = set()
     excel_data = read_excel(data=excel_file, read_type='row')
     if not excel_data:
         print("read excel err")
@@ -162,22 +173,33 @@ def read_file_name_from_update_checkin_execl(excel_file=None):
                     dll_set.extend(dll_tmp)
                 script_tmp = data_format(cells[sql_index]).split('\n')
                 if script_tmp != ['']:
-                    script_set.extend(script_tmp)                    
+                    script_set.extend(script_tmp)
     # 去重，把相同路径下同名文件合并
     script_tmp = list(set(script_set))
-    script_set_tmp = set()    
+    script_set_tmp = set()
     for i in script_tmp:
-        t = i.split('hkdatabase')[-1]
-        script_set_tmp.add(t)
-    # 要把脚本、报表的服务器路径剔除
+        try:
+            tmp = i.index('hkdatabase')
+            t = i.split('hkdatabase')[-1]
+            script_set_tmp.add(data_format(t))
+        except:
+            except_file.add(i)
+    # 把脚本、报表的服务器路径剔除
     script_set = []
     for i in script_set_tmp:
         t = i.split('/')[-1]
-        if t != ['']: 
-            script_set.append(t) 
+        if t != ['']:
+            script_set.append(data_format(t))
+    """
+    except_file = list(except_file)
+    for i in range(len(except_file)):
+        t = except_file[i].split('/')[-1]
+        if t != ['']:
+            except_file[i] = data_format(t)
+    """
     # dll_set.remove('')
     # script_set.remove('')
-    return dll_set, script_set
+    return (dll_set, script_set, except_file)
 
 
 def read_excel(data=None, read_type='row',pack="dict"):
@@ -216,7 +238,7 @@ def read_excel(data=None, read_type='row',pack="dict"):
                 # 遍历每个单元格
                 for cel_index in range(len(colu_row)):
                     if colu_row[cel_index].value:
-                        null_cnt = 0                                           
+                        null_cnt = 0
                         tmp.append(colu_row[cel_index].value)
                         data_set.add(colu_row[cel_index].value)
                         data_list.append(colu_row[cel_index].value)
@@ -281,13 +303,13 @@ def data_format(data):
                 tmp_data = str(data)
                 tmp_data = tmp_data.strip()
                 tmp_data = data[i].lower()
-                tmp_data = tmp_data.replace("\\","/")                
+                tmp_data = tmp_data.replace("\\","/")
                 data[i] = tmp_data
         else:
             tmp_data = str(data)
             tmp_data = tmp_data.lower()
             tmp_data = tmp_data.strip()
-            tmp_data = tmp_data.replace("\\","/")            
+            tmp_data = tmp_data.replace("\\","/")
             data = tmp_data
         return data
     except Exception as err:
@@ -544,7 +566,7 @@ def get_demand_from_excel(path=None, output='demand.xlsx'):
     功能：遍历指定文件夹，把全部的xlsx文件查找一次，把有需求编号的都列出来
     返回：成功true，失败False
     """
-
+    pass
 
 
 if __name__ == '__main__':
@@ -567,11 +589,11 @@ if __name__ == '__main__':
     # check_path = r'\\Hk-office-fs01\鍝佽川绠″埗閮╛鍐呴儴鏂囦欢$\瀹㈡埛鍗囩骇鐗堟湰\V1.28鐗堟湰\琛ヤ竵\鏈嶈�鐗堟湰\寰呴獙璇佽ˉ涓�
     # file = check_path + '\V1.28鏈嶈�寰呴獙璇佽ˉ涓佹枃妗�xlsx'
     # check_dll_sql(file,check_path)
-   
+
     # excel_file = r"D:\jobs\AutoTest\auto_patch\test_case\V1.27.19.001(2017-12-13)补丁说明文档.xlsx"
-    # work_path = r"D:\jobs\AutoTest\auto_patch\test_case"    
-    work_path = r"D:\jobs\外发版本\优美\v1.28\优美_V1.28.11.001(2017-12-26)"
-    dll_mi_path, dll_mi_excel, sql_mi_path, sql_mi_excel = patch_check(work_path)
+    # work_path = r"D:\jobs\ERP程序\通用V1.30_20180119"
+    work_path = r"D:\work_place\外发程序\KM29\基础版"
+    dll_mi_path, dll_mi_excel, sql_mi_path, sql_mi_excel, except_file = patch_check(work_path)
     #print("===在excel表格中没有找到的程序文件：")
     #print(dll_mi_path)
     #print("===在本地没有找到的程序文件：")
