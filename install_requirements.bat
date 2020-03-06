@@ -3,12 +3,16 @@ setlocal enabledelayedexpansion
 
 set local_path=%~dp0
 echo !local_path!
-if exist venv (
-	!local_path!\venv\Scripts\pip3.exe install -r !local_path!\requirements.txt
-) else (
-	echo not venv, start to create
+if not exist venv (
+	echo  *** not exist venv, start to create
 	call :create_venv
 )
+echo  *** start to install requirements
+@echo.
+!local_path!\venv\Scripts\pip3.exe install -r !local_path!\requirements.txt
+@echo.
+echo 安装结束，按任意键退出
+pause>nul
 exit
 
 
@@ -26,4 +30,12 @@ if %errorlevel% NEQ 0 (
 	goto :loop
 )
 start "" /min exit .\venv\Scripts\activate.bat
-if %errorlevel%==0 (echo 安装成功&&pause&&exit) else (echo 安装失败&&pause&&exit)
+if %errorlevel%==0 (
+	echo 安装python虚拟环境成功
+	REM 返回调用的地方
+	goto :eof
+) else (
+	echo 安装失败
+	pause
+	exit
+)
