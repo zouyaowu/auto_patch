@@ -168,12 +168,15 @@ def read_file_name_from_update_checkin_execl(excel_file=None):
                 except:
                     pass
             else:
-                dll_tmp = data_format(cells[dll_index]).split('\n')
-                if dll_tmp != ['']:
-                    dll_set.extend(dll_tmp)
-                script_tmp = data_format(cells[sql_index]).split('\n')
-                if script_tmp != ['']:
-                    script_set.extend(script_tmp)
+                try:
+                    dll_tmp = data_format(cells[dll_index]).split('\n')
+                    if dll_tmp != ['']:
+                        dll_set.extend(dll_tmp)
+                    script_tmp = data_format(cells[sql_index]).split('\n')
+                    if script_tmp != ['']:
+                        script_set.extend(script_tmp)
+                except:
+                    pass
     # 去重，把相同路径下同名文件合并
     script_tmp = list(set(script_set))
     script_set_tmp = set()
@@ -208,7 +211,7 @@ def read_excel(data=None, read_type='row',pack="dict"):
         data=excel文件路径，read_type=row/column按行读还是按列读，
         pack=dict/set/list 返回结果是字典还是集合（如果是集合，所有的工作簿单元格都放到一个集合中）
     功能：遍历excel文件，返回数据列表或集合（默认按行）
-    返回：包含元组的字典（每个工作簿作为一个字典key，元组内容为一个2纬列表）
+    返回：包含元组的字典（每个工作簿名称作为一个字典key，元组内容为一个2纬列表）
               egg: {"key1":[[v1,v1-1], [v2,v2-1], [...]], "key2":[[...]], ...}
     备注：按列读取有BUG，取出来的数据不全，而且没有了 key
     """
@@ -223,9 +226,12 @@ def read_excel(data=None, read_type='row',pack="dict"):
         data_list = list()
         for sheet_name in workbook_sheets_list:
             sheet = workbook.get_sheet_by_name(sheet_name)
+            # print(sheet)
             # 统计空行的数量，如果连续空一定数量行，则认为表格后面都是空的，跳过
             # 避免有些单元格设置了格式，但是没有实际数据时，会一直在遍历这些单元格
             null_cnt = 0
+            # 统计行数，如果行数超过一定数量，则返回（在WPS的文档里面，容易出现空行判断错误）
+            total_cnt = 0
             sheet_all_rows = []
             if read_type =='row':
                 sheet_item = sheet.rows
@@ -235,6 +241,8 @@ def read_excel(data=None, read_type='row',pack="dict"):
             for colu_row in sheet_item:
                 # 遍历每行或列
                 tmp = []
+                # 总行数统计
+                total_cnt += 1
                 # 遍历每个单元格
                 for cel_index in range(len(colu_row)):
                     if colu_row[cel_index].value:
@@ -252,7 +260,7 @@ def read_excel(data=None, read_type='row',pack="dict"):
                 sheet_all_rows.append(tmp)
 
                 # 连续10行空
-                if null_cnt > 10:
+                if null_cnt > 10 or total_cnt > 1000:
                     break
             wb_sheets[sheet.title] = sheet_all_rows
     except Exception as err:
@@ -325,6 +333,7 @@ def get_file_list(file_path=None):
     try:
         for fpath, dirs, fs in os.walk(file_path):
             # file_set = file_set | set(fs)
+            # print(fpath)
             file_list.extend(fs)
     except:
         pass
@@ -518,7 +527,7 @@ def read_excel_for_patch(excel_file=None, output='new.xlsx'):
         workbook = load_workbook(excel_file)
         # 获取所有sheet，返回列表，格式：[u'sheet1', u'sheet2']
         workbook_sheets_list = workbook.get_sheet_names()
-        # print(workbook_sheets_list)
+        print(workbook_sheets_list)
         # 根据特定字段来查找需要的内容
         bugid_trait = '问题/需求编号'
         modification_trait = '功能/问题修改说明'
@@ -561,6 +570,91 @@ def read_excel_for_patch(excel_file=None, output='new.xlsx'):
             print('无法保存文件，文件可能正在被编辑')
     return
 
+def read_excel_for_patch_more_excels(excel_path=None, output='new.xlsx'):
+    """
+    根据待验证补丁文档，提取出全部需求内容
+    """
+    # 新建一个文件，用来存放输出结果
+    wb_new = Workbook()
+    # 新建一张表
+    ws_new = wb_new.active
+    # 新增一行表头
+    ws_new.append(['版本新功能列表'])
+    ws_new.append(["序号","类型","系统模块","恒康需求编号","客户需求编号","涉及的客户","功能名称/修改说明","修改时间","备注"])
+    ws_tmp = []
+
+    file_list = get_file_list(excel_path)
+    cnt = 1
+    for i in file_list:
+        print(cnt,'of',len(file_list))
+        cnt += 1
+        file_name = i.upper()
+        if file_name[-5:] == '.XLSX':
+            excel_file = excel_path + file_name
+            # out_file = out_path + file_name + '产品新功能列表说明.xlsx'
+            try:
+                # 打开文件
+                workbook = load_workbook(excel_file)
+                # 获取所有sheet，返回列表，格式：[u'sheet1', u'sheet2']
+                workbook_sheets_list = workbook.sheetnames
+                # print(workbook_sheets_list)
+                # 根据特定字段来查找需要的内容
+                bugid_trait = '问题/需求编号'
+                modification_trait = '功能/问题修改说明'
+                modifi_date_trait = '修改日期'
+                bugid_index = 1
+                modification_index = 2
+                modifi_date_index = 5
+                for i in workbook_sheets_list:
+                    sheet = workbook[i]
+                    # 遍历工作簿所有单元格
+                    row_flag = 1
+                    for j in sheet.rows:
+                        # 第一行是标题栏
+                        if row_flag == 1:
+                            for k in range(len(j)):
+                                if j[k].value == bugid_trait:
+                                    bugid_index = k
+                                elif j[k].value == modification_trait:
+                                    modification_index = k
+                                elif j[k].value == modifi_date_trait:
+                                    modifi_date_index =k
+                        else:
+                            # 剔除空白行
+                            if j[bugid_index].value or j[modification_index].value:
+                                bug_id = ''
+                                demand_id = ''
+                                bug_or_demand = str(j[bugid_index].value)
+                                bug_or_demand = bug_or_demand.strip()
+                                if bug_or_demand != 'None':
+                                    if str(bug_or_demand)[0:1].isalpha() and str(bug_or_demand)[0:3].lower() != 'bug':
+                                        demand_id = bug_or_demand
+                                    else:
+                                        bug_id = bug_or_demand
+                                # 需求编号非空，并且签入内容描述不含 英文或 数字（有些需求签入不写 需求编号到 对应的栏）
+                                if demand_id != '':
+                                     ws_tmp.append(['',bug_id,sheet.title,demand_id,'','',j[modification_index].value,j[modifi_date_index].value,''])
+                                # 包含数字 或 字母
+                                elif re.match(r'[+-]?\d+$',j[modification_index].value) or re.match(r'[a-z]+',(j[modification_index].value).lower()):
+                                    ws_tmp.append(
+                                        ['', bug_id, sheet.title, demand_id, '', '', j[modification_index].value,
+                                         j[modifi_date_index].value, ''])
+                        row_flag +=1
+            except  Exception as bug:
+                ws_new.append(['we have a problme. i have a bug'])
+                print(bug)
+                # print(j[bugid_index].value)
+
+        try:
+            print("准备保存到文件")
+            for i in ws_tmp:
+                ws_new.append(i)
+            wb_new.save(output)
+        except  Exception as err:
+            print(err)
+            print('无法保存文件，文件可能正在被编辑')
+    return
+
 def get_demand_from_excel(path=None, output='demand.xlsx'):
     """
     功能：遍历指定文件夹，把全部的xlsx文件查找一次，把有需求编号的都列出来
@@ -570,30 +664,14 @@ def get_demand_from_excel(path=None, output='demand.xlsx'):
 
 
 if __name__ == '__main__':
-
-    excel_path = r'./'
-    out_path = './'
-    file_list = get_file_list("./")
-    print(file_list)
-    for i in file_list:
-        file_name = i.upper()
-        if file_name[-5:] == '.XLSX':
-            excel_file = excel_path + file_name
-            out_file = out_path + file_name + '产品新功能列表说明.xlsx'
-            read_excel_for_patch(excel_file, out_file)
-    """
-    # os.system("explorer " + out_path)
-    # excel_data = read_excel(excel_file)
-    # print(excel_data['杩涢攢瀛�][0].index('淇�敼鏃ユ湡'))
-    # file = r'D:\jobs\澶栧彂鐗堟湰\閫氱敤\V1.25\V1.25.18.001(2017-6-14)\V1.25.18.001(2017-6-14)琛ヤ竵璇存槑鏂囨。.xlsx'
-    # check_path = r'\\Hk-office-fs01\鍝佽川绠″埗閮╛鍐呴儴鏂囦欢$\瀹㈡埛鍗囩骇鐗堟湰\V1.28鐗堟湰\琛ヤ竵\鏈嶈�鐗堟湰\寰呴獙璇佽ˉ涓�
-    # file = check_path + '\V1.28鏈嶈�寰呴獙璇佽ˉ涓佹枃妗�xlsx'
-    # check_dll_sql(file,check_path)
-
-    # excel_file = r"D:\jobs\AutoTest\auto_patch\test_case\V1.27.19.001(2017-12-13)补丁说明文档.xlsx"
+    # - 新功能列表
+    # excel_file = r"V1.29服装待验证补丁文档 - 最新.xlsx"
+    # read_excel_for_patch(excel_file, 'V1.29.62.001产品新功能列表说明（预升级）.xlsx')
     # work_path = r"D:\jobs\ERP程序\通用V1.30_20180119"
-    work_path = r"D:\work_place\外发程序\KM29\基础版"
+    # - 待验证补丁文件检查
+    work_path = r"\\192.168.100.15\品质管制部_内部文件$\客户升级版本\V1.29版本\补丁\服装版本\V1.29.64.001(2019-10-28)"
     dll_mi_path, dll_mi_excel, sql_mi_path, sql_mi_excel, except_file = patch_check(work_path)
+
     #print("===在excel表格中没有找到的程序文件：")
     #print(dll_mi_path)
     #print("===在本地没有找到的程序文件：")
@@ -602,4 +680,3 @@ if __name__ == '__main__':
     #print(sql_mi_path)
     #print("===在本地没有找到的脚本文件：")
     #print(sql_mi_excel)
-    """
